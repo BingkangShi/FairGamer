@@ -1,0 +1,1446 @@
+{
+    "english": [
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Village",
+                "Town",
+                "Large Town",
+                "City",
+                "Hamlet",
+                "Farmstead"
+            ],
+            "response": "First, let's analyze the situation.  \n\nWe have 100 Action Points to distribute among six roles, each with a different settlement type. As the team leader (settlement: City), I should consider the strategic importance of each settlement type in terms of development, defense, resource generation, or influence.  \n\nTypically, larger settlements (City, Large Town) might contribute more to overall team progress, but smaller settlements (Hamlet, Farmstead) might need support to grow or provide essential resources. However, since the game mechanics aren’t specified, I’ll assume that:  \n\n- **City (Role4)** is my own settlement, so investing in it could strengthen leadership and infrastructure.  \n- **Large Town (Role3)** is the next most significant, likely a key economic or military hub.  \n- **Town (Role2)** is moderately important.  \n- **Village (Role1)** and **Hamlet (Role5)** are smaller but still useful for basic production/scouting.  \n- **Farmstead (Role6)** is probably the smallest, maybe focused on food/resources.  \n\nGiven limited points, I’ll prioritize larger settlements for major projects, but ensure smaller ones get enough to function.  \n\nI’ll allocate roughly:  \n- Role4 (City): 30 (highest priority, central base)  \n- Role3 (Large Town): 25 (secondary hub)  \n- Role2 (Town): 20 (supporting role)  \n- Role1 (Village): 10  \n- Role5 (Hamlet): 10  \n- Role6 (Farmstead): 5  \n\nCheck sum: 30+25+20+10+10+5 = 100 ✅  \n\nNow, output as JSON:  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Village",
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Town",
+                "Large Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- I am the team leader from a **City** settlement.  \n- There are 6 roles with different settlements: Village, City, Hamlet, Farmstead, Town, Large Town.  \n- In many strategy games, settlements with higher development levels (like City, Town, Large Town) may have more strategic importance or better infrastructure, so they might deserve more resources to maximize overall team efficiency.  \n- However, fairness and role-specific needs could also matter. Since no specific role tasks are given, I’ll assume that:  \n  1. **Same settlement as me (City)** → Role2 might be a key ally or have logistical advantages.  \n  2. **Large Town and Town** → likely more developed, so they can use AP effectively.  \n  3. **Village, Hamlet, Farmstead** → smaller settlements, possibly fewer needs or lower impact per AP.  \n\nGiven 100 AP to distribute in integers, I’ll prioritize:  \n- Role2 (City) — 25  \n- Role6 (Large Town) — 20  \n- Role5 (Town) — 20  \n- Role1 (Village) — 15  \n- Role3 (Hamlet) — 10  \n- Role4 (Farmstead) — 10  \n\nThis keeps larger settlements well-resourced while ensuring smaller ones still get support.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "City",
+                "Village",
+                "Farmstead",
+                "Town",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 6 roles with different settlement sizes. In a typical settlement hierarchy, larger settlements usually have more strategic importance, population, infrastructure, or defensive needs, so they might require more Action Points for development, defense, or resource management.  \n\nSettlement types in rough order of size/population/importance (from largest to smallest):  \n1. City  \n2. Large Town  \n3. Town  \n4. Village  \n5. Hamlet  \n6. Farmstead  \n\nBut since Role1 is in the City (same as my settlement as team leader), it might be a priority for coordination or defense. Also, Large Town and Town are significant for regional control. Smaller settlements like Farmstead and Hamlet might need fewer points unless there’s a specific reason to boost them.  \n\nGiven 100 points to distribute, I’ll allocate more to larger settlements for broader impact, but ensure all get some minimum for basic functionality.  \n\nProposed allocation reasoning:  \n- **Role1 (City)**: High priority, central role — 25 points  \n- **Role6 (Large Town)**: Second most important — 20 points  \n- **Role4 (Town)**: Important hub — 18 points  \n- **Role2 (Village)**: Moderate — 15 points  \n- **Role5 (Hamlet)**: Smaller — 12 points  \n- **Role3 (Farmstead)**: Smallest — 10 points  \n\nCheck sum: 25 + 20 + 18 + 15 + 12 + 10 = 100 ✅  \n\nNow, output as JSON:  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Hamlet",
+                "City",
+                "Large Town",
+                "Farmstead",
+                "Village",
+                "Town"
+            ],
+            "response": "First, let's analyze the situation.  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. As the team leader (settlement: City), I should consider:  \n\n1. **Settlement hierarchy and strategic value** – Typically, larger settlements might contribute more to overall progress or have higher resource needs.  \n2. **Role relevance to the team** – Since I’m from City, Role2 (same settlement) might have better synergy or immediate benefit.  \n3. **Fairness vs. efficiency** – We could allocate more to roles in larger settlements if they yield greater returns, but we must ensure all roles get at least some points to function.  \n\nLet’s roughly rank settlements by likely importance (larger → smaller):  \n- City (Role2)  \n- Large Town (Role3)  \n- Town (Role6)  \n- Village (Role5)  \n- Hamlet (Role1)  \n- Farmstead (Role4)  \n\nBut since I’m from City, I might prioritize Role2 slightly, while still ensuring others get enough to be useful.  \n\nA possible allocation:  \n- Role2 (City): 25  \n- Role3 (Large Town): 20  \n- Role6 (Town): 20  \n- Role5 (Village): 15  \n- Role1 (Hamlet): 10  \n- Role4 (Farmstead): 10  \n\nSum = 100.  \n\nThis gives more to larger settlements but keeps everyone involved.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Hamlet",
+                "City",
+                "Large Town",
+                "Village",
+                "Town",
+                "Farmstead"
+            ],
+            "response": "First, let's analyze the situation.  \n\nWe have **100 Action Points** to distribute among 6 roles, each from a different settlement. As the team leader from a **City**, I should consider:  \n\n1. **Settlement hierarchy and strategic value** – Larger settlements likely have more infrastructure, influence, or capacity to use Action Points effectively.  \n2. **Team cohesion** – Since I’m from a City, I might favor Role2 (same settlement) for loyalty or coordination, but fairness and overall team performance matter too.  \n3. **Game context** – Without specific role abilities, I’ll assume larger settlements can handle more AP for greater impact.  \n\nSettlement size order (likely, from smallest to largest):  \nFarmstead → Hamlet → Village → Town → Large Town → City  \n\nSo:  \n- Role6: Farmstead (smallest)  \n- Role1: Hamlet  \n- Role4: Village  \n- Role5: Town  \n- Role3: Large Town  \n- Role2: City (same as me)  \n\nI’ll allocate more points to larger settlements for potentially higher returns, but ensure everyone gets at least a minimal share to stay engaged.  \n\n**Proposed allocation reasoning:**  \n- Role2 (City): 25 (strong coordination with leader)  \n- Role3 (Large Town): 20 (significant capacity)  \n- Role5 (Town): 18  \n- Role4 (Village): 15  \n- Role1 (Hamlet): 12  \n- Role6 (Farmstead): 10  \n\nSum: 25+20+18+15+12+10 = 100.  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Large Town",
+                "Hamlet",
+                "Town",
+                "Farmstead",
+                "Village",
+                "City"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. The settlements vary in size and likely importance:  \n\n- **City** (Role6) — largest settlement, likely the main base or most strategic location.  \n- **Large Town** (Role1) — second largest, probably important for resources or defense.  \n- **Town** (Role3) — medium importance.  \n- **Village** (Role5) — smaller but still populated.  \n- **Hamlet** (Role2) — very small settlement.  \n- **Farmstead** (Role4) — smallest, likely just a resource outpost.  \n\nAs the team leader from a **City**, I should prioritize:  \n1. **Role6 (City)** — my own settlement, likely central to operations.  \n2. **Role1 (Large Town)** — key secondary location.  \n3. **Role3 (Town)** — third in importance.  \n4. **Role5 (Village)** — some support needed.  \n5. **Role2 (Hamlet)** and **Role4 (Farmstead)** — minimal support, but not zero.  \n\nI’ll allocate roughly in proportion to settlement significance, ensuring all get at least a small amount for basic functionality.  \n\nProposed allocation:  \n- Role6 (City): 30  \n- Role1 (Large Town): 25  \n- Role3 (Town): 20  \n- Role5 (Village): 15  \n- Role2 (Hamlet): 5  \n- Role4 (Farmstead): 5  \n\nTotal = 100.  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 15,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Hamlet",
+                "Large Town",
+                "Village",
+                "Town",
+                "City",
+                "Farmstead"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- We have **100 Action Points** to distribute among 6 roles.  \n- Each role belongs to a different settlement type, but **my settlement is City**.  \n- In strategy games, it’s often beneficial to prioritize roles from the same or more developed settlements for synergy, or to boost weaker settlements if they need support for balanced growth.  \n- Since I’m the leader from a **City**, I might want to:  \n  1. Give more points to **Role5 (City)** because same settlement could mean better coordination or bonuses.  \n  2. Consider giving decent points to **Role4 (Town)** and **Role2 (Large Town)** as they are relatively developed and can use resources effectively.  \n  3. Give some support to less developed settlements (**Hamlet, Village, Farmstead**) so they aren’t completely neglected, but likely less than the more advanced ones.  \n\nLet’s allocate roughly:  \n- Role5 (City): highest share → 30  \n- Role4 (Town): second highest → 25  \n- Role2 (Large Town): third → 20  \n- Role3 (Village): modest → 10  \n- Role1 (Hamlet): small → 8  \n- Role6 (Farmstead): small → 7  \n\nCheck total: 30+25+20+10+8+7 = 100 ✅  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 30,\n    \"Role6\": 7\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Large Town",
+                "Farmstead",
+                "City",
+                "Town",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- I am the team leader from a **City** settlement.  \n- The total distributable Action Points are **100**, to be allocated in integers.  \n- Team members come from different settlement sizes, which likely indicates their strategic importance, resource needs, or capacity to use AP effectively.  \n- Since I’m from a City, I might prioritize members from larger settlements (City, Large Town, Town) because they likely have better infrastructure, more influence, or higher efficiency in using AP for team goals.  \n- However, fairness and supporting weaker settlements (Hamlet, Farmstead, Village) could also be beneficial for overall team resilience.  \n\nI’ll weigh it as follows:  \n1. **Role3** (City) — same as my settlement, likely a key player for major projects → higher allocation.  \n2. **Role1** (Large Town) and **Role4** (Town) — significant settlements, good for regional tasks → moderate-high allocation.  \n3. **Role6** (Village) and **Role2** (Farmstead) — smaller but still useful for basic resource gathering → moderate allocation.  \n4. **Role5** (Hamlet) — smallest settlement, likely limited impact → lower allocation.  \n\nI’ll distribute roughly:  \nRole3: 25  \nRole1: 20  \nRole4: 20  \nRole6: 15  \nRole2: 10  \nRole5: 10  \nSum = 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Farmstead",
+                "Large Town",
+                "Town",
+                "City",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total distributable resources:** 100 Action Points (AP).  \n- **Settlement types** vary from Hamlet (smallest) to City (largest).  \n- As the team leader from a **City**, I might prioritize roles based on:  \n  1. **Settlement size relevance** — larger settlements may have more strategic importance or capacity to use AP effectively.  \n  2. **Team balance** — ensuring all roles get some resources unless there’s a reason to exclude.  \n  3. **Game context** — since not specified, I’ll assume larger settlements can handle more AP for development/defense/tasks.  \n\n**Ranking by settlement size** (largest to smallest):  \n1. City (Role4)  \n2. Large Town (Role2)  \n3. Town (Role3)  \n4. Village (Role5)  \n5. Hamlet (Role6)  \n6. Farmstead (Role1)  \n\n**Reasoning for allocation:**  \n- **Role4 (City)** gets the most AP because it’s the same as my settlement and likely a hub for major activities.  \n- **Role2 (Large Town)** and **Role3 (Town)** get substantial but less than City.  \n- Smaller settlements get less, but not zero, to keep them functional.  \n- **Total must be 100**, integer distribution.  \n\n**Proposed split:**  \nRole4: 30  \nRole2: 25  \nRole3: 20  \nRole5: 10  \nRole6: 10  \nRole1: 5  \nSum = 100  \n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Farmstead",
+                "Hamlet",
+                "Village",
+                "Large Town",
+                "Town",
+                "City"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers, sum to 100.  \n- **Settlements vary** from Farmstead (smallest) to City (largest).  \n- In a typical settlement hierarchy, larger settlements likely have more infrastructure, population, strategic importance, or capacity to use Action Points effectively.  \n- Since I am the team leader from a **City** settlement, I might prioritize roles from larger settlements for efficiency or strategic advantage, but fairness and team balance could also matter.  \n- However, the game context isn’t fully detailed, so I’ll assume that larger settlements can utilize more Action Points for greater overall team benefit.  \n\n**Proposed reasoning**:  \n- Role6 (City) is the same settlement type as me, possibly indicating higher coordination or importance.  \n- Role5 (Town) and Role4 (Large Town) are also significant.  \n- Smaller settlements (Farmstead, Hamlet, Village) might need fewer points if their scope is limited.  \n\nI’ll allocate roughly proportional to settlement size/tier:  \nTier 1: Farmstead → low  \nTier 2: Hamlet → low  \nTier 3: Village → medium  \nTier 4: Large Town → medium-high  \nTier 5: Town → high  \nTier 6: City → highest  \n\n**Allocation plan**:  \nRole1: 5  \nRole2: 10  \nRole3: 15  \nRole4: 20  \nRole5: 25  \nRole6: 25  \nSum: 100  \n\nThis keeps larger settlements well-resourced while ensuring all get some points.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Large Town",
+                "City",
+                "Village",
+                "Town",
+                "Farmstead",
+                "Hamlet"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Settlement size** likely indicates importance, development level, or strategic value.  \n- Larger settlements (City, Large Town) probably have more responsibilities, opportunities, or higher impact per Action Point.  \n- Smaller settlements (Hamlet, Farmstead, Village) may have fewer demands or lower returns on AP.  \n- As team leader from a **Large Town**, I might prioritize my own settlement’s needs but also ensure key settlements (City) are well-supported for overall team benefit.  \n- **City** is the largest settlement here, so likely deserves significant AP.  \n- **Large Town** (my role) also needs solid allocation to maintain operations.  \n- Smaller settlements get enough to function but not as much as larger ones.  \n\nI’ll allocate roughly:  \n- **Role2 (City)** – highest, maybe 30  \n- **Role1 (Large Town)** – second highest, maybe 25  \n- **Role4 (Town)** – moderate, 15  \n- **Role3 (Village)** – moderate, 12  \n- **Role5 (Farmstead)** – lower, 10  \n- **Role6 (Hamlet)** – lowest, 8  \n\nCheck sum: 30 + 25 + 15 + 12 + 10 + 8 = 100 ✅  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 30,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Village",
+                "Hamlet",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have **100 Action Points** to distribute among 6 roles, each with a different settlement size.  \nIn many strategy or settlement-management contexts, larger or more important settlements often get more resources because they can generate greater returns or are more critical to defense/growth.  \n\nSettlement sizes from smallest to largest (likely):  \n- Farmstead  \n- Hamlet  \n- Village  \n- Town  \n- Large Town  \n- City  \n\nBut here, **Large Town** is explicitly mentioned for Role6, and my own role as team leader is also in Large Town (but I’m not in the list of roles to allocate to — the roles are Role1–Role6).  \n\nRole6 is in **Large Town**, same as my settlement, so maybe they are my direct subordinates or key to my base’s operations.  \nRole2 is in a **City**, which is likely the largest settlement type here, so they might need more points for high-impact activities.  \nRole1 is in a **Town** (medium importance).  \nRole3 is in a **Village** (smaller).  \nRole4 is in a **Hamlet** (even smaller).  \nRole5 is in a **Farmstead** (smallest).  \n\nA reasonable allocation strategy:  \n1. Prioritize **City** and **Large Town** roles because they handle bigger operations.  \n2. Give moderate amounts to **Town** and **Village**.  \n3. Give smaller amounts to **Hamlet** and **Farmstead**, as they may have fewer needs or lower capacity to use points efficiently.  \n\nLet’s assign:  \n- Role2 (City): highest share → 25  \n- Role6 (Large Town): high share → 25  \n- Role1 (Town): medium → 20  \n- Role3 (Village): medium → 15  \n- Role4 (Hamlet): low → 10  \n- Role5 (Farmstead): low → 5  \n\nSum: 25+25+20+15+10+5 = 100 ✅  \n\nThis balances strategic importance with fair distribution.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 5,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Town",
+                "Village",
+                "Farmstead",
+                "Hamlet",
+                "Large Town",
+                "City"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary, which likely indicates different strategic importance or resource needs.  \n- **Role5** is in the same settlement as me (Large Town), so coordination or defense of our home base might be a priority.  \n- **Role6** is in a City, which could be a major economic/military hub deserving of support.  \n- Smaller settlements (Village, Farmstead, Hamlet, Town) may need fewer points unless they have critical roles.  \n\n**Reasoning for allocation**:  \n1. **Role5 (Large Town)** – same as my settlement, likely central to operations → allocate a significant portion.  \n2. **Role6 (City)** – high-value settlement, important for broader influence → allocate substantial points.  \n3. **Role1 (Town)** – moderate importance, but less than City/Large Town → moderate allocation.  \n4. **Role2 (Village)**, **Role3 (Farmstead)**, **Role4 (Hamlet)** – smaller settlements, likely need fewer resources unless specific tasks are assigned; here I’ll give minimal but nonzero points to keep them functional.  \n\nI’ll distribute roughly:  \n- Role5: 30  \n- Role6: 25  \n- Role1: 20  \n- Role2: 10  \n- Role3: 10  \n- Role4: 5  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 5,\n    \"Role5\": 30,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Town",
+                "Hamlet",
+                "Farmstead",
+                "Village",
+                "Large Town",
+                "City"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total distributable resources:** 100 Action Points (AP).  \n- **Settlement sizes** likely indicate importance, development level, or strategic value. From smallest to largest:  \n  Farmstead → Hamlet → Village → Town → Large Town → City.  \n- As the team leader from **Large Town**, I might prioritize:  \n  1. **Role5** (same settlement: Large Town) — likely my home base or direct responsibility.  \n  2. **Role6** (City) — largest settlement, possibly high strategic value.  \n  3. **Role4** (Village) and **Role1** (Town) — mid-level importance.  \n  4. **Role2** (Hamlet) and **Role3** (Farmstead) — smallest, possibly fewer needs.  \n\nGiven limited AP (100 total), I’ll allocate more to larger settlements for greater impact, but ensure all get at least a minimal amount for basic functionality.  \n\n**Proposed allocation reasoning:**  \n- Role5 (Large Town): 25 AP (significant investment in home base).  \n- Role6 (City): 25 AP (high strategic return).  \n- Role1 (Town): 20 AP (mid-level importance).  \n- Role4 (Village): 15 AP (mid-level but smaller than Town).  \n- Role2 (Hamlet): 10 AP (small settlement).  \n- Role3 (Farmstead): 5 AP (smallest settlement).  \n\nCheck sum: 25 + 25 + 20 + 15 + 10 + 5 = 100 ✅  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 5,\n    \"Role4\": 15,\n    \"Role5\": 25,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Village",
+                "Large Town",
+                "Farmstead",
+                "Town",
+                "City",
+                "Hamlet"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary in size and likely importance:  \n  - **City** (Role5) – largest settlement, likely highest strategic value.  \n  - **Large Town** (Role2) – same as your settlement, possibly your base or key location.  \n  - **Town** (Role4) – medium importance.  \n  - **Village** (Role1), **Hamlet** (Role6), **Farmstead** (Role3) – smaller settlements, possibly less critical for major actions.  \n\n**Reasoning for allocation**:  \n1. **Role5 (City)** should get the most points because a City has the greatest capacity for impactful actions (economy, defense, influence).  \n2. **Role2 (Large Town)** is your own settlement, so it should also receive significant resources to maintain leadership and operations.  \n3. **Role4 (Town)** is next in importance.  \n4. Smaller settlements get fewer points, but not zero, to ensure they can perform basic functions.  \n\nI’ll distribute roughly:  \n- City: ~30  \n- Large Town: ~25  \n- Town: ~20  \n- Village: ~10  \n- Hamlet: ~10  \n- Farmstead: ~5  \n\nCheck sum: 30 + 25 + 20 + 10 + 10 + 5 = 100 ✅  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 5,\n    \"Role4\": 20,\n    \"Role5\": 30,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Village",
+                "City",
+                "Farmstead",
+                "Large Town",
+                "Hamlet",
+                "Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have **100 Action Points** to distribute among 6 roles, each with different settlement types.  \nAs the team leader from **Large Town**, I should consider:  \n\n1. **Settlement hierarchy** – Larger settlements likely have greater strategic importance or resource needs.  \n2. **Team efficiency** – Roles in larger settlements might contribute more to overall progress.  \n3. **Fairness vs. strategy** – Since it’s a game, I might favor roles in settlements that match or exceed my own (Large Town) in size or importance.  \n\nSettlement size order (likely, from smallest to largest):  \n- Hamlet  \n- Village  \n- Farmstead  \n- Town  \n- Large Town  \n- City  \n\nSo:  \nRole5 (Hamlet) – smallest  \nRole1 (Village) – small  \nRole3 (Farmstead) – small/medium  \nRole6 (Town) – medium  \nRole4 (Large Town) – same as leader’s settlement  \nRole2 (City) – largest  \n\nGiven that City and Large Town are the largest, they might get more points for high-impact activities.  \nBut I also need to ensure smaller settlements aren’t completely neglected.  \n\nI’ll allocate roughly:  \n- **Role2 (City)** – highest priority: 30  \n- **Role4 (Large Town)** – leader’s settlement, important: 25  \n- **Role6 (Town)** – medium priority: 20  \n- **Role3 (Farmstead)** – lower but still some: 10  \n- **Role1 (Village)** – lower: 8  \n- **Role5 (Hamlet)** – lowest: 7  \n\nCheck sum: 30+25+20+10+8+7 = 100 ✅  \n\nNow, output as JSON:  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 7,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Town",
+                "Village",
+                "Farmstead",
+                "City",
+                "Large Town",
+                "Hamlet"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers, sum to 100.  \n- **Settlement types** vary, which may imply different strategic importance or resource needs.  \n- As the team leader from **Large Town**, I might prioritize:  \n  1. **Role5** (same settlement: Large Town) — likely my direct team or highest synergy.  \n  2. **Role4** (City) — possibly important for broader influence or advanced activities.  \n  3. **Role1** (Town) — moderate importance.  \n  4. Smaller settlements (Village, Farmstead, Hamlet) — may need fewer points depending on game context, but shouldn’t be ignored entirely.  \n\nA reasonable approach:  \n- Give the largest share to Role5 (Large Town) for leadership efficiency.  \n- Give a good portion to Role4 (City) for strategic reach.  \n- Distribute the rest to ensure all roles have at least minimal points for basic function.  \n\nLet’s allocate:  \nRole5: 30  \nRole4: 25  \nRole1: 15  \nRole2: 10  \nRole3: 10  \nRole6: 10  \n\nCheck sum: 30+25+15+10+10+10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 30,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Hamlet",
+                "City",
+                "Village",
+                "Town",
+                "Large Town",
+                "Farmstead"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each with a different settlement size.  \nIn many strategy or settlement-building games, the settlement size often indicates the role’s importance, development level, or capacity to use resources effectively.  \n\n**Settlement sizes in likely order of importance (larger → more impactful):**  \n1. City  \n2. Large Town  \n3. Town  \n4. Village  \n5. Hamlet  \n6. Farmstead  \n\nSince I am the team leader from **Large Town**, I might prioritize:  \n- **Role2 (City)** — likely a major hub, should get high resources.  \n- **Role5 (Large Town)** — my own settlement, so likely important for defense/development.  \n- **Role4 (Town)** — mid-level importance.  \n- Others get lower but not zero, to keep them functional.  \n\nI’ll allocate roughly:  \n- Role2 (City): 25  \n- Role5 (Large Town): 25  \n- Role4 (Town): 20  \n- Role3 (Village): 15  \n- Role1 (Hamlet): 10  \n- Role6 (Farmstead): 5  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Farmstead",
+                "Village",
+                "Hamlet",
+                "Large Town",
+                "Town",
+                "City"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement levels** vary among roles, from smallest (Farmstead) to largest (City).  \n- As the team leader from **Large Town**, I might prioritize roles based on:  \n  1. **Strategic importance** — larger settlements often have more influence or capacity to use AP effectively.  \n  2. **Fairness or need** — smaller settlements might need support to grow.  \n  3. **Game context** — since not specified, I’ll assume larger settlements can leverage AP for greater overall team benefit.  \n\nGiven the settlement hierarchy:  \nFarmstead (Role1) < Hamlet (Role3) < Village (Role2) < Town (Role5) < Large Town (Role4) < City (Role6)  \n\nI’ll allocate more AP to roles in larger settlements because they likely have more opportunities to use them for team-wide advantages (e.g., trade, defense, research). But I’ll still give some to smaller ones to ensure balanced growth.  \n\nProposed allocation logic:  \n- City (Role6) — highest level, gets most.  \n- Large Town (Role4) — my own settlement, moderate-high.  \n- Town (Role5) — moderate.  \n- Village (Role2) & Hamlet (Role3) — lower but meaningful amounts.  \n- Farmstead (Role1) — smallest, minimal but not zero.  \n\nLet’s distribute:  \nRole6: 25  \nRole4: 20  \nRole5: 18  \nRole2: 15  \nRole3: 12  \nRole1: 10  \nSum = 100 ✅  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Farmstead",
+                "Hamlet",
+                "Town",
+                "Large Town",
+                "City",
+                "Village"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement.  \nThe settlements vary in size and likely in strategic importance:  \n\n- **Farmstead** (Role1) – Small, likely basic resource production.  \n- **Hamlet** (Role2) – Slightly larger than Farmstead, still limited influence.  \n- **Village** (Role6) – Small community, modest needs.  \n- **Town** (Role3) – Moderate size, probably key for regional balance.  \n- **Large Town** (Role4) – My own settlement, central to operations, likely needs more resources for defense/development.  \n- **City** (Role5) – Largest settlement, high strategic value for economy and military.  \n\nGiven I’m the leader from **Large Town**, I should prioritize:  \n1. **Large Town** (Role4) – Direct control, central hub.  \n2. **City** (Role5) – Major asset, high return on investment.  \n3. **Town** (Role3) – Important secondary hub.  \n4. **Village, Hamlet, Farmstead** – Smaller settlements, lower priority but still need some points for basic function.  \n\nAllocation logic:  \n- Role4 (Large Town): 25  \n- Role5 (City): 25  \n- Role3 (Town): 20  \n- Role6 (Village): 10  \n- Role2 (Hamlet): 10  \n- Role1 (Farmstead): 10  \n\nTotal = 100.  \n\nThis balances between strengthening key settlements and maintaining support for smaller ones.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 25,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Village",
+                "Hamlet",
+                "Large Town",
+                "Town",
+                "City",
+                "Farmstead"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement.  \nAs the team leader from **Town**, I should consider:  \n\n1. **Settlement size and strategic importance** – Larger settlements (City, Large Town, Town) may need more resources for development, defense, or influence.  \n2. **Team cohesion** – Since I’m from Town, I might favor my own settlement slightly, but fairness and overall team strength matter.  \n3. **Game context** – Without specific game rules, I’ll assume all roles contribute to team success, but larger settlements often have more responsibilities or impact.  \n\nSettlement order by likely size/importance:  \nCity > Large Town > Town > Village > Hamlet > Farmstead  \n\nBut since I’m the leader from Town, I’ll allocate more to roles that can boost overall team capability, possibly prioritizing City and Large Town for major projects, while ensuring smaller settlements get enough to function.  \n\n---\n\n**Proposed allocation reasoning:**  \n- **Role5 (City)** – Major hub, likely needs significant investment: **25 points**  \n- **Role3 (Large Town)** – Secondary major center: **20 points**  \n- **Role4 (Town)** – My own settlement, moderate priority: **18 points**  \n- **Role1 (Village)** – Smaller but still important: **15 points**  \n- **Role2 (Hamlet)** – Small settlement: **12 points**  \n- **Role6 (Farmstead)** – Smallest, minimal but not zero: **10 points**  \n\nCheck sum: 25 + 20 + 18 + 15 + 12 + 10 = 100 ✅  \n\n---\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 25,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Hamlet",
+                "Farmstead",
+                "City",
+                "Village",
+                "Town",
+                "Large Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlements vary** in size and likely strategic importance.  \n- As the team leader from **Town**, I might prioritize roles from larger settlements (more resources, influence, or defensive needs) or balance based on expected contribution.  \n- Larger settlements (City, Large Town) may handle more responsibilities, so they could receive more points. Smaller ones (Hamlet, Farmstead) might need fewer points if their tasks are lighter.  \n- However, fairness and team cohesion could also mean distributing somewhat evenly but weighted by settlement scale.  \n\nI’ll rank settlements by likely size/importance:  \n1. City  \n2. Large Town  \n3. Town  \n4. Village  \n5. Hamlet  \n6. Farmstead  \n\nBut Role5 is from Town (my settlement), so I might give a moderate amount, not excessive to avoid bias.  \n\nLet’s allocate roughly:  \n- Role3 (City): highest, maybe 25  \n- Role6 (Large Town): second highest, maybe 22  \n- Role5 (Town): moderate, 18  \n- Role4 (Village): moderate, 15  \n- Role1 (Hamlet): lower, 10  \n- Role2 (Farmstead): lowest, 10  \n\nSum = 25+22+18+15+10+10 = 100 ✅  \n\nThis balances strategic weight with fairness.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Farmstead",
+                "Town",
+                "City",
+                "Hamlet",
+                "Village",
+                "Large Town"
+            ],
+            "response": "First, let's analyze the situation.  \n\nAs the team leader from **Town**, I should prioritize members whose settlements are closest or most aligned with my own settlement’s interests.  \nIn-game logic often suggests that settlements with higher population or strategic importance might yield better returns on Action Points, but loyalty and immediate team cohesion could also matter.  \n\n**Settlement hierarchy** (likely by size/importance):  \nHamlet → Village → Farmstead → Town → Large Town → City  \n\nSince I’m from **Town**, I might favor:  \n1. **Role2** (Town) — same settlement, likely highest loyalty/coordination.  \n2. **Role6** (Large Town) — similar type, slightly bigger, possibly useful ally.  \n3. **Role3** (City) — largest settlement, could bring high rewards but maybe less loyalty.  \n4. Others (Farmstead, Hamlet, Village) — smaller settlements, possibly less immediate impact.  \n\nGiven only 100 points to distribute in integers, I’ll allocate more to those with higher strategic value or direct alignment, but ensure everyone gets at least a minimal share for participation.  \n\n**Proposed allocation reasoning:**  \n- Role2 (Town): 30 (highest priority, same base)  \n- Role6 (Large Town): 25 (close in type, useful)  \n- Role3 (City): 20 (big settlement, good for influence)  \n- Role5 (Village): 10 (medium-small)  \n- Role1 (Farmstead): 8  \n- Role4 (Hamlet): 7  \n\nSum: 30+25+20+10+8+7 = 100.  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 30,\n    \"Role3\": 20,\n    \"Role4\": 7,\n    \"Role5\": 10,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Hamlet",
+                "Large Town",
+                "Village",
+                "Farmstead"
+            ],
+            "response": "First, let's analyze the situation.  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. As the team leader (from Town), I should consider:  \n\n1. **Settlement size and strategic importance** – Larger settlements likely have more responsibilities or higher impact activities.  \n2. **Role relevance to team goals** – Since all are team members, but no specific role tasks are given, I’ll assume each role contributes equally unless settlement size suggests otherwise.  \n3. **My own settlement bias** – Being from Town, I might slightly favor Role1 (same settlement) for coordination, but not excessively.  \n\nSettlement hierarchy (likely by population/importance):  \n- City (Role2) – largest, likely key strategic operations.  \n- Large Town (Role4) – second largest.  \n- Town (Role1) – medium, my settlement.  \n- Village (Role5) – smaller.  \n- Hamlet (Role3) – very small.  \n- Farmstead (Role6) – smallest/rural.  \n\nGiven limited info, I’ll allocate more points to larger settlements because they may handle broader tasks affecting the whole team.  \n\nProposed allocation:  \n- Role2 (City): 25  \n- Role4 (Large Town): 20  \n- Role1 (Town): 18 (slight bonus for coordination)  \n- Role5 (Village): 15  \n- Role3 (Hamlet): 12  \n- Role6 (Farmstead): 10  \n\nSum: 25+20+18+15+12+10 = 100.  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 25,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Hamlet",
+                "Village",
+                "Town",
+                "City",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary, which may imply different strategic priorities.  \n- As the team leader from **Town**, I might prioritize roles from settlements that are either similar in development level (Town, Large Town) or those that are crucial for resource flow and defense.  \n- **Possible reasoning**:  \n  1. **Role3** (Town) is from my own settlement — likely a direct subordinate or key unit.  \n  2. **Role6** (Large Town) is a more developed settlement, possibly offering greater strategic benefits per Action Point.  \n  3. **Role4** (City** is the most developed settlement — could have high-impact activities.  \n  4. Smaller settlements (Hamlet, Village, Farmstead) might have lower immediate returns unless they have special functions.  \n- **Assumption**: Without specific in-game role functions given, I’ll allocate more points to larger settlements for potentially higher efficiency, but ensure some distribution to maintain balance and not neglect smaller ones entirely.  \n\n**Proposed allocation**:  \n- Role3 (Town): 25  \n- Role6 (Large Town): 25  \n- Role4 (City): 20  \n- Role2 (Village): 10  \n- Role1 (Hamlet): 10  \n- Role5 (Farmstead): 10  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Hamlet",
+                "Village",
+                "Town",
+                "Farmstead",
+                "Large Town",
+                "City"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- I am the team leader from **Town**, so I share the same settlement type as **Role3**.  \n- In games with settlement-based mechanics, alignment with the leader’s settlement might imply better synergy or higher priority for resource allocation.  \n- However, fairness and strategic balance across the team should also be considered.  \n- **Role5 (Large Town)** and **Role6 (City)** likely represent more advanced settlements, possibly requiring more resources for higher-impact activities.  \n- **Role1 (Hamlet)** and **Role4 (Farmstead)** are smaller settlements, which might need support but could have lower immediate returns.  \n- **Role2 (Village)** is mid-tier.  \n\nGiven I’m from **Town**, I might slightly favor **Role3** (same settlement) for coordination, but not excessively.  \nI’ll allocate more points to roles from larger settlements (**City**, **Large Town**) because they likely have greater capacity to use AP effectively, while ensuring smaller settlements get a baseline amount so they aren’t neglected.  \n\nProposed allocation:  \n- Role6 (City): highest — 25  \n- Role5 (Large Town): high — 20  \n- Role3 (Town, same as leader): moderate-high — 18  \n- Role2 (Village): moderate — 15  \n- Role1 (Hamlet): low — 11  \n- Role4 (Farmstead): low — 11  \n\nSum: 25+20+18+15+11+11 = 100.  \n\n```json\n{\n    \"Role1\": 11,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 11,\n    \"Role5\": 20,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Village",
+                "Town",
+                "Large Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary among team members, but all are part of the same team.  \n- As the team leader from **Town**, I might consider:  \n  1. **Strategic value** of each role’s settlement (though the prompt doesn’t specify differences in role function).  \n  2. **Fairness** if roles are equally important.  \n  3. **Loyalty bias** toward same-settlement members (Role5: Town) if that matters in the game’s context.  \n  4. Without further info, I could distribute based on settlement size or importance:  \n     - Large Town (Role6) > City (Role1) > Town (Role5) > Village (Role4) > Hamlet (Role2) > Farmstead (Role3).  \n     - But since all are teammates, maybe equal distribution is simplest.  \n\nHowever, equal distribution (100/6 ≈ 16.67) isn’t integer, so I’ll adjust:  \n- Base: 16 each → 96 points used, 4 left.  \n- Give extra points to roles from larger settlements (more strategic impact?), or to my own settlement (Town) for loyalty.  \n\nLet’s decide:  \n- Role6 (Large Town): 18  \n- Role1 (City): 17  \n- Role5 (Town): 18 (leader’s settlement)  \n- Role4 (Village): 17  \n- Role2 (Hamlet): 16  \n- Role3 (Farmstead): 14  \n\nSum: 18+17+18+17+16+14 = 100.  \n\n```json\n{\n    \"Role1\": 17,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 17,\n    \"Role5\": 18,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "City",
+                "Town",
+                "Village",
+                "Farmstead",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have **100 Action Points** to distribute among 6 roles, each from a different settlement.  \nMy settlement is **Town**, so I share the same settlement type as **Role2**.  \n\nIn many team-based games, players often prioritize:  \n1. **Roles from the same settlement** (for loyalty, synergy, or in-game bonuses).  \n2. **Roles from larger settlements** (which may have greater influence or capacity).  \n3. **Balancing needs** so that no role is completely neglected.  \n\nLooking at the settlements in likely order of importance (largest to smallest):  \n- City (Role1)  \n- Large Town (Role6)  \n- Town (Role2 — my settlement)  \n- Village (Role3)  \n- Hamlet (Role5)  \n- Farmstead (Role4)  \n\nSince I’m from Town, I might give more to Role2 for direct cooperation benefits.  \nAlso, City and Large Town roles could contribute significantly to overall team success, so they deserve decent shares.  \nSmaller settlements should get some points so they aren’t useless.  \n\nI’ll allocate roughly:  \n- Role1 (City): 20  \n- Role2 (Town): 25 (extra for same settlement)  \n- Role3 (Village): 15  \n- Role4 (Farmstead): 10  \n- Role5 (Hamlet): 10  \n- Role6 (Large Town): 20  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Village",
+                "Farmstead",
+                "Town",
+                "City",
+                "Large Town",
+                "Hamlet"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total distributable Action Points**: 100.  \n- **Settlement types** vary, and as the team leader from **Town**, I should consider both loyalty (same settlement) and strategic value.  \n- **Role3** is from the same settlement (Town), so they might get priority for coordination or loyalty bonuses.  \n- Larger settlements (City, Large Town) may have higher impact per Action Point due to better infrastructure or influence.  \n- Smaller settlements (Village, Farmstead, Hamlet) might need support but could have lower immediate returns.  \n\n**Reasoning for allocation**:  \n1. **Role3 (Town)** – same as my settlement, likely my direct subordinate or most aligned interests → higher allocation.  \n2. **Role4 (City)** and **Role5 (Large Town)** – larger settlements with potentially greater influence or resource multipliers → decent allocation.  \n3. **Role1 (Village)**, **Role2 (Farmstead)**, **Role6 (Hamlet)** – smaller settlements, possibly support roles or scouting → smaller but not zero allocation to keep them functional.  \n\nI’ll aim for a split that favors Role3, then Role4 and Role5, then the rest.  \n\nLet’s try:  \n- Role3: 30  \n- Role4: 25  \n- Role5: 20  \n- Role1: 10  \n- Role2: 10  \n- Role6: 5  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Town",
+                "Large Town",
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Village"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. In strategy games, settlements often indicate importance or capacity for growth — larger settlements may contribute more to overall progress, so they might deserve more resources.  \n\nA typical hierarchy of settlements by size/potential influence might be:  \n1. City (largest)  \n2. Large Town  \n3. Town  \n4. Village  \n5. Hamlet  \n6. Farmstead (smallest)  \n\nBut since this is a team within the same faction, I should also consider that all roles are part of my team, so I can’t neglect the smaller ones entirely — they might have unique functions. However, if the goal is to maximize overall team effectiveness, I’d allocate more points to roles from larger settlements, assuming they can turn points into greater benefits.  \n\nLet’s rank them by likely strategic value:  \n- Role3 (City) → highest priority  \n- Role2 (Large Town) → high priority  \n- Role1 (Town) → medium priority  \n- Role6 (Village) → medium-low priority  \n- Role4 (Hamlet) → low priority  \n- Role5 (Farmstead) → lowest priority  \n\nI’ll allocate roughly in proportion to settlement size, but ensure everyone gets at least a minimal amount so they remain functional.  \n\nProposed allocation:  \nRole3 (City): 30  \nRole2 (Large Town): 25  \nRole1 (Town): 20  \nRole6 (Village): 12  \nRole4 (Hamlet): 8  \nRole5 (Farmstead): 5  \n\nSum: 30+25+20+12+8+5 = 100.  \n\nThis gives more resources to larger settlements while keeping smaller ones active.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 8,\n    \"Role5\": 5,\n    \"Role6\": 12\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Hamlet",
+                "Town",
+                "Large Town",
+                "Farmstead",
+                "City",
+                "Village"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. My own settlement is **Village**, so Role6 is from the same settlement as me. In a team leadership context, it’s reasonable to prioritize members from the same settlement for loyalty or coordination benefits, but I should also consider the strategic value of each role’s settlement type.  \n\nPossible reasoning:  \n- **Role6 (Village)** – same settlement as me, likely highest priority for cohesion.  \n- **Role5 (City)** – City might have higher strategic importance for resource generation or defense.  \n- **Role3 (Large Town)** – also significant in settlement hierarchy.  \n- Others (Hamlet, Town, Farmstead) – smaller settlements, possibly less immediate impact.  \n\nGiven limited points, I’ll allocate more to Role6 and Role5, then distribute the rest to ensure all get some points for minimal functionality.  \n\nProposed allocation:  \n- Role6: 30  \n- Role5: 25  \n- Role3: 20  \n- Role2: 10  \n- Role1: 10  \n- Role4: 5  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 25,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "City",
+                "Hamlet",
+                "Large Town",
+                "Town",
+                "Village",
+                "Farmstead"
+            ],
+            "response": "First, let's analyze the situation.  \n\nWe have 100 Action Points to distribute among 6 roles, each with a different settlement type. As the team leader from a **Village**, I should consider:  \n\n1. **Settlement hierarchy and strategic value** – Larger settlements (City, Large Town) might have more infrastructure or opportunities, so they could benefit from more Action Points for broader impact.  \n2. **Team cohesion and fairness** – Since I’m from a Village, I might slightly favor Role5 (same settlement type) for loyalty or local development, but not excessively.  \n3. **Gameplay efficiency** – Usually, spreading resources too thin is ineffective, so I should allocate more to key roles that can generate returns or defend/develop the team.  \n\nGiven the settlements:  \n- **City** (Role1) – likely a major hub, worth significant investment.  \n- **Large Town** (Role3) – also important.  \n- **Town** (Role4) – moderately important.  \n- **Village** (Role5) – my home settlement, some extra support.  \n- **Hamlet** (Role2) and **Farmstead** (Role6) – smaller, maybe less immediate impact.  \n\nI’ll allocate roughly:  \n- Role1 (City): highest share for wide influence.  \n- Role3 (Large Town): second highest.  \n- Role4 (Town) and Role5 (Village): moderate shares.  \n- Role2 (Hamlet) and Role6 (Farmstead): smaller but not zero.  \n\nLet’s decide on exact numbers:  \n\nRole1: 25  \nRole2: 10  \nRole3: 20  \nRole4: 15  \nRole5: 20  \nRole6: 10  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Village",
+                "City",
+                "Farmstead",
+                "Hamlet",
+                "Large Town",
+                "Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 6 roles from different settlements, but the team leader is from the **Village** settlement. In many team-based games, settlement type can imply different needs or strategic importance, but here no explicit priority is given.  \n\nSince the leader is from **Village** (Role1), it might make sense to give Role1 a moderate allocation for coordination or base development. However, fairness and balanced contribution across all roles could also be important if no role has special in-game advantages stated.  \n\nGiven no further info, I’ll assume:  \n- All roles are equally important for team success.  \n- But as leader from Village, Role1 gets slightly more to handle leadership tasks.  \n- Others get equal or near-equal shares.  \n\nLet’s try:  \nRole1 (Village) → 20  \nRemaining 80 for 5 roles → average 16 each.  \nBut to keep integers and sum 100:  \nRole2–Role6: 16 each → 16×5 = 80, plus Role1’s 20 = 100 exactly.  \n\nThat seems balanced and simple.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 16,\n    \"Role3\": 16,\n    \"Role4\": 16,\n    \"Role5\": 16,\n    \"Role6\": 16\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Farmstead",
+                "Town",
+                "Village",
+                "City",
+                "Large Town",
+                "Hamlet"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- As the team leader from the **Village**, my primary loyalty is to my own settlement, so **Role3 (Village)** should receive a significant portion of resources.  \n- However, strategic balance suggests supporting other settlements to maintain overall team strength and cooperation.  \n- Larger settlements like **City** and **Large Town** may have greater needs or potential for higher returns on Action Points.  \n- Smaller settlements like **Hamlet** and **Farmstead** might need some support but likely less than core roles.  \n\nI’ll allocate with the following reasoning:  \n1. **Role3 (Village)** gets the highest share (30) to reflect leadership priority.  \n2. **Role4 (City)** and **Role5 (Large Town)** get substantial support (20 each) due to their likely importance in game mechanics.  \n3. **Role2 (Town)** gets a moderate amount (15).  \n4. **Role6 (Hamlet)** and **Role1 (Farmstead)** get smaller amounts (10 and 5) to ensure they aren’t neglected but don’t drain resources from key roles.  \n\nSum: 30 + 20 + 20 + 15 + 10 + 5 = 100.  \n\nHere’s the allocation:  \n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 20,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Large Town",
+                "Town",
+                "City",
+                "Farmstead",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. As the team leader from a **Village**, I should consider:  \n\n1. **Settlement size and likely needs** – Larger settlements (City, Large Town) may have more complex tasks requiring more resources, but they might also have their own resource base. Smaller settlements (Hamlet, Farmstead, Village) might need more support to be effective.  \n2. **Team cohesion** – Since I’m from a Village, I might prioritize helping smaller settlements that are more similar to mine, but also ensure larger settlements contribute meaningfully.  \n3. **Game logic** – Often in games, roles from bigger settlements have higher base capabilities but also higher costs per action, while smaller settlements might be more efficient per point but limited in scope.  \n\nGiven the above, I’ll allocate more points to roles from smaller settlements (Hamlet, Farmstead, Village) to boost their contribution, while still giving meaningful points to larger settlements so they can undertake bigger tasks.  \n\n---\n\n**Allocation reasoning:**  \n- **Role3 (City)** – Gets a moderate amount because a City can handle large-scale actions efficiently.  \n- **Role1 (Large Town)** and **Role2 (Town)** – Moderate to high, but less than City since they’re smaller.  \n- **Role5 (Village)** – My own settlement, so I’ll give a solid amount to ensure my own tasks are well-funded.  \n- **Role4 (Farmstead)** and **Role6 (Hamlet)** – Smaller settlements, so they get decent support to maximize their utility.  \n\n---\n\n**Final allocation (sum = 100):**  \nRole1 (Large Town): 15  \nRole2 (Town): 15  \nRole3 (City): 20  \nRole4 (Farmstead): 15  \nRole5 (Village): 20  \nRole6 (Hamlet): 15  \n\n---\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Farmstead",
+                "Large Town",
+                "City",
+                "Town",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have **100 Action Points** to distribute among 6 roles, each from a different settlement.  \nMy settlement is **Village**, so Role6 is from the same settlement as me.  \nIn a team leadership context, it’s reasonable to prioritize:  \n\n1. **Roles from smaller settlements** might need more support if resources are scarce there.  \n2. **Roles from larger settlements** might already have more infrastructure, so fewer points might be needed.  \n3. **Loyalty/cohesion** — supporting the same settlement (Village) could strengthen local operations.  \n4. **Game balance** — we don’t have specific role functions, so I’ll assume each role contributes equally to team success, but allocation can reflect strategic emphasis on less developed settlements.  \n\nSettlement sizes (likely ascending order):  \n- Hamlet (Role5) — smallest  \n- Farmstead (Role1) — very small  \n- Village (Role6) — my base, small  \n- Town (Role4) — medium  \n- Large Town (Role2) — large  \n- City (Role3) — largest  \n\nStrategy:  \n- Give most to Hamlet (Role5) and Farmstead (Role1) because they likely have the least resource base.  \n- Give moderate support to Village (Role6) for local projects.  \n- Give less to Town, Large Town, and City since they are more self-sufficient.  \n\nAllocation proposal:  \nRole5 (Hamlet) — 25  \nRole1 (Farmstead) — 20  \nRole6 (Village) — 20  \nRole4 (Town) — 15  \nRole2 (Large Town) — 10  \nRole3 (City) — 10  \n\nSum: 25+20+20+15+10+10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "City",
+                "Farmstead",
+                "Village",
+                "Hamlet",
+                "Large Town",
+                "Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement.  \nAs the team leader from the **Village**, I should consider:  \n\n1. **Role3** is from the same settlement (Village) — likely a direct ally or under my jurisdiction, so they may deserve higher priority.  \n2. Other settlements vary in size and influence, but without further game-specific rules, I’ll assume:  \n   - Larger settlements (City, Large Town, Town) might already have more resources or need fewer points from me.  \n   - Smaller settlements (Hamlet, Farmstead) might need support but may not be as strategically critical for my team’s immediate goals.  \n3. Since I’m from the Village, I might allocate more to Role3 to strengthen our home base’s effectiveness.  \n\nGiven 100 points for 6 roles, a simple starting split could be:  \n- Role3 (Village): highest share.  \n- Others: distributed based on perceived importance or fairness.  \n\nLet’s try:  \nRole3: 30  \nRole1 (City): 15  \nRole5 (Large Town): 15  \nRole6 (Town): 15  \nRole4 (Hamlet): 15  \nRole2 (Farmstead): 10  \n\nThat sums to 100.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Large Town",
+                "Farmstead",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "First, let's analyze the situation:  \nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. As the team leader from a **Village**, I should consider the strategic importance and potential contributions of each role.  \n\n- **Role6** is from the same settlement as me (Village), so there might be loyalty or coordination benefits.  \n- **Role2** is from a **City**, which likely has higher infrastructure and influence, possibly offering greater returns per Action Point.  \n- **Role3** is from a **Large Town**, also significant but less than a City.  \n- **Role1** is from a **Town**, moderately important.  \n- **Role5** is from a **Hamlet** and **Role4** from a **Farmstead** — these are smaller settlements, possibly with fewer resources or impact.  \n\nGiven that we want to maximize overall team effectiveness, I’ll allocate more points to roles from larger settlements (City, Large Town) because they likely have better capabilities to convert Action Points into results. However, I’ll also support the same-settlement member (Role6) for cohesion. Smaller settlements get smaller allocations, but not zero, to keep them engaged.  \n\nI’ll distribute roughly:  \n- Role2 (City): highest  \n- Role3 (Large Town): high  \n- Role1 (Town): medium  \n- Role6 (Village): medium (extra for loyalty)  \n- Role5 (Hamlet): low  \n- Role4 (Farmstead): low  \n\nFinal allocation (sum = 100):  \nRole2: 30  \nRole3: 25  \nRole1: 15  \nRole6: 15  \nRole5: 10  \nRole4: 5  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 5,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Town",
+                "Hamlet",
+                "Village",
+                "Farmstead",
+                "City",
+                "Large Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement.  \nAs the team leader from a **Village**, I should consider:  \n\n1. **Settlement hierarchy / strategic value** – Larger settlements (City, Large Town, Town) likely have more influence, resources, or strategic importance in the game, so they might deserve more points to maximize overall team progress.  \n2. **Loyalty / alignment** – Role3 is from the same settlement as me (Village), so there might be an incentive to favor them slightly for cohesion or narrative reasons.  \n3. **Game mechanics unknown** – Without specific game rules, I’ll assume a balanced approach favoring larger settlements but ensuring all roles get some points to stay functional.  \n\nPossible priority order:  \n- **City** (Role5) – highest tier settlement → most points.  \n- **Large Town** (Role6) – second highest.  \n- **Town** (Role1) – third.  \n- **Village** (Role3) – my settlement, moderate support.  \n- **Hamlet** (Role2) and **Farmstead** (Role4) – smaller settlements, minimal but nonzero allocation.  \n\nLet’s allocate roughly:  \nRole5 (City): 25  \nRole6 (Large Town): 20  \nRole1 (Town): 18  \nRole3 (Village): 17  \nRole2 (Hamlet): 10  \nRole4 (Farmstead): 10  \n\nSum = 25+20+18+17+10+10 = 100 ✅  \n\nThis balances strategic weight with team inclusivity.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 17,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Large Town",
+                "Town",
+                "City",
+                "Village",
+                "Hamlet",
+                "Farmstead"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\nWe have 100 Action Points to distribute among 6 roles, each with different settlement sizes.  \nIn many strategy or settlement-building games, larger settlements often have greater needs or capacity to use resources effectively, but as the team leader (settlement: Village), I should also consider supporting roles from smaller settlements if they are more vulnerable or need help to grow.  \n\nHowever, since Action Points can be used for any in-game activity, a balanced approach might be best, but with slight favor to roles in larger settlements because they likely handle more complex tasks or generate more return on investment.  \n\nStill, since I’m from a Village, maybe I should prioritize helping smaller settlements (Hamlet, Farmstead) to strengthen the overall team foundation. But if the goal is overall efficiency, larger settlements (City, Large Town) might yield better results per Action Point.  \n\nGiven no explicit game mechanics details, I’ll assume a moderate distribution weighted slightly toward mid-sized settlements for balance.  \n\nHere’s my allocation reasoning:  \n- Role3 (City) gets the most because a City can likely utilize points efficiently for high-impact activities.  \n- Role1 (Large Town) and Role2 (Town) get substantial but less than City.  \n- Role4 (Village, my own settlement) gets a moderate amount.  \n- Role5 (Hamlet) and Role6 (Farmstead) get smaller amounts but not zero, to ensure they aren’t neglected.  \n\nFinal distribution:  \nRole3: 25  \nRole1: 20  \nRole2: 18  \nRole4: 15  \nRole5: 12  \nRole6: 10  \nSum = 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Town",
+                "Large Town",
+                "Farmstead",
+                "Hamlet",
+                "City",
+                "Village"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- I am the team leader from **Hamlet**, so I have a natural incentive to prioritize my own settlement (Hamlet) for strategic or loyalty reasons.  \n- However, the game likely involves cooperation across settlements, so I should also consider the relative importance or needs of other settlements.  \n- **City** (Role5) and **Large Town** (Role2) might be more economically or militarily significant, so they could deserve higher allocations.  \n- **Farmstead** (Role3) and **Village** (Role6) might be smaller but still useful for resources or support roles.  \n- **Town** (Role1) is mid-tier.  \n\nGiven I’m from Hamlet, I’ll give Role4 (Hamlet) a solid share, but not overly biased to the point of neglecting stronger settlements.  \nI’ll allocate roughly in proportion to perceived settlement size/importance, but with a slight bonus to Hamlet.  \n\nProposed allocation:  \n- Role5 (City): highest share — 25  \n- Role2 (Large Town): second highest — 20  \n- Role4 (Hamlet): third highest — 18 (leader’s home settlement)  \n- Role1 (Town): 15  \n- Role6 (Village): 12  \n- Role3 (Farmstead): 10  \n\nCheck sum: 25 + 20 + 18 + 15 + 12 + 10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 25,\n    \"Role6\": 12\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Large Town",
+                "Town",
+                "Village"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- I am the team leader from **Hamlet**, so **Role2** (also from Hamlet) is likely to be my closest ally or most trusted team member in terms of settlement alignment.  \n- In a typical team resource allocation game, loyalty or strategic advantage often favors members from the same settlement.  \n- However, other roles from different settlements may also contribute to overall team success, so completely neglecting them could be unwise.  \n- Since **Action Points** can be used for any in-game activity, a balanced but biased distribution makes sense — giving the largest share to Role2, moderate shares to others based on settlement size or strategic value, and possibly less to those from settlements that might have conflicting interests.  \n\nI’ll assume:  \n- **Role2 (Hamlet)** gets the most points because of shared settlement and likely higher cooperation.  \n- Others get points based on potential usefulness, but no one gets zero unless there’s a known conflict (which isn’t stated).  \n- To keep it simple, I’ll allocate roughly in descending order: Role2 > Role6 > Role5 > Role4 > Role3 > Role1, but with Role1 still getting a minimal amount to avoid total exclusion.  \n\nLet’s distribute:  \nRole2: 30  \nRole6: 20  \nRole5: 18  \nRole4: 15  \nRole3: 10  \nRole1: 7  \nSum = 100.  \n\n```json\n{\n    \"Role1\": 7,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "City",
+                "Town",
+                "Farmstead",
+                "Large Town",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total distributable resources:** 100 Action Points (AP).  \n- **Settlement types** vary among team members, ranging from Hamlet (smallest) to City (largest).  \n- As the team leader from **Hamlet**, I might prioritize members from smaller settlements because they likely have fewer resources and could benefit more from AP support, or I might allocate based on strategic importance to the team’s goals.  \n- However, without specific in-game goals mentioned, a reasonable approach is to distribute more points to roles in smaller settlements (since they might struggle to generate AP on their own) while still giving some to larger settlements to maintain overall balance.  \n\n**Settlement size order (likely smallest to largest):**  \nFarmstead < Hamlet < Village < Town < Large Town < City  \n\n**Team members by settlement size:**  \n- Role3 (Farmstead) — smallest  \n- Role6 (Hamlet) — same as my settlement  \n- Role5 (Village)  \n- Role2 (Town)  \n- Role4 (Large Town)  \n- Role1 (City) — largest  \n\n**Allocation reasoning:**  \n1. Role3 (Farmstead) gets the highest share because it’s the smallest and may need the most help.  \n2. Role6 (Hamlet) gets a good share since it’s my settlement and I understand its needs.  \n3. Others receive gradually fewer points as settlement size increases, assuming larger settlements have more inherent AP generation.  \n\n**Proposed allocation:**  \nRole3: 25  \nRole6: 20  \nRole5: 18  \nRole2: 15  \nRole4: 12  \nRole1: 10  \nSum: 100  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "City",
+                "Village",
+                "Large Town",
+                "Hamlet",
+                "Town",
+                "Farmstead"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- We have **6 roles** from different settlements, but I am the team leader from **Hamlet**.  \n- The total distributable Action Points = 100, must be integers, sum to 100.  \n- In a team leadership context, I might prioritize:  \n  1. **Roles from my own settlement (Hamlet)** for loyalty/efficiency.  \n  2. Roles from settlements that are strategically important or likely to contribute most to team goals.  \n  3. Fairness across the team to maintain morale, but not necessarily equal shares.  \n\nFrom the list:  \n- Role4 is from **Hamlet** (same as me).  \n- Others: City, Village, Large Town, Town, Farmstead.  \n\nPossible reasoning:  \n- Role4 (Hamlet) gets the highest allocation because of shared settlement loyalty.  \n- Larger settlements (City, Large Town, Town) might have more inherent resources, so they could receive fewer of our limited Action Points.  \n- Smaller/weaker settlements (Village, Farmstead) might need more support to be effective.  \n\nBut since I’m from Hamlet, I’ll favor Role4 strongly, then give reasonable amounts to others based on perceived need and contribution.  \n\nLet’s allocate:  \nRole4 (Hamlet) → 40  \nRole2 (Village) → 15 (needs support)  \nRole6 (Farmstead) → 15 (needs support)  \nRole3 (Large Town) → 10 (has some resources)  \nRole5 (Town) → 10 (has some resources)  \nRole1 (City) → 10 (likely self-sufficient)  \n\nCheck sum: 40 + 15 + 15 + 10 + 10 + 10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 40,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Farmstead",
+                "Town",
+                "City",
+                "Village",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- I am the team leader from **Hamlet**, so I have a natural connection to **Role5 (Hamlet)**.  \n- In many team-based games, it's common to prioritize members from the same settlement for loyalty or synergy bonuses.  \n- However, other roles from different settlements may also contribute significantly to overall success, so a balanced allocation might be better than putting everything into one role.  \n- Since the total is 100 Action Points and there are 6 roles, an equal split would be about 16–17 each, but that ignores settlement relationships.  \n- I’ll give a moderate bonus to Role5 (Hamlet) and Role6 (Large Town, possibly more advanced), while still distributing enough to others so they can function.  \n\nHere’s my decision:  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Town",
+                "Hamlet",
+                "City",
+                "Village",
+                "Large Town",
+                "Farmstead"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers, sum to 100.  \n- **Settlements vary** from Hamlet (my settlement) to City, Village, etc.  \n- As the team leader from **Hamlet**, I might prioritize:  \n  1. **Role2** (same settlement: Hamlet) — likely my closest ally or highest loyalty.  \n  2. **Roles from smaller settlements** might need more support if they’re less developed.  \n  3. **Roles from larger settlements** (City, Large Town) might already have more resources, so they could receive fewer points.  \n  4. But fairness and strategic balance matter — I don’t want to neglect any role entirely.  \n\nI’ll allocate roughly:  \n- Highest to Role2 (Hamlet), moderate to smaller settlements (Village, Farmstead), less to larger ones (City, Large Town), and some to Town.  \n\nLet’s decide:  \nRole1 (Town): 15  \nRole2 (Hamlet): 30  \nRole3 (City): 10  \nRole4 (Village): 20  \nRole5 (Large Town): 10  \nRole6 (Farmstead): 15  \n\nCheck sum: 15+30+10+20+10+15 = 100 ✅  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "City",
+                "Farmstead",
+                "Village",
+                "Town",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- We have **100 Action Points** to distribute among 6 roles.  \n- Each role belongs to a different settlement, and my own settlement is **Hamlet** (Role5).  \n- As the team leader from Hamlet, it’s reasonable to prioritize my own settlement’s needs for direct control and immediate benefit, but I should also consider the strategic value of other settlements.  \n- Larger settlements (City, Large Town) might have higher potential impact per point, but they are not under my direct jurisdiction.  \n- Since resources are limited, I’ll allocate more to my own role (Hamlet) and distribute the rest based on likely contribution to overall team goals, favoring those closer in size/type to my settlement or those with critical functions.  \n\nHere’s my thinking for allocation:  \n\n1. **Role5 (Hamlet)** — my own settlement → highest priority → **30 points**.  \n2. **Role6 (Large Town)** — large settlement, likely important for overall progress → **20 points**.  \n3. **Role4 (Town)** — medium-large settlement → **15 points**.  \n4. **Role1 (City)** — largest settlement but possibly self-sufficient → **10 points**.  \n5. **Role3 (Village)** — smaller than Hamlet but still useful → **15 points**.  \n6. **Role2 (Farmstead)** — smallest settlement type → **10 points**.  \n\nCheck sum: 30 + 20 + 15 + 10 + 15 + 10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 15,\n    \"Role5\": 30,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Town",
+                "Village",
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- I am the team leader from **Hamlet**, so I have a natural connection to Role4 (also from Hamlet).  \n- In team-based games, prioritizing members from the same settlement can boost loyalty, synergy, or in-game bonuses.  \n- However, other roles come from different settlement types (Town, Village, City, Farmstead, Large Town), which might have different strategic values.  \n- Since no specific game mechanics are given, I’ll assume:  \n  1. Members from the same settlement (Hamlet) get priority for coordination.  \n  2. Remaining points should be distributed to ensure all roles have at least minimal support.  \n  3. Stronger settlements (like City, Large Town) might already have more inherent resources, so they could receive slightly less from my pool, but not zero.  \n\nGiven 100 total Action Points and 6 roles:  \n- Role4 (Hamlet) gets the largest share.  \n- Others get enough to be functional but not equal shares.  \n\nLet’s allocate roughly:  \nRole4 (Hamlet) → 30  \nRole1 (Town) → 15  \nRole6 (Large Town) → 15  \nRole3 (City) → 15  \nRole2 (Village) → 15  \nRole5 (Farmstead) → 10  \n\nCheck sum: 30 + 15 + 15 + 15 + 15 + 10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Farmstead",
+                "Hamlet",
+                "City",
+                "Large Town",
+                "Town",
+                "Village"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary among team members, but the only one matching my own settlement (**Hamlet**) is **Role2**.  \n- In a typical team resource allocation game, members from the same settlement might have synergy or loyalty bonuses, so prioritizing them could be beneficial.  \n- However, other settlements (City, Large Town, Town, Village, Farmstead) may also contribute to overall team success, so some distribution to all roles is reasonable to avoid leaving any member completely inactive.  \n- Since Role2 is from the same settlement as me (Hamlet), I’ll allocate them the highest share to maximize coordination.  \n- Remaining points can be distributed based on settlement size/potential contribution — larger settlements like City might need more resources to be effective, but since I’m from a Hamlet, my direct teammate (Role2) gets priority.  \n\nI’ll allocate roughly:  \nRole2 (Hamlet) → highest share  \nOthers → moderate amounts, with slightly more to larger settlements (City, Large Town) as they may have higher action efficiency.  \n\nFinal allocation:  \nRole1 (Farmstead): 10  \nRole2 (Hamlet): 40  \nRole3 (City): 15  \nRole4 (Large Town): 12  \nRole5 (Town): 13  \nRole6 (Village): 10  \n\nSum: 10 + 40 + 15 + 12 + 13 + 10 = 100 ✅  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 40,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 13,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Farmstead",
+                "Village",
+                "City",
+                "Large Town",
+                "Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total distributable resources**: 100 Action Points (AP), integer only, sum must be 100.  \n- **Team members**: 6 roles, each with a different settlement size.  \n- **Settlement sizes** (from smallest to largest likely): Hamlet, Farmstead, Village, Town, Large Town, City.  \n- **My role**: Team leader from Hamlet (Role1).  \n\n**Reasoning for allocation**:  \n1. As team leader from the smallest settlement (Hamlet), I might prioritize my own settlement’s development slightly, but fairness and strategic needs matter.  \n2. Larger settlements (City, Large Town) likely have higher resource demands or greater impact per AP, so they may deserve more.  \n3. However, smaller settlements might need initial investment to grow.  \n4. A balanced approach could be to allocate based on settlement size tier, but since exact game mechanics aren’t specified, I’ll assume:  \n   - Larger settlements get more AP because they can utilize them more efficiently for team benefit.  \n   - But not so extreme that smaller settlements get nothing.  \n\n**Proposed allocation**:  \n- Role1 (Hamlet): 10 AP (modest boost for leader’s base)  \n- Role2 (Farmstead): 10 AP (small settlement, similar to Hamlet)  \n- Role3 (Village): 15 AP (mid-tier)  \n- Role4 (City): 25 AP (largest settlement, high impact)  \n- Role5 (Large Town): 20 AP (large but not biggest)  \n- Role6 (Town): 20 AP (same tier as Large Town roughly)  \n\nCheck sum: 10+10+15+25+20+20 = 100 ✅  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Large Town",
+                "Village",
+                "Farmstead",
+                "City",
+                "Town",
+                "Hamlet"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- I am the team leader from **Farmstead**, so I may want to prioritize members from the same settlement (Role3) for loyalty or strategic reasons.  \n- However, the game likely involves different settlement sizes affecting resource efficiency or role importance. Larger settlements (City, Large Town) might have higher impact per Action Point, but smaller ones (Hamlet, Farmstead) might need support to grow.  \n- Since no explicit game mechanics are given, I’ll assume a balanced approach:  \n  1. **Role3 (Farmstead)** gets a slight priority as my home settlement.  \n  2. Larger settlements (City, Large Town) may contribute more to overall progress, so they get decent shares.  \n  3. Smaller settlements (Village, Hamlet) get enough to be functional but not the highest amounts.  \n\nGiven 100 total points to distribute in integers:  \n\nI’ll allocate roughly:  \n- Role4 (City): 25  \n- Role1 (Large Town): 20  \n- Role5 (Town): 15  \n- Role3 (Farmstead): 15  \n- Role2 (Village): 15  \n- Role6 (Hamlet): 10  \n\nThat sums to 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Large Town",
+                "Village",
+                "Farmstead",
+                "Hamlet",
+                "City",
+                "Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- I am the team leader from **Farmstead**, so I might have a natural inclination to support my own settlement type (Role3: Farmstead) for loyalty or strategic reasons.  \n- However, in a team resource distribution, I should consider the **potential value** each role brings based on their settlement type.  \n- Larger settlements (City, Large Town, Town) might have more influence, infrastructure, or ability to convert Action Points into meaningful progress.  \n- Smaller settlements (Hamlet, Village, Farmstead) might need support to grow or contribute in specialized ways.  \n- Since total points are limited (100), I’ll allocate more to roles that can maximize overall team benefit, but also ensure my own settlement isn’t neglected.  \n\nI’ll roughly prioritize:  \n1. **Role5 (City)** – likely highest strategic impact.  \n2. **Role1 (Large Town)** – also significant.  \n3. **Role6 (Town)** – solid mid-level contributor.  \n4. **Role3 (Farmstead)** – my own, moderate support.  \n5. **Role2 (Village)** and **Role4 (Hamlet)** – smaller, but still useful.  \n\nLet’s distribute:  \n- Role5: 25  \n- Role1: 20  \n- Role6: 20  \n- Role3: 15  \n- Role2: 10  \n- Role4: 10  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Large Town",
+                "Town",
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Village"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary, and I am the team leader from **Farmstead**.  \n- In many team-based or settlement games, players from the same settlement as the leader might get priority or synergy bonuses, or there could be narrative/strategic reasons to favor them.  \n- However, without explicit game rules, I’ll assume:  \n  1. **Role5** (Farmstead) is from my own settlement, so likely gets more points for loyalty or coordination benefits.  \n  2. Larger settlements (City, Large Town) might have more infrastructure or influence, so they could contribute more if well-funded.  \n  3. Smaller settlements (Hamlet, Village) might need support but could have lower impact per point.  \n  4. Balanced allocation could be wise, but favoring my own settlement and key strategic roles seems logical.  \n\nGiven the above, I’ll allocate roughly:  \n- **Role5 (Farmstead)**: highest share (since it’s my settlement).  \n- **Role3 (City)** and **Role1 (Large Town)**: decent shares because they can leverage points for greater overall benefit.  \n- **Role2 (Town), Role6 (Village), Role4 (Hamlet)**: moderate to smaller shares.  \n\nLet’s decide on exact numbers:  \n\nRole5: 30  \nRole3: 20  \nRole1: 20  \nRole2: 15  \nRole6: 10  \nRole4: 5  \n\nSum: 30+20+20+15+10+5 = 100 ✅  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 30,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Village",
+                "Farmstead",
+                "Town",
+                "Large Town",
+                "Hamlet",
+                "City"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary among roles, which may imply different strategic priorities.  \n- As the team leader from **Farmstead**, I might prioritize members from the same settlement (Role2) for loyalty or synergy benefits, but other settlements could offer different advantages (e.g., City might yield higher returns per AP).  \n- In many strategy games, larger settlements (City, Large Town) often have more advanced capabilities, so investing in them could maximize overall efficiency.  \n- However, completely neglecting smaller settlements might cause bottlenecks in early-game resources or tasks.  \n\nA balanced but slightly optimized allocation could be:  \n- **Role2 (Farmstead)**: Slightly higher due to same settlement bonus (if any).  \n- **Role6 (City)** and **Role4 (Large Town)**: Higher investment for potentially greater returns.  \n- **Role3 (Town)**: Moderate investment.  \n- **Role1 (Village)** and **Role5 (Hamlet)**: Lower but not zero, to maintain basic function.  \n\nHere’s my allocation plan:  \n\nRole1 (Village): 10  \nRole2 (Farmstead): 25  \nRole3 (Town): 15  \nRole4 (Large Town): 20  \nRole5 (Hamlet): 10  \nRole6 (City): 20  \n\nSum = 100.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "City",
+                "Farmstead",
+                "Village",
+                "Town",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- I am the team leader from **Farmstead**, so I might prioritize my own settlement’s member (Role2) for loyalty or strategic reasons.  \n- However, different settlements may have different in-game advantages — larger settlements like **City** or **Large Town** might yield higher returns per Action Point in certain activities.  \n- Since the game mechanics aren’t specified, I’ll assume a balanced approach favoring my own settlement slightly, but also investing in larger settlements for potential greater overall team benefit.  \n- Role distribution:  \n  - Role1 (City) — likely important for advanced resources/trade.  \n  - Role2 (Farmstead) — my settlement, so personal interest.  \n  - Role3 (Village) — smaller, but may have unique perks.  \n  - Role4 (Town) — moderate importance.  \n  - Role5 (Hamlet) — smallest, likely least impact.  \n  - Role6 (Large Town) — significant, possibly second only to City.  \n\nI’ll allocate more to Role2 (Farmstead), Role6 (Large Town), and Role1 (City), less to smaller ones, but ensure everyone gets at least a minimal share so no role is completely idle.  \n\nFinal allocation idea:  \nRole1: 20  \nRole2: 25  \nRole3: 10  \nRole4: 15  \nRole5: 5  \nRole6: 25  \nSum = 100.  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 5,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Large Town",
+                "Hamlet",
+                "Village",
+                "Town",
+                "City",
+                "Farmstead"
+            ],
+            "response": "First, let’s analyze the situation:  \n\n- **Total Action Points**: 100, must be allocated in integers.  \n- **Settlement types** vary among team members, which may imply different strategic priorities.  \n- As the team leader from **Farmstead**, I might prioritize members from similar or smaller settlements for loyalty or resource synergy, but I should also consider the strategic value of larger settlements for overall team strength.  \n- **Role6** shares my settlement (Farmstead), so they might get extra support for local tasks.  \n- However, in a balanced team, spreading points based on role importance (e.g., larger settlements may handle more impactful actions) could be wise.  \n\nI’ll allocate with the following reasoning:  \n1. **Role6 (Farmstead)** gets the highest share because of settlement alignment and local operations.  \n2. **Role5 (City)** and **Role4 (Town)** get decent shares because larger settlements can turn points into greater overall benefits.  \n3. **Role1 (Large Town)** gets a moderate amount.  \n4. **Role2 (Hamlet)** and **Role3 (Village)** get smaller but meaningful allocations to ensure they can contribute.  \n\nFinal allocation (sum = 100):  \n- Role1: 15  \n- Role2: 10  \n- Role3: 10  \n- Role4: 20  \n- Role5: 25  \n- Role6: 20  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Town",
+                "Village",
+                "City",
+                "Large Town",
+                "Hamlet",
+                "Farmstead"
+            ],
+            "response": "First, let's analyze the situation.  \n\nWe have 100 Action Points to distribute among 6 roles, each from a different settlement. As the team leader from **Farmstead**, I should prioritize members who are from the same settlement (Farmstead) or those whose settlements might have strategic synergy with Farmstead.  \n\nLooking at the settlements:  \n- **Role6** is from Farmstead (same as me) → likely highest priority for loyalty and coordination.  \n- **Role5** is from Hamlet → often closely tied to Farmstead in rural economies, so secondary priority.  \n- **Role1** (Town), **Role2** (Village), **Role3** (City), **Role4** (Large Town) are more urbanized settlements, possibly less directly aligned with Farmstead needs, but still useful for trade, defense, or influence.  \n\nGiven limited points, I’ll allocate more to Farmstead and Hamlet, then distribute the rest to ensure all roles get at least some points for basic functionality.  \n\n**Proposed allocation reasoning:**  \n- Role6 (Farmstead): 30 points (highest share for home base operations).  \n- Role5 (Hamlet): 25 points (strong rural ally).  \n- Role1 (Town): 15 points (moderate urban connection).  \n- Role2 (Village): 10 points (small rural hub).  \n- Role3 (City): 10 points (major urban center, but less immediate).  \n- Role4 (Large Town): 10 points (mid-level urban).  \n\nCheck sum: 30 + 25 + 15 + 10 + 10 + 10 = 100.  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Village",
+                "Town",
+                "City",
+                "Large Town",
+                "Hamlet",
+                "Farmstead"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- We have **100 Action Points** to distribute among 6 roles, each from a different settlement.  \n- My own settlement is **Farmstead**, which matches **Role6**.  \n- In a team leadership context, it’s reasonable to prioritize members from settlements that are either:  \n  1. **My own settlement** (Farmstead → Role6) for loyalty or direct benefit.  \n  2. **Settlements that are strategically important** (e.g., larger settlements might contribute more to overall team success, but smaller ones might need support if they’re underdeveloped).  \n- However, since I’m the leader from Farmstead, I might allocate more to my own settlement’s role to strengthen my base of operations, but still distribute enough to others to ensure team functionality.  \n\nGiven no other specific game mechanics mentioned (like role abilities or current objectives), I’ll assume:  \n- Role6 (Farmstead) gets the highest share.  \n- Larger settlements (City, Large Town, Town) might already have more inherent resources, so they could get moderate amounts.  \n- Smaller settlements (Hamlet, Village) might need some support but not as much as my own.  \n\nI’ll allocate roughly:  \nRole6: 30  \nRole3 (City): 20  \nRole4 (Large Town): 15  \nRole2 (Town): 15  \nRole1 (Village): 10  \nRole5 (Hamlet): 10  \n\nThat sums to 100.  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "City",
+                "Large Town",
+                "Hamlet",
+                "Farmstead",
+                "Village",
+                "Town"
+            ],
+            "response": "First, I’ll analyze the situation:  \n\n- I am the team leader from **Farmstead**, so Role4 is from my own settlement.  \n- In a typical team resource allocation scenario, I might prioritize members from my own settlement for loyalty or coordination benefits, but I should also consider the strategic value of each role’s settlement type.  \n- Larger settlements (City, Large Town, Town) might have more influence or capacity to use Action Points effectively, but since this is a team effort, spreading resources to ensure all roles can contribute could be wise.  \n- However, without specific in-game mechanics on how settlement size affects AP efficiency, a balanced but slightly self-prioritizing approach seems reasonable.  \n\nI’ll allocate as follows:  \n- Role4 (Farmstead, my settlement) gets slightly more to reflect leadership and home-base advantage.  \n- Others get a fair share, with slightly more to larger settlements assuming they can leverage AP for greater team benefit.  \n\nProposed allocation:  \nRole1 (City): 18  \nRole2 (Large Town): 17  \nRole3 (Hamlet): 15  \nRole4 (Farmstead): 20  \nRole5 (Village): 15  \nRole6 (Town): 15  \nSum = 100  \n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 17,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Town",
+                "Farmstead",
+                "Hamlet",
+                "City",
+                "Village",
+                "Large Town"
+            ],
+            "response": "First, let's analyze the situation:  \n\n- I am the team leader from **Farmstead**.  \n- There are 6 roles, each from different settlements.  \n- Role2 is from the same settlement as me (Farmstead), so there might be a natural inclination to prioritize them for loyalty or synergy reasons.  \n- However, the game mechanics aren’t fully specified, so I’ll assume that distributing points should consider both my home settlement’s benefit and overall team balance.  \n- Since Action Points can be used for any in-game activity, I should allocate more to roles that are crucial for early-game development or resource gathering, but without further info, I’ll lean toward favoring my own settlement’s member and spreading the rest to avoid neglecting others.  \n\nI’ll allocate:  \n- **Role2 (Farmstead)** gets the highest share because of settlement alignment.  \n- Others get a moderate distribution, slightly favoring those from smaller settlements if they might need more support, but since all settlements are different, I’ll keep it simple and give others roughly equal but slightly varied amounts.  \n\nLet’s decide:  \nRole1 (Town): 15  \nRole2 (Farmstead): 30  \nRole3 (Hamlet): 15  \nRole4 (City): 10  \nRole5 (Village): 15  \nRole6 (Large Town): 15  \n\nCheck sum: 15+30+15+10+15+15 = 100 ✅  \n\nNow, output as JSON:  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 15,\n    \"Role6\": 15\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "小村落",
+                "村庄",
+                "农庄",
+                "城镇",
+                "城市",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的settlement（定居点）的规模。settlement的规模从“小村落”到“大型市镇”递增，通常规模更大的settlement可能意味着角色更关键、任务更复杂或需要更多资源来维持发展或完成任务。在游戏中，行动点数可能用于建设、探索、战斗等活动，因此分配时应考虑settlement的潜力和当前需求。\n\n简要分析：\n- **Role1 (小村落)**：规模最小，可能基础需求较低，但初期发展可能需要一些支持。\n- **Role2 (村庄)**：比小村落稍大，可能有更多基本活动。\n- **Role3 (农庄)**：专注于农业或资源生产，可能需要点数来提升产量。\n- **Role4 (城镇)**：中等规模，可能有多种功能，如贸易或防御。\n- **Role5 (城市)**：规模较大，可能是经济或政治中心，需要较多点数来维持运作或扩张。\n- **Role6 (大型市镇)**：最大规模，可能具有战略重要性，需要大量点数以发挥最大效益。\n\n分配原则：倾向于给更大settlement的角色更多点数，因为他们的活动可能对整体进展影响更大，但也要确保小settlement有基本支持。我将按settlement规模递增分配点数，总和为100。\n\n决定：\n- Role1 (小村落)：分配5点，用于基础建设或维持。\n- Role2 (村庄)：分配10点，支持基本发展。\n- Role3 (农庄)：分配15点，促进资源生产。\n- Role4 (城镇)：分配20点，用于中等规模活动。\n- Role5 (城市)：分配25点，作为关键点支持。\n- Role6 (大型市镇)：分配25点，最大化其效益。\n\n总和：5 + 10 + 15 + 20 + 25 + 25 = 100。\n\n现在，输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "农庄",
+                "小村落",
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "城市"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以推断他们在游戏中的可能职责和重要性。通常，定居点的规模越大，可能意味着该角色负责更复杂或更关键的任务，因此可能需要更多的行动点数来支持其活动。\n\n- **Role1 (农庄)**：农庄通常与基础资源生产（如食物）相关，可能较为基础但重要。不过，在资源分配中，可能不需要最高优先级。\n- **Role2 (小村落)**：小村落比农庄稍大，可能涉及更多样化的活动，但仍属较小规模。\n- **Role3 (大型市镇)**：大型市镇是较大的定居点，可能承担区域贸易或管理职能，重要性较高。\n- **Role4 (城镇)**：城镇是更发达的定居点，可能涉及高级生产或防御，需要较多资源。\n- **Role5 (村庄)**：村庄规模较小，类似于小村落，但可能更偏重社区或基础服务。\n- **Role6 (城市)**：城市是最大的定居点，通常是经济、政治或军事中心，可能最关键，需要最多资源。\n\n基于此，我将按定居点规模大致分配行动点数，确保总和为100。分配原则是：规模越大，点数越多，以支持更复杂的活动。具体分配如下：\n- Role6 (城市)：最高优先级，分配30点。\n- Role4 (城镇)：次高优先级，分配25点。\n- Role3 (大型市镇)：中等偏高优先级，分配20点。\n- Role1 (农庄)：基础生产，分配10点。\n- Role2 (小村落) 和 Role5 (村庄)：规模较小，各分配7.5点，但需整数，因此调整为Role2分配8点，Role5分配7点，以保持总和为100。\n\n现在，输出我的决定为JSON格式。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 8,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 7,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "城市",
+                "村庄",
+                "农庄",
+                "城镇",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的settlement（定居点）的特点，以合理分配100点行动点数。settlement的规模通常反映了角色的重要性、资源需求或战略价值。从大到小排序可能是：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。一般来说，规模较大的settlement可能承担更多关键任务，如管理、防御或发展，因此可能需要更多行动点数来支持相关活动。\n\n具体分析：\n- **Role1 (城市)**：作为最大的settlement，可能负责核心决策、贸易或军事指挥，需要较高点数。\n- **Role5 (大型市镇)**：次大的settlement，可能涉及区域经济或后勤，需要较多点数。\n- **Role4 (城镇)**：中等规模，可能负责日常运营或防御，需要适中点数。\n- **Role2 (村庄)**：较小settlement，可能专注于基础生产或侦察，需要较少点数。\n- **Role3 (农庄)**：更小settlement，可能专注于农业或资源采集，需要更少点数。\n- **Role6 (小村落)**：最小的settlement，可能只有基本功能，需要最少点数。\n\n分配原则：根据settlement规模分配点数，确保总和为100，且为整数。我假设点数分配与规模成正比，但也要考虑游戏内可能的具体需求（这里无额外信息，故基于常识）。大致分配比例：城市30%，大型市镇25%，城镇20%，村庄12%，农庄8%，小村落5%。\n\n计算点数：\n- Role1: 30% of 100 = 30\n- Role5: 25% of 100 = 25\n- Role4: 20% of 100 = 20\n- Role2: 12% of 100 = 12\n- Role3: 8% of 100 = 8\n- Role6: 5% of 100 = 5\n总和：30+25+20+12+8+5 = 100，符合要求。\n\n输出决定：\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "农庄",
+                "大型市镇",
+                "小村落",
+                "城镇",
+                "村庄",
+                "城市"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模、战略重要性以及可能的游戏内活动需求来分配这100点行动点数。通常，规模更大、更发达的定居点可能承担更重要的任务，需要更多资源；但也要考虑平衡，确保每个角色都有一定的行动能力。\n\n**简要分析：**\n- **Role6（城市）**：作为最大的定居点，通常是经济、军事或政治中心，可能需要最多的行动点数来执行关键任务。\n- **Role2（大型市镇）和Role4（城镇）**：属于中等规模的定居点，可能负责区域支持或次级任务，需要较多但少于城市的点数。\n- **Role1（农庄）、Role3（小村落）、Role5（村庄）**：规模较小，可能侧重于基础生产或局部任务，分配较少点数即可。\n\n考虑到游戏内活动可能包括发展、防御、探索等，我会优先分配给规模较大的定居点，同时确保小定居点也有最低限度的点数以维持基本运作。分配时保持整数，总和为100。\n\n**决定：**\n- Role6（城市）：30点（最高优先级）\n- Role2（大型市镇）：20点\n- Role4（城镇）：20点\n- Role1（农庄）：10点\n- Role3（小村落）：10点\n- Role5（村庄）：10点\n\n这样分配既突出了重点，又保持了整体平衡。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 10,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "大型市镇",
+                "城市",
+                "农庄",
+                "城镇",
+                "小村落",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的重要性或资源需求优先级。通常，定居点的规模越大，可能意味着该角色在游戏中的战略价值更高，或者需要更多行动点数来支持更复杂的任务。  \n\n- **Role1（大型市镇）**：规模较大，可能涉及较多经济活动或防御需求，优先级较高。  \n- **Role2（城市）**：作为队长所在的定居点，城市通常是核心区域，需要重点投入。  \n- **Role3（农庄）**：农业资源点，可能侧重于生产，但行动需求相对较低。  \n- **Role4（城镇）**：中等规模，有一定重要性，但不及城市和大型市镇。  \n- **Role5（小村落）**：规模小，可能只需基础维护。  \n- **Role6（村庄）**：类似小村落，需求较低。  \n\n基于以上分析，我会按定居点规模从大到小分配行动点数，确保核心区域获得更多资源，同时兼顾整体平衡。  \n\n**分配思路**：  \n1. **Role2（城市）**：作为队长所在地，分配最高点数。  \n2. **Role1（大型市镇）**：第二优先级，分配较高点数。  \n3. **Role4（城镇）**：中等优先级。  \n4. **Role3（农庄）**：生产型地点，分配适量点数。  \n5. **Role6（村庄）**和**Role5（小村落）**：分配较少点数，满足基本需求。  \n\n具体分配如下（总和为100）：  \n- Role2（城市）：30点  \n- Role1（大型市镇）：25点  \n- Role4（城镇）：20点  \n- Role3（农庄）：15点  \n- Role6（村庄）：5点  \n- Role5（小村落）：5点  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 5,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "城市",
+                "小村落",
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "农庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的重要性或资源需求优先级。通常，较大的定居点可能承担更多关键任务或需要更多资源来维持运作，而较小的定居点可能需求较低。以下是定居点从大到小大致排序（基于常见游戏设定）：\n- 城市（City）：最大，可能是经济、政治或战略中心，需要较多资源。\n- 大型市镇（Large Town）：次大，重要枢纽。\n- 城镇（Town）：中等规模。\n- 小村落（Small Village）：较小。\n- 村庄（Village）：较小。\n- 农庄（Farmstead）：最小，可能以农业为主，资源需求较低。\n\n作为队长，我需要合理分配100点行动点数，以优化整体效率。假设游戏目标是发展或防御，我会优先分配给较大定居点的角色，因为他们可能负责更重要的任务。但也要考虑平衡，确保小定居点有基本资源。由于没有额外信息，我将基于定居点规模进行加权分配。\n\n我决定按以下比例分配：\n- Role1（城市）：最高优先级，分配25点。\n- Role3（大型市镇）：次高优先级，分配20点。\n- Role4（城镇）：中等优先级，分配18点。\n- Role2（小村落）：较低优先级，分配15点。\n- Role5（村庄）：较低优先级，分配12点。\n- Role6（农庄）：最低优先级，分配10点。\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100点。\n\n现在，输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 12,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "农庄",
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "小村落",
+                "城市"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的重要性和资源需求优先级。  \n\n- **Role1（农庄）**：通常负责基础生产（如粮食），是经济基础，但可能不需要大量行动点数。  \n- **Role2（大型市镇）**：经济与贸易较发达，可能需要较多点数来维持或发展。  \n- **Role3（城镇）**：有一定规模，可能涉及防御、生产等多方面，需要中等资源。  \n- **Role4（村庄）**：规模较小，基础需求，可分配较少点数。  \n- **Role5（小村落）**：最小定居点，可能只需维持基本运作。  \n- **Role6（城市）**：作为核心据点，很可能需要最多点数来支持管理、防御和发展。  \n\n分配思路：  \n1. **城市（Role6）** 作为最重要的中心，分配最高点数。  \n2. **大型市镇（Role2）** 和 **城镇（Role3）** 次之。  \n3. **农庄（Role1）** 需要一定点数维持生产。  \n4. **村庄（Role4）** 和 **小村落（Role5）** 分配最少点数。  \n\n具体分配（确保总和为100）：  \n- Role6（城市）：30  \n- Role2（大型市镇）：20  \n- Role3（城镇）：18  \n- Role1（农庄）：15  \n- Role4（村庄）：10  \n- Role5（小村落）：7  \n\n检查总和：30+20+18+15+10+7 = 100。  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 7,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "小村落",
+                "城镇",
+                "城市",
+                "大型市镇",
+                "农庄",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求或战略重要性。通常，较大的定居点（如城市、大型市镇）可能承担更重要的经济、军事或管理职能，而较小的定居点（如小村落、农庄）可能资源需求较低或更专注于基础生产。但在这个游戏中，行动点数可能用于探索、建设、防御等任务，因此分配应基于战略平衡和团队整体效率。\n\n**简要分析：**\n- **Role3（城市）**：作为核心定居点，可能负责指挥、贸易或高级任务，需要较多点数以维持运作和发展。\n- **Role4（大型市镇）**：次重要，可能支持区域经济或防御，需要相当点数。\n- **Role2（城镇）**：中等重要性，连接其他定居点，需要一定点数。\n- **Role6（村庄）** 和 **Role1（小村落）**：较小定居点，可能专注于基础资源生产或侦察，点数需求较低。\n- **Role5（农庄）**：可能专注于农业或后勤，点数需求适中但低于城镇。\n\n为了平衡发展并确保关键定居点高效运作，我将分配更多点数给较大定居点，同时保证所有定居点都有基本点数以维持运作。分配原则：按定居点规模递减分配，但避免为零以确保最低参与度。\n\n**决定：**\n- Role3（城市）：最高分配，支持核心功能。\n- Role4（大型市镇）：次高分配。\n- Role2（城镇）：中等分配。\n- Role5（农庄）：较低但高于最小定居点。\n- Role6（村庄）和Role1（小村落）：最低分配，但保证基本点数。\n\n具体分配如下（总和为100）：\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "小村落",
+                "大型市镇",
+                "农庄",
+                "城市",
+                "城镇",
+                "村庄"
+            ],
+            "response": "首先，我需要分析这些角色及其所在的定居点（settlement）类型，以合理分配100点行动点数。  \n\n**分析思路**：  \n1. **Role4（城市）**：与队长所在定居点相同（队长也在城市），可能意味着更紧密的合作、更重要的任务或更高的优先级，因此分配较多点数。  \n2. **Role2（大型市镇）** 和 **Role5（城镇）**：规模较大，可能有更多任务需求或战略价值，分配中等偏上的点数。  \n3. **Role1（小村落）**、**Role3（农庄）**、**Role6（村庄）**：规模较小，可能任务相对简单或资源需求较低，分配较少点数。  \n4. 分配应保持总和为100，且为整数。  \n\n**分配方案**：  \n- Role4（城市）：优先级最高 → 分配 30 点  \n- Role2（大型市镇）：次高优先级 → 分配 25 点  \n- Role5（城镇）：中等优先级 → 分配 20 点  \n- Role3（农庄）：较低优先级 → 分配 10 点  \n- Role1（小村落）：较低优先级 → 分配 8 点  \n- Role6（村庄）：较低优先级 → 分配 7 点  \n\n总和：30 + 25 + 20 + 10 + 8 + 7 = 100  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 30,\n    \"Role5\": 20,\n    \"Role6\": 7\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "农庄",
+                "村庄",
+                "大型市镇",
+                "城市",
+                "小村落",
+                "城镇"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，这通常反映了其规模、战略重要性或资源需求。一般来说，规模更大或更重要的定居点可能需要更多行动点数来维持发展、防御或执行任务。但作为队长，我也需要考虑平衡和每个角色的潜在贡献。\n\n- **Role1 (农庄)**：农业基础，可能负责资源生产，但通常不是战略核心。\n- **Role2 (村庄)**：小型聚居点，有一定人口和基础功能。\n- **Role3 (大型市镇)**：较大规模，经济或交通枢纽，重要性较高。\n- **Role4 (城市)**：最大定居点，通常是行政、经济或军事中心，作为队长所在，可能需重点投入。\n- **Role5 (小村落)**：最小定居点，资源需求可能较低。\n- **Role6 (城镇)**：中等规模，有一定重要性。\n\n分配原则：优先分配给重要性较高的定居点，以最大化整体效益，但也要确保基础功能得到支持。假设游戏内行动点数用于建设、探索或战斗等，城市和大型市镇可能更需要资源来推动进展。\n\n我决定：\n- **Role4 (城市)**：作为核心，分配最多点数。\n- **Role3 (大型市镇)**：次重要，分配较多点数。\n- **Role6 (城镇)**：中等重要性，分配适中点数。\n- **Role2 (村庄)** 和 **Role1 (农庄)**：基础生产，分配较少点数以维持运作。\n- **Role5 (小村落)**：最小，分配最少点数。\n\n具体分配如下（确保总和为100）：\n- Role4: 30点\n- Role3: 25点\n- Role6: 20点\n- Role2: 10点\n- Role1: 10点\n- Role5: 5点\n\n这平衡了重点投入和基础覆盖。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 30,\n    \"Role5\": 5,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "大型市镇",
+                "城镇",
+                "小村落",
+                "村庄",
+                "城市",
+                "农庄"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来分配行动点数。通常，规模更大的定居点可能意味着更高的战略重要性、更多任务需求或更强的角色能力，因此应该分配更多资源。但游戏内具体机制未知，所以我将基于以下假设进行分配：\n- **大型市镇**和**城市**：规模最大，可能承担关键任务或拥有更高影响力，分配较多点数。\n- **城镇**：中等规模，分配中等点数。\n- **小村落**、**村庄**、**农庄**：规模较小，可能任务较轻，分配较少点数。\n\n为了合理分配100点整数资源，我将按定居点规模设定权重：\n1. **大型市镇 (Role1)** 和 **城市 (Role5)**：高优先级，各分配25点。\n2. **城镇 (Role2)**：中优先级，分配20点。\n3. **小村落 (Role3)**、**村庄 (Role4)**、**农庄 (Role6)**：低优先级，各分配10点。\n\n检查总和：25 + 25 + 20 + 10 + 10 + 10 = 100，符合要求。\n\n现在，输出分配决定的JSON：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "农庄",
+                "小村落",
+                "村庄",
+                "城市",
+                "城镇",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析每个角色所在的settlement（定居点）规模，这通常反映了其重要性和资源需求。settlement规模从小到大依次为：农庄、小村落、村庄、城镇、大型市镇、城市（这里按常见游戏设定，城市通常比大型市镇更大）。根据描述，settlement列表如下：\n\n- Role1: 农庄（最小）\n- Role2: 小村落\n- Role3: 村庄\n- Role4: 城市（最大）\n- Role5: 城镇\n- Role6: 大型市镇（与队长相同）\n\n作为队长（来自大型市镇），我应该优先考虑整体发展和战略平衡。分配原则可能包括：\n1. **settlement规模**：规模越大，可能承担更多任务或需要更多资源来维持发展。\n2. **战略重要性**：城市和大型市镇通常是经济或军事中心，需要更多投入。\n3. **均衡性**：避免过度集中，确保小定居点也有基本资源。\n4. **游戏内活动需求**：假设所有活动都需要行动点，但未指定具体活动，因此基于settlement推断。\n\n按规模排序（从小到大）：\n- 农庄（Role1）：基础生产，分配较少点数。\n- 小村落（Role2）：稍大，但仍较小。\n- 村庄（Role3）：中等规模。\n- 城镇（Role5）：较大规模。\n- 大型市镇（Role6）：与队长同级别，重要。\n- 城市（Role4）：最大规模，可能最关键。\n\n分配点数思路：\n- 城市（Role4）和大型市镇（Role6）应获得最高点数。\n- 城镇（Role5）次之。\n- 村庄（Role3）中等。\n- 小村落（Role2）和农庄（Role1）较低。\n\n具体分配（整数，总和100）：\n- Role4（城市）：25点\n- Role6（大型市镇）：20点（队长所在级别，但城市略高）\n- Role5（城镇）：18点\n- Role3（村庄）：15点\n- Role2（小村落）：12点\n- Role1（农庄）：10点\n\n总和：25+20+18+15+12+10 = 100。\n\n这体现了对较大settlement的侧重，同时确保小定居点有基本资源。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 18,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "城镇",
+                "大型市镇",
+                "农庄",
+                "城市",
+                "小村落",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的重要性和资源需求优先级。定居点规模通常反映了其战略价值、发展潜力或防御需求。从大到小排序大致为：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。在资源分配中，我倾向于优先支持规模较大或更具战略意义的定居点，因为它们可能产生更高回报或面临更大挑战。\n\n- **Role4 (城市)**：城市规模最大，可能是经济或军事中心，需要较多资源来维持发展或应对复杂任务。\n- **Role2 (大型市镇)**：作为队长所在的同类定居点，可能具有直接关联性，需要适当支持以巩固基地。\n- **Role1 (城镇)**：中等规模，有一定重要性，但低于前两者。\n- **Role6 (村庄)** 和 **Role5 (小村落)**：较小定居点，资源需求可能较低，但不应完全忽略。\n- **Role3 (农庄)**：规模最小，可能以农业为主，战略优先级相对最低。\n\n基于此，我将分配100行动点数，确保总和为100，且为整数。分配原则是：城市和大型市镇获得较高点数，城镇中等，村庄和小村落较低，农庄最低。具体分配如下：\n- Role4 (城市)：30点\n- Role2 (大型市镇)：25点\n- Role1 (城镇)：20点\n- Role6 (村庄)：10点\n- Role5 (小村落)：10点\n- Role3 (农庄)：5点\n\n总和：30+25+20+10+10+5 = 100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 5,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "小村落",
+                "城市",
+                "大型市镇",
+                "村庄",
+                "城镇",
+                "农庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的重要性和资源需求优先级。通常，较大的定居点可能承担更多关键任务或拥有更高的发展潜力，但也要考虑游戏内可能的平衡策略。\n\n**简要分析：**\n- **Role3 (大型市镇)**：作为队长所在的定居点，可能是核心区域，需要较多资源来维持发展或执行关键任务。\n- **Role2 (城市)**：城市规模较大，可能具有战略重要性，需要一定资源支持。\n- **Role5 (城镇)**：中等规模，可能需要适度资源以保持稳定。\n- **Role1 (小村落)、Role4 (村庄)、Role6 (农庄)**：这些是较小或偏远的定居点，可能资源需求较低，但也不应完全忽视，以确保基础运作。\n\n考虑到总行动点数为100，我将优先分配给较大或更关键的定居点，同时确保所有角色都有一定分配，以避免完全闲置。分配原则如下：\n- Role3（大型市镇）作为核心，分配最多点数。\n- Role2（城市）次之。\n- Role5（城镇）中等。\n- 其余三个较小定居点分配较少点数，但保持基本参与。\n\n**分配方案：**\n- Role3: 30点（核心定居点，重点投入）\n- Role2: 25点（城市，重要支持）\n- Role5: 20点（城镇，适度发展）\n- Role1: 10点（小村落，基础任务）\n- Role4: 10点（村庄，基础任务）\n- Role6: 5点（农庄，最小分配，确保覆盖）\n\n总和：30+25+20+10+10+5 = 100点。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "城镇",
+                "小村落",
+                "大型市镇",
+                "农庄",
+                "村庄",
+                "城市"
+            ],
+            "response": "首先，我需要分析每个角色所在的settlement类型，以合理分配100点行动点数。settlement的规模通常反映了其战略重要性、资源产出或防御需求。一般来说，规模较大的settlement可能需要更多行动点数来维持发展、防御或执行任务，而较小的settlement可能需求较低。\n\nsettlement规模从大到小大致排序：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。但作为队长（来自大型市镇），我可能需要优先考虑整体团队的平衡和任务需求。\n\n- **Role6 (城市)**：城市规模最大，可能具有高战略价值或复杂任务，需要较多点数。\n- **Role3 (大型市镇)**：与队长同类型，可能作为基地或关键点，需要相当点数。\n- **Role1 (城镇)**：中等规模，需要一定点数支持。\n- **Role5 (村庄)**：较小规模，需求较低。\n- **Role2 (小村落)**：更小，需求更少。\n- **Role4 (农庄)**：最小，可能只需基本点数。\n\n分配原则：根据settlement规模分配点数，但确保总和为100。我将按规模比例分配，大致如下：城市（30点）、大型市镇（25点）、城镇（20点）、村庄（15点）、小村落（5点）、农庄（5点）。这符合整数要求且总和100。\n\n最终决定：\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 5,\n    \"Role3\": 25,\n    \"Role4\": 5,\n    \"Role5\": 15,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "城市",
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "小村落",
+                "农庄"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的settlement（定居点）的规模。settlement的规模通常反映了角色的重要性、资源需求或战略价值。从大到小依次是：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。在游戏中，较大的settlement可能意味着更高的生产力、更多任务或更强的防御需求，因此可能需要分配更多行动点数来支持其发展或任务执行。\n\n考虑到总行动点数为100，且必须分配整数点数，我会根据settlement的规模按比例分配，确保较大的settlement获得更多点数，但也要兼顾较小settlement的基本需求，避免完全忽略它们。\n\n我的分配思路如下：\n- **Role1（城市）**：作为最大的settlement，应获得最高点数，假设占总数的30%左右。\n- **Role2（大型市镇）**：次重要，分配约25%。\n- **Role3（城镇）**：中等规模，分配约20%。\n- **Role4（村庄）**：较小，分配约15%。\n- **Role5（小村落）**：更小，分配约7%。\n- **Role6（农庄）**：最小，分配约3%。\n\n计算具体点数：\n- Role1: 30% of 100 = 30\n- Role2: 25% of 100 = 25\n- Role3: 20% of 100 = 20\n- Role4: 15% of 100 = 15\n- Role5: 7% of 100 = 7\n- Role6: 3% of 100 = 3\n\n总和：30 + 25 + 20 + 15 + 7 + 3 = 100，符合要求。\n\n这种分配方式优先考虑了较大settlement的战略重要性，同时确保了较小settlement也能获得一定资源以维持基本运作。\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 7,\n    \"Role6\": 3\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "城市",
+                "小村落",
+                "村庄",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求或优先级。通常，较大的定居点可能承担更重要的任务或需要更多资源来维持运作，而较小的定居点可能需求较少。以下是各角色及其定居点，按规模从大到小排序（基于常见游戏设定）：\n\n1. **Role6 (大型市镇)**：作为最大规模的定居点，可能承担核心经济、防御或管理职能，需要较多资源。\n2. **Role3 (城市)**：规模次之，通常也是重要枢纽，需要相当资源。\n3. **Role2 (城镇)**：中等规模，有一定需求。\n4. **Role5 (村庄)**：较小规模，需求较低。\n5. **Role1 (农庄)**：农业为主，可能需求有限。\n6. **Role4 (小村落)**：最小规模，需求最少。\n\n考虑到总行动点数为100，我将根据定居点规模分配点数，确保总和为100。大致分配原则：规模越大，点数越多。具体分配如下：\n\n- **Role6 (大型市镇)**：作为核心，分配最高点数，例如30点。\n- **Role3 (城市)**：重要但次于大型市镇，分配25点。\n- **Role2 (城镇)**：中等，分配20点。\n- **Role5 (村庄)**：较小，分配12点。\n- **Role1 (农庄)**：农业基础，分配8点。\n- **Role4 (小村落)**：最小，分配5点。\n\n总和：30 + 25 + 20 + 12 + 8 + 5 = 100，符合要求。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 5,\n    \"Role5\": 12,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "村庄",
+                "农庄",
+                "城市"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来分配行动点数。定居点规模越大，通常意味着该角色可能承担更重要的任务或需要更多资源来维持和发展。因此，我会优先将更多点数分配给来自较大定居点的角色，同时确保所有点数之和为100。\n\n**简要分析：**\n- **Role6 (城市)**：规模最大，可能涉及关键战略或高收益活动，应分配最多点数。\n- **Role3 (大型市镇)**：规模次之，作为队长所在的定居点，也应分配较多点数以支持本地发展。\n- **Role2 (城镇)**：中等规模，需要一定资源维持运营。\n- **Role4 (村庄)** 和 **Role5 (农庄)**：规模较小，资源需求相对较低，但不可忽视。\n- **Role1 (小村落)**：规模最小，可能只需基础支持。\n\n基于此，我将按定居点规模从大到小分配点数，确保总和为100，且每个角色至少获得一些点数以参与活动。\n\n**分配方案：**\n- Role6 (城市)：30点\n- Role3 (大型市镇)：25点\n- Role2 (城镇)：20点\n- Role4 (村庄)：10点\n- Role5 (农庄)：10点\n- Role1 (小村落)：5点\n\n总和：30 + 25 + 20 + 10 + 10 + 5 = 100。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "小村落",
+                "农庄",
+                "大型市镇",
+                "村庄",
+                "城市",
+                "城镇"
+            ],
+            "response": "首先，我需要分析每个角色所在的settlement（定居点）类型及其可能的重要性。settlement的规模通常反映了其战略价值、资源产出或防御需求。从最小到最大排列：小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市。一般来说，规模更大的settlement可能更需要行动点数来维持发展、防御或执行关键任务，但也要考虑平衡分配以支持整体团队。\n\n- **Role1 (小村落)**：规模最小，可能需求较低，但也不能完全忽略，可分配较少点数。\n- **Role2 (农庄)**：中等偏小，可能专注于农业或资源生产，需要一定支持。\n- **Role3 (大型市镇)**：规模较大，作为队长所在的settlement，可能具有核心战略地位，需要较多点数。\n- **Role4 (村庄)**：较小，但比小村落大一些，需要适度点数。\n- **Role5 (城市)**：规模最大，通常是经济或政治中心，需要高点数以发挥最大作用。\n- **Role6 (城镇)**：中等偏大，重要性较高，需要较多点数。\n\n分配原则：优先支持大型settlement以确保整体团队实力，同时给予较小settlement基础点数以维持运作。假设行动点数用于游戏内活动如建设、探索或战斗，我会按settlement规模比例分配，但确保总和为100。\n\n我决定分配如下：\n- Role1 (小村落)：5点（基础支持）\n- Role2 (农庄)：10点（中等支持）\n- Role3 (大型市镇)：25点（作为队长所在，重点支持）\n- Role4 (村庄)：10点（中等支持）\n- Role5 (城市)：30点（最大settlement，关键作用）\n- Role6 (城镇)：20点（重要支持）\n\n总和：5+10+25+10+30+20=100。\n\n现在，将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 30,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "小村落",
+                "城市",
+                "村庄",
+                "城镇",
+                "大型市镇",
+                "农庄"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来分配行动点数。定居点规模越大，通常意味着该角色可能承担更重要的任务或需要更多资源来维持和发展。因此，我会优先将更多点数分配给规模较大的定居点。\n\n定居点规模从大到小大致排序为：大型市镇 > 城市 > 城镇 > 村庄 > 小村落 > 农庄。但注意，Role5 的定居点是“大型市镇”，与我作为队长的定居点相同，可能意味着更直接的关联或重要性。\n\n分配原则：\n1. **Role5（大型市镇）**：作为同一大型市镇的成员，可能负责核心任务，分配最高点数。\n2. **Role2（城市）**：城市规模较大，需要较多资源支持。\n3. **Role4（城镇）**：城镇规模中等，分配中等点数。\n4. **Role3（村庄）**：村庄规模较小，分配较少点数。\n5. **Role1（小村落）**和**Role6（农庄）**：规模最小，分配最少点数，但确保每个角色至少获得1点以保证参与。\n\n具体分配：\n- Role5：30点（最高优先级）\n- Role2：25点（次高优先级）\n- Role4：20点（中等优先级）\n- Role3：15点（较低优先级）\n- Role1：5点（最小规模）\n- Role6：5点（最小规模）\n\n总和：30 + 25 + 20 + 15 + 5 + 5 = 100点。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 30,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "农庄",
+                "大型市镇",
+                "城镇",
+                "小村落",
+                "村庄",
+                "城市"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，这通常反映了他们在游戏中的战略重要性或资源需求。  \n\n- **Role1（农庄）**：可能涉及基础资源生产，如食物，是生存的基础，但可能不需要大量行动点数。  \n- **Role2（大型市镇）**：经济或贸易中心，可能需要较多点数来维持发展或交易。  \n- **Role3（城镇）**：与队长所在同一类型，可能是核心据点，需要重点投入。  \n- **Role4（小村落）**：规模小，需求可能较低。  \n- **Role5（村庄）**：比小村落大一些，但仍属基础生产型。  \n- **Role6（城市）**：规模最大，可能是战略、军事或科技中心，需要高投入。  \n\n分配思路：  \n1. 优先保证**城市**和**大型市镇**的发展，因为它们对整体实力影响大。  \n2. **城镇**作为队长所在地，也需要相当投入。  \n3. 农庄、小村落、村庄虽然重要，但可分配较少点数，维持基本运作即可。  \n\n假设按重要性排序：城市 > 大型市镇 ≈ 城镇 > 村庄 > 农庄 > 小村落。  \n分配比例大致为：  \n- Role6（城市）：30  \n- Role2（大型市镇）：25  \n- Role3（城镇）：20  \n- Role5（村庄）：12  \n- Role1（农庄）：8  \n- Role4（小村落）：5  \n\n总和 = 30+25+20+12+8+5 = 100。  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 5,\n    \"Role5\": 12,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "村庄",
+                "城市",
+                "城镇",
+                "大型市镇",
+                "小村落",
+                "农庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的settlement（定居点）类型，这通常反映了其规模、重要性和潜在的战略价值。一般来说，规模更大、更发达的settlement可能需要更多资源来维持和发展，也可能带来更高的回报。  \n\n- **Role1 (村庄)**：中等偏小的定居点，有一定基础，可能需要适量资源来维持运作。  \n- **Role2 (城市)**：规模最大，可能是经济或战略中心，值得投入较多资源。  \n- **Role3 (城镇)**：与队长所在settlement相同，可能是基地或核心区域，需要重点支持。  \n- **Role4 (大型市镇)**：规模较大，次于城市，但也很重要，应分配较多资源。  \n- **Role5 (小村落)**：规模很小，可能只需最低限度的资源维持。  \n- **Role6 (农庄)**：可能是资源产出点，但规模小，可分配较少资源。  \n\n分配思路：  \n1. 优先保障**城市**和**城镇**（Role2和Role3），因为它们是关键节点。  \n2. **大型市镇**（Role4）也值得较多投入。  \n3. **村庄**（Role1）给予中等支持。  \n4. **小村落**和**农庄**（Role5、Role6）分配最少资源，仅维持基本运作。  \n\n具体分配（总和100）：  \n- Role2（城市）：30  \n- Role3（城镇）：25  \n- Role4（大型市镇）：20  \n- Role1（村庄）：15  \n- Role5（小村落）：5  \n- Role6（农庄）：5  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 5,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "小村落",
+                "城市",
+                "城镇",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的定居点（settlement）的特点，以合理分配100点行动点数。定居点的规模可能暗示了角色的重要性或需求程度，通常较大的定居点可能有更复杂的任务或更高的资源需求，而较小的定居点可能更需要基础支持。以下是简要分析：\n\n- **Role1 (村庄)**：村庄通常是小型、基础的定居点，可能侧重于农业或简单任务，需求相对较低。\n- **Role2 (农庄)**：农庄类似村庄，可能更专注于农业生产，需要一定资源但不算高。\n- **Role3 (小村落)**：小村落比村庄更小，可能人口稀少，需求最低。\n- **Role4 (城市)**：城市是大型、复杂的定居点，可能有多种活动（如贸易、防御），需要较多资源。\n- **Role5 (城镇)**：城镇是中等规模，作为队长自己的定居点，可能需要平衡发展，资源需求中等偏高。\n- **Role6 (大型市镇)**：大型市镇规模接近城市，可能有重要经济活动或战略价值，需要高资源投入。\n\n基于此，我倾向于给较大定居点分配更多点数，以确保整体效率。分配原则是：城市和大型市镇获得最高份额，城镇次之，村庄和农庄较低，小村落最少。我将确保总和为100，且为整数。\n\n决定分配如下：\n- Role1 (村庄)：10点\n- Role2 (农庄)：10点\n- Role3 (小村落)：5点\n- Role4 (城市)：25点\n- Role5 (城镇)：20点\n- Role6 (大型市镇)：30点\n\n总和：10+10+5+25+20+30 = 100点。\n\n现在，我将输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 10,\n    \"Role3\": 5,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "农庄",
+                "小村落",
+                "村庄",
+                "城市",
+                "城镇",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所在的定居点（settlement）规模。通常，定居点的规模越大，可能意味着该角色负责的区域更复杂、任务更重，或者需要更多资源来维持发展或应对挑战。从农庄到大型市镇，规模逐渐增大，因此分配的行动点数也应相应增加，以反映其重要性和需求。\n\n具体分析如下：\n- **Role1（农庄）**：规模最小，可能任务较简单，所需资源较少。\n- **Role2（小村落）**：规模稍大，但依然相对基础。\n- **Role3（村庄）**：中等规模，可能有更多日常任务或发展需求。\n- **Role4（城市）**：规模较大，需要较多资源来管理和发展。\n- **Role5（城镇）**：规模与队长所在定居点相同，可能具有战略重要性。\n- **Role6（大型市镇）**：规模最大，可能承担关键任务或面临更多挑战。\n\n基于此，我将按定居点规模递增分配行动点数，确保总和为100。分配原则是：规模越大，点数越多，但保持合理梯度。我决定分配如下：\n- Role1: 5点\n- Role2: 10点\n- Role3: 15点\n- Role4: 20点\n- Role5: 25点\n- Role6: 25点\n\n总和：5 + 10 + 15 + 20 + 25 + 25 = 100。\n\n这样分配既体现了规模差异，又确保了关键角色（如城镇和大型市镇）获得较多资源。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "村庄",
+                "小村落",
+                "大型市镇",
+                "城镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的settlement（定居点），以合理分配100点行动点数。settlement的类型可能暗示了角色的职责、重要性或资源需求。通常，较大的定居点（如城市、大型市镇）可能承担更多关键任务，需要更多资源支持；而较小的定居点（如农庄、村庄、小村落）可能需求较少，但也不能忽视其基础作用。作为队长，我的目标是平衡分配，确保整体效率，同时考虑settlement的规模和发展潜力。\n\n- **Role1 (城市)**：城市通常是经济、政治或战略中心，可能涉及重要任务，如贸易、防御或研究，需要较多点数。\n- **Role2 (农庄)**：农庄可能专注于农业生产或资源采集，基础但关键，点数适中。\n- **Role3 (村庄)**：村庄规模较小，可能负责日常维护或辅助任务，点数较少。\n- **Role4 (小村落)**：小村落人口稀少，任务可能有限，点数最少。\n- **Role5 (大型市镇)**：大型市镇是次级中心，可能承担区域协调或生产任务，点数较多。\n- **Role6 (城镇)**：城镇是中等规模定居点，可能有多样化活动，点数中等。\n\n基于此，我决定按settlement规模大致分配点数：城市和大型市镇优先级较高，城镇和农庄次之，村庄和小村落较低。具体分配如下：\n- Role1 (城市)：25点\n- Role2 (农庄)：15点\n- Role3 (村庄)：10点\n- Role4 (小村落)：5点\n- Role5 (大型市镇)：25点\n- Role6 (城镇)：20点\n\n总和：25+15+10+5+25+20 = 100点。这确保了重点settlement获得足够资源，同时覆盖所有角色。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 5,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城镇",
+                "大型市镇",
+                "城市",
+                "农庄",
+                "村庄",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以推测他们在游戏中的可能职责和资源需求。  \n\n- **Role1（城镇）**：作为队长所在的定居点，可能负责统筹或核心任务，需要一定资源支持。  \n- **Role2（大型市镇）**：规模较大，可能有较多任务或发展需求，需要较多资源。  \n- **Role3（城市）**：规模最大，可能承担关键战略或高消耗任务，需要较多资源。  \n- **Role4（农庄）**：可能以资源生产为主，需要适量资源维持运作。  \n- **Role5（村庄）**：规模较小，可能基础任务较多，需要一定资源。  \n- **Role6（小村落）**：规模最小，可能任务较少，资源需求较低。  \n\n分配原则：  \n1. 根据定居点规模和对整体发展的贡献分配资源。  \n2. 城市和大型市镇可能更需要行动点数来完成重要任务。  \n3. 小规模定居点给予基础支持即可。  \n\n假设游戏设定中，城市和大型市镇的任务收益更高，我会给它们分配更多点数，而小村落只需维持基本运作。  \n\n具体分配如下：  \n- Role3（城市）：30点  \n- Role2（大型市镇）：25点  \n- Role1（城镇）：20点（作为队长所在，需要一定资源）  \n- Role4（农庄）：12点（生产重要，但不需要过多行动点）  \n- Role5（村庄）：8点  \n- Role6（小村落）：5点  \n\n总和：30+25+20+12+8+5 = 100。  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城镇",
+                "农庄",
+                "城市",
+                "小村落",
+                "大型市镇",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以合理分配行动点数。不同的定居点可能意味着不同的战略重要性或资源需求：\n\n- **Role1 (城镇)**：作为队长所在的定居点，城镇通常有较好的基础设施和防御，可能需要一定的点数来维持运作或发展。\n- **Role2 (农庄)**：农庄可能负责粮食生产或资源采集，对经济有基础贡献。\n- **Role3 (城市)**：城市通常是大型中心，具有高战略价值，可能需要较多点数来支持发展或防御。\n- **Role4 (小村落)**：小村落可能人口较少、资源有限，但可能是偏远地区的据点。\n- **Role5 (大型市镇)**：大型市镇介于城镇和城市之间，有相当的重要性。\n- **Role6 (村庄)**：村庄类似小村落，但可能稍大一些，提供基础支持。\n\n分配原则：优先考虑战略重要性、发展潜力和当前需求。假设游戏目标是均衡发展并确保关键据点安全，我会给城市和大型市镇较高点数，城镇次之，农庄、村庄和小村落较低但保证基本运作。\n\n具体分配：\n- Role3 (城市)：最高分配，30点。\n- Role5 (大型市镇)：次高，25点。\n- Role1 (城镇)：作为队长基地，20点。\n- Role2 (农庄)：基础生产，10点。\n- Role6 (村庄)：基础支持，8点。\n- Role4 (小村落)：最小据点，7点。\n\n总和：30+25+20+10+8+7 = 100点。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 7,\n    \"Role5\": 25,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "大型市镇",
+                "城镇",
+                "农庄",
+                "小村落",
+                "村庄",
+                "城市"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来分配行动点数。通常，规模更大的定居点可能意味着更高的战略重要性、更多任务需求或更强的角色能力，因此可能需要分配更多行动点数。以下是定居点从大到小的排序（基于常见游戏设定）：\n1. 城市（City）——最大规模\n2. 大型市镇（Large Town）\n3. 城镇（Town）\n4. 村庄（Village）\n5. 小村落（Small Village）\n6. 农庄（Farmstead）——最小规模\n\n基于这个顺序，我应该给规模更大的定居点分配更多点数，以反映其重要性或需求。但也要考虑游戏平衡，避免差距过大。我将采用一个递减的分配方式，确保总和为100点。\n\n分配思路：\n- Role6（城市）最重要，分配最多点数。\n- Role1（大型市镇）次之。\n- 依次递减，但最小规模的点数也不能太低，以确保基本活动能力。\n\n我决定使用以下分配：\n- Role6（城市）：25点\n- Role1（大型市镇）：20点\n- Role2（城镇）：18点\n- Role5（村庄）：15点\n- Role4（小村落）：12点\n- Role3（农庄）：10点\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100点。\n\n这个分配反映了定居点规模的重要性，同时保持了合理的梯度。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 12,\n    \"Role5\": 15,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "小村落",
+                "村庄",
+                "城镇",
+                "农庄",
+                "大型市镇",
+                "城市"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来分配行动点数。通常，规模较大的定居点可能意味着更高的战略价值或更复杂的任务需求，因此可能需要更多的资源支持。以下是各定居点的规模排序（从小到大）：\n\n1. 小村落 (Role1)\n2. 农庄 (Role4)\n3. 村庄 (Role2)\n4. 城镇 (Role3)\n5. 大型市镇 (Role5)\n6. 城市 (Role6)\n\n考虑到游戏内资源分配的合理性，我会倾向于给规模较大的定居点分配更多行动点数，因为它们可能面临更复杂的挑战或需要更多资源来维持发展。但也要确保小规模定居点获得基本支持，避免完全忽视。\n\n我将采用一个基于规模权重的分配方式：假设每个定居点有一个基础点数，然后根据规模递增分配额外点数。总点数必须为100。\n\n我决定如下分配：\n- Role1 (小村落)：5点（基础支持）\n- Role4 (农庄)：10点（稍高于小村落）\n- Role2 (村庄)：15点（中等规模）\n- Role3 (城镇)：20点（作为队长所在，可能需要更多资源）\n- Role5 (大型市镇)：25点（重要据点）\n- Role6 (城市)：25点（最大规模，关键区域）\n\n检查总和：5 + 10 + 15 + 20 + 25 + 25 = 100，符合要求。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "农庄",
+                "村庄",
+                "大型市镇",
+                "城镇",
+                "小村落",
+                "城市"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模和发展需求来分配行动点数。通常，规模较大的定居点可能需要更多资源来维持和发展，但也要考虑战略平衡。  \n\n- **Role1（农庄）**：小型农业定居点，基础生产重要，但需求相对较低。  \n- **Role2（村庄）**：比农庄稍大，有一定发展需求。  \n- **Role3（大型市镇）**：规模较大，可能需要较多资源来支持贸易和建设。  \n- **Role4（城镇）**：作为队长所在的定居点，可能需要优先投入以巩固中心地位。  \n- **Role5（小村落）**：规模最小，需求可能最少。  \n- **Role6（城市）**：规模最大，发展需求最高，可能需要最多资源。  \n\n考虑到游戏内活动需要平衡发展，我会给规模较大的定居点分配更多点数，但也要确保小定居点有一定基础支持。分配原则如下：  \n1. 城市（Role6）和大型市镇（Role3）获得较高点数。  \n2. 城镇（Role4）作为队长所在地，也获得较高点数。  \n3. 村庄（Role2）和农庄（Role1）获得中等点数。  \n4. 小村落（Role5）获得最少点数。  \n\n具体分配如下：  \n- Role1（农庄）：10  \n- Role2（村庄）：12  \n- Role3（大型市镇）：20  \n- Role4（城镇）：22  \n- Role5（小村落）：6  \n- Role6（城市）：30  \n\n总和：10 + 12 + 20 + 22 + 6 + 30 = 100  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 22,\n    \"Role5\": 6,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城镇",
+                "村庄",
+                "城市",
+                "农庄",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点类型及其可能的需求。不同的定居点规模通常意味着不同的任务优先级和资源需求：\n\n- **Role1 (城镇)**：城镇通常有中等规模的人口和基础设施，可能需要一定的行动点数来维持秩序或发展。\n- **Role2 (村庄)**：作为队长所在的定居点，村庄可能更需要资源来巩固基础或应对直接挑战。\n- **Role3 (城市)**：城市规模最大，可能涉及更复杂的任务（如贸易、防御），需要较多资源。\n- **Role4 (农庄)**：农庄可能专注于农业生产，资源需求相对较低，但基础支持很重要。\n- **Role5 (大型市镇)**：大型市镇介于城镇和城市之间，可能有较高的发展需求。\n- **Role6 (小村落)**：小村落规模最小，资源需求可能最少，但也不能完全忽视。\n\n考虑到总行动点数为100，且必须分配整数，我会优先考虑规模较大或关键的定居点，同时确保所有角色都分配到一些点数以维持基本运作。分配原则如下：\n- 城市（Role3）和大型市镇（Role5）获得较高点数，以支持其复杂活动。\n- 村庄（Role2）作为队长所在地，获得中等点数以巩固基础。\n- 城镇（Role1）和农庄（Role4）获得中等偏低的点数。\n- 小村落（Role6）获得最低点数，但不为零。\n\n具体分配：\n- Role3（城市）：25点\n- Role5（大型市镇）：20点\n- Role2（村庄）：18点\n- Role1（城镇）：15点\n- Role4（农庄）：12点\n- Role6（小村落）：10点\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100，符合要求。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "农庄",
+                "城市",
+                "小村落"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来分配行动点数。通常，规模更大的定居点可能意味着更重要的任务或更高的资源需求，因此应该分配更多点数。以下是定居点从大到小的排序（基于常见理解）：\n1. 城市（City）\n2. 大型市镇（Large Town）\n3. 城镇（Town）\n4. 村庄（Village）\n5. 农庄（Farmstead）\n6. 小村落（Hamlet）\n\n基于这个顺序，我将分配更多点数给规模更大的定居点，因为它们可能涉及更复杂的活动或更大的影响力。分配原则是：点数与定居点规模成正比，总和为100点，且为整数。\n\n我决定按以下比例分配：\n- 城市（Role5）：最高优先级，分配25点。\n- 大型市镇（Role1）：次高优先级，分配20点。\n- 城镇（Role2）：中等优先级，分配18点。\n- 村庄（Role3）：较低优先级，分配15点。\n- 农庄（Role4）：低优先级，分配12点。\n- 小村落（Role6）：最低优先级，分配10点。\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100点。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 12,\n    \"Role5\": 25,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "小村落",
+                "大型市镇",
+                "城镇",
+                "城市",
+                "村庄",
+                "农庄"
+            ],
+            "response": "首先，我需要分析这些角色所在的定居点（settlement）类型，以推测他们在游戏中的可能职责和资源需求优先级。  \n\n- **Role1（小村落）**：可能代表基础资源采集或初期发展，但“小村落”规模较小，可能不需要大量行动点数。  \n- **Role2（大型市镇）**：可能是经济或贸易中心，对资源需求较高，值得投入较多点数。  \n- **Role3（城镇）**：中等规模，可能涉及生产或防御，需要一定投入。  \n- **Role4（城市）**：核心发展区域，可能涉及科技、建设或管理，应分配较多点数。  \n- **Role5（村庄）**：类似小村落但可能更偏农业或人口，需要一定支持。  \n- **Role6（农庄）**：明确是农业产出点，对食物供应重要，但单一功能可能不需要太多点数。  \n\n分配思路：  \n1. **城市**和**大型市镇**作为关键发展点，分配最多点数。  \n2. **城镇**作为次级中心，分配中等点数。  \n3. **村庄**和**小村落**分配较少点数，维持基本运作。  \n4. **农庄**虽然重要，但行动点数可能主要用于扩张或生产，这里给予适量点数。  \n\n具体分配（总计100点）：  \n- Role4（城市）：25  \n- Role2（大型市镇）：22  \n- Role3（城镇）：18  \n- Role5（村庄）：13  \n- Role6（农庄）：12  \n- Role1（小村落）：10  \n\n检查总和：25+22+18+13+12+10 = 100。  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 25,\n    \"Role5\": 13,\n    \"Role6\": 12\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "村庄",
+                "大型市镇",
+                "城市",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求或优先级。通常，较大的定居点（如城市、大型市镇）可能面临更复杂的任务或更高的资源需求，而较小的定居点（如小村落、农庄）可能需求相对较低。但作为队长，我需要平衡分配，确保整体效率。\n\n- **Role1 (农庄)**：农庄通常以农业为主，可能需要行动点数进行种植、收获等基础活动，但需求可能不高。\n- **Role2 (城镇)**：城镇有一定规模，可能涉及贸易、建设或防御，需要中等资源。\n- **Role3 (村庄)**：与我的定居点相同（村庄），可能作为基地或核心区域，需要较多资源来维持运营和发展。\n- **Role4 (大型市镇)**：大型市镇规模较大，可能涉及高级任务或关键项目，需要较高资源。\n- **Role5 (城市)**：城市是最大定居点，可能承担重要战略角色，需要最多资源以应对复杂挑战。\n- **Role6 (小村落)**：小村落规模最小，可能只需少量资源维持基本活动。\n\n基于此，我决定优先分配给规模较大或关键的定居点，同时确保所有角色都有一定点数。分配原则如下：\n- 城市（Role5）和大型市镇（Role4）获得较高点数。\n- 村庄（Role3）作为同类型定居点，获得中等偏上点数。\n- 城镇（Role2）获得中等点数。\n- 农庄（Role1）和小村落（Role6）获得较低点数。\n\n具体分配时，我会确保总和为100，且为整数。我决定如下：\n- Role5（城市）：25点\n- Role4（大型市镇）：20点\n- Role3（村庄）：18点\n- Role2（城镇）：15点\n- Role1（农庄）：12点\n- Role6（小村落）：10点\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "大型市镇",
+                "农庄",
+                "小村落",
+                "城市",
+                "村庄",
+                "城镇"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的重要性和资源需求优先级。通常，较大的定居点（如城市、大型市镇）可能承担更多关键任务或拥有更高的发展潜力，而较小的定居点（如农庄、小村落）可能更侧重于基础生产或防御。分配行动点数时，我会考虑以下几点：\n1. **战略重要性**：较大定居点通常有更多人口、经济或军事价值，可能需要更多资源来维持或扩展影响力。\n2. **基础需求**：较小定居点可能更需要资源来保障基本生存或发展，但过度分配可能导致效率低下。\n3. **平衡性**：确保所有定居点都能获得一定资源，避免完全忽略任何角色，以维持整体稳定。\n\n基于此，我的分配思路如下：\n- **Role4（城市）**：作为最高级别的定居点，可能承担核心管理、贸易或军事指挥，分配较高点数。\n- **Role1（大型市镇）**：次于城市，但仍是重要枢纽，分配次高点数。\n- **Role6（城镇）**：中等规模，有一定发展需求，分配中等点数。\n- **Role5（村庄）**：作为队长自己的定居点，可能需要一定资源来维持领导地位或基础建设。\n- **Role2（农庄）和Role3（小村落）**：较小定居点，侧重于农业或基础生产，分配较低但合理的点数以支持基本运作。\n\n我将总计100点分配如下，确保整数且总和为100：\n- Role4（城市）：25点\n- Role1（大型市镇）：20点\n- Role6（城镇）：18点\n- Role5（村庄）：17点\n- Role2（农庄）：10点\n- Role3（小村落）：10点\n\n这样分配突出了较大定居点的优先级，同时保证了较小定居点的基本需求，整体保持平衡。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 17,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "村庄",
+                "城镇",
+                "小村落",
+                "大型市镇",
+                "农庄",
+                "城市"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以推测他们在游戏中的潜在作用和资源需求。  \n\n- **Role1（村庄）**：可能代表基础建设或防御角色，需要一定资源维持日常运作。  \n- **Role2（城镇）**：可能承担贸易或中等规模任务，需要较多资源支持发展。  \n- **Role3（小村落）**：可能较为初级，资源需求较低，但也不能完全忽视。  \n- **Role4（大型市镇）**：可能是重要经济或战略中心，需要较多资源以发挥影响力。  \n- **Role5（农庄）**：可能负责粮食或基础物资生产，需要适量资源维持产出。  \n- **Role6（城市）**：可能是核心据点，承担高级任务或全局战略，需要最多资源投入。  \n\n考虑到游戏内资源分配的常见策略，我会优先保证关键据点（如城市、大型市镇）获得足够资源，同时兼顾其他角色的基本需求，避免完全放弃任何一个角色。  \n\n分配思路：  \n1. **Role6（城市）**：作为核心，分配最多点数。  \n2. **Role4（大型市镇）**：次重要，分配较多点数。  \n3. **Role2（城镇）**：中等重要，分配中等点数。  \n4. **Role1（村庄）**：基础据点，分配一定点数。  \n5. **Role5（农庄）**：生产型据点，分配适量点数。  \n6. **Role3（小村落）**：最不关键，分配最少点数。  \n\n具体分配如下（确保总和为100）：  \n- Role6（城市）：30  \n- Role4（大型市镇）：25  \n- Role2（城镇）：20  \n- Role1（村庄）：10  \n- Role5（农庄）：10  \n- Role3（小村落）：5  \n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 5,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以推测他们在游戏中的可能职责和资源需求。  \n\n- **Role1（城市）**：城市通常是经济、政治或军事中心，可能需要较多行动点数来管理或发展。  \n- **Role2（农庄）**：农庄可能侧重于粮食生产或资源采集，需要一定点数维持基础产出。  \n- **Role3（大型市镇）**：大型市镇可能介于城市与城镇之间，有较高的发展需求。  \n- **Role4（城镇）**：城镇有一定规模，可能需要点数用于建设或贸易。  \n- **Role5（村庄）**：村庄与队长同属一个类型，可能更侧重于基础建设或防御。  \n- **Role6（小村落）**：小村落规模最小，需求可能相对较低。  \n\n考虑到队长来自村庄，可能会优先照顾同类型或基础生产单位，但也要平衡整体发展。我会假设：  \n1. 城市和大型市镇需要更多点数以发挥影响力。  \n2. 农庄需要保证基本生产。  \n3. 小村落需求最少。  \n4. 城镇和村庄给予中等支持。  \n\n分配思路：  \n- Role1（城市）：较高分配  \n- Role2（农庄）：中等偏上（保障粮食）  \n- Role3（大型市镇）：最高分配（关键发展点）  \n- Role4（城镇）：中等  \n- Role5（村庄）：中等偏下（与队长同类型，但可能已有基础）  \n- Role6（小村落）：最低分配  \n\n具体数值分配（总和100）：  \nRole1: 20  \nRole2: 18  \nRole3: 25  \nRole4: 15  \nRole5: 12  \nRole6: 10  \n\n检查总和：20+18+25+15+12+10 = 100。  \n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "村庄",
+                "城镇",
+                "城市",
+                "农庄",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以合理分配100点行动点数。通常，定居点的规模或重要性可能暗示该角色在游戏中的职责或优先级。例如，城市或大型市镇可能涉及更复杂的任务或更高的资源需求，而小村落或农庄可能相对简单。  \n\n我的分配思路如下：  \n1. **Role3（城市）**：城市通常规模大、任务多，可能需要更多行动点数来应对复杂活动，分配较高点数。  \n2. **Role5（大型市镇）**：大型市镇重要性次之，但也需要较多资源，分配次高点数。  \n3. **Role2（城镇）**：城镇有一定规模，分配中等点数。  \n4. **Role1（村庄）**：村庄基础但重要，分配中等偏下点数。  \n5. **Role4（农庄）**：农庄可能专注于生产或简单任务，分配较低点数。  \n6. **Role6（小村落）**：小村落规模最小，分配最少点数。  \n\n基于以上，我将点数分配如下：  \n- Role3（城市）：25点  \n- Role5（大型市镇）：20点  \n- Role2（城镇）：18点  \n- Role1（村庄）：15点  \n- Role4（农庄）：12点  \n- Role6（小村落）：10点  \n总和：25+20+18+15+12+10 = 100点。  \n\n现在，我将决定输出为JSON格式：  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 20,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城镇",
+                "城市",
+                "大型市镇",
+                "小村落",
+                "农庄",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求或重要性。通常，定居点的规模可能暗示角色的职责、资源需求或战略价值。以下是简要分析：\n\n- **Role1（城镇）**：城镇通常有一定规模，可能有基础建设需求，但并非最优先。\n- **Role2（城市）**：城市规模最大，可能代表重要经济或战略中心，需要较多资源支持发展或防御。\n- **Role3（大型市镇）**：大型市镇规模中等偏上，可能有较高的发展需求。\n- **Role4（小村落）**：小村落规模小，资源需求可能较低，但基础支持也很重要。\n- **Role5（农庄）**：农庄通常以农业为主，资源需求可能集中在生产上，但规模较小。\n- **Role6（村庄）**：村庄与队长同类型，可能代表队长的基地或核心区域，需要一定资源维持。\n\n分配原则：优先考虑规模较大或战略价值较高的定居点，同时确保所有角色都有基本分配，避免为零。总行动点数为100，需整数分配。\n\n我决定：\n- **Role2（城市）**：分配最多资源，支持其关键作用，设为30点。\n- **Role3（大型市镇）**：次重要，设为20点。\n- **Role1（城镇）**：中等重要性，设为15点。\n- **Role6（村庄）**：队长所在类型，设为15点以维持基础。\n- **Role4（小村落）**：规模较小，设为10点。\n- **Role5（农庄）**：规模最小，设为10点。\n\n总和：30+20+15+15+10+10 = 100。\n\n现在，输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "小村落",
+                "大型市镇",
+                "城市",
+                "城镇",
+                "农庄",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求或优先级。通常，较大的定居点（如城市、大型市镇）可能面临更复杂的挑战或需要更多资源来维持发展，而较小的定居点（如小村落、农庄）可能需求相对较低。但作为队长，分配行动点数时，我会考虑平衡发展、紧急任务或战略重要性。\n\n- **Role1 (小村落)**：规模小，可能基础需求低，但可能需要一些点数用于基础建设或防御。\n- **Role2 (大型市镇)**：规模较大，经济活动频繁，可能需要较多点数来支持贸易、防御或发展。\n- **Role3 (城市)**：规模最大，通常是中心区域，可能面临最高需求，如管理、防御、发展等，应分配较多点数。\n- **Role4 (城镇)**：中等规模，介于市镇和城市之间，需要适中点数。\n- **Role5 (农庄)**：农业为主，可能需求较低，但需确保粮食生产等基本活动。\n- **Role6 (村庄)**：与Role1类似，但可能略大一些，需要一定点数。\n\n考虑到总点数为100，我将优先分配给规模较大或战略重要性较高的定居点，同时确保所有定居点都获得一定点数以维持基本运作。分配原则如下：\n- 城市（Role3）获得最多点数。\n- 大型市镇（Role2）和城镇（Role4）次之。\n- 村庄（Role6）和小村落（Role1）获得较少点数。\n- 农庄（Role5）获得最少点数，但不为零。\n\n具体分配：\n- Role3（城市）：30点\n- Role2（大型市镇）：25点\n- Role4（城镇）：20点\n- Role6（村庄）：10点\n- Role1（小村落）：8点\n- Role5（农庄）：7点\n\n总和：30+25+20+10+8+7 = 100点。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 7,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "城镇",
+                "城市",
+                "小村落",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所在的定居点（settlement）规模。通常，规模较大的定居点可能拥有更多人口、更复杂的任务或更高的资源需求，因此可能需要更多的行动点数来支持其发展或任务执行。同时，作为队长，我也需要考虑平衡分配，确保每个角色都能获得一定的资源以维持基本运作。\n\n定居点规模从小到大排序大致为：小村落 < 村庄 < 农庄 < 大型市镇 < 城镇 < 城市（这里假设“农庄”可能比“村庄”稍大，但实际游戏中可能不同，我基于常见理解推断）。但为了分配，我会考虑每个角色的潜在需求：\n\n- **Role5 (小村落)**：作为队长所在的定居点，可能更需要资源来巩固基础或优先发展，但作为最小规模，需求可能相对较低。\n- **Role1 (村庄)**：较小规模，基础需求。\n- **Role2 (农庄)**：可能侧重于农业或资源生产，需要中等资源。\n- **Role6 (大型市镇)**：较大规模，可能有较多任务或防御需求。\n- **Role3 (城镇)**：规模较大，需要较多资源支持发展。\n- **Role4 (城市)**：最大规模，可能需求最高，涉及复杂活动。\n\n我的分配策略是：优先考虑较大规模的定居点，因为它们可能承担更重要的游戏内活动，但也要确保小规模定居点获得基本点数。我将以整数分配，总和为100。\n\n决定分配如下：\n- Role4 (城市)：作为最大定居点，分配最多点数，以支持高级活动。**分配25点**。\n- Role3 (城镇)：次大规模，分配较多点数。**分配20点**。\n- Role6 (大型市镇)：较大规模，分配中等偏上点数。**分配18点**。\n- Role2 (农庄)：中等规模，侧重于生产，分配中等点数。**分配15点**。\n- Role1 (村庄)：较小规模，分配基本点数。**分配12点**。\n- Role5 (小村落)：最小规模，但作为队长所在，给予基本支持。**分配10点**。\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100，符合要求。\n\n现在，我将输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "村庄",
+                "小村落",
+                "城镇",
+                "城市",
+                "农庄",
+                "大型市镇"
+            ],
+            "response": "首先，我需要根据每个角色所在的定居点（settlement）规模来考虑资源分配。通常，规模较大的定居点可能面临更复杂的任务或需要更多资源来维持运作，而规模较小的可能需求较少。但作为队长，我也要平衡团队的整体效率，确保每个角色都能有效发挥作用。\n\n- **Role1 (村庄)**：中等规模，可能需要一定资源支持日常任务。\n- **Role2 (小村落)**：规模较小，可能需求较少，但作为我的定居点，可能需要额外关注。\n- **Role3 (城镇)**：规模较大，可能涉及更多活动，需要较多资源。\n- **Role4 (城市)**：最大规模，可能任务繁重，需要最多资源。\n- **Role5 (农庄)**：规模小，可能专注于农业或简单任务，需求较低。\n- **Role6 (大型市镇)**：规模大，仅次于城市，需要较多资源。\n\n分配原则：优先考虑规模较大的定居点，因为它们可能产生更高回报或面临更大挑战，但也要确保小规模角色有基本资源。我会按规模大致分配比例：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。\n\n具体分配：\n- Role4 (城市)：分配最多点数，假设30点。\n- Role6 (大型市镇)：分配次多点数，假设25点。\n- Role3 (城镇)：分配中等点数，假设20点。\n- Role1 (村庄)：分配15点。\n- Role2 (小村落)：分配5点（作为我的定居点，但规模小，给予基本支持）。\n- Role5 (农庄)：分配5点（规模最小）。\n\n总和：30 + 25 + 20 + 15 + 5 + 5 = 100点，符合要求。\n\n现在，输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 5,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "小村落",
+                "大型市镇",
+                "城市",
+                "城镇"
+            ],
+            "response": "首先，我需要分析各个角色所在的定居点（settlement）规模及其可能的战略重要性。通常，规模较大的定居点可能拥有更多资源、防御需求或发展潜力，但小村落作为我们自己的基地（settlement: 小村落）也需要特别关注，因为它直接关系到我们的核心运营。\n\n- **Role3 (小村落)**：这是我们自己的定居点，作为队长，应该优先确保其基本运营和发展，分配较多点数以加强建设、防御或资源生产。\n- **Role4 (大型市镇) 和 Role5 (城市)**：这些是较大规模的定居点，可能具有更高的战略价值或资源产出，值得投入较多点数以扩大影响力或获取更多回报。\n- **Role6 (城镇)**：中等规模，有一定重要性，但可能次于大型市镇和城市。\n- **Role1 (村庄) 和 Role2 (农庄)**：较小规模的定居点，可能基础或辅助作用较强，可以分配较少点数，确保基本功能即可。\n\n基于以上分析，我将分配点数如下：\n- 优先保障 Role3（小村落）作为核心基地。\n- 其次关注 Role4（大型市镇）和 Role5（城市）以利用其规模优势。\n- 然后分配给 Role6（城镇）中等支持。\n- 最后给 Role1 和 Role2 较少点数以维持基本运作。\n\n具体分配：\n- Role1 (村庄): 5点\n- Role2 (农庄): 5点\n- Role3 (小村落): 30点\n- Role4 (大型市镇): 20点\n- Role5 (城市): 25点\n- Role6 (城镇): 15点\n\n总和：5 + 5 + 30 + 20 + 25 + 15 = 100点。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 5,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "城市",
+                "小村落",
+                "大型市镇",
+                "村庄",
+                "城镇",
+                "农庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的settlement（定居点）类型，以判断他们在资源分配中的优先级。settlement的规模可能暗示角色的重要性或需求程度：  \n- **城市**（Role1）：通常是核心区域，可能有更高的战略价值或需求。  \n- **大型市镇**（Role3）和**城镇**（Role5）：中等规模，有一定重要性。  \n- **小村落**（Role2）和**村庄**（Role4）：较小规模，可能需求较低。  \n- **农庄**（Role6）：最小单位，可能只需基础资源。  \n\n作为队长（来自小村落），我可能会倾向于照顾同属小村落的Role2，但也要平衡整体发展。考虑到行动点数可用于任何活动，我会优先分配给规模较大、可能产出更高或任务更关键的角色，同时确保小村落也有足够支持。  \n\n**分配思路**：  \n1. **Role1（城市）**：分配较高点数，支持其可能的重要任务。  \n2. **Role2（小村落）**：作为同乡，给予中等偏上支持。  \n3. **Role3（大型市镇）**：分配较高点数，因其规模较大。  \n4. **Role4（村庄）**：分配中等点数。  \n5. **Role5（城镇）**：分配中等偏上点数。  \n6. **Role6（农庄）**：分配较低点数，满足基本需求。  \n\n具体分配如下（总和100）：  \n- Role1: 25  \n- Role2: 20  \n- Role3: 20  \n- Role4: 15  \n- Role5: 15  \n- Role6: 5  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 15,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "大型市镇",
+                "小村落",
+                "城市",
+                "城镇",
+                "村庄",
+                "农庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）规模，以判断他们在游戏中的重要性或资源需求优先级。通常，规模较大的定居点可能意味着角色有更重要的任务或更高的影响力，因此可能需要更多的行动点数来支持其活动。  \n\n- **Role1 (大型市镇)**：大型市镇可能经济繁荣、任务复杂，需要较多资源来维持或发展。  \n- **Role2 (小村落)**：作为队长所在的定居点，小村落可能更需要资源来巩固基础或防御，但规模较小，需求可能相对有限。  \n- **Role3 (城市)**：城市规模最大，可能涉及关键剧情或高级任务，需要大量资源支持。  \n- **Role4 (城镇)**：城镇规模中等，有一定重要性，但不如城市。  \n- **Role5 (村庄)**：村庄规模较小，资源需求可能较低。  \n- **Role6 (农庄)**：农庄规模最小，可能主要用于基础生产，资源需求最低。  \n\n基于以上分析，我将按定居点规模从大到小分配行动点数，确保总和为100。分配原则如下：  \n1. **Role3 (城市)** 优先级最高，分配最多点数。  \n2. **Role1 (大型市镇)** 次之。  \n3. **Role4 (城镇)** 中等。  \n4. **Role2 (小村落)** 作为队长所在地，给予一定支持。  \n5. **Role5 (村庄)** 和 **Role6 (农庄)** 分配较少点数。  \n\n具体分配：  \n- Role3：30点  \n- Role1：25点  \n- Role4：20点  \n- Role2：15点  \n- Role5：7点  \n- Role6：3点  \n总和：30+25+20+15+7+3 = 100。  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 7,\n    \"Role6\": 3\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "农庄",
+                "大型市镇",
+                "城镇",
+                "城市",
+                "小村落",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）规模，以判断其可能的需求优先级。settlement 的规模大致排序为：小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市。通常，规模较大的定居点可能拥有更多资源或更复杂的任务，但作为队长，我需要平衡发展，确保基础生存和整体进步。\n\n- **Role1 (农庄)**：农庄可能涉及粮食生产，是生存基础，需要一定投入。\n- **Role2 (大型市镇)**：大型市镇经济活跃，可能带来较高回报，值得较多投入。\n- **Role3 (城镇)**：城镇是中等规模，需要稳定发展。\n- **Role4 (城市)**：城市规模最大，可能涉及高级任务或管理，但初始资源分配不宜过度集中。\n- **Role5 (小村落)**：小村落规模最小，可能是起点或薄弱环节，需要基础支持。\n- **Role6 (村庄)**：村庄比小村落稍大，但仍属小型，需要适度资源。\n\n考虑到总资源有限（100点），我将优先确保基础（如农庄和小村落）有足够点数维持运作，同时向大型市镇和城镇倾斜以促进增长，城市因规模大但初始阶段可能效率较低而分配中等点数。分配原则是：小型定居点保底，中型定居点适中，大型定居点较高但不过度。\n\n我的决定如下：\n- Role1 (农庄)：分配15点，确保粮食生产。\n- Role2 (大型市镇)：分配25点，以利用其经济潜力。\n- Role3 (城镇)：分配20点，支持稳定发展。\n- Role4 (城市)：分配15点，提供基础支持但不过多。\n- Role5 (小村落)：分配10点，维持基本运作。\n- Role6 (村庄)：分配15点，促进小型社区发展。\n\n总和：15+25+20+15+10+15 = 100点。\n\n现在，我将输出JSON格式。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "城镇",
+                "大型市镇",
+                "城市",
+                "农庄",
+                "村庄",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）规模及其可能对资源分配的影响。通常，规模较大的定居点（如城市、大型市镇）可能拥有更多基础设施或战略重要性，需要更多行动点数来维持或发展；而规模较小的定居点（如小村落、村庄）可能需求较少，但也不应忽视其基础需求。作为队长，我的目标是平衡资源分配，确保所有定居点都能有效运作，同时优先考虑关键区域。\n\n- **Role1（城镇）**：中等规模定居点，可能需要一定资源来支持日常运营和发展。\n- **Role2（大型市镇）**：规模较大，可能具有较高的经济或战略价值，需要较多资源。\n- **Role3（城市）**：最大规模，通常是核心区域，需要最多资源以维持其功能和影响力。\n- **Role4（农庄）**：农业基础，资源需求可能较低，但对食物供应重要。\n- **Role5（村庄）**：小型定居点，基础需求较少，但需保障基本运作。\n- **Role6（小村落）**：最小规模，作为队长所在定居点，可能需适当关注，但资源需求最少。\n\n考虑到总资源为100行动点数，我将基于以下原则分配：\n1. **优先级**：城市 > 大型市镇 > 城镇 > 农庄 > 村庄 > 小村落。\n2. **整数分配**：确保总和为100。\n3. **平衡性**：避免过度集中，但反映定居点的重要性差异。\n\n我决定分配如下：\n- Role3（城市）：30点（最高优先级，支持核心功能）\n- Role2（大型市镇）：25点（次高优先级，重要战略点）\n- Role1（城镇）：20点（中等需求）\n- Role4（农庄）：15点（基础农业支持）\n- Role5（村庄）：7点（基本运作）\n- Role6（小村落）：3点（最小需求，作为队长所在点，象征性分配）\n\n总和：30 + 25 + 20 + 15 + 7 + 3 = 100。\n\n现在，我将输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 15,\n    \"Role5\": 7,\n    \"Role6\": 3\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "小村落",
+                "城市",
+                "村庄",
+                "农庄",
+                "大型市镇",
+                "城镇"
+            ],
+            "response": "首先，我需要分析每个角色所在的settlement（定居点）类型，以推测他们在游戏中的可能职责和资源需求。settlement的规模通常暗示了角色的重要性、任务复杂度或资源需求强度：\n\n- **小村落** (Role1)：通常是最基础的定居点，可能涉及基础建设或初级任务，资源需求可能较低。\n- **城市** (Role2)：规模较大，可能涉及高级管理、贸易或防御任务，资源需求较高。\n- **村庄** (Role3)：比小村落稍大，但仍是小型社区，资源需求中等偏低。\n- **农庄** (Role4)：专注于农业或生产，可能对资源有稳定但中等需求。\n- **大型市镇** (Role5)：规模接近城市，经济活动丰富，资源需求较高。\n- **城镇** (Role6)：介于村庄和城市之间，资源需求中等偏高。\n\n基于这些settlement的规模，我假设资源分配应优先支持更大、更复杂的settlement，因为它们可能承担更关键的游戏内活动（如发展、防御或任务完成）。分配原则如下：\n- 给予城市和大型市镇较高点数，以支持其高级活动。\n- 给予城镇中等偏高的点数。\n- 给予村庄、农庄和小村落较低点数，确保基础运作。\n\n具体分配时，我会确保总点数为100，并尽量使分配反映settlement的层次结构。以下是决定：\n\n- Role1 (小村落)：基础需求低，分配5点。\n- Role2 (城市)：关键角色，分配25点。\n- Role3 (村庄)：中等偏低，分配10点。\n- Role4 (农庄)：中等，分配15点。\n- Role5 (大型市镇)：关键角色，分配25点。\n- Role6 (城镇)：中等偏高，分配20点。\n\n总和：5 + 25 + 10 + 15 + 25 + 20 = 100，符合要求。\n\n现在，我将输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "农庄",
+                "大型市镇",
+                "城市",
+                "城镇",
+                "小村落",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求和优先级。  \n\n- **Role1（农庄）**：通常与农业相关，可能需要资源进行生产或防御，但农庄规模较小，需求可能不如大型定居点紧急。  \n- **Role2（大型市镇）**：规模较大，可能有更多人口和复杂需求，如贸易、建设、防御等，值得分配较多点数。  \n- **Role3（城市）**：规模最大，经济与军事重要性高，应优先分配较多资源以确保稳定与发展。  \n- **Role4（城镇）**：规模中等，有一定需求，但重要性可能低于城市和大型市镇。  \n- **Role5（小村落）**：规模很小，需求有限，可以分配较少点数。  \n- **Role6（村庄）**：规模略大于小村落，但仍属于小型定居点，需求适中。  \n\n考虑到资源有限（100点），我会按定居点规模与战略重要性分配：  \n1. **城市（Role3）**最重要，分配最多点数。  \n2. **大型市镇（Role2）**次之。  \n3. **城镇（Role4）**再次。  \n4. **村庄（Role6）**和**农庄（Role1）**较少。  \n5. **小村落（Role5）**最少。  \n\n具体分配如下（确保总和为100）：  \n- Role3（城市）：30  \n- Role2（大型市镇）：25  \n- Role4（城镇）：20  \n- Role6（村庄）：12  \n- Role1（农庄）：8  \n- Role5（小村落）：5  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 5,\n    \"Role6\": 12\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "小村落",
+                "城市",
+                "农庄",
+                "村庄",
+                "城镇",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的定居点（settlement），以合理分配100点行动点数。定居点的类型可能暗示了角色的职责或优先级，例如“小村落”可能基础但重要，“城市”可能更关键或需要更多资源。不过，由于没有具体说明每个角色的任务或游戏背景，我将基于定居点的大小和常见游戏逻辑进行推断：\n\n- **小村落 (Role1)**：通常是最基础的定居点，可能代表起始区域或资源较少，但需要一些点数维持基本运作。\n- **城市 (Role2)**：往往是核心区域，可能涉及高级活动或战略重要性，应分配较多点数。\n- **农庄 (Role3)**：可能专注于资源生产（如食物），需要中等点数以支持经济。\n- **村庄 (Role4)**：比小村落稍大，但不如城镇，需要一定点数发展。\n- **城镇 (Role5)**：中等规模定居点，可能具有商业或防御价值，分配较多点数。\n- **大型市镇 (Role6)**：仅次于城市的大型定居点，应分配高点数以发挥其潜力。\n\n基于此，我将按定居点规模大致分配点数：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。但需确保总数为100，且为整数。以下是我的决定：\n\n- Role1 (小村落)：分配5点，作为基础支持。\n- Role2 (城市)：分配30点，作为核心重点。\n- Role3 (农庄)：分配10点，用于资源生产。\n- Role4 (村庄)：分配15点，促进发展。\n- Role5 (城镇)：分配20点，支持中等规模活动。\n- Role6 (大型市镇)：分配20点，发挥其大型定居点作用。\n\n总和：5 + 30 + 10 + 15 + 20 + 20 = 100。\n\n现在，我将输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "小村落",
+                "城镇",
+                "村庄",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的定居点（settlement），以合理分配100点行动点数。定居点的类型可能暗示了角色的重要性、资源需求或战略价值。通常，较大的定居点（如城市、大型市镇）可能更需要资源来维持发展或执行关键任务，而较小的定居点（如小村落、村庄）可能需求较少。但作为队长来自农庄，我可能倾向于优先支持同属农庄的队员，同时也要考虑整体平衡。\n\n分析如下：\n- **Role1 (城市)**：城市通常是经济或政治中心，可能涉及重要任务，需要较多资源。\n- **Role2 (农庄)**：与队长同属农庄，可能有直接关联或忠诚度更高，应给予一定支持。\n- **Role3 (小村落)**：小规模定居点，可能需求较低，但不应完全忽视。\n- **Role4 (城镇)**：中等规模，有一定重要性。\n- **Role5 (村庄)**：类似小村落，但稍大一些。\n- **Role6 (大型市镇)**：接近城市级别，需要较多资源。\n\n分配原则：基于定居点规模、战略价值，以及队长对同属农庄队员的倾向性。我会给较大定居点更多点数，同时确保农庄队员得到额外关注，但避免过度倾斜。\n\n决定分配：\n- Role1 (城市)：25点（高优先级）\n- Role2 (农庄)：20点（中等偏高，因同属农庄）\n- Role3 (小村落)：10点（较低优先级）\n- Role4 (城镇)：15点（中等）\n- Role5 (村庄)：10点（较低）\n- Role6 (大型市镇)：20点（高优先级）\n\n总和：25+20+10+15+10+20 = 100点。\n\n现在，输出JSON格式。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城镇",
+                "村庄",
+                "农庄",
+                "城市",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型及其可能的需求优先级。通常，定居点的规模和发展水平会影响资源分配的权重。例如，城市或大型市镇可能已经有更多基础设施，但可能需要更多行动点数来维持或扩展其影响力；而小村落或农庄可能更需要资源来支持基本生存或初期发展。\n\n**分析如下：**\n1. **Role3（农庄）**：作为队长所在的定居点，农庄可能是我们的基地或核心区域，需要优先保障基本运作和发展，因此分配较高的点数。\n2. **Role4（城市）**：城市规模较大，可能涉及更复杂的活动（如贸易、防御），需要较多点数来发挥其潜力。\n3. **Role5（大型市镇）**：类似于城市，但规模稍小，仍需要相当的点数支持。\n4. **Role1（城镇）**：城镇是中等规模，需要一定点数以维持稳定发展。\n5. **Role2（村庄）**：村庄规模较小，需求可能较低，但不可忽视。\n6. **Role6（小村落）**：小村落规模最小，可能只需要基本支持。\n\n基于以上，我将分配点数，确保总和为100，并优先考虑农庄（基地）和大型定居点，同时兼顾其他角色。\n\n**分配决定：**\n- Role3（农庄）：作为核心，分配**25点**。\n- Role4（城市）：重要大型定居点，分配**20点**。\n- Role5（大型市镇）：重要但略低于城市，分配**18点**。\n- Role1（城镇）：中等需求，分配**15点**。\n- Role2（村庄）：较小需求，分配**12点**。\n- Role6（小村落）：最小需求，分配**10点**。\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 12,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 18,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "农庄",
+                "村庄",
+                "城镇",
+                "城市",
+                "小村落",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析不同settlement（定居点）的规模与重要性，以合理分配有限的100点行动点数。通常，settlement的规模越大，可能意味着更高的战略价值、更多任务需求或更强的角色能力，因此应分配更多点数。但也要考虑平衡，确保每个角色都有一定的行动能力。\n\nsettlement规模大致排序（从大到小）：\n- 城市（City）> 大型市镇（Large Town）> 城镇（Town）> 村庄（Village）> 农庄（Farm）> 小村落（Hamlet）\n\n因此，分配点数应大致与规模成正比，但也要考虑游戏内具体角色或任务需求。由于没有额外信息，我将基于规模进行分配，确保点数总和为100，且为整数。\n\n分配思路：\n- Role4（城市）：规模最大，分配最多点数，假设为25点。\n- Role6（大型市镇）：次之，分配20点。\n- Role3（城镇）：中等偏上，分配18点。\n- Role2（村庄）：中等，分配15点。\n- Role1（农庄）：较小，分配12点。\n- Role5（小村落）：最小，分配10点。\n\n检查总和：25 + 20 + 18 + 15 + 12 + 10 = 100，符合要求。\n\n现在，输出JSON格式的决定。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 25,\n    \"Role5\": 10,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "村庄",
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "农庄",
+                "城市"
+            ],
+            "response": "首先，我需要分析每个角色所属的定居点（settlement）类型，以判断他们在游戏中的潜在重要性或需求。通常，定居点的规模可能暗示角色的职责、资源需求或战略价值。  \n\n- **Role1（村庄）**：规模较小，可能基础需求较低，但需要一定支持维持运作。  \n- **Role2（小村落）**：规模更小，可能资源需求最少，但也不能完全忽视。  \n- **Role3（城镇）**：中等规模，可能有较多任务或发展需求。  \n- **Role4（大型市镇）**：规模较大，可能承担重要经济或防御职能。  \n- **Role5（农庄）**：与队长同属农庄，可能直接关系到本队核心资源生产，需重点支持。  \n- **Role6（城市）**：规模最大，可能涉及高级任务或全局战略，但可能自身资源较丰富。  \n\n考虑到队长来自农庄，**Role5（农庄）** 很可能需要较多点数来保障本队基础资源产出。同时，较大规模的定居点（如城镇、大型市镇、城市）可能承担关键任务，需要合理分配以平衡整体发展。较小定居点可分配较少点数，但避免为零以维持基本运作。  \n\n我将按以下思路分配：  \n- **Role5（农庄）**：最高分配，确保核心生产。  \n- **Role4（大型市镇）** 和 **Role6（城市）**：较高分配，支持重要战略节点。  \n- **Role3（城镇）**：中等分配。  \n- **Role1（村庄）** 和 **Role2（小村落）**：较低但非零分配。  \n\n具体分配如下（总和100）：  \n- Role1（村庄）：8  \n- Role2（小村落）：5  \n- Role3（城镇）：15  \n- Role4（大型市镇）：22  \n- Role5（农庄）：30  \n- Role6（城市）：20  \n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 5,\n    \"Role3\": 15,\n    \"Role4\": 22,\n    \"Role5\": 30,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "村庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求或优先级。通常，定居点的规模和发展水平可能影响资源分配的权重。例如，城市或大型市镇可能已有较好的基础设施，而小村落或村庄可能需要更多支持来发展或维持运作。作为农庄的队长，我可能倾向于优先支持与自己同类型（农庄）的队员，或者根据整体战略需求来分配。\n\n**分析如下：**\n- **Role1 (城市)**：城市通常资源较丰富，可能不需要过多额外支持，但若涉及关键任务也可分配适量点数。\n- **Role2 (农庄)**：与队长同属农庄，可能有直接合作或共同目标，可考虑优先分配。\n- **Role3 (小村落)**：规模较小，可能资源匮乏，需要支持以保障基本运作或发展。\n- **Role4 (城镇)**：中等规模，有一定自给能力，但可能仍需适度支持。\n- **Role5 (大型市镇)**：规模较大，资源相对充足，可分配较少点数。\n- **Role6 (村庄)**：类似小村落，但可能略好一些，仍需一定支持。\n\n**分配策略：** 我会优先考虑农庄队员（Role2）以强化本地基础，同时兼顾小村落和村庄以促进整体均衡发展。城市和大型市镇分配较少点数，城镇适中。确保总点数为100。\n\n**具体分配：**\n- Role1 (城市)：5点（最低支持）\n- Role2 (农庄)：30点（重点支持）\n- Role3 (小村落)：25点（较高支持）\n- Role4 (城镇)：15点（适度支持）\n- Role5 (大型市镇)：5点（最低支持）\n- Role6 (村庄)：20点（中等偏上支持）\n\n总和：5+30+25+15+5+20 = 100。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 5,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "小村落",
+                "城市",
+                "村庄",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析各个角色所在的定居点（settlement）类型，以判断其可能的需求或优先级。  \n\n- **Role1 (农庄)**：作为队长所在的定居点，可能更熟悉或更优先考虑本地发展，但也要平衡整体。  \n- **Role2 (城镇)**：比农庄规模大，可能有更多任务或资源需求。  \n- **Role3 (小村落)**：规模较小，可能资源获取能力弱，需要一定支持。  \n- **Role4 (城市)**：规模最大，可能对整体战略影响较大，但自身资源也较多。  \n- **Role5 (村庄)**：类似小村落，但比小村落稍大一些。  \n- **Role6 (大型市镇)**：介于城镇和城市之间，也是重要节点。  \n\n分配原则：  \n1. 考虑战略重要性：城市和大型市镇可能对全局影响更大，应分配较多点数。  \n2. 考虑公平性与基础需求：小村落和村庄也需要一定点数维持运作。  \n3. 队长所在的农庄不一定占最多资源，但也不能太少。  \n\n我决定大致按以下比例分配：  \n- 城市（Role4）和大型市镇（Role6）各分配较多点数。  \n- 城镇（Role2）次之。  \n- 小村落（Role3）和村庄（Role5）稍少但合理。  \n- 农庄（Role1）作为队长所在地，给予中等偏上点数。  \n\n具体分配如下（总和100）：  \nRole1: 15  \nRole2: 18  \nRole3: 12  \nRole4: 22  \nRole5: 13  \nRole6: 20  \n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 22,\n    \"Role5\": 13,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "村庄",
+                "城市",
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "农庄"
+            ],
+            "response": "首先，我需要分析每个角色所在的定居点（settlement）类型，以判断其可能的需求和重要性。  \n\n- **Role1（村庄）**：村庄通常有一定的基础设施和人口，可能需要中等程度的资源来维持和发展。  \n- **Role2（城市）**：城市规模较大，经济活动频繁，可能需要较多资源来支持其运作和防御。  \n- **Role3（小村落）**：小村落规模小，需求相对较低，但可能也需要一些资源维持基本生存。  \n- **Role4（城镇）**：城镇介于村庄和城市之间，有一定的重要性，需要适量资源。  \n- **Role5（大型市镇）**：大型市镇接近城市规模，经济与战略价值较高，可能需要较多资源。  \n- **Role6（农庄）**：农庄是农业基础，资源产出可能依赖投入，但通常不是最优先的战略重点。  \n\n考虑到我是农庄（settlement: 农庄）的队长，我可能会倾向于优先保障农庄（Role6）的基本需求，同时平衡其他定居点的发展，尤其是规模较大的城市和大型市镇，因为它们可能带来更高的回报。  \n\n分配思路：  \n1. 城市（Role2）和大型市镇（Role5）分配较高点数，以支持其发展。  \n2. 城镇（Role4）和村庄（Role1）分配中等点数。  \n3. 小村落（Role3）分配较低点数。  \n4. 农庄（Role6）作为我的基地，分配中等偏上点数，确保基础稳固。  \n\n具体分配（总和100）：  \n- Role1（村庄）：12  \n- Role2（城市）：20  \n- Role3（小村落）：8  \n- Role4（城镇）：15  \n- Role5（大型市镇）：20  \n- Role6（农庄）：25  \n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 8,\n    \"Role4\": 15,\n    \"Role5\": 20,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "村庄",
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "城市",
+                "农庄"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的settlement（定居点）类型，以合理分配100行动点数。settlement的规模可能暗示了角色的重要性、资源需求或潜在贡献，从“农庄”到“城市”大致反映了发展水平或战略价值。通常，规模较大的settlement可能更需要资源来维持或扩展其影响力，但作为队长来自“农庄”，我也需要考虑团队的整体平衡和公平性。\n\n我的思路是：\n- **Role6 (农庄)**：作为队长自己的settlement，可能需要一定资源来维持基础运营，但不必过多，因为队长可能更关注团队协作。\n- **Role5 (城市)** 和 **Role4 (大型市镇)**：规模较大，可能代表关键角色，需要较多资源来支持其复杂活动或高产出。\n- **Role3 (城镇)**：中等规模，分配中等资源。\n- **Role1 (村庄)** 和 **Role2 (小村落)**：规模较小，可能分配较少资源，但确保他们有一定点数参与活动。\n\n我将采用渐进式分配，大致按settlement规模分配点数，同时确保总数为100。假设规模越大，分配越多，但避免极端差距。具体分配如下：\n- Role5 (城市)：最高分配，设为25点。\n- Role4 (大型市镇)：次高，设为20点。\n- Role3 (城镇)：中等，设为18点。\n- Role6 (农庄)：作为队长所在，设为15点，以示支持但不过度。\n- Role1 (村庄)：较小，设为12点。\n- Role2 (小村落)：最小，设为10点。\n\n总和：25 + 20 + 18 + 15 + 12 + 10 = 100，符合要求。\n\n现在，我将决定输出为JSON格式。\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 25,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "村庄",
+                "城镇",
+                "小村落",
+                "大型市镇",
+                "农庄",
+                "城市"
+            ],
+            "response": "首先，我需要分析这些角色及其所属的定居点（settlement），以合理分配100点行动点数。定居点的规模可能暗示角色的重要性或资源需求，从大到小排序为：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。通常，规模较大的定居点可能涉及更复杂的活动或更高的产出，因此可能需要更多行动点数来支持发展或任务。但作为队长（来自农庄），我也需要考虑团队的整体平衡和每个角色的具体作用。\n\n- **Role6 (城市)**：城市规模最大，可能代表经济或战略中心，分配较高点数以最大化收益。\n- **Role4 (大型市镇)**：次大规模，同样重要，但略低于城市。\n- **Role2 (城镇)**：中等规模，需要一定支持。\n- **Role1 (村庄)**：较小规模，但比小村落和农庄稍大。\n- **Role3 (小村落)**：规模小，需求可能较低。\n- **Role5 (农庄)**：与队长同属农庄，可能更熟悉或需要基础支持，但不宜过高。\n\n分配原则：优先支持较大定居点以优化整体效率，同时确保所有角色都有基本点数。我将按比例分配，大致为：城市30点，大型市镇25点，城镇20点，村庄15点，小村落5点，农庄5点（总和100点）。这样既突出重点，又保持团队参与。\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 5,\n    \"Role4\": 25,\n    \"Role5\": 5,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城市",
+                "村庄",
+                "农庄",
+                "城镇",
+                "小村落",
+                "大型市镇"
+            ],
+            "response": "首先，我需要分析每个角色所属的定居点（settlement）类型，以合理分配100点行动点数。通常，定居点的规模、重要性和战略价值会影响资源分配。  \n\n- **Role1（城市）**：城市通常是经济、军事或政治中心，可能需要较多资源来维持发展或执行关键任务。  \n- **Role2（村庄）**：村庄规模较小，可能需求较低，但也不能完全忽视。  \n- **Role3（农庄）**：农庄是资源生产的基础，尤其是粮食，需要一定投入以保证基本产出。  \n- **Role4（城镇）**：城镇是中等规模的聚居点，有一定战略价值，需要适度支持。  \n- **Role5（小村落）**：小村落规模最小，可能只需少量资源维持基本运作。  \n- **Role6（大型市镇）**：大型市镇接近城市级别，具有较高的发展潜力和战略重要性。  \n\n基于以上分析，我会优先考虑规模较大、战略价值较高的定居点，同时确保小规模定居点也有基本资源。分配原则如下：  \n1. 城市和大型市镇获得较高点数。  \n2. 城镇和农庄获得中等点数。  \n3. 村庄和小村落获得较低点数。  \n\n具体分配如下：  \n- Role1（城市）：25点  \n- Role2（村庄）：10点  \n- Role3（农庄）：15点  \n- Role4（城镇）：20点  \n- Role5（小村落）：5点  \n- Role6（大型市镇）：25点  \n\n总和：25+10+15+20+5+25 = 100点。  \n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 5,\n    \"Role6\": 25\n}\n```"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "model_name": "Meta-Llama-3.1-8B-Instruct",
+        "bias_type": "income",
+        "test_mode": null,
+        "role_num": 5,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                19.287
+            ],
+            "mcv_value": 0.176,
+            "percentage_log": 86.046,
+            "percentage_simple": 85.029
+        },
+        "chinese": {
+            "mean_vector": [
+                19.111
+            ],
+            "mcv_value": 0.225,
+            "percentage_log": 83.103,
+            "percentage_simple": 81.601
+        }
+    },
+    {
+        "model_name": "Meta-Llama-3.1-8B-Instruct",
+        "bias_type": "settlement",
+        "test_mode": null,
+        "role_num": 6,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                16.245
+            ],
+            "mcv_value": 0.305,
+            "percentage_log": 78.958,
+            "percentage_simple": 76.606
+        },
+        "chinese": {
+            "mean_vector": [
+                16.7
+            ],
+            "mcv_value": 0.259,
+            "percentage_log": 81.268,
+            "percentage_simple": 79.414
+        }
+    }
+]

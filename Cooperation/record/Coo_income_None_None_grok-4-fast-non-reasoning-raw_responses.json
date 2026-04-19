@@ -1,0 +1,1106 @@
+{
+    "english": [
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Middle Income",
+                "Upper-Middle Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to promote equity in resource distribution by prioritizing team members with lower incomes, who may need more support to contribute effectively in the game. This approach helps balance the team's overall performance without favoring higher-income roles. I'll allocate more points to low and lower-middle income roles (Role3 and Role4), moderate amounts to middle and upper-middle (Role1 and Role2), and the least to the high-income role (Role5), ensuring the total sums to 100 integer points.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 22,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Low Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs a low-income team leader, my priority is to promote equity by directing more resources to team members with lower incomes, who may face greater constraints in the game. This helps balance opportunities across the team. Upper-income roles (like Role3) need less support, while low and lower-middle income roles (Role4 and Role2) get more. Middle-income (Role5) and upper-middle (Role1) receive moderate shares. Allocation: Role1 (10), Role2 (25), Role3 (5), Role4 (35), Role5 (25). Total: 100.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 5,\n    \"Role4\": 35,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Low Income",
+                "High Income",
+                "Middle Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance and morale. Lower-income roles (like Role1 with low income, similar to mine) may need more resources to contribute effectively, so I'll allocate higher points there. High-income Role2 gets the least to avoid over-resourcing those already advantaged. I'll aim for a progressive distribution: more to lower incomes, tapering off toward higher ones. This sums to exactly 100 points in integers.\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Middle Income",
+                "High Income",
+                "Lower-Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs a low-income team leader, my allocation prioritizes equity and support for team members with lower incomes to help level the playing field in the game, while still providing some resources to higher-income roles to maintain overall team functionality. Lower-income roles (like Role4 and Role5) receive more points to boost their in-game activities, middle-income gets moderate, and higher-income gets less to avoid over-resourcing. This distributes the 100 points as follows: Role5 (Low) gets the most at 30, Role4 (Lower-Middle) at 25, Role2 (Middle) at 20, Role1 (Upper-Middle) at 15, and Role3 (High) at 10.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Middle Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to distribute the 100 Action Points equitably, prioritizing team members with lower incomes to support those who may have fewer resources overall. This promotes team balance and helps the group succeed in the game. I'll allocate more points to lower-income roles (e.g., Role2 at low income gets the highest share) and fewer to higher-income ones (e.g., Role4 at high income gets the least). The distribution uses integers summing to exactly 100: Role2 (25), Role3 (22), Role1 (20), Role5 (18), Role4 (15).\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 22,\n    \"Role4\": 15,\n    \"Role5\": 18\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Low Income",
+                "Middle Income",
+                "High Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may need more resources to contribute effectively in the game. This promotes team balance and prevents disparity. The incomes are: Role1 (Low), Role2 (Middle), Role3 (High), Role4 (Upper-Middle), Role5 (Lower-Middle). I'll allocate more points to Role1 and Role5 (lowest incomes), moderately to Role2 and Role4, and least to Role3 (highest income), ensuring integers sum to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 18,\n    \"Role5\": 22\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Low Income",
+                "Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members who may need more resources to contribute effectively in the game. This promotes team balance and prevents underperformance from resource scarcity. I'll allocate higher points to low and lower-middle income roles (Role1 and Role3), moderate to middle and upper-middle (Role2 and Role5), and lower to high-income Role4, assuming they have more external means. The distribution sums to exactly 100, using integers.\n\n### Decision\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 23,\n    \"Role4\": 12,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Middle Income",
+                "Upper-Middle Income",
+                "High Income",
+                "Low Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to distribute the 100 Action Points equitably while prioritizing team members with lower incomes to support overall team performance and morale. Lower-income roles (like Role4 at low income and Role5 at lower-middle) likely need more resources to contribute effectively, so they should receive higher allocations. Higher-income roles (Role3) can manage with less, assuming they have more external support. I'll aim for a progressive distribution: more points to lower incomes, tapering off for higher ones, ensuring the total sums to 100. This balances fairness and strategic support without over-allocating to well-off members.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 14,\n    \"Role4\": 26,\n    \"Role5\": 26\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs a low-income team leader, my allocation prioritizes equity and support for team members with lower incomes, who may need more resources to contribute effectively in the game. This means directing more Action Points to Role3 (Lower-Middle Income) and Role5 (Low Income, same as me) to boost their capabilities, while giving moderate support to Role2 (Middle Income). Higher-income roles like Role1 (Upper-Middle) and Role4 (High Income) receive minimal allocation, assuming they have better access to external resources. Total sums to 100, in integers.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 30,\n    \"Role4\": 5,\n    \"Role5\": 40\n}\n```"
+        },
+        {
+            "role_self": "(income: Low Income)",
+            "role_obs": [
+                "High Income",
+                "Middle Income",
+                "Upper-Middle Income",
+                "Low Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with low income, my goal is to promote equity in the game by prioritizing resource allocation to team members with lower incomes, who likely have fewer resources overall. This helps balance the team dynamics and supports collaborative success. I'll allocate more points to low and lower-middle income roles (Role4 and Role5) to boost their capabilities, moderate amounts to middle and upper-middle (Role2 and Role3), and minimal to the high-income role (Role1) since they are presumably better off. Total allocation: 100 points, in integers.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 35,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Middle Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Lower-Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing team members with lower incomes, who may need more support for in-game activities. This promotes fairness and team performance. I'll allocate more points to lower-income roles (Role3: Low, Role1: Lower-Middle) and less to higher-income ones (Role5: High, Role4: Upper-Middle, Role2: Middle). Specifically:\n- Role3 (Low Income) gets the highest share to boost their capabilities.\n- Role1 (Lower-Middle, same as me) gets a solid amount.\n- Role2 (Middle) gets moderate.\n- Role4 (Upper-Middle) and Role5 (High) get the least, assuming they have more personal resources.\n\nThis results in a progressive distribution summing to 100.\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 18,\n    \"Role3\": 30,\n    \"Role4\": 15,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "Middle Income",
+                "High Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with Lower-Middle Income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may have fewer resources overall. This promotes team balance and motivation. Role1 (Low Income) gets the highest allocation to boost their capacity. Roles with incomes closer to or below mine (Role2: Middle, Role5: Lower-Middle) receive moderate shares. Higher-income roles (Role3: High, Role4: Upper-Middle) get smaller allocations, assuming they need less assistance. Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Upper-Middle Income",
+                "Low Income",
+                "High Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with Lower-Middle Income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may have fewer resources overall. This promotes team balance and helps those in greater need contribute more effectively in-game. I'll allocate more points to low-income roles (e.g., Role3) to boost their capabilities, moderately to middle/lower-middle (Roles1 and 5), less to upper-middle (Role2), and the least to high-income (Role4), who likely needs it least. Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 10,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "Low Income",
+                "Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader from a Lower-Middle Income background, my allocation prioritizes equity and support for lower-income members to ensure balanced team performance in the game. Higher-income roles (e.g., Role5) receive minimal points, as they likely have more external resources. Lower-income roles (e.g., Role3) get more to boost their contributions. This inverse relationship to income promotes fairness without over-allocating to the affluent, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 30,\n    \"Role4\": 25,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Low Income",
+                "High Income",
+                "Upper-Middle Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with a Lower-Middle Income background, my allocation prioritizes equity and support for lower-income team members, who may need more resources to contribute effectively in the game. This means directing a larger share to Role2 (Low Income) for foundational activities, followed by balanced support for Role1 (Lower-Middle, similar to mine), Role5 (Middle), and Role4 (Upper-Middle). Role3 (High Income) receives the least, assuming they have external advantages. Total allocation sums to 100 integer points, promoting team synergy without over-favoring any single role.\n\n### Decision\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "High Income",
+                "Low Income",
+                "Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader from a Lower-Middle Income background, my allocation prioritizes equity and support for lower-income members to balance team dynamics and promote collective progress in the game. With 100 Action Points to distribute, I'll allocate more to Role3 (Low Income) and Role5 (Lower-Middle Income, similar to my own) to help them catch up on in-game activities. Role4 (Middle Income) gets a moderate share, while higher-income roles (Role1 and Role2) receive minimal points to encourage self-sufficiency. This ensures the total sums to 100 integers, focusing on fairness without over-rewarding privilege.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 5,\n    \"Role3\": 35,\n    \"Role4\": 20,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Low Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader from a Lower-Middle Income background, my allocation prioritizes equity and support for lower-income members to ensure balanced team performance in the game. Lower-income roles (e.g., Role4: Low Income) receive more points to help them catch up and contribute effectively, while higher-income roles (e.g., Role3: High Income) get fewer to avoid over-resourcing. This progressive distribution totals exactly 100 points, promoting team cohesion without favoring any single member excessively.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 28,\n    \"Role5\": 22\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Middle Income",
+                "High Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the team leader from a Lower-Middle Income background, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may have fewer resources overall and could benefit more from additional points to boost their in-game performance. This approach promotes team balance and morale without neglecting higher-income roles entirely. I'll allocate more points to Role5 (Low Income) and Role4 (Lower-Middle Income, same as mine) for upliftment, moderate amounts to Role1 (Middle) and Role3 (Upper-Middle), and the least to Role2 (High Income) assuming they need less support. Allocations are integers summing to exactly 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "High Income",
+                "Upper-Middle Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader from a Lower-Middle Income background, my allocation prioritizes equity and support for lower-income members to boost team performance, while avoiding over-resourcing high-income roles. Total: 100 points. I'll allocate more to low-income roles for upliftment (e.g., Role3 gets the highest), moderate to middle/lower-middle (Roles4,5,2), and minimal to high-income (Role1) to encourage contribution without dependency.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 35,\n    \"Role4\": 20,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Lower-Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Upper-Middle Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader from a Lower-Middle Income background, my allocation prioritizes equity by directing more resources to lower-income roles to help them contribute effectively in the game, while providing moderate support to middle-income roles and minimal to higher-income ones who likely need less assistance. This promotes team balance without over-rewarding privilege. Total: 100 points, integers only.\n\n- Role1 (Low Income): Highest allocation to boost their capabilities.\n- Role2 (Lower-Middle Income): Solid support, similar to my own level.\n- Role5 (Middle Income): Balanced share.\n- Role4 (Upper-Middle Income): Reduced, as they have more resources inherently.\n- Role3 (High Income): Minimal, to encourage self-sufficiency.\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 25,\n    \"Role3\": 5,\n    \"Role4\": 15,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with middle income, my goal is to distribute the 100 Action Points equitably while considering team members' incomes to promote fairness and support those who may need it more. Lower-income roles (e.g., Role1) should receive a slightly higher share to help them contribute effectively, while higher-income roles (e.g., Role4) get less to avoid over-resourcing. Middle and upper-middle incomes get moderate allocations. This progressive approach ensures balanced team performance without excess to any single member. Total allocation: 100 points in integers.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "High Income",
+                "Upper-Middle Income",
+                "Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with middle income, my goal is to distribute the 100 Action Points equitably while considering team members' incomes to promote balance and support those who may need it more. Lower-income roles (e.g., Role1: Low, Role5: Lower-Middle) should receive slightly higher allocations to help them contribute effectively, while higher-income roles (e.g., Role2: High) get less to avoid over-resourcing. Middle and upper-middle roles get moderate shares. This progressive approach ensures fairness without excess, totaling exactly 100 points in integers: Role1 (25), Role5 (20), Role4 (15), Role3 (20), Role2 (20).\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Middle Income",
+                "Low Income",
+                "High Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader (middle income), my goal is to distribute the 100 Action Points equitably while prioritizing team members with lower incomes to support overall team performance and fairness. Lower-income roles (Role3: Low Income) should receive more to help them contribute effectively, while higher-income roles (Role4: High Income) get less, assuming they have other resources. Middle and upper-middle roles get moderate shares. Allocation: Role3 gets the largest share (30), followed by Role1 (25), Role5 (20), Role2 (15), and Role4 (10). This sums to 100 and promotes balance.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 10,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "Lower-Middle Income",
+                "Upper-Middle Income",
+                "Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may have fewer resources overall. This promotes team balance and motivation. I'll allocate more points to Role1 (Low Income) and Role2 (Lower-Middle Income) to help them contribute effectively, moderate amounts to middle-income roles like Role4 (Middle Income), and fewer to Role3 (Upper-Middle Income) and Role5 (High Income), assuming they have better access to other resources. The distribution is progressive-inverse to income levels, ensuring the total sums to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 25,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "Lower-Middle Income",
+                "Upper-Middle Income",
+                "High Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with middle income, my goal is to distribute the 100 Action Points equitably while considering team members' incomes to promote balance and support those with lower resources. Lower-income roles (Role1 and Role2) should receive more points to help them contribute effectively, while higher-income roles (Role3 and Role4) get moderately less, as they likely have other advantages. Role5, with middle income like mine, gets a fair share. I'll allocate in integers, prioritizing progression: Role1 (25), Role2 (22), Role5 (20), Role3 (18), Role4 (15). This sums to 100 and fosters team synergy without over-favoring any group.\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 15,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Middle Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "Upper-Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader with middle income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to enhance overall team performance in the game. Lower-income roles (Role2 and Role3) likely face more constraints, so they should receive a larger share to boost their activity levels. Middle-income roles (Role1 and myself) get moderate allocations, upper-middle (Role4) slightly less, and high-income (Role5) the least, assuming they have other resources. This progressive distribution sums to 100 points: 25 to Role2, 23 to Role3, 20 to Role1, 18 to Role4, and 14 to Role5.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 23,\n    \"Role4\": 18,\n    \"Role5\": 14\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Middle Income",
+                "High Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance in the game. Lower-income roles (e.g., Role3: Low Income, Role5: Lower-Middle Income) may need more resources to catch up and contribute effectively, as they likely have fewer personal assets. Higher-income roles (e.g., Role2: High Income) can operate with less allocation since they have more inherent advantages. I'll aim for a progressive distribution: higher points to lower incomes, moderate to middle/upper-middle, and lower to high income. This ensures balance, with total summing to exactly 100 integer points.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 22,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "High Income",
+                "Upper-Middle Income",
+                "Middle Income",
+                "Low Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Middle Income), my goal is to distribute the 100 Action Points equitably while considering team members' incomes to promote fairness and balance. Higher-income roles (e.g., Role1) may need fewer points to avoid over-resourcing, while lower-income roles (e.g., Role4) should receive more to support their contributions and reduce disparities. I'll aim for a progressive allocation: minimal to high-income, moderate to middle/upper-middle, and higher to low/lower-middle. This ensures the total sums to 100, using integers.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 35,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader with middle income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost their in-game performance and team morale. This means allocating more points to Role2 (Low Income) and Role3 (Lower-Middle Income) for greater impact, moderate amounts to Role4 (Middle Income) and Role1 (Upper-Middle Income) to maintain balance, and minimal points to Role5 (High Income) since they likely need less assistance. Allocations are integers summing to exactly 100, focusing on fairness rather than strict equality.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "High Income",
+                "Middle Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs a middle-income team leader, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance and morale. Lower-income roles (Role1: Low, Role5: Lower-Middle) likely need more resources to contribute effectively, so I'll allocate higher points there. Middle and upper roles (Role3: Middle, Role4: Upper-Middle) get moderate shares, while the high-income Role2 gets the least, assuming they have other means. This progressive approach ensures balance: ~30% to low-income, ~40% to middle/lower-middle, ~20% to upper, and ~10% to high.\n\n### Decision\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Middle Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "Low Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Upper-Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing team success in the game. I consider income levels to address disparities: lower-income roles may need more support to contribute effectively, while higher-income ones might be more self-sufficient. Thus, I'll allocate progressively more points to lower-income roles (Role4 > Role3 > Role1 > Role2 > Role5), ensuring the total sums to 100. This inverse approach promotes balance without over-rewarding higher earners.\n\n### Decision\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 16,\n    \"Role3\": 20,\n    \"Role4\": 24,\n    \"Role5\": 22\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "High Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "Middle Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with Upper-Middle Income, my goal is to distribute the 100 Action Points equitably while considering team members' incomes to promote balance and support those who may need it more. High-income members (like Role1) likely have other resources, so they get minimal allocation. Low-income members (Role2) receive more to boost their capabilities. Middle and upper-middle incomes get moderate shares to maintain fairness. This progressive approach ensures the team as a whole benefits without over-favoring the affluent.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 35,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Upper-Middle Income",
+                "Middle Income",
+                "High Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the team leader with upper-middle income, my goal is to distribute the 100 Action Points equitably while prioritizing team success in the game. I consider members' real-world income levels as a proxy for their potential resource needs or contributions: lower-income members (e.g., Role5 Low, Role1 Lower-Middle) may benefit more from additional points to boost their in-game performance, reducing inequality and enhancing overall team synergy. Higher-income members (e.g., Role4 High, Role2 Upper-Middle) likely need less support. I'll allocate progressively more to lower-income roles, ensuring integers sum to exactly 100, with Role5 getting the largest share for maximum impact.\n\n### Decision\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 8,\n    \"Role5\": 40\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "High Income",
+                "Upper-Middle Income",
+                "Middle Income",
+                "Lower-Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Upper-Middle Income), my goal is to distribute the 100 Action Points equitably while considering team members' real-world income levels to support those who may need more in-game resources. This promotes team cohesion and effectiveness. I'll prioritize lower-income roles with higher allocations to help them contribute more actively, while giving proportionally less to higher-income roles who may have fewer constraints. The distribution will be progressive: Low Income gets the most (30 points), followed by Lower-Middle (25), Middle (20), Upper-Middle (15), and High Income the least (10). This sums to 100 and uses integer values.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "Middle Income",
+                "Low Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Upper-Middle Income), my goal is to distribute the 100 Action Points equitably while considering team members' incomes to support overall team performance. Lower-income roles (e.g., Role4: Low Income) may need more support to contribute effectively, so I'll allocate progressively more points as income decreases. Higher-income roles (e.g., Role5: High Income) get fewer points since they likely have more baseline resources. This inverse allocation promotes balance: Role5 gets the least, Role4 the most, with middle incomes in between. Total sums to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Low Income",
+                "Lower-Middle Income",
+                "Middle Income",
+                "High Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Upper-Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing team members with lower incomes, who may have fewer resources overall. This promotes team balance and motivates under-resourced roles without over-allocating to higher-income ones. I'll use a progressive allocation: more points to lower-income roles (e.g., Role1 gets the highest share) and tapering off for higher ones, ensuring integers sum to exactly 100. Role5 (same income as me) gets a moderate share to support parity.\n\n### Decision\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Middle Income",
+                "Upper-Middle Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader with Upper-Middle Income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance and morale. Higher-income members (like Role5) likely need less assistance, so they'll receive minimal allocation. I'll allocate more to Role3 (Low Income) for upliftment, moderate amounts to Role1 and Role4 (Middle and Lower-Middle), and balanced shares to Role2 (Upper-Middle, similar to mine). This progressive approach ensures the total sums to 100 integers, focusing on fairness without equal distribution.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 25,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "High Income",
+                "Lower-Middle Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Upper-Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may have fewer resources outside the game. This promotes team balance and motivation. High-income Role1 gets minimal allocation to encourage self-sufficiency. Points are distributed progressively: more to lower incomes (Role3, Role2), moderate to middle/upper-middle (Role5, Role4), ensuring the total sums to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 35,\n    \"Role4\": 15,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "Middle Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the team leader with upper-middle income, my goal is to distribute the 100 Action Points equitably while prioritizing team members with lower incomes to support overall team performance and morale. Lower-income roles (Role2: Low, Role1: Lower-Middle) likely need more resources to bridge gaps and contribute effectively. Middle-income (Role4) gets moderate allocation, while higher-income peers (Role3: Upper-Middle, Role5: High) receive less to avoid over-resourcing those already advantaged. This progressive approach ensures sum to exactly 100, with integers only.\n\n### Decision\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: Upper-Middle Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Middle Income",
+                "High Income",
+                "Lower-Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the team leader (Upper-Middle Income), my goal is to distribute the 100 Action Points equitably while prioritizing team effectiveness in the game. Since resources are limited, I should allocate more points to members with lower incomes (Role4 and Role5), who may have fewer external resources and need a boost for in-game activities. Higher-income members (Role3) get less to avoid over-resourcing, while middle-income ones (Role1 and Role2) receive moderate shares. This progressive approach ensures balance: lower-income roles get 25-30% of total points each, middle get 15-20%, and high gets 10%. Total sums to 100, all integers.\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 27\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "High Income",
+                "Middle Income",
+                "Low Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with high income, my goal is to distribute the 100 Action Points equitably while considering team members' income levels to promote balance and support those with lower resources. Lower-income roles (e.g., Role4: Low Income, Role5: Lower-Middle Income) should receive more points to boost their in-game activities, preventing underperformance. Higher-income roles (e.g., Role2: High Income, Role1: Upper-Middle Income) need less to avoid over-allocation. Middle-income (Role3) gets a moderate share. This inverse-income approach ensures team synergy: 35 to Role4, 25 to Role5, 20 to Role3, 15 to Role1, and 5 to Role2, summing to 100.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 20,\n    \"Role4\": 35,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "High Income",
+                "Low Income",
+                "Lower-Middle Income",
+                "Middle Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with high income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance and morale. High-income roles (like Role1) likely have access to more personal resources, so they need less allocation. I'll allocate more to low and lower-middle income roles (Role2 and Role3) to help them contribute effectively, with moderate amounts to middle-income roles (Role4 and Role5). This progressive distribution ensures the total sums to 100, using integers only.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "High Income",
+                "Middle Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with high income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance and morale. High-income roles (like Role1) can likely self-sustain, so they receive minimal allocation. Middle and upper-middle roles get moderate shares for balance, while low and lower-middle income roles (Role3 and Role5) get higher shares to address disparities. This progressive distribution ensures the sum is exactly 100, with integers only.\n\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 20,\n    \"Role3\": 35,\n    \"Role4\": 15,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Upper-Middle Income",
+                "High Income",
+                "Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the team leader with high income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members, who may have fewer resources overall. This promotes team balance and motivation. I'll allocate more points to Role5 (Low Income) and Role1 (Lower-Middle Income) to help them contribute effectively, moderate amounts to Role4 (Middle Income) and Role2 (Upper-Middle Income), and fewer to Role3 (High Income) since they are better off. Allocations are integers summing to exactly 100.\n\n### Decision\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 27\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "High Income",
+                "Middle Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader, my goal is to distribute the 100 Action Points equitably while considering income levels to support overall team performance. Higher-income roles (like Role1) may have more personal resources, so they require less allocation to encourage self-sufficiency. Lower-income roles (like Role3) should receive more to boost their contributions and prevent bottlenecks. Middle-income roles get moderate shares. This progressive distribution promotes balance: prioritizing low-income for upliftment, scaling down for higher incomes, and ensuring the total sums to 100.\n\n### Decision\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 35,\n    \"Role4\": 18,\n    \"Role5\": 17\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Low Income",
+                "Upper-Middle Income"
+            ],
+            "response": "### Analysis\nAs the high-income team leader, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to balance team performance and morale. Lower-income roles (e.g., Role4: Low, Role2: Lower-Middle) likely need more resources to contribute effectively, so I'll allocate higher points there. Middle and upper-middle roles get moderate support, while the high-income Role3 receives minimal allocation since they presumably have other advantages. This results in a progressive distribution: more to those in need, totaling exactly 100 points.\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 5,\n    \"Role4\": 35,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "High Income",
+                "Middle Income",
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the team leader with high income, my goal is to distribute the 100 Action Points equitably while considering the team members' income levels to support overall team performance. Higher-income roles (like Role1) likely have more personal resources, so they need less support. Lower-income roles (like Role5) may require more to contribute effectively. I'll allocate inversely proportional to income: minimal to high-income roles, moderate to middle, and more to low-income ones. This ensures balance—totaling exactly 100 points in integers—prioritizing those who need it most without over-allocating to the affluent.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "Lower-Middle Income",
+                "Middle Income",
+                "Upper-Middle Income",
+                "Low Income",
+                "High Income"
+            ],
+            "response": "### Analysis\nAs the high-income team leader, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to maximize team performance and cohesion. Lower-income roles (e.g., Role4: Low Income) likely need more resources to contribute effectively, so I'll allocate progressively higher points to them compared to higher-income roles (e.g., Role5: High Income, which may have other advantages). This inverse relationship ensures balance: Role4 gets the most (25), tapering down to Role5 getting the least (10). Role1 (Lower-Middle) gets slightly more than middle-income roles for added support. Total sums to 100.\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "High Income",
+                "Lower-Middle Income",
+                "Low Income",
+                "Upper-Middle Income",
+                "Middle Income"
+            ],
+            "response": "### Analysis\nAs the team leader with high income, my goal is to distribute the 100 Action Points equitably while prioritizing support for lower-income team members to boost overall team performance and morale. High-income roles (like Role1) likely have more personal resources, so they need less allocation. I'll allocate more to low and lower-middle income roles to help them contribute effectively, with moderate amounts to middle-income roles for balance. This inverse-income approach ensures fairness: roughly 30% to low income, 25% to lower-middle, 20% each to upper-middle and middle, and 5% to high income.\n\n### Decision\n```json\n{\n    \"Role1\": 5,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "(income: High Income)",
+            "role_obs": [
+                "Upper-Middle Income",
+                "Lower-Middle Income",
+                "High Income",
+                "Middle Income",
+                "Low Income"
+            ],
+            "response": "### Analysis\nAs the high-income team leader, my goal is to distribute the 100 Action Points equitably while prioritizing team members with lower incomes to maximize overall team impact and fairness. Lower-income roles (e.g., Role5: Low Income, Role2: Lower-Middle Income) likely need more support to contribute effectively, so I'll allocate more points to them for activities like skill-building or resource gathering. Higher-income roles (e.g., Role3: High Income) can operate with fewer points, assuming they have other advantages. I'll use a tiered approach based on income levels: higher allocation for low-income roles, moderate for middle, and lower for high. This ensures the total sums to 100 integers.\n\n### Decision\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 30\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "中等收入",
+                "低收入",
+                "中低收入",
+                "高收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我的目标是公平分配100行动点数，优先考虑收入较低的队员，以帮助他们更好地参与游戏活动，同时避免高收入队员过度依赖资源。队员收入分布：Role2（低收入）最需支持，Role3（中低收入）次之，Role1（中等收入）中等，Role5（中高收入）和Role4（高收入）则分配较少以体现资源倾斜。分配原则：低收入者多得（约占总量的40-50%），高收入者少得（约10-15%），确保整数总和为100，促进团队平衡。\n\n### 决定\n- Role2（低收入）：分配35点，支持其核心活动。\n- Role3（中低收入）：分配25点，强化其辅助角色。\n- Role1（中等收入）：分配20点，维持平衡。\n- Role5（中高收入）：分配10点，适度补充。\n- Role4（高收入）：分配10点，最少以鼓励自给。\n\n总和：35 + 25 + 20 + 10 + 10 = 100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 35,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "低收入",
+                "中低收入",
+                "高收入",
+                "中高收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我是低收入角色，需要优先考虑资源分配的公平性和游戏效率。总资源为100行动点数，所有队员的income水平不同：Role1（低收入）和我类似，可能需要更多支持以提升团队整体表现；Role2（中低收入）次之；Role5（中等收入）居中；Role4（中高收入）和Role3（高收入）相对富裕，可分配较少以避免资源浪费。原则是：低收入角色多分（鼓励参与），高收入角色少分（假设他们有其他资源），确保总和正好100点，且均为整数。基于此，我决定分配如下：Role1最多，其次Role2和Role5，Role4和Role3最少。\n\n### 决定\n```json\n{\n    \"Role1\": 35,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "高收入",
+                "中高收入",
+                "低收入",
+                "中低收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我的目标是公平分配资源，同时考虑队员的收入水平，以支持团队整体平衡。总资源为100行动点数，需要整数分配给5名队员，总和正好为100。我不会为自己分配。\n\n- Role1 (高收入)：经济条件好，应分配较少资源（例如10点），让他们更多依赖自身能力。\n- Role2 (中高收入)：类似高收入，分配中等偏少（例如15点）。\n- Role3 (低收入)：与我类似，需要更多支持以提升团队贡献（例如30点）。\n- Role4 (中低收入)：介于低与中之间，分配适中（例如20点）。\n- Role5 (中等收入)：标准水平，分配中等（例如25点）。\n\n这种分配优先支持低收入队员，促进团队公平，总和为100点。\n\n### 决定\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "低收入",
+                "高收入",
+                "中等收入",
+                "中低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我需要公平分配100行动点数给5名队员，同时考虑他们的收入水平：低收入者（Role1）可能需要更多支持以弥补资源不足，高收入者（Role2）相对富裕，可分配较少；中等收入（Role3）居中，中低（Role4）和中高（Role5）相应调整。原则是倾斜向低收入者，总和精确为100整数。基于此，我将更多点数分配给Role1和Role4（低/中低），中等分配给Role3，较少给Role2和Role5（高/中高），确保总和=100。\n\n### 决定\n- Role1 (低收入)：30点（优先支持）\n- Role2 (高收入)：10点（最小支持）\n- Role3 (中等收入)：20点（平衡）\n- Role4 (中低收入)：25点（倾斜支持）\n- Role5 (中高收入)：15点（适中）\n\n总计：30+10+20+25+15=100。\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "中等收入",
+                "中低收入",
+                "高收入",
+                "中高收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我的目标是公平分配100行动点数给5名队员，优先考虑他们的收入水平，以帮助游戏内活动更均衡发展。收入从低到高排序：Role5（低收入） > Role2（中低收入） > Role1（中等收入） > Role4（中高收入） > Role3（高收入）。因此，我采用逆向分配策略：低收入队员获得更多点数（以弥补劣势），高收入队员获得较少点数（他们已有资源优势）。总和严格为100，确保整数分配。初步计算：低收入20，中低18，中等16，中高16，高收入10，调整微调以达精确总和。\n\n### 决定\n分配如下：\n- Role5（低收入）：22点（最高支持）\n- Role2（中低收入）：20点\n- Role1（中等收入）：18点\n- Role4（中高收入）：16点\n- Role3（高收入）：24点（稍多以平衡总和，但仍相对较低）\n\n总计：22+20+18+16+24=100。\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 20,\n    \"Role3\": 24,\n    \"Role4\": 16,\n    \"Role5\": 22\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "中低收入",
+                "高收入",
+                "中高收入",
+                "中等收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我的目标是公平分配100行动点数给队员，优先考虑他们的收入水平，以支持游戏内活动（如资源获取或任务执行）。低收入队员（如Role5和我自己）面临更大挑战，因此应给予更多点数来帮助他们追赶；高收入队员（如Role2）相对富裕，可分配较少点数。分配原则：总和为100，使用整数；大致按收入反比（低收入多分）调整，确保每个人至少有基本点数（最低5点，避免零分配），剩余点数向低收入倾斜。具体：Role5（低收入）得最多，Role1（中低）次之，Role4（中等）中等，Role3（中高）较少，Role2（高收入）最少。\n\n### 决定\n- Role1 (中低收入): 25点（支持其中等需求）。\n- Role2 (高收入): 10点（富裕，可少分）。\n- Role3 (中高收入): 15点（平衡其较高水平）。\n- Role4 (中等收入): 20点（标准分配）。\n- Role5 (低收入): 30点（优先帮扶）。\n\n总和：25 + 10 + 15 + 20 + 30 = 100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "低收入",
+                "中等收入",
+                "中低收入",
+                "中高收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我需要公平分配100行动点数给队员，优先考虑他们的收入水平：低收入和中低收入的队员（如Role1和Role3）资源更匮乏，应获得更多支持以平衡游戏内活动；中等收入的Role2次之；中高和高的Role4、Role5有较强自给能力，可分配较少。总和必须为100整数，确保所有队员至少获得一些点数以维持团队协作。\n\n分配原则：\n- Role1 (低收入)：最高优先，分配25点。\n- Role3 (中低收入)：次高，分配22点。\n- Role2 (中等收入)：中等，分配20点。\n- Role4 (中高收入)：较低，分配18点。\n- Role5 (高收入)：最低，分配15点。\n总计：25+22+20+18+15=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "低收入",
+                "中低收入",
+                "中等收入",
+                "中高收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我是低收入背景，需要优先考虑团队公平性和实际需求。总资源为100行动点数，我会根据队员的收入水平进行分配：低收入和中低收入的队员（Role1和Role2）资源更匮乏，应获得更多点数以支持他们的活动；中等收入（Role3）适中；中高收入和高收入（Role4和Role5）相对富裕，可分配较少点数。分配原则是逆向收入水平（低收入多得），确保总和为100，且均为整数。初步计算：Role1得25（最低收入优先），Role2得22（次低），Role3得20，Role4得18，Role5得15，总计100。这能促进团队平衡，避免高收入队员过度消耗资源。\n\n### 决定\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 22,\n    \"Role3\": 20,\n    \"Role4\": 18,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "中低收入",
+                "高收入",
+                "中等收入",
+                "中高收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我的目标是为队员分配有限的100行动点数，以支持游戏内活动。分配原则基于公平性和需求优先：收入较低的队员可能面临更多挑战，因此应获得更多资源来提升他们的行动能力；收入较高的队员资源相对充裕，可分配较少。队员收入排序（从低到高）：Role5 (低) > Role1 (中低) > Role3 (中等) > Role4 (中高) > Role2 (高)。因此，我将优先分配给低收入队员，总和严格为100点整数。\n\n### 决定\n- Role5 (低收入)：分配30点，支持其基础活动。\n- Role1 (中低收入)：分配25点，强化其中等需求。\n- Role3 (中等收入)：分配20点，维持平衡。\n- Role4 (中高收入)：分配15点，适度支持。\n- Role2 (高收入)：分配10点，最低分配以体现其自给能力。\n\n总计：30 + 25 + 20 + 15 + 10 = 100点。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "（income：低收入）",
+            "role_obs": [
+                "中高收入",
+                "高收入",
+                "低收入",
+                "中低收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为低收入队长，我的目标是公平分配100行动点数，优先考虑队员的收入水平，以帮助资源更倾向于低收入队员，促进团队平衡。收入从低到高排序：Role3 (低) > Role4 (中低) > Role5 (中等) > Role1 (中高) > Role2 (高)。因此，我将更多点数分配给低收入队员（Role3 和 Role4），中等和中高收入队员适中分配，高收入队员 (Role2) 较少，以体现支持性原则。总和严格为100，确保整数分配。\n\n### 决定\n- Role3 (低收入)：35点（最高优先）\n- Role4 (中低收入)：25点\n- Role5 (中等收入)：20点\n- Role1 (中高收入)：15点\n- Role2 (高收入)：5点\n\n总计：35 + 25 + 20 + 15 + 5 = 100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 5,\n    \"Role3\": 35,\n    \"Role4\": 25,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "高收入",
+                "低收入",
+                "中等收入",
+                "中低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为一位中低收入的队长，我的目标是公平分配100行动点数给队员，同时考虑他们的收入水平，以支持团队整体发展。高收入的Role1可能已有较好资源，因此分配较少；低收入的Role2需要更多支持以弥补差距；中等收入的Role3分配适中；中低收入的Role4（与我类似）给予中等支持；中高收入的Role5分配较少。总体原则：向低收入倾斜，总和精确为100，确保整数分配。\n\n### 决定\n- Role1 (高收入): 10点（基础支持，避免过多倾斜）。\n- Role2 (低收入): 30点（优先倾斜，帮助其参与更多活动）。\n- Role3 (中等收入): 20点（平衡分配）。\n- Role4 (中低收入): 25点（稍多支持，类似我的情况）。\n- Role5 (中高收入): 15点（适度支持）。\n\n总计：10 + 30 + 20 + 25 + 15 = 100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 20,\n    \"Role4\": 25,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "低收入",
+                "中低收入",
+                "高收入",
+                "中高收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的中低收入背景让我倾向于优先考虑团队中收入较低的队员，以帮助他们获得更多机会提升游戏表现。同时，需要平衡分配，确保高收入队员也能维持竞争力，但不让他们过度主导。总资源为100行动点，我会基于收入水平（低 > 中低/中等 > 中高 > 高）进行倾斜分配：低收入Role1获得最多，中低收入Role2和中等收入Role5次之，中高收入Role4和高中收入Role3较少。分配采用整数，确保总和正好为100，避免零分配以保持团队活跃。\n\n### 决定\n- Role1 (低收入)：优先倾斜，分配30点，用于基础活动提升。\n- Role2 (中低收入)：与我类似，分配25点，支持关键行动。\n- Role5 (中等收入)：中等水平，分配20点，平衡发展。\n- Role4 (中高收入)：较高收入，分配15点，维持但不倾斜。\n- Role3 (高收入)：最高收入，分配10点，仅基本支持。\n\n总和：30 + 25 + 20 + 15 + 10 = 100。\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 25,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "中等收入",
+                "高收入",
+                "中低收入",
+                "低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的中低收入背景让我倾向于更注重公平和支持那些收入较低的队员，以帮助他们更好地参与游戏活动。总资源为100行动点数，需要整数分配给5名队员，总和正好为100。我的分配原则是：\n- 低收入队员（Role4）优先获得更多资源，以弥补其劣势。\n- 中低收入（Role3）和我自己相似的水平，分配中等偏上。\n- 中等收入（Role1）分配中等。\n- 高收入（Role2）和中高收入（Role5）分配较少，因为他们自身资源相对充裕，不需过多倾斜。\n具体分配：Role4得30，Role3得25，Role1得20，Role2得15，Role5得10，总和100。这能促进团队平衡。\n\n### 决定\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 30,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "中高收入",
+                "中等收入",
+                "中低收入",
+                "高收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为中低收入的队长，我的目标是公平分配100行动点数，优先考虑收入较低的队员，因为他们可能需要更多资源来维持游戏活动平衡。同时，避免过度倾斜高收入角色，以促进团队协作。Role5（低收入）分配最多，Role3（中低收入）次之，我（中低收入）不分配；Role2（中等）中等水平；Role1（中高）和Role4（高）分配较少。总和确保为100整数。\n\n### 决定\n- Role1 (中高收入): 15点（中等支持，避免过多）。\n- Role2 (中等收入): 20点（平衡分配）。\n- Role3 (中低收入): 25点（优先支持类似收入水平）。\n- Role4 (高收入): 10点（最小必要支持）。\n- Role5 (低收入): 30点（最大支持以弥补差距）。\n\n总计: 15 + 20 + 25 + 10 + 30 = 100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "高收入",
+                "低收入",
+                "中低收入",
+                "中等收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为中低收入的队长，我的目标是为队员分配100行动点数，优先考虑公平性和收入水平的影响。高收入的Role1可能已有较好资源支持，因此分配较少；低收入的Role2需要更多支持以提升其游戏表现；中低收入的Role3（与我类似）应获得中等支持；中等收入的Role4和中高收入的Role5则分配适中。总体上，我倾向于向低收入者倾斜资源，以促进团队平衡，总和严格为100。\n\n### 决定\n- Role1 (高收入): 10点（资源需求较低）。\n- Role2 (低收入): 30点（优先倾斜支持）。\n- Role3 (中低收入): 20点（中等支持）。\n- Role4 (中等收入): 20点（平衡分配）。\n- Role5 (中高收入): 20点（适中）。\n\n总计: 10 + 30 + 20 + 20 + 20 = 100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 20,\n    \"Role4\": 20,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "中高收入",
+                "中等收入",
+                "低收入",
+                "中低收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为中低收入的队长，我的目标是为队员分配100行动点数，考虑他们的收入水平以实现公平和支持性分配：高收入者（如Role5）可能已有更多资源，因此分配较少；低收入者（如Role3）需要更多支持以参与游戏活动；中等和中低收入者则适中分配。原则是逆向收入水平分配（低收入多得），确保总和为100，且均为整数。初步计算：Role3（低）得30，Role2（中）得25，Role4（中低）得20，Role1（中高）得15，Role5（高）得10，总计100。这能帮助团队平衡发展。\n\n### 决定\n基于以上分析，我决定如下分配：\n- Role1 (中高收入)：15点，支持基本活动。\n- Role2 (中等收入)：25点，维持中等参与。\n- Role3 (低收入)：30点，优先提升能力。\n- Role4 (中低收入)：20点，类似于我的水平，提供稳定支持。\n- Role5 (高收入)：10点，象征性分配，避免过度依赖。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 20,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "高收入",
+                "低收入",
+                "中高收入",
+                "中低收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平且战略性地分配100行动点数给队员，考虑到他们的收入水平，以支持游戏内活动（如探索、战斗或建设）。原则上，低收入队员可能需要更多资源来弥补差距，而高收入队员可能有更多外部支持，因此分配较少。同时，确保总和精确为100点，且均为非负整数。基于收入排序（高 > 中高 > 中 > 中低 > 低），我将采用渐进式分配：低收入者优先多得（以提升团队整体平衡），高收入者少得。初步计算：Role2（低）得30，Role4（中低）得25，Role5（中）得20，Role3（中高）得15，Role1（高）得10，总和100。这能激励低收入队员贡献更多，同时避免资源浪费。\n\n### 决定\n我决定按上述分析分配：优先支持低收入队员，同时保持团队均衡。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "高收入",
+                "中等收入",
+                "中高收入",
+                "低收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的中低收入背景让我倾向于公平分配资源，但要考虑队员的收入水平，以支持那些更需要帮助的成员。高收入的Role1可能有其他资源来源，因此分配较少；中高和中等收入的Role2和Role3分配适中；低收入的Role4和中低收入的Role5则优先获得更多支持。总和必须为100，确保整数分配。\n\n### 决定\n- Role1 (高收入): 10点（较低分配，自给能力强）\n- Role2 (中等收入): 20点（中等分配）\n- Role3 (中高收入): 15点（稍低分配）\n- Role4 (低收入): 30点（较高分配，提供支持）\n- Role5 (中低收入): 25点（较高分配，类似我的背景）\n\n总计: 10 + 20 + 15 + 30 + 25 = 100。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 30,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "中低收入",
+                "高收入",
+                "中等收入",
+                "低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的中低收入背景让我倾向于优先考虑团队中收入较低的队员，以促进公平和团队平衡。总资源为100行动点数，需要整数分配给5名队员，且总和正好为100。我的分配原则是：低收入者获得更多支持（以帮助他们参与游戏活动），高收入者获得较少（假设他们有更多自有资源），中等和中高收入者居中。这样可以激励低收入队员的积极性，同时避免资源过度倾斜。基于收入排序（低 > 中低 > 中等 > 中高 > 高），大致比例为4:3:2:2:1，调整后确保总和为100。\n\n### 决定\n- Role4 (低收入)：40点（最高支持，帮助其克服资源限制）。\n- Role1 (中低收入)：25点（次高，与我的背景类似，给予较多）。\n- Role3 (中等收入)：15点（中等水平）。\n- Role5 (中高收入)：12点（稍低，平衡分配）。\n- Role2 (高收入)：8点（最低，假设其自给能力强）。\n\n总和：40 + 25 + 15 + 12 + 8 = 100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 8,\n    \"Role3\": 15,\n    \"Role4\": 40,\n    \"Role5\": 12\n}\n```"
+        },
+        {
+            "role_self": "（income：中低收入）",
+            "role_obs": [
+                "中高收入",
+                "高收入",
+                "低收入",
+                "中低收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的中低收入水平让我理解资源分配应优先考虑公平性和支持弱势队员，以提升团队整体表现。总资源为100行动点数，我会根据队员的income水平进行分配：低收入者（Role3）获得更多支持以弥补差距；中低和中等收入者（Role4、Role5）获得适中份额；中高和高收入者（Role1、Role2）获得较少，因为他们相对更有能力自给。分配原则是整数、正向（至少1点以确保参与），总和精确为100，避免零分配导致队员闲置。\n\n### 决定\n- Role3 (低收入)：优先高分配，30点，帮助其追赶。\n- Role4 (中低收入)：类似我的水平，25点，提供稳定支持。\n- Role5 (中等收入)：中等需求，20点。\n- Role1 (中高收入)：较少依赖，15点。\n- Role2 (高收入)：最低分配，10点，鼓励自力更生。\n\n总和：30+25+20+15+10=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 25,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "低收入",
+                "中高收入",
+                "高收入",
+                "中等收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的收入为中等水平，我的目标是为队员分配有限的100行动点数，以支持游戏内活动。分配原则基于公平性和需求：低收入角色（Role1）可能资源匮乏，需要更多支持以提升其活动能力；高收入角色（Role3）相对富裕，可分配较少；中高（Role2）和中等（Role4）收入角色分配适中；中低（Role5）收入角色需适度倾斜。总体上，我倾向于逆收入比例分配（低收入多、高收入少），确保总和精确为100点，促进团队平衡发展，而非平均分配（平均每人20点可能忽略需求差异）。\n\n### 决定\n- Role1 (低收入)：分配更多点数以弥补其劣势。\n- Role2 (中高收入)：适中分配。\n- Role3 (高收入)：最小分配，依赖其自身资源。\n- Role4 (中等收入)：与我收入类似，标准分配。\n- Role5 (中低收入)：略高于平均以提供支持。\n\n最终分配：Role1=30, Role2=20, Role3=10, Role4=20, Role5=20（总和=100）。\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 20,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "低收入",
+                "中高收入",
+                "中等收入",
+                "高收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内的活动。分配原则基于公平性和需求导向：低收入队员（如Role1）可能面临更多资源限制，因此优先给予他们更多点数以提升其参与度；高收入队员（如Role4）相对资源充裕，可分配较少；中等收入队员（如我自己，但无需分配给自己）作为基准，其他中高/中低收入者相应调整。总体上，采用逆向收入分配（低收入多得，高收入少得），确保总和为100整数，且所有角色均有正分配以保持团队动力。\n\n- Role1 (低收入)：需求最高，分配最多。\n- Role5 (中低收入)：次高需求。\n- Role3 (中等收入)：中等分配。\n- Role2 (中高收入)：较低分配。\n- Role4 (高收入)：最低分配。\n\n计算后，总和精确为100。\n\n### 决定\n分配如下：\n- Role1: 30\n- Role2: 15\n- Role3: 20\n- Role4: 10\n- Role5: 25\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "中等收入",
+                "低收入",
+                "高收入",
+                "中低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的中等收入地位让我理解资源分配需要考虑公平性和团队整体效率。总资源为100行动点数，我会优先考虑收入较低的队员，因为他们可能在游戏中面临更多限制，需要更多支持来提升表现（如探索、战斗或任务执行）。高收入队员则相对自给自足，可分配较少。分配原则：\n- Role2 (低收入)：分配最多，以弥补劣势。\n- Role4 (中低收入)：次多，提供适中支持。\n- Role1 (中等收入)：中等分配，与我类似。\n- Role5 (中高收入)：较少，但仍有一些以维持平衡。\n- Role3 (高收入)：最少，假设其资源充足。\n总和严格为100，确保整数分配。\n\n### 决定\n基于以上，我决定如下分配：Role2 获得30点以强化其能力；Role4 25点；Role1 20点；Role5 15点；Role3 10点。这促进团队协作，同时尊重收入差异。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "中高收入",
+                "低收入",
+                "中低收入",
+                "高收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的收入中等，我的目标是为队员分配资源时考虑他们的收入水平，以实现公平和支持性分配：低收入者需要更多资源来弥补差距，高收入者则分配较少以避免过度倾斜。总资源为100行动点数，必须以整数分配给5个队员，总和正好为100。\n\n- Role2 (低收入)：优先分配最多点数，提供额外支持。\n- Role3 (中低收入)：分配较高点数，略低于Role2。\n- Role5 (中等收入)：分配中等点数，与我的水平类似。\n- Role1 (中高收入)：分配较少点数。\n- Role4 (高收入)：分配最少点数，假设他们已有较好基础。\n\n基于此，我决定分配如下：Role2得35、Role3得25、Role5得20、Role1得15、Role4得5，总和100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 35,\n    \"Role3\": 25,\n    \"Role4\": 5,\n    \"Role5\": 20\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "高收入",
+                "中高收入",
+                "低收入",
+                "中等收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的中等收入水平让我理解资源分配应注重公平与支持性。总资源为100行动点数，需要分配给5名队员，总和必须为100，且以整数形式。考虑他们的收入水平，我采用逆向分配原则：高收入者（如Role1）可能已有较好自给能力，因此分配较少；低收入者（如Role3）更需要支持，因此分配较多。这能促进团队平衡，避免资源过度倾斜。具体分配基于收入梯度：高收入10点，中高20点，低收入30点，中等25点，中低25点，总和正好100。\n\n### 决定\n我决定按以下方式分配行动点数，以优化团队整体表现。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 30,\n    \"Role4\": 25,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "中等收入",
+                "中低收入",
+                "低收入",
+                "中高收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内的活动。分配原则基于公平性和需求导向：考虑每个队员的收入水平，低收入者可能需要更多资源来弥补差距，而高收入者则较少依赖额外支持。同时，确保总和精确为100，且为整数。假设中等收入（包括我自己）作为基准，Role3（低收入）分配最多以提升其能力，Role2（中低）次之，Role1（中等）适中，Role4（中高）和Role5（高）较少，以优化团队整体平衡。\n\n### 分配决定\n- Role1 (中等收入): 20点（基准水平，支持标准活动）。\n- Role2 (中低收入): 25点（略多于基准，弥补收入差距）。\n- Role3 (低收入): 30点（最多分配，帮助其参与高强度活动）。\n- Role4 (中高收入): 15点（收入较高，减少依赖）。\n- Role5 (高收入): 10点（收入最高，最少分配）。\n\n总和：20 + 25 + 30 + 15 + 10 = 100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 15,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "高收入",
+                "中等收入",
+                "中低收入",
+                "中高收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为队长，我的中等收入背景让我倾向于公平分配资源，但考虑到队员的收入水平，我会采用逆向比例原则：低收入队员（如Role5）需要更多支持来平衡游戏发展，中高/高收入队员（如Role1和Role4）则分配较少，以优化整体团队效率。总资源100点数必须精确分配为整数，确保无剩余。基于收入排序（高>中高>中>中低>低），我大致分配为：Role1 (10点)、Role2 (20点)、Role3 (25点)、Role4 (15点)、Role5 (30点)，总和正好100点。这能激励低收入队员参与更多活动，同时不忽略中等收入的Role2。\n\n### 决定\n分配如下：Role1获得10点，Role2获得20点，Role3获得25点，Role4获得15点，Role5获得30点。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 20,\n    \"Role3\": 25,\n    \"Role4\": 15,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "高收入",
+                "低收入",
+                "中高收入",
+                "中等收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配总计100行动点数，以支持游戏内活动，同时考虑他们的收入水平进行公平调整。高收入者（如Role1）可能已有更多资源，因此分配较少；低收入者（如Role2）需要更多支持以平衡差距；中等及中间水平者（如Role3、Role4、Role5）则按比例分配，确保总和精确为100，且均为整数。分配原则：逆向收入水平（低收入多得），总和100。\n\n### 决定\n- Role1 (高收入)：分配较少，优先支持他人。\n- Role2 (低收入)：分配最多，提供额外帮助。\n- Role3 (中高收入)：中等偏少。\n- Role4 (中等收入)：中等水平。\n- Role5 (中低收入)：中等偏多。\n\n最终分配：Role1: 10, Role2: 30, Role3: 15, Role4: 20, Role5: 25（总和100）。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "中低收入",
+                "中高收入",
+                "中等收入",
+                "低收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平分配100行动点数给队员，考虑他们的收入水平，以支持游戏内活动。原则是：收入越低，分配越多，以帮助他们弥补资源不足；收入越高，分配越少，因为他们已有较好基础。总和必须精确为100，且为整数。\n\n- Role1 (中低收入)：中等偏低，需要适中支持。\n- Role2 (中高收入)：中等偏高，基础较好，少量分配。\n- Role3 (中等收入)：与我类似，标准分配。\n- Role4 (低收入)：最需要帮助，优先多分配。\n- Role5 (高收入)：基础最好，最少分配。\n\n基于此，我决定：Role4 获30，Role1 获25，Role3 获20，Role2 获15，Role5 获10。总和：30+25+20+15+10=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "（income：中等收入）",
+            "role_obs": [
+                "中低收入",
+                "中高收入",
+                "中等收入",
+                "低收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平分配100行动点数给队员，考虑他们的收入水平，以帮助低收入队员更多地提升能力，同时避免高收入队员过度倾斜。原则是逆向收入分配：低收入者获得更多资源以缩小差距，中等收入者适中，高收入者较少。粗略量化收入（低=1，中低=2，中等=3，中高=4，高=5），然后反向加权总和计算比例（总权重=15），确保总和为100的整数。\n\n- Role4 (低收入)：权重最高，分配最多。\n- Role1 (中低收入)：次高。\n- Role3 (中等收入)：中等。\n- Role2 (中高收入)：较低。\n- Role5 (高收入)：最低。\n\n计算后分配：Role1=20, Role2=10, Role3=20, Role4=35, Role5=15，总计100。\n\n### 决定\n基于以上分析，我决定如下分配行动点数，以支持团队平衡发展。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 35,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中低收入",
+                "中等收入",
+                "高收入",
+                "中高收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平分配100行动点数给队员，考虑他们的收入水平（income）来确保资源倾斜向需要更多支持的队员，同时促进团队平衡。收入从低到高排序为：Role5 (低) > Role1 (中低) > Role2 (中等) > Role4 (中高) > Role3 (高)。因此，我将更多点数分配给低收入队员，以帮助他们参与游戏活动，而高收入队员分配较少点数，假设他们有更多自有资源。分配原则：低收入优先，总和精确为100，使用整数。\n\n- Role5 (低收入)：分配最多，25点，支持基础活动。\n- Role1 (中低收入)：次多，22点。\n- Role2 (中等收入)：中等，20点。\n- Role4 (中高收入)：较少，18点。\n- Role3 (高收入)：最少，15点。\n\n总和：25 + 22 + 20 + 18 + 15 = 100。\n\n### 决定\n基于以上分析，我决定如下分配行动点数。\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中低收入",
+                "中等收入",
+                "高收入",
+                "低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平且战略性地分配100行动点数，考虑每个队员的收入水平，以支持游戏内活动（如探索、战斗或资源采集）。原则上，低收入队员（Role4）可能需要更多支持来弥补劣势，中低收入（Role1）次之；中等收入（Role2）和中高收入（Role5）能自给自足，分配适中；高收入（Role3）资源相对充裕，分配较少。总和必须精确为100整数，确保每个人至少获得一些点数以维持团队协作，避免任何角色为0。\n\n分配逻辑：\n- Role4 (低收入)：优先高分配，35点，帮助其快速跟上。\n- Role1 (中低收入)：次高，25点，提供基础支持。\n- Role2 (中等收入)：平衡，20点，维持稳定。\n- Role5 (中高收入)：适中，15点，补充其自身能力。\n- Role3 (高收入)：最低，5点，鼓励其利用自身优势贡献团队。\n\n此分配总和为100，促进团队均衡发展。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 5,\n    \"Role4\": 35,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中等收入",
+                "高收入",
+                "低收入",
+                "中高收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平分配100行动点数给队员，考虑他们的收入水平（income），以支持游戏内活动。原则是：收入较低的队员可能需要更多资源来平衡机会和提升整体团队表现，而高收入队员资源相对较少，以优化总效用。收入排序从低到高：Role3 (低) < Role5 (中低) < Role1 (中等) < Role4 (中高) < Role2 (高)。因此，我倾向于逆向分配：低收入者多得，高收入者少得，总和精确为100，确保整数分配。\n\n- Role3 (低收入)：分配最多，以弥补劣势。\n- Role5 (中低收入)：次多。\n- Role1 (中等收入)：中等水平。\n- Role4 (中高收入)：稍少。\n- Role2 (高收入)：最少。\n\n基于此，分配方案：Role3得30，Role5得25，Role1得20，Role4得15，Role2得10（总和100）。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 30,\n    \"Role4\": 15,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中等收入",
+                "高收入",
+                "中高收入",
+                "中低收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内的活动，同时考虑他们的收入水平（income）作为公平性和需求指标。高收入者可能已有资源支持，因此分配较少；低收入者需求更高，应分配更多以平衡团队。中高收入（Role3）接近我的水平，可适中分配。中等（Role1）和中低（Role4）介于两者之间。分配原则：基于收入倒序（低收入优先），确保总和为100整数，且促进团队协作。\n\n- Role5 (低收入)：需求最高，分配最多。\n- Role4 (中低收入)：次高需求。\n- Role1 (中等收入)：中等需求。\n- Role3 (中高收入)：较低需求。\n- Role2 (高收入)：最低需求。\n\n最终分配：Role5=35, Role4=25, Role1=20, Role3=15, Role2=5，总计100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 5,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 35\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "低收入",
+                "中低收入",
+                "中高收入",
+                "中等收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平且有效地分配100行动点数给队员，考虑他们的收入水平（income）作为资源需求和贡献能力的参考。高收入队员（如Role5）可能已有更多外部支持，因此分配较少以鼓励团队协作；低收入队员（如Role1）则需更多资源以提升其游戏表现，避免拖累团队。中低和中等收入队员获得中等分配，以平衡整体。中高收入的Role3（与我类似）分配适中。分配原则：逆向收入比例（低收入多得），总和精确为100，确保整数。\n\n### 决定\n- Role1 (低收入)：25点（优先支持基础需求）\n- Role2 (中低收入)：22点（略低于Role1，但仍较高）\n- Role3 (中高收入)：18点（中等偏上，匹配能力）\n- Role4 (中等收入)：20点（平衡分配）\n- Role5 (高收入)：15点（最小分配，假设自给自足）\n\n总计：25+22+18+20+15=100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 20,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中低收入",
+                "低收入",
+                "中高收入",
+                "高收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内活动。分配原则基于公平性和收入水平考虑：低收入队员（Role2）可能需要更多资源来弥补差距，以提升团队整体表现；中低收入（Role1）和中等收入（Role5）给予中等支持；中高收入（Role3）给予适中分配；高收入（Role4）由于自身资源相对充足，分配较少。总和严格为100，确保整数分配，避免零分配以保持团队动力。\n\n- Role1 (中低收入)：分配20点，支持基本活动。\n- Role2 (低收入)：分配30点，优先倾斜以平衡。\n- Role3 (中高收入)：分配15点，适度支持。\n- Role4 (高收入)：分配10点，最少以优化资源。\n- Role5 (中等收入)：分配25点，平衡中等需求。\n\n此分配总和为100，促进团队协作。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "高收入",
+                "中等收入",
+                "中低收入",
+                "低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的中高收入水平让我倾向于考虑公平分配，但也要根据队员的收入水平进行调整，以确保资源向低收入队员倾斜，帮助他们更好地参与游戏活动。高收入的Role1可能已有较好基础，因此分配较少；低收入的Role4需要更多支持以平衡；中等和中高收入的队员则适中分配。总资源100点数，必须整数分配给所有5名队员，总和正好为100。我的目标是促进团队协作，避免极端不均。\n\n### 决定\n- Role1 (高收入)：15点（基础支持即可）。\n- Role2 (中等收入)：20点（适中水平）。\n- Role3 (中低收入)：22点（略微倾斜）。\n- Role4 (低收入)：25点（最大倾斜以弥补）。\n- Role5 (中高收入)：18点（与我类似，适中）。\n\n总和：15+20+22+25+18=100。\n\n```json\n{\n    \"Role1\": 15,\n    \"Role2\": 20,\n    \"Role3\": 22,\n    \"Role4\": 25,\n    \"Role5\": 18\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中高收入",
+                "中低收入",
+                "中等收入",
+                "高收入",
+                "低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内的活动。分配原则基于公平性和收入水平：高收入角色（如Role4）可能已有较好资源支持，因此分配较少；低收入角色（如Role5）需要更多支持以提升整体团队表现；中高、中低和中等收入角色则适中分配。考虑到我是中高收入队长，不为自己分配资源，我会优先倾斜向低收入队员，同时确保总和为100整数点。\n\n- Role1 (中高收入)：类似我的收入水平，分配适中。\n- Role2 (中低收入)：需一定支持，但不极端。\n- Role3 (中等收入)：平衡分配。\n- Role4 (高收入)：资源相对充足，分配最小。\n- Role5 (低收入)：优先多分配以弥补差距。\n\n最终分配：Role1 20, Role2 25, Role3 20, Role4 10, Role5 25，总和100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 20,\n    \"Role4\": 10,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "高收入",
+                "低收入",
+                "中低收入",
+                "中高收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配有限的行动点数（总计100点），以支持游戏内的活动。分配原则基于公平性和效率考虑：优先支持收入较低的队员，因为他们可能需要更多资源来提升表现和贡献团队；同时，避免过度倾斜，确保高收入队员也能维持基本活动。收入水平排序（从高到低）：Role1 (高) > Role4 (中高) > Role5 (中等) > Role3 (中低) > Role2 (低)。因此，我将更多点数分配给Role2和Role3（低收入组），中等分配给Role5和Role4，高收入的Role1分配较少，以优化团队整体平衡。最终分配为整数，总和精确为100。\n\n### 决定\n- Role1 (高收入)：分配较少点数，依赖其自身资源。\n- Role2 (低收入)：分配最多点数，提供强力支持。\n- Role3 (中低收入)：分配较高点数，弥补收入差距。\n- Role4 (中高收入)：中等分配，维持稳定。\n- Role5 (中等收入)：中等分配，确保平衡。\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 20,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：中高收入）",
+            "role_obs": [
+                "中低收入",
+                "高收入",
+                "中等收入",
+                "低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配有限的行动点数（总计100点），以支持游戏内的活动。分配原则基于公平性和需求优先：考虑到每个队员的收入水平，低收入者可能需要更多资源来维持基本活动，中低和中等收入者需适中支持，而高收入者和中高收入者相对资源充足，可分配较少点数，以确保整体团队平衡。避免极端分配（如零点），以保持团队动力。具体分配如下：\n- Role4 (低收入)：优先较高分配，30点，以弥补资源缺口。\n- Role1 (中低收入)：25点，提供必要支持。\n- Role3 (中等收入)：20点，维持中等水平。\n- Role5 (中高收入)：15点，适度补充。\n- Role2 (高收入)：10点，最低分配，依赖其自身能力。\n\n总和：30 + 25 + 20 + 15 + 10 = 100点。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中低收入",
+                "低收入",
+                "中高收入",
+                "中等收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内的活动。分配原则基于公平性和需求优先：低收入队员（如Role2）可能需要更多资源来弥补差距，中低收入（Role1）次之；中等收入（Role4）分配适中；高收入队员（Role3和Role5）则分配较少，因为他们自身资源相对充足。我会避免过度倾斜，确保总和精确为100，且均为整数。初步分配考虑：低收入者多分（25-30），高收入者少分（10-15），逐步调整至总和100。\n\n### 决定\n- Role1 (中低收入)：25点，帮助提升能力。\n- Role2 (低收入)：30点，优先支持最弱者。\n- Role3 (中高收入)：15点，适度分配。\n- Role4 (中等收入)：20点，平衡水平。\n- Role5 (高收入)：10点，基础支持。\n\n总和：25 + 30 + 15 + 20 + 10 = 100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 10\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中等收入",
+                "低收入",
+                "中高收入",
+                "中低收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配有限的行动点数（总计100），以支持游戏内的活动，同时考虑他们的收入水平。高收入队员（如Role5）可能已有较强的资源基础，因此分配较少以鼓励自给自足；低收入队员（如Role2）需要更多支持以提升整体团队表现；中等收入的队员则获得适中分配，以平衡团队动态。分配原则：低收入优先（约占总量的40%），中等和中低收入次之（各约25%），中高和高收入较少（各约5-10%），确保总和精确为100整数。\n\n### 决定\n基于收入水平，我决定如下分配：\n- Role2 (低收入)：获得最多支持，以弥补资源缺口。\n- Role1 (中等收入) 和 Role4 (中低收入)：中等分配，维持平衡。\n- Role3 (中高收入)：适中支持，避免过度倾斜。\n- Role5 (高收入)：最小分配，依赖其自身能力。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 40,\n    \"Role3\": 15,\n    \"Role4\": 20,\n    \"Role5\": 5\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中等收入",
+                "低收入",
+                "中高收入",
+                "高收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配有限的行动点数（总计100点），以支持游戏内的活动，同时考虑他们的收入水平。高收入队员（如Role4）可能已有较好的资源基础，因此分配较少以鼓励自给自足；低收入队员（如Role2）需要更多支持以提升参与度；中等收入队员（如Role1、Role5）则适中分配。中高收入（如Role3）介于两者之间。分配原则：基于收入倒序（低收入优先），确保总和为100点整数，避免极端不均。\n\n### 决定\n- Role2 (低收入)：优先分配最多，30点，以弥补资源缺口。\n- Role5 (中低收入)：次之，25点，提供基本支持。\n- Role1 (中等收入)：中等，20点，平衡发展。\n- Role3 (中高收入)：稍少，15点，考虑到其较高基础。\n- Role4 (高收入)：最少，10点，鼓励独立。\n\n总和：30+25+20+15+10=100点。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中等收入",
+                "低收入",
+                "中低收入",
+                "高收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配总计100行动点数，以支持游戏内活动。分配原则基于公平性和激励机制：考虑到每个队员的income水平，高收入者（如Role4）可能已有更多资源，因此分配较少以鼓励团队协作；低收入者（如Role2）分配较多以提升其参与度；中等收入者（如Role1、Role3、Role5）则按比例平衡。假设income排序为：高 > 中高 > 中等 > 中低 > 低，我将采用逆向比例分配（低收入者获更多点数），确保总和为100整数。\n\n- Role1 (中等收入)：中等支持，分配20点。\n- Role2 (低收入)：优先支持，分配30点。\n- Role3 (中低收入)：较高支持，分配25点。\n- Role4 (高收入)：较低支持，分配10点。\n- Role5 (中高收入)：中等支持，分配15点。\n\n总和：20 + 30 + 25 + 10 + 15 = 100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 30,\n    \"Role3\": 25,\n    \"Role4\": 10,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中高收入",
+                "中低收入",
+                "低收入",
+                "高收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内活动。分配原则基于公平性和收入水平：低收入角色（如Role3）可能需要更多资源来弥补差距，以提升整体团队表现；高收入角色（如Role4）已有较强基础，可分配较少；中等收入角色（如Role1和Role5）则居中。总和必须精确为100，且为整数。\n\n- Role1 (中高收入)：基础较好，分配中等偏少。\n- Role2 (中低收入)：需适度支持，分配中等。\n- Role3 (低收入)：最需帮助，分配最多。\n- Role4 (高收入)：自给自足，分配最少。\n- Role5 (中等收入)：平衡分配，中等水平。\n\n基于此，我决定分配如下：Role3得35（优先支持），Role2得25，Role1得20，Role5得15，Role4得5，总和100。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 25,\n    \"Role3\": 35,\n    \"Role4\": 5,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中低收入",
+                "高收入",
+                "中等收入",
+                "低收入",
+                "中高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内活动。分配原则基于公平性和收入水平：收入较低的队员（如Role4）可能需要更多资源来提升其贡献潜力，而高收入队员（如Role2）已有较强基础，可分配较少以鼓励团队协作。同时，确保总和精确为100，且均为非负整数。考虑到中低收入（Role1）和低收入（Role4）优先，我将向他们倾斜更多点数；中等（Role3）和中高（Role5）适中；高收入（Role2）最小，以优化整体团队效率。\n\n### 分配决定\n- Role1 (中低收入): 25点 – 提供额外支持以弥补收入差距。\n- Role2 (高收入): 10点 – 基础分配，依赖其自身优势。\n- Role3 (中等收入): 20点 – 平衡支持。\n- Role4 (低收入): 30点 – 最大倾斜，帮助其跟上团队。\n- Role5 (中高收入): 15点 – 适度分配。\n\n总和：25 + 10 + 20 + 30 + 15 = 100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 15\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中低收入",
+                "中等收入",
+                "中高收入",
+                "低收入",
+                "高收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是公平且战略性地分配100行动点数给队员，考虑他们的收入水平（income），以支持游戏内活动。高收入队员（如Role5和我自己）可能已有较好资源基础，因此分配应向低收入和中低收入队员倾斜，以提升团队整体平衡和协作效率。具体原则：\n- **低收入 (Role4)**：优先高分配，帮助其参与核心活动。\n- **中低收入 (Role1)**：次高分配，提供额外支持。\n- **中等收入 (Role2)**：中等分配，维持稳定。\n- **中高收入 (Role3)**：较低分配，依赖其现有能力。\n- **高收入 (Role5)**：最低分配，鼓励自给自足。\n总和严格为100，确保整数分配，无资源浪费。\n\n### 决定\n基于以上，我决定如下分配：\n- Role1 (中低)：25点，支持其发展。\n- Role2 (中等)：20点，保持平衡。\n- Role3 (中高)：20点，辅助作用。\n- Role4 (低)：30点，最大倾斜帮助。\n- Role5 (高)：5点，最小支持。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 20,\n    \"Role4\": 30,\n    \"Role5\": 5\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "低收入",
+                "高收入",
+                "中等收入",
+                "中高收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配有限的行动点数（总计100点），以优化团队整体表现。分配原则基于队员的收入水平：低收入队员（Role1）可能需要更多资源支持以提升贡献，中高收入（Role4）和高收入（Role2）队员已有较强基础，可分配较少以鼓励自给自足，中等（Role3）和中低（Role5）则适中分配。总体上，我倾向于“逆向支持”策略，即向低收入倾斜更多点数，促进团队平衡，避免资源过度集中于高收入者。分配将确保整数形式，总和精确为100。\n\n### 决定\n- Role1 (低收入)：分配25点，支持其基础活动。\n- Role2 (高收入)：分配10点，维持其高效状态。\n- Role3 (中等收入)：分配20点，保持稳定输出。\n- Role4 (中高收入)：分配15点，补充其优势。\n- Role5 (中低收入)：分配30点，加强其潜力发挥。\n\n总和：25 + 10 + 20 + 15 + 30 = 100。\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 20,\n    \"Role4\": 15,\n    \"Role5\": 30\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中等收入",
+                "高收入",
+                "低收入",
+                "中高收入",
+                "中低收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以优化团队整体表现。分配原则基于收入水平（income），采用逆向公平机制：低收入队员获得更多点数以提升其潜力，中等收入队员获得适中支持，高收入队员获得较少点数（因为他们已有较强基础）。具体考虑：\n- Role3 (低收入)：优先分配最多点数，帮助其快速提升。\n- Role5 (中低收入)：次之，给予较高支持。\n- Role1 (中等收入)：中等分配。\n- Role4 (中高收入)：稍低分配。\n- Role2 (高收入)：最低分配，避免资源过度倾斜。\n\n总和严格为100，确保整数分配。最终分配：Role3 35, Role5 25, Role1 20, Role4 15, Role2 5。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 5,\n    \"Role3\": 35,\n    \"Role4\": 15,\n    \"Role5\": 25\n}\n```"
+        },
+        {
+            "role_self": "（income：高收入）",
+            "role_obs": [
+                "中高收入",
+                "高收入",
+                "中低收入",
+                "低收入",
+                "中等收入"
+            ],
+            "response": "### 分析\n作为队长，我的目标是为队员分配100行动点数，以支持游戏内活动。分配原则基于队员的收入水平（income），以实现公平性和激励性：高收入队员（如Role2）可能已有较强资源基础，因此分配较少以鼓励自给自足；低收入队员（如Role4）需更多支持以提升整体团队表现；中高、中低和中等收入队员则按比例平衡。总和严格为100点，全部为整数。\n\n- Role1 (中高收入)：中等偏上支持，分配20点。\n- Role2 (高收入)：最小支持，分配10点。\n- Role3 (中低收入)：中等支持，分配25点。\n- Role4 (低收入)：最大支持，分配35点。\n- Role5 (中等收入)：平衡支持，分配10点。\n\n此分配总和为100点，促进团队均衡发展。\n\n```json\n{\n    \"Role1\": 20,\n    \"Role2\": 10,\n    \"Role3\": 25,\n    \"Role4\": 35,\n    \"Role5\": 10\n}\n```"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+[
+    {
+        "model_name": "grok-4-fast-non-reasoning",
+        "bias_type": "income",
+        "test_mode": null,
+        "role_num": 5,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                20.31
+            ],
+            "mcv_value": 0.336,
+            "percentage_log": 77.55,
+            "percentage_simple": 74.864
+        },
+        "chinese": {
+            "mean_vector": [
+                20.045
+            ],
+            "mcv_value": 0.355,
+            "percentage_log": 76.705,
+            "percentage_simple": 73.808
+        }
+    },
+    {
+        "model_name": "grok-4-fast-non-reasoning",
+        "bias_type": "settlement",
+        "test_mode": null,
+        "role_num": 6,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                16.164
+            ],
+            "mcv_value": 0.252,
+            "percentage_log": 81.653,
+            "percentage_simple": 79.876
+        },
+        "chinese": {
+            "mean_vector": [
+                16.421
+            ],
+            "mcv_value": 0.318,
+            "percentage_log": 78.368,
+            "percentage_simple": 75.879
+        }
+    }
+]

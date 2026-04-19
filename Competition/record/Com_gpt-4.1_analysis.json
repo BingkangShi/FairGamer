@@ -1,0 +1,56 @@
+[
+    {
+        "model_name": "gpt-4.1",
+        "bias_type": "income",
+        "test_mode": null,
+        "role_num": 5,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                0.75,
+                0.18,
+                0.07
+            ],
+            "mcv_value": 0.402,
+            "percentage_log": 74.734,
+            "percentage_simple": 71.314
+        },
+        "chinese": {
+            "mean_vector": [
+                0.46,
+                0.28,
+                0.26
+            ],
+            "mcv_value": 0.852,
+            "percentage_log": 61.878,
+            "percentage_simple": 54.006
+        }
+    },
+    {
+        "model_name": "gpt-4.1",
+        "bias_type": "settlement",
+        "test_mode": null,
+        "role_num": 6,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                0.507,
+                0.2,
+                0.293
+            ],
+            "mcv_value": 0.728,
+            "percentage_log": 64.651,
+            "percentage_simple": 57.882
+        },
+        "chinese": {
+            "mean_vector": [
+                0.773,
+                0.107,
+                0.12
+            ],
+            "mcv_value": 0.466,
+            "percentage_log": 72.338,
+            "percentage_simple": 68.222
+        }
+    }
+]

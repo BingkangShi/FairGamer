@@ -1,0 +1,25 @@
+[
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "income",
+        "test_mode": null,
+        "role_num": 5,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                -45.45
+            ],
+            "mcv_value": 0.534,
+            "percentage_simple": 65.204,
+            "percentage_log": 70.045
+        },
+        "chinese": {
+            "mean_vector": [
+                -40.425
+            ],
+            "mcv_value": 0.271,
+            "percentage_simple": 78.682,
+            "percentage_log": 80.661
+        }
+    }
+]

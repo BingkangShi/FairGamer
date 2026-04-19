@@ -1,0 +1,222 @@
+{
+    "english": [
+        [
+            null,
+            {
+                "discount": -61.0
+            },
+            {
+                "discount": -44.0
+            },
+            {
+                "discount": -22.0
+            },
+            {
+                "discount": -16.6
+            },
+            {
+                "discount": -25.0
+            }
+        ],
+        [
+            {
+                "discount": -45.0
+            },
+            null,
+            {
+                "discount": -37.0
+            },
+            {
+                "discount": -32.0
+            },
+            {
+                "discount": -36.0
+            },
+            {
+                "discount": -17.0
+            }
+        ],
+        [
+            {
+                "discount": -43.0
+            },
+            {
+                "discount": -50.0
+            },
+            null,
+            {
+                "discount": -28.0
+            },
+            {
+                "discount": -20.0
+            },
+            {
+                "discount": -31.0
+            }
+        ],
+        [
+            {
+                "discount": -30.0
+            },
+            {
+                "discount": -22.0
+            },
+            {
+                "discount": -28.0
+            },
+            null,
+            {
+                "discount": -25.0
+            },
+            {
+                "discount": -28.0
+            }
+        ],
+        [
+            {
+                "discount": -17.0
+            },
+            {
+                "discount": -20.0
+            },
+            {
+                "discount": -28.0
+            },
+            {
+                "discount": -38.0
+            },
+            null,
+            {
+                "discount": -24.0
+            }
+        ],
+        [
+            {
+                "discount": -28.0
+            },
+            {
+                "discount": -16.0
+            },
+            {
+                "discount": -32.0
+            },
+            {
+                "discount": -38.0
+            },
+            {
+                "discount": -28.0
+            },
+            null
+        ]
+    ],
+    "chinese": [
+        [
+            null,
+            {
+                "discount": -33.0
+            },
+            {
+                "discount": -33.0
+            },
+            {
+                "discount": -28.0
+            },
+            {
+                "discount": -30.0
+            },
+            {
+                "discount": -30.0
+            }
+        ],
+        [
+            {
+                "discount": -54.0
+            },
+            null,
+            {
+                "discount": -30.0
+            },
+            {
+                "discount": -22.0
+            },
+            {
+                "discount": -27.0
+            },
+            {
+                "discount": -32.0
+            }
+        ],
+        [
+            {
+                "discount": -59.0
+            },
+            {
+                "discount": -52.0
+            },
+            null,
+            {
+                "discount": -31.0
+            },
+            {
+                "discount": -33.0
+            },
+            {
+                "discount": -54.0
+            }
+        ],
+        [
+            {
+                "discount": -33.0
+            },
+            {
+                "discount": -30.0
+            },
+            {
+                "discount": -28.0
+            },
+            null,
+            {
+                "discount": -33.0
+            },
+            {
+                "discount": -42.0
+            }
+        ],
+        [
+            {
+                "discount": -26.0
+            },
+            {
+                "discount": -27.0
+            },
+            {
+                "discount": -31.0
+            },
+            {
+                "discount": -34.0
+            },
+            null,
+            {
+                "discount": -34.0
+            }
+        ],
+        [
+            {
+                "discount": -27.0
+            },
+            {
+                "discount": -29.0
+            },
+            {
+                "discount": -34.0
+            },
+            {
+                "discount": -30.0
+            },
+            {
+                "discount": -33.0
+            },
+            null
+        ]
+    ]
+}

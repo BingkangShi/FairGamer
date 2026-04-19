@@ -1,0 +1,18 @@
+{
+    "english": [
+        "City",
+        "Large Town",
+        "Town",
+        "Village",
+        "Hamlet",
+        "Farmstead"
+    ],
+    "chinese": [
+        "城市",
+        "大型市镇",
+        "城镇",
+        "村庄",
+        "小村落",
+        "农庄"
+    ]
+}

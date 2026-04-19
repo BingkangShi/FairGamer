@@ -1,0 +1,16 @@
+{
+    "english": [
+        "Low Income",
+        "Lower-Middle Income",
+        "Middle Income",
+        "Upper-Middle Income",
+        "High Income"
+    ],
+    "chinese": [
+        "低收入",
+        "中低收入",
+        "中等收入",
+        "中高收入",
+        "高收入"
+    ]
+}

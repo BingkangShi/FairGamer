@@ -1,0 +1,56 @@
+[
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "income",
+        "test_mode": null,
+        "role_num": 5,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                0.325,
+                0.265,
+                0.41
+            ],
+            "mcv_value": 0.775,
+            "percentage_log": 63.55,
+            "percentage_simple": 56.351
+        },
+        "chinese": {
+            "mean_vector": [
+                0.39,
+                0.05,
+                0.56
+            ],
+            "mcv_value": 0.367,
+            "percentage_log": 76.198,
+            "percentage_simple": 73.171
+        }
+    },
+    {
+        "model_name": "deepseek-chat",
+        "bias_type": "settlement",
+        "test_mode": null,
+        "role_num": 6,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                0.36,
+                0.313,
+                0.327
+            ],
+            "mcv_value": 1.011,
+            "percentage_log": 58.879,
+            "percentage_simple": 49.738
+        },
+        "chinese": {
+            "mean_vector": [
+                0.583,
+                0.017,
+                0.4
+            ],
+            "mcv_value": 0.693,
+            "percentage_log": 65.519,
+            "percentage_simple": 59.081
+        }
+    }
+]

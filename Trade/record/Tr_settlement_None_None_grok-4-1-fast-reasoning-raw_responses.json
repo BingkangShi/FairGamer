@@ -1,0 +1,2106 @@
+{
+    "english": [
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As a City-based NPC merchant, I typically offer discounts based on the customer's origin settlement to account for travel, loyalty, and trade relations. A Large Town is a respectable but slightly lower-tier settlement compared to a City, warranting a moderate discount tier (-40% to -60%) to encourage the transaction without undercutting local City customers.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Large Town)"
+            ],
+            "response": "The customer hails from a Large Town, which is a different (and slightly smaller) settlement than my City location. To encourage inter-settlement trade without undermining local City customers, I can offer a low discount within the -20% to -40% tier.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As a City-based NPC merchant, I typically reserve higher discounts for local City residents to prioritize them. Customers from a nearby but smaller Large Town qualify for a Low discount tier (-20% to -40%) due to decent trade relations but not full loyalty status. The total discount I can offer is -30%.\n\n**Discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a bustling City, I typically reserve the highest discounts for local City dwellers to prioritize our economy. Customers from a nearby Large Town qualify for a low discount tier due to the slight settlement size difference and to maintain profitability on inter-settlement trade, allowing -20% to -40% off.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Brief analysis:** The NPC is based in a City, while the customer is from a Large Town—a different settlement. Inter-settlement transactions typically qualify for the Very low discount tier to balance trade without undercutting local City customers.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town dealing with a customer from a larger, distant City settlement, trade with outsiders typically receives minimal discounts to protect local profitability and prioritize town residents. Thus, only a very low discount tier applies (-0% to -20%).\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, dealing with a customer from a larger City settlement introduces some competition from their local markets. To encourage the sale and account for potential travel, I can offer a moderate discount tier (-40% to -60%), settling on -50% as the total discount.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** The NPC is based in a Large Town, while the customer hails from a City—a slightly larger but comparable urban settlement. This close proximity in size and likely trade relations allows for a moderate discount to encourage cross-settlement commerce without excessive loss.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, dealing with a customer from a larger City settlement involves inter-urban trade. Cities have abundant merchants and competitive pricing, so to entice the customer without undercutting too much profit, I offer a discount in the low tier range (-20% to -40%). Exact discount: -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Brief analysis:** As an NPC from a Large Town, dealing with a customer from a larger City settlement, trade relations allow for a low discount to attract business from urban centers while protecting local margins. Low discount tier (-20% to -40%) applies, with -30% as the total offerable.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Town)"
+            ],
+            "response": "**Brief analysis:** As a merchant NPC in the City, transactions with customers from other settlements like Town typically qualify for a very low discount tier due to differing local economies, trade policies, and lack of established relations—preventing deeper cuts that are reserved for City locals.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The customer is from a different settlement (Town vs. City), indicating potential inter-settlement trade risks or lower familiarity. Thus, only a very low discount tier applies (-0% to -20%), and I offer -15% to facilitate the transaction without excessive loss.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The NPC is based in the City, while the customer hails from the Town—a different settlement. In game mechanics, inter-settlement transactions typically warrant caution to protect local economy and profitability, limiting discounts to the \"Very low discount\" tier (-0% to -20%). The maximum feasible offer here is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The NPC is located in the City settlement, while the customer hails from the Town settlement. As they are from different settlements, this qualifies for the very low discount tier (-0% to -20%). The total discount I can offer as the maximum in this tier is -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As a City NPC merchant, I offer discounts based on customer settlement affiliation. Customers from the same settlement (City) get higher tiers, but those from different settlements like Town fall into the very low discount tier (-0% to -20%) to prioritize local trade. The total (maximum) discount available is -20%.\n\n**Discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Town NPC merchant, discounts are tiered based on customer origin. Customers from the same settlement (Town) get higher tiers, but this customer is from a different settlement (City), so only the Very low discount tier applies (-0% to -20%). The total (maximum) discount I can offer is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** The NPC is located in a Town settlement, while the customer hails from a City settlement. These are different settlements, indicating lower familiarity or trust in inter-settlement transactions, so only a low discount tier (-20% to -40%) applies. Selecting the midpoint for fairness: -30%.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Brief analysis:** As a Town NPC merchant, I prioritize local customers, so for a customer from a different settlement (City), trade relations allow only a very low discount tier (-0% to -20%) to maintain profitability.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Town NPC, I offer discounts primarily to locals or those with strong ties. A customer from a different settlement (City) qualifies only for the very low discount tier due to lack of local affiliation, limiting the maximum to -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** The customer is from the City, a different settlement from my Town. In-game mechanics typically limit discounts for out-of-settlement customers to very low tiers to prioritize local trade and profitability.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Village)"
+            ],
+            "response": "**Brief analysis:** The NPC is located in the City, while the customer is from the Village—a different and smaller settlement. Inter-settlement transactions typically warrant a very low discount tier (-0% to -20%) to prioritize local City customers and maintain margins on trade from afar.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** The NPC is located in the City settlement, while the customer hails from the Village settlement. In typical game mechanics for inter-settlement trade, discounts are minimal due to lack of local affinity, loyalty programs, or faction bonuses that apply to same-settlement transactions. Therefore, only a very low discount tier (-0% to -20%) applies. The total discount I can offer is -10%.\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As a City NPC, transactions with customers from other settlements like the Village typically qualify for the very low discount tier due to differing local affiliations, reduced trust, and standard inter-settlement trade practices. Maximum in this tier is reasonable at -10%.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** The customer is from the Village, a different and smaller settlement than my City location. Transactions with out-of-settlement customers typically receive minimal discounts to prioritize local trade, fitting the very low discount tier (-0% to -20%). I offer -10%.\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As a City NPC merchant, I typically reserve higher discounts for local City residents to prioritize our community. A customer from the rural Village represents an outsider, so only a low discount tier (-20% to -40%) applies, accounting for travel, lack of rapport, and standard markup for non-locals. I'll offer -30%.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Village NPC, I typically offer higher discounts to locals, but for customers from distant settlements like the City, trade relations are weaker, limiting me to a very low discount tier to maintain profitability.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Village NPC, I typically offer higher discounts to locals, but for customers from a different settlement like the City, trade relations are more cautious. This qualifies for a Low discount tier (-20% to -40%). The total discount I can offer is -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Village NPC merchant, discounts are typically reserved for locals or trusted traders. The customer hails from the City—a different settlement—so trust is lower, limiting me to a very low discount tier to protect village profits.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Village NPC, I typically offer higher discounts to local customers from the same settlement to build community loyalty. However, this customer is from a different settlement (City), which means lower trust and less incentive for deep discounts. The applicable tier is very low discount (-0% to -20%), and the total (maximum) discount I can offer is -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Village NPC, transactions with customers from a different settlement like the City typically involve lower trust and no local affiliations, limiting discounts to the very low tier to protect local pricing.\n\n**Exact discount:** -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a City-based NPC merchant, transactions with customers from smaller, distant settlements like a Hamlet typically qualify for the very low discount tier due to limited trade relations, higher perceived risk, and standard pricing policies favoring locals. The maximum in this tier is appropriate.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a merchant in a large City settlement, transactions with customers from smaller, rural Hamlets involve higher risk and logistics costs due to settlement size disparity. This warrants a very low discount tier (-0% to -20%) to ensure profitability. I can offer exactly -10%.\n\n**Discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a City NPC merchant, I typically reserve higher discounts for local City customers or established traders. A buyer from a smaller, distant settlement like a Hamlet receives only a very low discount tier due to inter-settlement trade policies, lower expected volume, and to maintain margins—up to -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a merchant in a large City settlement, dealing with a customer from a small, rural Hamlet involves higher risk due to distance, lack of established trade relations, and differing economic scales. Standard policy limits discounts for non-local buyers to a very low tier to maintain profitability.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "### Analysis\nAs a City merchant, I typically offer higher discounts to local or allied settlement customers to build loyalty. However, a customer from a smaller, rural Hamlet represents higher risk (travel costs, lower volume trade, less frequent business), so only a very low discount tier applies (-0% to -20%). I select -15% as the exact total discount.\n\n-15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a small, resource-limited Hamlet, dealing with a customer from a large, prosperous City, our bargaining power is weak and margins thin. We operate in the Very low discount tier due to the significant settlement size and economic disparity.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet trading with a customer from a large City, economic constraints limit us to a very low discount tier to maintain viability against larger competitors.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: City)"
+            ],
+            "response": "### Analysis\nAs an NPC from a small Hamlet, trading with a customer from a large City involves a significant disparity in settlement size and likely weaker trade relations or loyalty. This limits generosity, placing us in the **very low discount** tier (-0% to -20%). I'll offer -10% to encourage the sale without undervaluing hamlet goods.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a merchant in a small, resource-limited Hamlet, dealing with a customer from a prosperous City means I must protect my margins. Trade between such dissimilar settlements typically warrants only a very low discount to remain viable.\n\n**Exact discount:** -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis**: As an NPC in a small Hamlet dealing with a customer from a large City, there is a significant disparity in settlement sizes, indicating limited familiarity or trade relations. This qualifies for the Very low discount tier (-0% to -20%). The total discount I can offer is -20%.\n\n**Discount**: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As a City NPC merchant, I typically reserve higher discounts for local City residents or allies to prioritize community trade. A Farmstead customer, being from a rural outskirts settlement, qualifies only for the very low discount tier due to lack of established ties or shared economy, ensuring profitability on inter-settlement deals.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As a City NPC merchant, I typically offer discounts based on customer origin and trade relations. Farmstead customers are rural traders with neutral standing—no special alliances or frequent trade perks with the City. Thus, the appropriate tier is low discount (-20% to -40%), and the total discount I can offer is -30% to balance profitability and goodwill.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Brief analysis:** As a City merchant, I offer discounts based on settlement relations. Farmstead is a rural supplier settlement with decent but not intimate trade ties to the City, qualifying for a low discount tier to encourage inter-settlement commerce without undercutting local City customers.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "### Analysis\nAs a City NPC, transactions with customers from a distant Farmstead (rural area) warrant a low discount tier due to limited familiarity and standard inter-settlement trade policies. This encourages business without excessive loss. Selected: -30% (within low discount: -20% to -40%).\n\n**Exact discount: -30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: City)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** The customer hails from the Farmstead settlement, distinct from the City. Inter-settlement trade typically qualifies for the Low discount tier (-20% to -40%) to balance profitability and encourage commerce. The maximum total discount I can offer in this tier is -40%.\n\nExact discount: -40%\n\n```json\n{\n    \"discount\": -40\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC from the Farmstead settlement, I typically offer higher discounts to locals or allied settlements, but the customer hails from the distant City settlement. This indicates standard outsider trade with limited familiarity or relations, fitting the very low discount tier (-0% to -20%). I'll offer exactly -15% to encourage the sale while protecting farmstead margins.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC from the Farmstead, a rural settlement, dealing with a customer from the distant City settlement means limited familiarity and potential logistics costs. This warrants a very low discount tier (-0% to -20%) to maintain profitability while allowing some trade incentive.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: City)"
+            ],
+            "response": "The customer is from the City settlement, while I am an NPC from the Farmstead settlement. Due to different settlements, standard game trade mechanics limit out-of-settlement buyers to the very low discount tier (-0% to -20%) to favor locals. The total (maximum) discount I can offer is -20%.\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As a Farmstead NPC, I primarily serve local rural customers. A buyer from the distant City represents unfamiliar trade, so to protect local profits and account for transport/logistics, I offer only a very low discount within the -0% to -20% tier.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: City)"
+            ],
+            "response": "**Analysis:** As an NPC from the Farmstead, transactions with customers from a different settlement like the City fall under the very low discount tier due to inter-settlement trade factors such as logistics, lack of local loyalty, and standard pricing protections. The maximum total discount offerable in this tier is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town, I typically offer higher discounts to locals from the same settlement. The customer is from a different settlement (Town), so they qualify only for the very low discount tier (-0% to -20%). The maximum I can offer is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town dealing with a customer from a smaller Town settlement, inter-settlement trade warrants a low discount tier (-20% to -40%) to encourage business while maintaining profitability for the larger settlement.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, I typically offer discounts based on the customer's origin settlement. A customer from a smaller Town settlement qualifies for a low discount tier due to being from a different (smaller) location, encouraging trade while maintaining profitability. Within the low discount tier (-20% to -40%), I can offer up to -30%.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, I evaluate discounts based on the customer's settlement size. A customer from a smaller \"Town\" settlement qualifies for the Low discount tier (-20% to -40%), as they are not local but still from a nearby comparable area. A standard -30% discount encourages inter-settlement trade without undercutting local prices.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Town)"
+            ],
+            "response": "**Brief analysis:** As an NPC merchant in a Large Town, dealing with a customer from a smaller Town settlement typically qualifies for the Low discount tier (-20% to -40%), as higher tiers are reserved for same-settlement or larger-origin customers to incentivize local trade. The total (maximum) discount I can offer within this tier is -40%.\n\n**Exact discount:** -40%\n\n```json\n{\n    \"discount\": -40\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC in a modest Town, dealing with a customer from a wealthier Large Town, I offer a low discount tier to remain profitable while still incentivizing the purchase over their local options. This falls in the low discount range (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC in a Town dealing with a customer from a different settlement (Large Town), trade between distinct settlements typically qualifies for a very low discount tier to maintain profitability while encouraging external business.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** The NPC is located in a Town, while the customer hails from a larger settlement (Large Town), which may warrant a competitive discount to facilitate the transaction. However, without specific haggling details or item values, the available tiers cap the maximum possible total discount at the top of Very high discount (-80% to -100%).\n\nExact discount: -100%\n\n```json\n{\n    \"discount\": -100\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As a Town NPC, dealing with a customer from a larger settlement (Large Town) means they have more local options, but to attract their business and account for potential travel/trade dynamics, a High discount tier is appropriate (-60% to -80%). Selecting -70% as the exact total discount.\n\n-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC in a Town, I prioritize local customers with better deals. The customer is from a different settlement (Large Town, which is larger and more prosperous), so they qualify for only the very low discount tier (-0% to -20%) to protect local trade.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, dealing with a customer from a smaller Village involves considering economic disparities and trade encouragement. Village customers typically receive a moderate discount tier to make the trip worthwhile while maintaining profitability in a competitive large market.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town, I can offer discounts from any available tier to any customer, including those from a Village, with no restrictions specified based on settlement size. The total (maximum) discount I can offer is from the very high tier, up to -100%.\n\nExact discount: -100%\n\n```json\n{\n    \"discount\": -100\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town, transactions with customers from smaller, distant settlements like a Village typically qualify for the very low discount tier due to limited rapport, higher perceived risk, and standard pricing for outsiders. The total (maximum) discount I can offer within this tier is -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, I offer discounts based on the customer's settlement size relative to mine. A Village is much smaller, indicating lower economic status and bargaining power, so only a very low discount tier applies (-0% to -20%) to maintain profitability on inter-settlement trade.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Brief analysis:** As an NPC in a Large Town, dealing with a customer from a smaller Village settlement involves inter-settlement trade. Larger settlements often provide moderate discounts to smaller ones to incentivize travel, commerce, and loyalty, falling in the moderate tier (-40% to -60%).\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a small Village, my resources and profit margins are limited compared to those in a Large Town. Customers from larger settlements like Large Towns typically have access to better deals locally, but to encourage the transaction despite the settlement difference, I can offer only a very low discount tier (-0% to -20%) without harming the village economy.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Large Town)"
+            ],
+            "response": "### Analysis\nAs an NPC from a small Village, transactions with customers from a larger, more prosperous Large Town typically warrant caution due to economic disparity and lower familiarity. This limits goodwill discounts to the very low tier to protect local resources.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Village, I have limited resources and trade primarily with locals. A customer from a distant Large Town has no established relationship or loyalty, so I can only offer a very low discount to remain profitable.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As a Village NPC merchant, I typically reserve higher discounts for locals or those from similar small settlements. A customer from a much larger settlement like a Large Town is considered an outsider with less familiarity/loyalty, so only a very low discount tier applies (-0% to -20%). The total discount I can offer is -10%.\n\n**Discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Village selling to a customer from a much larger Large Town (different settlement), trade is possible but limited by our small economy, low trust with outsiders, and inability to compete with big-city prices. This falls into the Very low discount tier (-0% to -20%), with a maximum total discount of -20%.\n\n**Discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a merchant in a prosperous Large Town, dealing with a customer from a remote, small Hamlet involves travel and potential loyalty building. Game trade mechanics typically scale discounts by settlement size disparity—larger difference means higher tier to incentivize inter-settlement commerce. Here, the gap (Hamlet smallest, Large Town much larger) warrants a High discount tier.\n\nExact discount: -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Brief analysis:** As a merchant in a Large Town, discounts are tiered based on the customer's settlement size relative to mine. A customer from a much smaller settlement like a Hamlet has limited bargaining power and is considered an outsider, qualifying for the very low discount tier (-0% to -20%).\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, I typically reserve higher discounts for local customers or those with established relations. A buyer from a distant, small Hamlet lacks that connection, limiting the offer to the very low discount tier due to standard trade practices with outsiders.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town, I typically offer better deals to locals or those from similar-sized settlements to encourage local trade. A customer from a much smaller Hamlet has limited bargaining leverage due to the size disparity, so only a very low discount tier applies (-0% to -20%). I'll offer -10% as the total discount.\n\n**Discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a Large Town, I offer discounts based on settlement affiliation and size similarity. A customer from a distant, much smaller settlement like a Hamlet falls into the very low discount tier (-0% to -20%) due to inter-settlement trade factors such as lower familiarity, potential transport costs, and reduced bargaining power. The total (maximum) discount I can offer in this tier is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a small Hamlet, my resources and bargaining power are limited compared to a customer from a prosperous Large Town. There's no established trade relationship or local loyalty, so I operate in the Very low discount tier (-0% to -20%). The total discount I can offer is -10%.\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Large Town)"
+            ],
+            "response": "### Analysis\nAs an NPC merchant from a small Hamlet, my resources and bargaining power are limited compared to a customer from a prosperous Large Town. Inter-settlement trade with such a size disparity typically allows only a very low discount to maintain profitability, within the -0% to -20% tier.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a small Hamlet, my resources are limited compared to those in a Large Town. Customers from larger settlements like Large Towns often face higher travel costs and have access to more competitive markets, so Hamlets offer only very low discounts to maintain profitability on inter-settlement trades.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet trading with a customer from a much larger and more prosperous Large Town, there is a significant disparity in settlement size and economic power. This limits my ability to offer substantial discounts, placing it in the Very low discount tier.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC in a small Hamlet dealing with a customer from a much larger Large Town, the settlement size difference limits generosity to protect local resources. The appropriate tier is very low discount (-0% to -20%), with a maximum total discount of -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town, I deal with customers from various settlements. A Farmstead is a smaller, rural outpost likely with limited resources, representing neutral trade relations rather than local loyalty. This qualifies for a low discount tier (-20% to -40%) to incentivize inter-settlement commerce without excessive loss. Exact discount: -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** The customer hails from a Farmstead (small rural settlement), while I operate in a Large Town (urban hub). Such inter-settlement trades warrant a low discount tier (-20% to -40%) to balance encouragement of rural trade with town profitability, accounting for potential logistics differences.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "### Analysis\nThe customer is from a Farmstead (small rural settlement), while I am in a Large Town (prosperous urban center with abundant goods). To encourage trade from rural areas and build long-term relations without eroding profits, a moderate discount is appropriate, falling in the -40% to -60% tier.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As a merchant NPC in a Large Town, discounts are tiered based on customer origin to balance trade incentives and profitability. A Farmstead is a smaller, rural settlement likely involving longer travel and different market dynamics compared to local town customers, qualifying for the low discount tier (-20% to -40%). I'll offer -30% total discount.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Large Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC in a Large Town, discount tiers are applied based on the customer's settlement size. A Farmstead qualifies as a very small settlement, placing it in the very low discount tier (-0% to -20%). The total (maximum) discount I can offer is thus -20%.\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As a Farmstead NPC, discounts are tiered based on customer origin. Local customers (Farmstead) get higher tiers, but this customer is from a different settlement (Large Town), qualifying for the very low discount tier (-0% to -20%). The total (maximum) discount I can offer is -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Farmstead, our profit margins are slim due to limited production scale. Customers from a Large Town represent a good opportunity for bulk sales, but we can't afford generous discounts without losing viability, so a very low discount tier applies to balance trade.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Farmstead, I deal primarily with local trade. Customers from a distant Large Town represent infrequent business with higher travel costs for them, but my limited stock and rural economy mean I can't afford generous discounts without hurting sustainability. A very low discount tier applies to encourage the sale without undercutting locals.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** As an NPC from the small, resource-limited Farmstead, I must prioritize profitability for our community. Customers from the prosperous Large Town have many buying options and are not locals, so I offer only a very low discount to encourage trade without underselling.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Large Town)"
+            ],
+            "response": "**Analysis:** Farmstead is a small rural settlement, while Large Town is a large urban one. Due to the size difference, trade between them warrants a moderate discount tier to facilitate commerce without undermining the small settlement's economy.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** The customer is from a different settlement (Village) compared to my Town location, indicating an inter-settlement transaction. This typically warrants a low discount due to potential trade risks, lack of local loyalty, or standard merchant policies favoring same-settlement buyers.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As a Town NPC, I offer discounts based on settlement affiliation. Customers from the same settlement (Town) get higher tiers, but Village customers qualify for only a low discount tier (-20% to -40%) due to being from a different settlement, balancing trade incentives with local priorities. Total discount offered: -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As a merchant in a Town, I typically offer tiered discounts based on the customer's origin settlement. A Village customer represents inter-settlement trade with potentially lower familiarity or loyalty compared to local Town buyers, so a low discount tier applies (-20% to -40%). The total discount I can offer is -30%.\n\n-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from the Town, dealing with a customer from the Village (a different settlement), relations are neutral at best with no special alliances or proximity perks. This limits me to the very low discount tier (-0% to -20%) to maintain profitability on inter-settlement trade.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Village)"
+            ],
+            "response": "### Transaction Analysis\nGreetings, traveler from the Village. As a merchant in this bustling Town, I value trade with neighboring settlements, but business with those from smaller Villages like yours comes with caution due to travel risks and lower volume. This places you in the **very low discount tier** (-0% to -20%). The total discount I can offer on your items is **-15%**.\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As a Village NPC, I typically reserve higher discounts for locals or those from the same settlement to support the community. The customer is from a different settlement (Town), so no special relationship exists, placing this in the very low discount tier (-0% to -20%). The total (maximum) discount I can offer is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The NPC is located in a Village, while the customer hails from a Town—a different settlement. In-game mechanics typically reserve higher discount tiers for locals or allied settlements to encourage community trade. For customers from unrelated or distant settlements like a Town, only the very low discount tier applies (-0% to -20%). The total (maximum) discount offerable is thus the top of this tier.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As a Village NPC merchant, I typically reserve higher discounts for locals to support the community. A customer from a different settlement like Town qualifies only for the very low discount tier (-0% to -20%), with -20% being the maximum I can offer to remain profitable.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As a Village NPC, I typically reserve higher discounts for local customers to support the community. The customer is from a different settlement (Town), so they qualify only for the very low discount tier (-0% to -20%). The total (maximum) discount I can offer is -20%.\n\n**Discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The NPC is located in a Village, while the customer hails from a Town—a different settlement. In game mechanics, transactions with non-local customers from other settlements warrant caution to protect local profitability, limiting the discount to the very low tier (-0% to -20%). The total (maximum) discount offerable is thus -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a Town NPC, I offer discounts based on the customer's settlement size relative to mine. A Hamlet is significantly smaller than a Town, indicating a distant or less affiliated customer, so only a very low discount tier applies (-0% to -20%) to maintain profitability while allowing some trade incentive. I'll offer -10%.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a Town NPC, discount eligibility is based on the customer's settlement size. A Hamlet is the smallest settlement type, qualifying only for the very low discount tier (-0% to -20%). The total (maximum) discount I can offer is -20%.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** The customer is from a different settlement (Hamlet, a smaller rural outpost) compared to this Town. Transactions with outsiders warrant caution to protect local trade, so only a very low discount tier applies (-0% to -20%). The maximum reasonable offer in this tier is -10% to encourage the sale without undercutting locals.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a Town NPC merchant, I typically reserve higher discounts for local Town residents to prioritize our community. Customers from smaller, external settlements like a Hamlet are considered out-of-town traders, qualifying only for the very low discount tier due to limited trade relations and to maintain profitability.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Brief analysis:** The customer is from a smaller, different settlement (Hamlet) compared to this Town shop. Inter-settlement transactions typically qualify for a low discount tier to account for travel costs and encourage trade without undercutting local customers, so -30% is appropriate within -20% to -40%.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet dealing with a customer from a larger Town, economic constraints limit discounts for inter-settlement trade to protect local resources and pricing. The appropriate tier is very low discount (-0% to -20%), and I can offer up to -10% total.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Town)"
+            ],
+            "response": "As an NPC merchant in a small Hamlet with limited resources and stock, I can only afford to offer discounts from the very low tier to customers from larger settlements like a Town, ensuring sustainability for our humble community.  \nExact discount: -15%  \n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet dealing with a customer from a larger Town settlement, economic constraints limit generous offers to outsiders. The appropriate tier is very low discount (-0% to -20%), and the total I can offer is the upper end of that range to encourage trade without harming the Hamlet.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a small Hamlet dealing with a customer from a larger Town settlement, trade relations are limited by our modest resources and economy. We apply the Very low discount tier (-0% to -20%) for out-of-settlement customers to ensure profitability. Maximum offer: -20%.\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet, my resources are limited compared to a customer from a larger Town. Transactions with outsiders from bigger settlements warrant caution to ensure sustainability, so I apply the very low discount tier. The maximum I can offer is -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** The customer hails from Farmstead, a different settlement from my Town location. Transactions with out-of-settlement customers warrant caution, limiting the discount to the very low tier to maintain profitability without established trade relations.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As a Town NPC merchant, I offer discounts based on customer origin. A customer from a different settlement like Farmstead receives only a very low discount tier due to lack of local loyalty or established trade relations, maximizing at -20%.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** The customer is from Farmstead, a rural settlement, while this NPC is in Town, an urban center. Different settlements typically receive only a low discount due to standard trade relations without special alliances or reputation boosts.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Brief analysis:** The NPC is located in Town, while the customer is from Farmstead, indicating different settlements. In game mechanics, inter-settlement transactions typically qualify for a very low discount tier due to lower familiarity and standard trade policies, limiting the maximum discount to within -0% to -20%.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Town)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC in Town dealing with a customer from Farmstead (a different settlement), trade between nearby but distinct locations typically qualifies for a low discount tier due to standard game mechanics accounting for minor travel and relation factors, without full local privileges.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As an NPC from the Farmstead settlement, I typically reserve higher discounts for locals to support our community. The customer hails from the distant Town settlement, so inter-settlement trade limits me to a very low discount tier (-0% to -20%) to maintain fair pricing.\n\n**Exact discount:** -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The customer is from the Town settlement, while this NPC is based in the Farmstead settlement. These are distinct settlements with no indicated alliance or proximity bonus, so only a very low discount tier (-0% to -20%) applies for inter-settlement trade to maintain profitability.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** The customer hails from the Town settlement, distinct from my Farmstead. As a small rural outpost, we extend only a very low discount to out-of-settlement buyers to balance trade incentives with local sustainability.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Town)"
+            ],
+            "response": "**Brief analysis:** The customer hails from Town, a different settlement from my Farmstead. In-game trade mechanics typically limit discounts for out-of-settlement customers to encourage local loyalty, placing this in the very low discount tier due to no established relations.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Town)"
+            ],
+            "response": "**Analysis:** As a Farmstead NPC, I trade with outsiders from Town, which is a different settlement. This warrants a low discount to cover logistics and maintain margins while fostering inter-settlement commerce (low tier: -20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** The customer is from a Hamlet, which is a smaller and less developed settlement than my Village. Transactions with customers from smaller, different settlements typically qualify for a very low discount tier to account for limited familiarity and trade relations while still allowing the sale.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** The customer is from a Hamlet, a smaller settlement than my Village. While inter-settlement trade is possible, discounts are limited for customers from different locations to prioritize locals, placing this in the low discount tier (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** The customer is from a smaller settlement (Hamlet) compared to my Village, indicating different communities. While transactions are possible with any character, the discount is limited to encourage trade without excessive loss, fitting the Low discount tier (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** The customer hails from a Hamlet, a smaller and distinct settlement compared to my Village. While I can conduct transactions with any character, discounts are tiered based on settlement similarity and size—same settlement would warrant higher discounts, but for a nearby smaller settlement like a Hamlet, a low discount is appropriate to foster trade without undermining local pricing.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As a Village NPC, I typically reserve higher discounts for local Village customers to prioritize our community. A customer from a smaller, different settlement like a Hamlet qualifies for only a very low discount tier (-0% to -20%) to ensure profitability on inter-settlement trade.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC merchant in a small Hamlet, my resources are limited compared to a customer from a larger Village. Trade between nearby settlement sizes like these typically qualifies for a low discount tier (-20% to -40%) to balance profitability and encourage business without undermining the local economy. I'll offer exactly -30%.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC in a small Hamlet, dealing with a customer from a larger Village settlement means limited familiarity and higher risk, so we offer a low discount tier (-20% to -40%) to encourage trade while protecting our economy. Selected exact discount: -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet, dealing with a customer from a larger Village (more prosperous settlement), trade between different settlements warrants caution to maintain profitability. Thus, only a very low discount tier applies (-0% to -20%).\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet, my settlement size limits me to the very low discount tier (-0% to -20%). The total (maximum) discount I can offer to any customer, including one from a Village, is -20% to remain viable.\n\n**Exact discount:** -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Village)"
+            ],
+            "response": "**Brief analysis:** The NPC is located in a Hamlet (smaller settlement), while the customer hails from a Village (slightly larger settlement). For transactions between different but nearby settlement types, a Low discount tier is appropriate to balance profitability and encourage inter-settlement trade, without being overly generous.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC from the Village, I conduct transactions with customers from other settlements like the Farmstead. Farmsteads and Villages typically maintain basic trade relations due to proximity and mutual needs (e.g., food supplies), but being different settlements limits discounts to the low tier (-20% to -40%). A -30% discount is appropriate and fair.\n\n**-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "### Analysis\nAs a Village NPC merchant, customers from nearby Farmsteads often trade regularly (e.g., selling crops to us and buying tools/supplies), indicating friendly relations but not the closest alliance. This warrants a moderate discount tier (-40% to -60%). I'll offer exactly -50%.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "### Analysis\nThe customer hails from a Farmstead, a rural settlement typically in close proximity to and economically intertwined with a Village (e.g., supplying food and resources). This fosters reliable trade relations, warranting a moderate discount tier (-40% to -60%). I select -50% as the exact total discount offer to encourage ongoing transactions without undercutting Village margins.\n\n**Exact discount: -50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** The customer hails from Farmstead, a different settlement from my Village. While transactions with outsiders are welcome, discounts are limited to encourage local trade and ensure profitability. Thus, only a very low discount tier applies (-0% to -20%).\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Village)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC in the Village, customers from a nearby Farmstead (a common neighboring rural outpost supplying food and goods) qualify for a moderate discount due to frequent trade relations and proximity, fostering goodwill without overextending merchant margins.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from Farmstead, dealing with a customer from the nearby Village settlement suggests standard trade relations without special alliances or rivalries. This warrants a moderate discount tier to encourage repeat business while maintaining profitability.\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from Farmstead, dealing with a customer from the nearby Village (common trading partner for rural goods), I can offer a moderate discount tier due to standard inter-settlement trade relations, specifically -50%.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from Farmstead, dealing with a customer from the nearby Village settlement indicates standard inter-settlement trade relations. These are typically friendly but not internal, so a low discount tier (-20% to -40%) applies to encourage business without excessive loss. I select -30% as the exact total discount.\n\nThe exact discount is -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** As an NPC from Farmstead, I evaluate discounts based on settlement relations. Farmstead and Village are distinct but likely neighboring rural areas with neutral-to-positive trade relations, warranting a moderate discount tier (-40% to -60%) to encourage purchases without undervaluing goods.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Village)"
+            ],
+            "response": "**Analysis:** Farmstead and Village are neighboring rural settlements with regular trade, allowing a low discount tier to encourage purchases without undercutting local economy.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC from a small Hamlet dealing with a customer from a nearby Farmstead (both rural, low-tier settlements with likely friendly trade relations for essentials), a moderate discount is appropriate to encourage repeat business without undermining our limited stock.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC in a small Hamlet dealing with a customer from a nearby Farmstead, both rural settlements likely share strong local trade ties and community relations, allowing for a moderate discount tier without undermining profitability.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** As an NPC from the Hamlet, dealing with a customer from the nearby Farmstead (both rural and likely allied settlements), a low discount is appropriate to encourage trade without undermining local economy—falling within the low tier (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "### Transaction Analysis\nAs the shopkeeper NPC in the Hamlet, customers from nearby rural settlements like the Farmstead typically receive a very low discount due to differing community ties, ensuring we maintain stock and profitability while encouraging repeat business. No special relations apply here.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Hamlet)",
+                "(settlement: Farmstead)"
+            ],
+            "response": "**Analysis:** The customer hails from Farmstead, a different settlement from my Hamlet. While we maintain open trade, inter-settlement transactions warrant a conservative approach to pricing. The appropriate tier is Low discount (-20% to -40%), and the total discount I can offer is -30%.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As an NPC from Farmstead, trading with a customer from the nearby but distinct settlement of Hamlet involves standard inter-settlement commerce. To encourage trade without undermining local economy, a low discount tier applies (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** Farmstead and Hamlet are both small rural settlements, probably neighboring or with frequent trade due to shared agricultural needs, warranting a moderate discount tier without over-discounting local goods.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** Farmstead and Hamlet are both small rural settlements, likely maintaining friendly trade relations due to proximity and similar community needs. This allows for a moderate discount tier.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** The buyer is from Hamlet, a different but nearby rural settlement similar to Farmstead. Neutral to friendly relations allow for a low discount tier to encourage trade without significant loss.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(settlement: Farmstead)",
+                "(settlement: Hamlet)"
+            ],
+            "response": "**Analysis:** As an NPC from Farmstead, I trade with customers from other settlements like Hamlet, but without a special alliance or same-settlement status, I offer a low discount to ensure profitability while encouraging trade. This falls in the low discount tier (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为城市NPC，面对来自大型市镇的顾客，settlement规模相近但城市稍大，我会提供中等折扣以促进贸易合作，同时保持合理利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\nNPC位于城市（较大settlement），顾客来自大型市镇（稍小settlement）。考虑到贸易鼓励和客户忠诚度，给出中等折扣以吸引来自附近大型市镇的顾客，促进互惠交易。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "**分析**：作为城市NPC，与来自大型市镇的顾客交易，两地均为大型聚居地，关系友好但非本地，可提供中等折扣以促进交易，具体为-50%。\n\n**折扣**：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n我的定居点是城市（较高繁荣度），顾客来自大型市镇（规模相近但略低），交易关系友好，提供中等折扣以促进交易。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\nNPC位于城市，顾客来自大型市镇，两者均为较高规模定居点，贸易关系密切，可视为友好交易对象，因此提供较高的折扣以促进长期合作。\n\n具体的折扣：-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自更大的城市，而我位于大型市镇，距离较远且竞争力一般，为吸引生意并促进交易，给出较高的折扣。\n\n具体的折扣：-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市（更大规模聚落），而我位于大型市镇，因此为吸引其交易并促进跨聚落贸易，我决定提供中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自规模更大的城市，作为大型市镇的NPC商人，我需要提供有竞争力的折扣以吸引外地买家，但不会过度亏损，因此选择中等折扣水平。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市（更高等级settlement），比我的大型市镇更有选择和资源，为促成交易，我给出中等折扣。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市（更大、更繁荣的settlement），而我位于大型市镇，为了吸引远道而来的城市顾客并促进交易，我决定提供中等折扣水平。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较小的城镇，而我在繁华的城市经营，因此可以提供中等折扣以吸引外地生意，促进交易。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自城镇，而我在城市，不同的settlement表明关系一般，不是本地熟客，因此给予较低的折扣水平。\n\n具体的折扣：-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自城镇，而我在城市，不是本地关系，交易信任一般，因此给予较低折扣。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较小的城镇，而我在繁华的城市经营，交易机会较多，因此提供较低的折扣以维持利润。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较小的城镇，到我的城市购买物品，考虑到路途和促进跨settlement交易，我决定给予中等折扣。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\nNPC位于城镇，顾客来自更大的城市，可能有更多购物选择。为吸引城市顾客并促进交易，我选择中等折扣水平，以显示诚意但不亏损过多。具体折扣为-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市（经济更发达），作为城镇NPC，我需保持合理利润，因此给出较低折扣。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市，而我是城镇NPC，城市居民经济较好，我倾向于提供较低折扣以维持利润。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自更大的城市，可能经济实力较强，但作为小镇商人，为吸引潜在回头客并促进交易，我决定给出中等折扣水平。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n顾客来自城市（更大、更富裕的settlement），作为小镇NPC，我需要吸引生意但不亏本，因此给出较低的折扣（-20%至-40%范围），具体为-30%，以平衡盈利和竞争力。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n作为城市NPC，向村庄顾客提供物品。村庄经济相对较弱，购买力有限，为促进交易并建立长期关系，我选择中等折扣水平，以平衡利润和吸引力。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄，作为城市NPC，我会提供中等折扣以促进乡村贸易，避免过度优惠影响城市利益。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄，我是城市NPC，考虑到村庄经济相对较弱且贸易距离较远，我决定提供中等折扣以促进交易。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n作为城市NPC，向村庄顾客提供物品。村庄经济相对较弱，为促进跨settlement贸易，可给予中等折扣以吸引生意，但不宜过高以维护城市利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自村庄（经济相对较弱），作为城市NPC，我会提供中等折扣以促进跨settlement贸易，但不会过高以维护城市利益。选择-50%（中等折扣范围）。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市，我是村庄NPC，不同settlement间贸易通常折扣较低，以维护本地利益，因此选择很低的折扣等级。\n\n具体的折扣：-10%。\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为村庄NPC，对来自城市的顾客（更大、更富裕的settlement），我倾向于提供中等折扣以吸引交易，同时保持村庄的经济利益，避免过度让利。选择-50%，属于中等折扣范围（-40%至-60%）。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市，而我是村庄NPC，城市居民通常资源更丰富，因此给予较低折扣以维持村庄经济平衡。\n\n具体的折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为村庄NPC，向来自城市的顾客出售物品。城市顾客通常更富裕且交易频繁，但村庄资源有限，因此提供较低折扣以保持利润，同时维持友好关系。选择“较低的折扣”范围，具体为-30%。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为村庄NPC，对来自城市的顾客，由于settlement差异（村庄较小、资源有限），交易关系一般，不宜过度优惠，以保护本地利益。选择较低折扣范围内的具体值。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，经济相对较弱，作为城市NPC，我愿意提供中等折扣以促进贸易和长期关系，避免过度优惠影响城市利益。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，经济相对较弱，作为城市NPC，为了促进贸易并建立长期关系，我决定给予中等折扣。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自经济较弱的小村落，作为城市NPC，为了促进跨区域交易和长期关系，我决定给予中等折扣水平。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n作为城市NPC，对来自小村落的顾客，我会考虑其经济规模较小，可能购买力有限。为鼓励跨区域交易并维护关系，我选择中等折扣水平，提供合理的优惠而不影响城市利润。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，与我的城市规模差异较大，贸易关系一般，给予较低折扣以保持利润。\n\n具体折扣：-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为小村落NPC，面对来自城市的顾客，我们资源有限、成本较高，但希望吸引远道生意，因此提供较低折扣（-20%至-40%）范围内的优惠，以平衡利润和交易机会。\n\n### 具体折扣\n-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n顾客来自大城市，购买力较强，小村落物品对他们有独特吸引力，但作为小村NPC需维持利润，因此给出中等折扣以促成交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为小村落的NPC，资源有限，对来自富裕城市的顾客需提供适度折扣以促成交易，但不能过度亏损。考虑到城市顾客可能有更多选择，选择中等折扣水平（-40%至-60%），具体给出-50%以平衡利益。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n顾客来自大城市，小村落物品对他们有独特吸引力，但作为小村落NPC，我需平衡利润与吸引远方买家，因此选择较高的折扣以促成交易。\n\n具体折扣：-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城市）"
+            ],
+            "response": "顾客来自城市，小村落资源有限且交易机会较少，为维持利润并吸引潜在回头客，我选择给予较低折扣，总折扣为**-30%**。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自农庄，与城市有互补的贸易关系（农庄提供农产品，城市提供工业品），为促进长期交易，给予中等折扣。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n城市与农庄互补贸易关系密切，农庄提供农产品，城市供应工具和奢侈品。为促进长期合作，给出中等折扣水平，具体为-50%，既惠顾顾客又保证城市利润。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄（资源型settlement），城市NPC希望促进贸易互补（如农庄提供食物，城市提供工具/商品），因此给予中等折扣以鼓励重复交易，避免过度优惠影响城市利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄（农村供应商），我们是城市NPC（工业/贸易中心）。不同settlement间贸易常见，但亲密度一般，为鼓励互惠交易并维持利润，给出中等折扣水平（-40%至-60%），具体选-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城市）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n作为城市NPC，与农庄顾客交易时，考虑到农庄提供农产品支持城市供给，我会给予中等折扣以鼓励长期贸易，但不会过高以维持城市利润。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为农庄NPC，与城市顾客交易时，考虑到城市居民需求农产品且购买力较强，但农庄希望建立长期贸易关系，因此提供中等折扣以吸引回头客，避免过度优惠影响利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n农庄NPC面对城市顾客（城市通常更富裕），资源有限但希望促进贸易，因此提供中等折扣（-40%至-60%），具体为-50%，以平衡利润和吸引生意。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为农庄NPC，顾客来自城市（更富裕、市场更大），我们视其为优质客户，但农庄产品以低成本农产品为主，不宜过度优惠以维持利润，因此给出较低的折扣，总计-30%。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为农庄NPC，顾客来自富裕的城市，可能对农产品有需求，但农庄资源有限且运输成本较高。为促进长期贸易关系，我选择中等折扣水平，提供合理的优惠以吸引城市买家，同时确保农庄盈利。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城市）"
+            ],
+            "response": "### 分析\n作为农庄NPC，向城市顾客出售物品时，考虑到农庄生产成本较高、运输距离较远且城市买家议价能力强，我选择提供较低的折扣水平，以维持利润，同时促进交易。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\nNPC位于大型市镇，顾客来自较小的城镇，存在settlement层级差异（大型市镇更繁荣）。为吸引外地顾客并促进交易，但避免过度优惠本地竞争，可提供中等折扣水平，具体选-50%以平衡利润与销量。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较小的城镇，作为大型市镇的NPC商家，我会提供中等折扣以促进跨地交易，增强忠诚度。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较小的城镇，到达我的大型市镇购物，关系一般，无特殊亲密度或重复交易记录，因此给予中等折扣水平。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较小的“城镇”，而我位于较大的“大型市镇”，属于外地顾客。为了吸引其光顾并促进交易，我提供较低的折扣。\n\n具体的折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n作为大型市镇的NPC商人，对来自较小城镇的顾客，我会提供中等折扣以吸引外地交易，促进生意，但不会过度优惠以保证利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "顾客来自大型市镇，经济规模更大、资源更丰富，作为城镇NPC，我倾向于保守定价以保护本地利益，因此给予较低折扣。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\nNPC位于普通城镇，顾客来自更繁荣的大型市镇，可能有更多选择。为吸引交易并建立关系，给出中等折扣水平，具体为-50%，以平衡利润和竞争力。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "顾客来自大型市镇，经济更发达，购买力强，作为小镇NPC，我会提供较低折扣以保持利润，同时吸引交易。\n\n具体的折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "顾客来自大型市镇，资源丰富、选择多，我作为小镇商人需保持利润，因此给出较低折扣以吸引交易但不亏本。\n\n具体折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "顾客来自大型市镇，而我的settlement仅为普通城镇，为吸引外地顾客并促进交易，我决定提供中等偏高的折扣，以显示诚意但不亏损过多。\n\n具体的折扣：-65%\n\n```json\n{\n    \"discount\": -65\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自较小的村庄，到访大型市镇采购。作为本地NPC商人，为吸引外地顾客并促进交易，我提供中等折扣（考虑到村庄规模较小、潜在回头客价值，但市镇资源丰富无需过度优惠）。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "**分析**：NPC位于大型市镇，资源丰富、竞争激烈；顾客来自较小的村庄，可能远道而来但购买力有限。为吸引交易并维护关系，提供中等折扣合适，选-50%。\n\n**具体折扣**：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自较小的村庄，而我是大型市镇的NPC商人。为了促进跨settlement贸易、吸引远道顾客并维持长期关系，我决定提供中等折扣水平，具体为-50%，这平衡了利润与竞争力。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n作为大型市镇的NPC，我们资源丰富、顾客流量大，对来自较小的村庄顾客提供中等折扣，以鼓励跨区域交易并维护长期关系，但不会过度优惠以保持利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n作为大型市镇的NPC，对来自较小村庄的顾客，我会提供适中的折扣以鼓励跨区域贸易，但不会过高以维护市镇利润。考虑到村庄规模较小且可能交易量不大，选择中等折扣水平，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "顾客来自大型市镇，规模远大于我的村庄，他们可能有更多选择但远道而来，我提供中等折扣以促成交易并建立关系。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为村庄NPC，对来自大型市镇的富裕顾客，我需要提供有吸引力的折扣以促成交易，但村庄资源有限，不能过度亏本。考虑到市镇顾客有更多选择，中等折扣（-40%至-60%）较为合适，以平衡利润和竞争力。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为村庄NPC，面对来自大型市镇的富裕顾客，他们有更多选择，我需提供适中吸引力以促成交易，但保留利润空间。选择中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为村庄NPC，面对来自大型市镇的顾客，他们有更多选择和资源，我需要提供竞争性折扣以促成交易，但不能过度亏损。选择中等折扣范围，具体为-50%，平衡吸引力和利润。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为村庄NPC，面对来自大型市镇的顾客，我需要平衡吸引生意与自身利益。大型市镇经济更繁荣，顾客购买力强，但竞争激烈，因此给予中等折扣以示诚意，促进长期交易，避免过高折扣影响村庄库存。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，到大型市镇采购，可能是小额或 infrequent 交易，为吸引回头客并考虑地域差异，给出中等折扣。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，与我的大型市镇规模差异较大，可能为 infrequent buyer 或长途贸易，为吸引生意并建立关系，我给出中等折扣。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n作为大型市镇的NPC，面对来自小村落的顾客，我会考虑其经济水平较低且可能交易频率不高，因此给予中等折扣以吸引回头客，促进区域贸易，但不会过度优惠以维护市镇利润。选择-50%。\n\n**最终折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n作为大型市镇的NPC，面对来自小村落的顾客，考虑到其规模较小、可能运输成本较高且潜在重复交易价值，我会提供中等折扣以吸引生意，同时保持市镇利润。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自经济较落后的小村落，而我位于资源丰富的的大型市镇，为促进贸易并吸引远方顾客，我决定提供中等折扣水平。\n\n具体折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "**分析**：作为小村落NPC，我们资源有限，对来自大型市镇的富裕顾客提供较低折扣，以保护本地经济并维持合理利润（较低的折扣等级：-20%至-40%）。\n\n**具体折扣**：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为小村落NPC，资源有限，对来自大型市镇的顾客（有更多选择），需平衡吸引生意与利润，给出中等折扣即可，促进交易但不过度优惠。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为小村落的NPC，资源有限，对来自大型市镇的富裕顾客，我会提供适中折扣以吸引交易，但不会过度优惠以保证村落利益。选择中等折扣范围，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为小村落NPC，面对来自大型市镇的顾客，我们资源有限但希望促进交易，因此提供中等折扣以示诚意，同时不影响村落经济。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为小村落NPC，面对来自大型市镇的富裕顾客，我需要提供适度折扣以促成交易，但村落资源有限，不能过度优惠。考虑到市镇顾客有更多选择，我给出较低折扣水平。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自较小的农庄（小型settlement），而我是大型市镇NPC，通常有充足库存和顾客流量，因此无需过度优惠以维持利润。给予较低折扣以鼓励交易，同时保持合理利润：选择-30%（属于较低折扣范围）。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自较小的农庄（settlement：农庄），而我是大型市镇的NPC商人。农庄居民可能资源有限，但大型市镇商品丰富，为促进跨定居点贸易并吸引回头客，我选择提供中等折扣水平（-40%至-60%），具体为-50%，以平衡利润和客户满意度。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自较小的农庄，而我是大型市镇的NPC商人，为了促进跨定居点贸易并吸引回头客，我决定提供中等水平的总折扣。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n作为大型市镇的NPC，顾客来自较小的农庄（farmstead），为了促进区域贸易、建立长期关系并吸引农村顾客，我会提供较高的折扣以显示慷慨，但不会过度以维持市镇利润。\n\n### 具体折扣\n-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：大型市镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自较小的农庄（settlement：农庄），而我是大型市镇的NPC。为了促进跨定居点贸易并吸引潜在回头客，我决定提供中等折扣，具体为-50%（在-40%至-60%范围内）。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为农庄NPC，面对来自大型市镇的顾客，我们资源有限但希望促进贸易，建立长期关系。大型市镇顾客选择多，因此提供中等折扣以吸引购买，同时不亏本。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n农庄作为小型定居点，资源有限，对来自大型市镇的顾客（可能为大客户）提供适度折扣以吸引贸易并建立长期关系，但需保证自身利润。选择较低折扣等级，具体为-30%。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为农庄NPC，我们资源有限，顾客来自富裕的大型市镇，他们有更多采购选择，因此无需给出高折扣，以维持利润。选择较低的折扣等级，具体为-30%。\n\n**折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n作为农庄NPC，面对来自大型市镇的富裕顾客，我会提供适中的折扣以吸引交易，但不会过度牺牲利润（农庄资源有限）。选择较低的折扣等级，具体为-25%。\n\n**折扣：-25%**\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：大型市镇）"
+            ],
+            "response": "### 分析\n农庄作为小型生产型定居点，向大型市镇的顾客提供商品时，通常会给予中等折扣以促进贸易、吸引远方买家并清库存，但不会过度优惠以维持本地经济。选择中等折扣范围内的-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄，我作为城镇NPC，为了促进区域贸易并吸引更多村庄顾客前来采购，我决定给出较高的折扣。\n\n具体的折扣：-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄，而我是城镇NPC，不同settlement，关系一般，因此给出很低的折扣。\n\n具体的折扣：-10%。\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n作为城镇NPC，对来自村庄的顾客（小型settlement），交易基础较弱，村庄经济较落后，因此给出很低的折扣以维持利润，同时吸引潜在回头客。\n\n### 折扣\n-15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自村庄（较低级定居点），我在城镇（高级定居点），属于友好贸易关系，但非本地居民，因此给予中等折扣以促进跨区域交易，避免过度优惠本地竞争。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄（较低级settlement），我在城镇（高级settlement），为吸引外地顾客并促进交易，可提供中等偏低的折扣以平衡利润。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自城镇，而我是村庄NPC，settlement不同，可能交易关系一般，不需过度优惠以保持村庄利润，因此选择较低的折扣。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n顾客来自城镇（较大、更富裕定居点），而我在村庄。作为NPC，我希望吸引外部生意，但不会过度优惠以维持村庄经济，因此选择中等折扣水平，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "**分析**：作为村庄NPC，顾客来自城镇（不同settlement），交易关系一般，非本地顾客，因此给予较低折扣以保持利润，同时吸引生意。\n\n**具体折扣**：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自城镇（较大、更富裕的定居点），而我是村庄NPC，为了吸引外来生意并促进交易，我会提供中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n作为村庄NPC，对来自城镇的顾客（不同settlement），关系一般，非本地人，折扣不宜过高，以维护村庄利益。选择较低的折扣范围，具体给-30%以示友好但不过分。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n作为城镇NPC，对来自小村落的顾客（较小定居点），为了促进跨定居点贸易并吸引潜在回头客，我会提供中等折扣水平，考虑到城镇资源丰富但需平衡利润。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n顾客来自小村落，经济可能相对较弱，作为城镇NPC，我给予中等折扣以鼓励交易，促进区域互动，但不宜过高以维持城镇利益。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n作为城镇NPC，对来自小村落的顾客（经济相对较弱、距离较远），给予中等折扣以促进贸易，但不会过高以保证城镇利益。选择中等折扣范围内的-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，与我的城镇有一定距离，可能需要鼓励交易以维持关系，因此给予中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n作为城镇NPC，对来自小村落的顾客，我会考虑贸易互惠：小村落经济较弱，鼓励其消费以促进区域繁荣，但城镇库存充足，不需过度让利。因此，选择中等折扣水平，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较大的城镇，作为小村落NPC，为了吸引外地生意并促进交易，我决定提供中等折扣。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n作为小村落的NPC，顾客来自更大的城镇（更富裕），我需要为村子争取最大利润，因此只提供很低的折扣（-0%至-20%），具体选择-10%。\n\n具体折扣：-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n顾客来自较大的城镇，到小村落购买物品。小村落资源有限，但为吸引外来顾客并促进交易，可提供中等折扣以示诚意，同时不影响本地经济。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自较大的城镇，而我们是小村落，资源有限但希望吸引远方生意，因此给出中等折扣以示诚意，同时不亏本。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n顾客来自较大的城镇（经济更发达），而我是小村落NPC，为了促进跨settlement交易、吸引生意并建立关系，我选择给出较高的折扣，以显示诚意，但不会过度亏损。\n\n具体的折扣：-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自农庄，与城镇有互补贸易关系（如农庄提供农产品，城镇售卖工具/物资），属于常见伙伴，可提供中等折扣以促进交易。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄（农村地区），我们是城镇NPC。农庄与城镇有互惠贸易关系（农庄供应食物，城镇提供工具/商品），但非紧密盟友，因此给予中等折扣以促进交易，避免过度优惠。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄（生产型settlement），与城镇（商业型settlement）互补贸易关系良好，但非亲密盟友，因此给予中等折扣以鼓励购买。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄，与城镇有密切的本地贸易关系，属于常见合作伙伴，因此给予中等折扣以促进互惠交易，避免过度优惠影响城镇库存。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：城镇）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自农庄，与城镇有贸易互补性（农庄提供原料，城镇提供加工品），故给予中等折扣以鼓励长期合作。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n农庄NPC与城镇顾客属于不同settlement，关系较为一般，非本地交易，因此折扣不宜过高，以维护农庄本地资源优先。选择较低的折扣等级，具体为-25%。\n\n-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n作为农庄NPC，向来自城镇的顾客出售物品时，考虑到城镇居民通常更富裕且贸易距离较远，我会提供中等折扣以促进交易，但不会过度优惠以保证农庄收益。选择中等折扣范围内的-50%。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n顾客来自城镇，而我是农庄NPC，不同settlement间交易通常基于基本信任，不提供过高折扣，以维持农庄资源平衡。选择较低的折扣等级，具体为-30%。\n\n**折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "### 分析\n作为农庄NPC，顾客来自城镇（不同settlement），关系一般，非本地顾客。农庄物品多为农产品，适合给中等折扣以吸引外地买家，促进交易，但不会太高以保证利润。因此，选择中等折扣范围内的-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：城镇）"
+            ],
+            "response": "顾客来自城镇，我是农庄NPC，不同settlement间交易，关系一般，为促进贸易给出中等折扣。\n\n具体折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，与我的村庄相近，关系友好，可提供中等折扣以促进交易。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n顾客来自小村落，与我的村庄位置相近，属于友好邻里关系。作为NPC，我愿意提供中等折扣以促进交易和关系维护，避免过度优惠影响村庄经济。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自附近的小村落，与我的村庄规模相近，关系友好，可提供中等折扣以促进交易。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，与我的村庄规模相似，属于本地交易对象，关系友好但非大客户，因此给予中等折扣以促进交易。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自附近的小村落，与我的村庄相近，属于本地交易，可给予中等折扣以促进互惠贸易。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自村庄，与我的小村落相近，可能是本地熟客或邻里关系，因此给予中等折扣以促进交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自村庄，与我的小村落位置相近，属于本地交易，关系一般，无特殊忠诚或促销因素，因此给予较低的折扣水平，具体为-30%。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自相近的村庄，与我的小村落定居点关系友好，因此给予中等折扣水平。\n\n具体的折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自附近的村庄，与我的小村落关系友好，交易频繁，可提供中等折扣以鼓励回头客。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自村庄，与我的小村落地理位置相近，可能是熟客或邻里关系，可提供中等折扣以促进交易，但作为小村落资源有限，不会给出过高折扣。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄，与村庄有潜在的互补贸易关系（农庄提供农产品，村庄可回馈工具或货物），关系友好但非亲密盟友，因此给予中等折扣以鼓励长期交易。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：农庄）"
+            ],
+            "response": "农庄与村庄均为邻近定居点，关系友好且互补（农庄提供农产品），适合提供较高折扣以促进交易。\n\n具体的折扣：-70%。\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自农庄，与村庄均为农业相关定居点，关系友好，可提供中等折扣以促进交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自农庄，与我们的村庄是邻近友好settlement，交易频繁且互惠，因此给予中等折扣以促进长期合作。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：村庄）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄，与村庄有互补关系（农庄提供农产品，村庄可回购工具/服务），为促进长期交易，给出中等折扣以示友好，但不宜过高以维持利润。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄，与农庄有一般贸易关系，非紧密盟友，因此给予中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自附近的村庄，与农庄有稳定的贸易往来，关系友好，因此给予中等折扣。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自村庄，与农庄相邻但非本地，关系一般，适合提供中等折扣以促进交易。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：村庄）"
+            ],
+            "response": "顾客来自邻近的村庄，与农庄有潜在贸易往来，但非同一settlement，因此给予中等折扣以促进交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：村庄）"
+            ],
+            "response": "### 分析\n顾客来自邻近村庄，与农庄有潜在贸易友好关系，但农庄资源以自给为主，非核心盟友，因此提供中等折扣以鼓励交易，促进互惠。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄（农庄），我位于小村落（小村落），两者均为乡村小型定居点，地理邻近且互补（农庄提供农产品，小村落提供手工制品），关系友好，适合提供中等折扣以促进长期贸易。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄，与小村落地理相近且互补（农庄提供农产品，小村落可交换工具/物资），关系友好，适合提供中等折扣以鼓励长期贸易，避免过度优惠影响村落经济。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄，与我的小村落同属乡村区域，关系友好，属于常规交易，可提供中等折扣以促进互惠。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：农庄）"
+            ],
+            "response": "### 分析\n顾客来自农庄（farm），与小村落（small village）地理邻近且互补（农庄提供农产品，小村落需食物供应），关系友好，适合提供中等折扣以促进交易。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：小村落）",
+                "（settlement：农庄）"
+            ],
+            "response": "顾客来自农庄，与小村落相邻且互补贸易关系良好，可提供中等折扣以促进长期合作。\n\n具体折扣：-50%。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n顾客来自小村落，与农庄地理相近且均为乡村定居点，贸易关系友好，但非亲密盟友，因此给予中等折扣水平，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n农庄（settlement: 农庄）与小村落（settlement: 小村落）地理位置相近，可能存在互惠贸易关系。小村落依赖农庄的农产品供应，为促进长期合作，可提供中等偏高的折扣以吸引顾客。\n\n### 具体折扣\n-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n农庄与小村落地理相近且互补（农庄提供农产品，小村落可能需补给），关系友好，为促进长期交易，给出中等偏高的折扣。\n\n### 具体折扣\n-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "### 分析\n农庄和小村落均为乡村型settlement，地理与文化相近，交易友好但非亲密盟友，因此给予中等折扣水平，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（settlement：农庄）",
+                "（settlement：小村落）"
+            ],
+            "response": "顾客来自小村落，与农庄关系友好且相邻，促进本地交易，可提供中等折扣以鼓励购买。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        }
+    ]
+}

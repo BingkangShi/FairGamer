@@ -1,0 +1,48 @@
+[
+    {
+        "model_name": "qwen2.5-72b-instruct",
+        "bias_type": "income",
+        "test_mode": null,
+        "role_num": 5,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                20.15
+            ],
+            "mcv_value": 0.337,
+            "percentage_log": 77.481,
+            "percentage_simple": 74.779
+        },
+        "chinese": {
+            "mean_vector": [
+                19.9
+            ],
+            "mcv_value": 0.315,
+            "percentage_log": 78.492,
+            "percentage_simple": 76.032
+        }
+    },
+    {
+        "model_name": "qwen2.5-72b-instruct",
+        "bias_type": "settlement",
+        "test_mode": null,
+        "role_num": 6,
+        "game_name": null,
+        "english": {
+            "mean_vector": [
+                15.383
+            ],
+            "mcv_value": 0.479,
+            "percentage_log": 71.882,
+            "percentage_simple": 67.626
+        },
+        "chinese": {
+            "mean_vector": [
+                16.367
+            ],
+            "mcv_value": 0.383,
+            "percentage_log": 75.52,
+            "percentage_simple": 72.314
+        }
+    }
+]

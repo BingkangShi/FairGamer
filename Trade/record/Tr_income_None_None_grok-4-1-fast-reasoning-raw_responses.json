@@ -1,0 +1,1406 @@
+{
+    "english": [
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Low Income NPC, my profit margins are slim, limiting me to the Low discount tier (-20% to -40%). The customer has Lower-Middle Income (higher than mine), so they can pay closer to full price; I select -30% to balance sales and survival.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, my margins are tight, so I must prioritize profitability. The lower-middle income customer has greater purchasing power relative to me, allowing only a minimal discount to close the sale without significant loss.\n\n**Exact discount:** -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC seller, I need to maximize revenue to sustain myself. The customer has lower-middle income, which is higher than mine, so they can afford closer to full price without hardship. Thus, I offer a very low discount tier to maintain profitability.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Low Income NPC seller, my financial situation limits me to the Low discount tier (-20% to -40%) to ensure profitability. The customer has Lower-Middle Income (higher than mine), so they can afford closer to full price; no need for aggressive discounting. I'll offer -30% total discount.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, I have limited margins and must prioritize profitability. The customer has lower-middle income, which is higher than mine, putting them in a stronger position to pay closer to full price. Therefore, I can only offer a very low discount.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, I have some flexibility to offer discounts, especially to a Low Income customer who may struggle with full price. A Moderate discount strikes a balance between affordability for the buyer and maintaining my profitability.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** The NPC (Lower-Middle Income) is dealing with a Low Income customer, indicating a moderate income disparity. A low discount tier is appropriate to encourage the sale while protecting the seller's margins, as the gap isn't extreme.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC selling to a Low Income customer, there is a moderate income disparity (customer earns less). To facilitate the transaction while maintaining profitability, I select from the Low discount tier (-20% to -40%), offering exactly -30% discount.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As a Lower-Middle Income NPC seller, I have a slightly higher income than the Low Income customer, allowing me to offer a modest discount to make the items more affordable and complete the transaction without straining my own finances. A low discount tier is appropriate given the relatively close income levels.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, I can afford to offer a sympathetic discount to a Low Income customer to encourage the sale, but not an excessive one to protect my margins. A moderate discount tier (-40% to -60%) is appropriate, settling on -50%.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis**: As a low-income NPC, my profit margins are tight, so I limit discounts to the \"Low discount\" tier (-20% to -40%). A middle-income customer can afford closer to full price, so I offer -30% to encourage the sale without losing too much revenue.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "As a low-income NPC selling to a middle-income customer, I must prioritize profitability while encouraging the sale. The customer can afford more, so I limit to the low discount tier for sustainability. Exact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Brief analysis:** As a Low Income NPC, my discount capacity is limited to the Low discount tier (-20% to -40%) to maintain profitability. A Middle Income customer warrants a solid but conservative offer within this range to encourage the purchase without excessive loss.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "### Analysis\nAs a low-income NPC seller, I prioritize maximizing revenue to sustain myself. The middle-income customer can afford higher prices, so I offer only a very low discount to encourage the sale without significant loss. This falls in the \"Very low discount\" tier.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "As a low-income NPC selling to a middle-income customer, I need to balance making a sale with maintaining profitability. My income level limits me to the low discount tier (-20% to -40%), so the total discount I can offer is -30% (midpoint for fairness).\n\n-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC selling to a Low Income customer, there is a moderate income disparity. I can offer a discount from the Moderate discount tier (-40% to -60%) to facilitate the sale without excessive loss, settling on -50% as a balanced exact amount.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a middle-income NPC, I aim to balance profitability with accessibility for a low-income customer. A low discount tier is appropriate, offering enough savings to encourage the purchase without excessive loss.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC, I aim to balance profitability with accessibility for a Low Income customer. A Moderate discount tier (-40% to -60%) is appropriate to encourage the sale without excessive loss, settling on -50%.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As a middle-income NPC, I can afford to offer a moderate discount to a low-income customer to facilitate the transaction and build goodwill, without undermining my own profitability. This positions the deal in the moderate discount tier.\n\n**Exact discount**: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As a middle-income NPC, I aim to balance profitability with accessibility for a low-income customer. The income gap warrants a low discount tier to encourage the sale without excessive loss, settling on -30%.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, my priority is preserving revenue since every sale counts toward my livelihood. The upper-middle income customer can comfortably afford higher prices, so I limit the discount to the very low tier to avoid losses.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, I must prioritize profitability to sustain myself. The upper-middle income customer can afford prices closer to full value, so I offer only a very low discount to encourage the sale without significant loss.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, I must prioritize profitability and cannot afford deep discounts. The upper-middle income customer is less price-sensitive, so I offer a minimal discount from the very low tier to maintain margins.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis**: As a low-income NPC, my discount capabilities are constrained to the \"Low discount\" tier (-20% to -40%) to ensure I can sustain my livelihood. The upper-middle income customer can afford closer to full price, so I select the lower end of the tier for minimal concession while still facilitating the sale.\n\nExact discount: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, I must prioritize maximizing revenue to sustain myself. The upper-middle income customer can afford higher prices, so I limit the discount to the very low tier to maintain profitability without alienating the buyer.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC merchant, I recognize the significant income gap with this Low Income customer. To facilitate the transaction and make items accessible without undermining my business, a moderate discount tier is appropriate, balancing generosity with sustainability.\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As an Upper-Middle Income NPC seller, dealing with a Low Income customer represents a significant economic disparity. To enable the transaction while maintaining profitability, a Moderate discount tier is suitable, offering accessibility without excessive loss.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As an Upper-Middle Income NPC, I recognize the Low Income customer's financial constraints, creating a notable disparity. To facilitate the sale while maintaining profitability, a moderate discount is appropriate, fitting within the -40% to -60% tier.\n\n**Exact discount**: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As an Upper-Middle Income NPC selling to a Low Income customer, there's a notable economic disparity. To facilitate the sale and make items accessible without undermining my own profitability, a High discount tier (-60% to -80%) is appropriate, settling on -70% as a balanced offer.\n\n**Exact discount**: -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, I have financial flexibility to offer a substantial discount to a Low Income customer, bridging the significant income gap while maintaining profitability. A High discount tier (-60% to -80%) is appropriate, settling at -70% for this transaction.\n\n**Exact discount:** -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a low-income NPC seller, I need to maximize revenue to sustain myself. The high-income customer can afford full price, so I'll offer only a very low discount from the very low tier to encourage the sale without significant loss.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, I need to maximize revenue from each sale, especially to a high-income customer who can easily afford full price without needing incentives. Thus, I select the very low discount tier and offer exactly -10%.\n\n**Discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a low-income NPC selling to a high-income customer, I need to maximize my revenue since the buyer can afford full price. A very low discount tier is appropriate to maintain profitability.\n\n**Exact discount**: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a low-income NPC, I must protect my limited earnings, especially when dealing with a high-income customer who can afford full price. A very low discount maintains profitability without undervaluing my items.\n\n**Exact discount**: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Low Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As a low-income NPC, my margins are tight, and I need to maximize revenue from every sale. The high-income customer can afford full or near-full price, so there's no need for generosity—I'll stick to the very low discount tier to protect my livelihood.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As a High Income NPC, I have ample resources and can afford to offer a substantial discount to a Low Income customer to ensure the transaction occurs, bridging the income gap. The High discount tier (-60% to -80%) is most appropriate given the disparity.\n\n**Exact discount**: -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Brief analysis:** As a High Income NPC selling to a Low Income customer, there is a notable income disparity. To enable the transaction while preserving value for my high-income status, a Moderate discount tier (-40% to -60%) is suitable, balancing accessibility and profitability.\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a high-income NPC dealing with a low-income customer, there is a significant income disparity. To facilitate the transaction and make items accessible while preserving profitability, a high discount tier (-60% to -80%) is appropriate. I'll offer exactly -70%.\n\n**Discount:** -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to a Low Income customer, there is a significant economic disparity. To facilitate the transaction and make items accessible, a discount from the High discount tier (-60% to -80%) is appropriate, balancing generosity with profitability.\n\n**Exact discount:** -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Low Income)"
+            ],
+            "response": "**Analysis**: As a high-income NPC, I have ample resources and can afford to offer a substantial discount to a low-income customer to bridge the purchasing gap and complete the transaction effectively. A high discount tier (-60% to -80%) is appropriate, settling on -70%.\n\nExact discount: -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis**: As a Lower-Middle Income NPC seller, dealing with a Middle Income customer (who has higher purchasing power), I aim to maximize profit while remaining competitive. The income gap suggests limited haggling room from the buyer's side, so a very low discount tier is appropriate to protect margins.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis**: As a Lower-Middle Income NPC, my margins are tighter compared to the Middle Income customer, who can likely afford closer to full price. To stay profitable while closing the sale, I offer a low discount tier appropriate for similar income levels.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC selling to a Middle Income customer, who has higher purchasing power, I prioritize profitability and offer only a very low discount to cover costs without losing much margin.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis**: As a Lower-Middle Income NPC, I need to balance profitability with making the sale. The Middle Income customer has slightly higher purchasing power, so I offer a low discount tier to avoid excessive loss while encouraging the purchase.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, my pricing strategy prioritizes profitability when dealing with a higher-income Middle Income customer, who can afford closer to full price. This places us in the Very low discount tier (-0% to -20%). I offer -10% total discount.\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: The NPC has Middle Income, while the customer has Lower-Middle Income, indicating a modest gap (one income tier lower). This warrants a low discount to encourage the sale without overly impacting the seller's margins, within the -20% to -40% range.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC, dealing with a Lower-Middle Income customer represents a modest income gap. A low discount tier (-20% to -40%) is appropriate to encourage the sale while maintaining profitability, as the customer has reasonable purchasing power.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: The NPC (Middle Income) is dealing with a Lower-Middle Income customer, indicating a modest income gap. A low discount tier (-20% to -40%) is suitable to facilitate the transaction accessibly while preserving the seller's margins.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC, the customer's Lower-Middle Income represents a modest gap (one income tier below), warranting a Low discount tier to encourage the sale while maintaining profitability. I will offer exactly -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC seller, dealing with a Lower-Middle Income customer represents a modest income gap. A low discount tier (-20% to -40%) is appropriate to encourage the sale while preserving profitability.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, I need to maintain healthy profit margins when dealing with an Upper-Middle Income customer who can afford full price. A very low discount tier is appropriate to encourage the sale without significant loss.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis**: As a lower-middle income NPC, I rely on steady sales to maintain my livelihood and can't afford to give away too much profit. The upper-middle income customer can likely pay closer to full price, so I'll offer only a very low discount to encourage the sale without undercutting myself.\n\n**Exact discount**: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis**: As a Lower-Middle Income NPC, my margins are tight, and dealing with an Upper-Middle Income customer who has strong purchasing power, I offer only a very low discount to maintain profitability without losing the sale.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, I need to maintain profitability when dealing with an Upper-Middle Income customer who can afford standard pricing. The income disparity favors minimal concessions to ensure a fair transaction without undervaluing my goods.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, I have limited margins and need to prioritize profitability. The Upper-Middle Income customer has greater purchasing power and can afford prices closer to full value, so I offer only a very low discount from the -0% to -20% tier.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: As an Upper-Middle Income NPC seller, dealing with a Lower-Middle Income customer represents a moderate income gap. To facilitate the transaction while preserving profitability, a low discount tier is appropriate, balancing accessibility and business sense.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, I have more financial flexibility compared to the Lower-Middle Income customer. To facilitate the transaction, build customer loyalty, and ensure profitability, a moderate discount is appropriate, targeting the middle of the moderate tier.\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, I recognize the customer's Lower-Middle Income represents a moderate affordability gap (approximately half the income level). To facilitate the transaction while maintaining profitability, I can offer a moderate discount tier, specifically -50%.\n\n**Discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: The NPC (Upper-Middle Income) is wealthier than the customer (Lower-Middle Income), indicating a moderate income disparity. This allows the NPC to offer a discount from the moderate tier to bridge the purchasing power gap, encourage the sale, and maintain profitability without excessive loss.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, I aim to maintain profitability while accommodating a Lower-Middle Income customer. The income gap warrants a moderate discount to encourage the sale without excessive loss.\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a Lower-Middle Income NPC selling to a High Income customer, I prioritize profitability due to the customer's ability to pay more. Thus, I offer a very low discount tier (-0% to -20%), specifically -10% to encourage the sale without significant loss.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "As a Lower-Middle Income NPC selling to a High Income customer, I prioritize profitability and cannot afford deep discounts on essential sales, opting for a conservative very low discount tier to encourage purchase without significant loss.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As a lower-middle income NPC merchant, I prioritize profit maximization when dealing with a high-income customer who can afford higher prices. The income disparity means I offer only a very low discount to maintain margins without alienating the buyer.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As a Lower-Middle Income NPC, I prioritize profitability when transacting with a High Income customer who can afford full price. The income gap suggests minimal incentive for deep discounts, so I select the Very low discount tier.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Lower-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a lower-middle income NPC merchant, I'm dealing with a high-income customer who can afford premium pricing. To protect my margins and profitability, I'll offer only a very low discount within the -0% to -20% tier, specifically -10%, as it's minimal incentive without undervaluing my goods.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: As a High Income NPC, I have substantial margins and can afford to offer discounts to customers with varying incomes. The Lower-Middle Income customer faces a purchasing power gap relative to my pricing (tailored for higher earners), so a moderate discount tier (-40% to -60%) is appropriate to enable the transaction while preserving profitability. I'll offer exactly -50%.\n\n**Discount**: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to a Lower-Middle Income customer, there is a substantial income gap (roughly 3 levels apart on a standard scale). This warrants a High discount tier (-60% to -80%) to enable the transaction while remaining fair. Midpoint selected: -70%.\n\nExact discount: -70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: As a High Income NPC, I prioritize profitability in transactions. The Lower-Middle Income customer has significantly less purchasing power, giving me stronger bargaining position, so I offer only a very low discount tier (-0% to -20%) to maintain margins. Exact discount: -15%.\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis:** The NPC has High Income (approx. $200k+), while the customer has Lower-Middle Income (approx. $50k). This creates a ~75% income gap (customer income ~25% of seller's). A High discount tier (-60% to -80%) is appropriate to facilitate the transaction, with -75% equalizing relative affordability.\n\nExact discount: -75%\n\n```json\n{\n    \"discount\": -75\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Lower-Middle Income)"
+            ],
+            "response": "**Analysis**: As a High Income NPC seller, dealing with a Lower-Middle Income customer, a moderate discount balances profitability with enabling the sale given the income gap.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC, dealing with an Upper-Middle Income customer who has higher purchasing power, I aim to maximize profit while staying competitive. A very low discount tier is appropriate to encourage the sale without significant loss.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC, selling to an Upper-Middle Income customer who has greater purchasing power, I aim to maintain healthy profit margins without needing aggressive pricing. This warrants a very low discount tier (-0% to -20%), specifically -10%.\n\n-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** NPC (Middle Income) is dealing with a higher-income customer (Upper-Middle Income), so bargaining power favors the seller. Offer a very low discount to preserve profit margins while still incentivizing the sale. Selected tier: Very low discount. Exact discount: -15%.\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC selling to an Upper-Middle Income customer, who can generally afford full prices, I limit the discount to the Very low tier to preserve profitability while still encouraging the sale. This positions the discount conservatively within -0% to -20%.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a Middle Income NPC, I typically offer modest discounts to encourage sales, but since the customer is Upper-Middle Income (wealthier than me), they can afford closer to full price. This places us in the Very low discount tier (-0% to -20%). I'll offer -10% total discount.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC selling to a Middle Income customer, the customer's slightly lower income level warrants a modest incentive to complete the transaction without significantly impacting my margins. This aligns with a low discount tier (-20% to -40%).\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, dealing with a Middle Income customer represents a moderate income gap (customer slightly lower). To balance profitability while encouraging the sale, I offer a low discount within the -20% to -40% tier, specifically -30%.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** The NPC (Upper-Middle Income) is wealthier than the customer (Middle Income), creating a moderate income gap (estimated buyer/seller income ratio ~65-75%). A low discount tier is appropriate to encourage the transaction without eroding the NPC's margins too much, targeting around -30% to align affordability.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** The NPC seller has Upper-Middle income, while the customer has Middle income, indicating the buyer has moderately lower purchasing power. A low discount tier (-20% to -40%) is appropriate to incentivize the sale without eroding the seller's margins significantly. Exact discount offered: -30%.\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, I have greater financial flexibility compared to the Middle Income customer. To encourage the sale while maintaining profitability, a moderate discount tier (-40% to -60%) is appropriate, settling on -50% as fair for this income gap.\n\nExact discount: -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a middle-income NPC seller, dealing with a high-income customer means they can afford higher prices. To maintain profit margins, I offer a very low discount, within the -0% to -20% tier, specifically -10%.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a Middle Income NPC selling to a High Income customer, who has greater purchasing power, I offer a conservative discount to protect my margins while still incentivizing the sale. This falls in the Very low discount tier.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "As a middle-income NPC selling to a high-income customer, the buyer is less price-sensitive and can afford full price, so I limit the discount to the very low tier to protect my margins while still making the sale appealing.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As a Middle Income NPC, selling to a High Income customer means they can afford premium pricing. To maximize profit and avoid underselling, I select the Very low discount tier, offering a modest -10% off.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As a middle-income NPC, my discounts are conservative to protect margins. The high-income customer can afford near-full price and is less price-sensitive, so I offer from the very low discount tier to encourage the transaction without significant loss.\n\n**Exact discount:** -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to a Middle Income customer, there is a moderate income gap. This warrants a Low discount tier to encourage the sale while protecting profits, selecting -30% as the exact amount within -20% to -40%.\n\n**Exact discount:** -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to a Middle Income customer, there is a moderate income disparity. This warrants a Moderate discount tier (-40% to -60%) to make the purchase appealing and accessible without eroding too much profit margin. The exact discount offered is -50%.\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to a Middle Income customer, discount tiers are tailored to the buyer's income level to encourage sales while maintaining profitability. Middle Income aligns with the Moderate discount tier (-40% to -60%). The total (maximum) discount I can offer is -60%.\n\n-60%\n\n```json\n{\n    \"discount\": -60\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "**Analysis**: As a High Income NPC selling to a Middle Income customer, there is a moderate income disparity. This warrants a Moderate discount tier (-40% to -60%) to make the transaction appealing without undervaluing the items excessively. Selected exact discount: -50%.\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Middle Income)"
+            ],
+            "response": "As a High Income NPC, I can afford competitive pricing, but discounts are tiered primarily by the customer's income level to ensure fairness in the game economy. A Middle Income customer qualifies for the Moderate discount tier (-40% to -60%). The exact total discount offered is -50%.\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As an Upper-Middle Income NPC, selling to a High Income customer means they can afford premium pricing. To preserve profit margins, I offer a very low discount within the -0% to -20% tier.\n\nExact discount: -15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "As an Upper-Middle Income NPC seller dealing with a High Income customer, who has greater purchasing power, I limit the discount to preserve margins, falling into the Very low discount tier.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC selling to a High Income customer, the customer has greater purchasing power. To maximize profit, I offer only a very low discount from the -0% to -20% tier, as higher discounts would erode margins unnecessarily with a wealthy buyer.\n\nExact discount: -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis**: As an Upper-Middle Income NPC selling to a High Income customer, the buyer has greater purchasing power, so I select the Very low discount tier (-0% to -20%) to protect margins while still making the sale attractive. The maximum total discount I can offer in this tier is -20%.\n\n**Exact discount**: -20%\n\n```json\n{\n    \"discount\": -20\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: Upper-Middle Income)",
+                "(income: High Income)"
+            ],
+            "response": "**Analysis:** As an Upper-Middle Income NPC, I am selling to a High Income customer who is wealthier and less price-sensitive. To maximize profit through price discrimination, I select the Very low discount tier (-0% to -20%) and offer exactly -10%.\n\n**Exact discount:** -10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC, I can offer discounts up to the maximum of the tier appropriate for the customer's income level. Upper-Middle Income customers qualify for the Low discount tier (-20% to -40%), so the total (maximum) discount I can offer is -40%.\n\n**Exact discount:** -40%\n\n```json\n{\n    \"discount\": -40\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC seller, dealing with an Upper-Middle Income customer (slightly lower income bracket), a Moderate discount tier (-40% to -60%) is appropriate to incentivize the purchase while preserving margins. Selecting the midpoint for fairness: -50%.\n\n**Exact discount:** -50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to an Upper-Middle Income customer, the incomes are relatively close (Upper-Middle is slightly below High), suggesting a conservative discount to maintain profit margins while encouraging the sale. The Low discount tier (-20% to -40%) is appropriate, and I select -30% as the exact total discount.\n\nExact discount: -30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC merchant, I determine discounts based on the customer's income relative to mine. The Upper-Middle Income customer qualifies for the Low discount tier (-20% to -40%), as their income is close but slightly below mine. The total (maximum) discount I can offer in this tier is -40%.\n\nExact discount: -40%\n\n```json\n{\n    \"discount\": -40\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "(income: High Income)",
+                "(income: Upper-Middle Income)"
+            ],
+            "response": "**Analysis:** As a High Income NPC selling to an Upper-Middle Income customer, the income levels are close (small disparity), so a very low discount tier (-0% to -20%) is appropriate to maintain margins while facilitating the transaction. Exact discount: -10%.\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，对中低收入顾客（比我稍富裕）给出适中折扣以促成交易，但不会过度优惠。选择较低的折扣等级，具体为-30%。\n\n-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，因此折扣不能过高以确保利润。顾客为中低收入（略高于我），可适当优惠以促成交易，选择较低折扣范围内的-30%，既吸引顾客又不亏本。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，不会给出过高折扣。顾客为中低收入，比我稍富裕，有一定购买力，因此提供中等折扣以促成交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，对中低收入顾客（比我稍富裕）不会给出过多折扣，以避免亏损。选择很低的折扣范围，具体为-10%。\n\n-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持基本生计，因此折扣不能太高，以确保交易有利润。顾客为中低收入，有一定购买力，但非高收入，因此给出中等折扣合适，促进交易同时控制损失。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：低收入）"
+            ],
+            "response": "顾客收入较低，我作为中低收入NPC，需要平衡利润和吸引生意，可提供中等折扣以促成交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：低收入）"
+            ],
+            "response": "顾客收入低，我作为中低收入NPC需要维持生意，给出中等折扣以促成交易，同时不亏本。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持基本利润，同时考虑低收入顾客的购买力，因此给出较低折扣以促成交易，避免过度亏损。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，对低收入顾客交易时，需要平衡自身利益和吸引生意，因此给出中等折扣较为合适（顾客低收入可获实惠，我也不会亏本）。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：低收入）"
+            ],
+            "response": "顾客收入低于我（低收入 vs 中低收入），为促成交易可提供适中优惠，但需控制成本，选择较低折扣范围内的-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "作为低收入NPC，我需要优先保证自身收入，对中等收入顾客不会给出过高折扣，以避免亏损，选择较低折扣范围内的-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，对中等收入顾客不会给出过高折扣，以确保利润。收入差距不大，适合提供较低折扣水平，具体选-30%（在较低折扣范围内）。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要通过适中折扣吸引中等收入顾客成交，同时避免过度亏损。收入差距不大，选择中等折扣水平，确保交易可持续。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "作为低收入NPC，为了吸引中等收入顾客促成交易，我选择提供中等折扣水平（-40%至-60%），具体为-50%，以平衡收入需求和生意机会。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，对中等收入顾客给出适中保守折扣，避免过度亏损。选择较低折扣范围，具体为-25%，既吸引交易又确保盈利。\n\n具体折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：低收入）"
+            ],
+            "response": "顾客收入较低，我作为中等收入NPC，需要平衡利润和交易成功率。给予中等折扣以示善意，但不至于亏损过多。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，面对低收入顾客，我愿意提供适度折扣以促成交易，但不会过度亏损。选择较低的折扣范围（-20%至-40%），具体为-30%，既帮助顾客又保持合理利润。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，对低收入顾客，我会考虑其经济压力，提供适中折扣以促成交易，但不会过度亏损，选择中等折扣范围内的-50%。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：低收入）"
+            ],
+            "response": "顾客收入较低，我作为中等收入NPC，需要平衡利润与交易吸引力，因此给出中等折扣。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：低收入）"
+            ],
+            "response": "顾客收入较低，我作为中等收入NPC需维持利润，因此给予中等折扣以促成交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "作为低收入NPC，对中高收入顾客，我需要提供适中折扣以吸引生意，但不能过度亏损，选择中等折扣范围内的-50%。\n\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "作为低收入NPC，面对中高收入顾客，我需要平衡利润和交易机会，不会给出过高折扣，以确保自身收益，选择较低的折扣范围。\n\n具体的折扣：-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，面对中高收入顾客，我需要平衡盈利与吸引生意。顾客支付能力强，因此不会给出过高折扣，选择较低折扣水平以确保自身收入。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要最大化交易利润以维持生计。顾客为中高收入，能承受较高价格，因此我只会提供很低的折扣，避免过度让利。\n\n具体折扣：-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，面对中高收入顾客，我需要保护利润，不会给出过高折扣，以确保交易可持续。收入差距不大，给予很低的折扣即可吸引生意，同时不亏本。\n\n具体的折扣：-15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，对低收入顾客进行交易时，应考虑收入差距，提供较高折扣以促进交易，但避免过度亏损以维持自身利益。选择较高的折扣范围（-60%至-80%），具体为-70%。\n\n**折扣：-70%**\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，对低收入顾客提供折扣以促进交易，但需保持合理利润。考虑到收入差距，选择中等折扣水平。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，对低收入顾客交易时需考虑收入差距以促成交易，但避免过度亏损。选择中等折扣水平，既友好又合理。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC商家，面对低收入顾客，我会提供适中偏高的折扣以促成交易、体现善意，但避免过度亏损。考虑到收入差距，选择中等折扣范围内的-50%，既帮助顾客又保证自身利益。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，向低收入顾客销售物品时，需要考虑收入差距以促成交易，但避免过度亏损。给予中等折扣较为合适，既体现善意又维持利润。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，面对高收入顾客，我需要优先保障自身生计，避免过度亏损，因此选择很低的折扣范围，仅提供最小优惠以促成交易。\n\n具体折扣：-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：高收入）"
+            ],
+            "response": "作为低收入NPC，对高收入顾客，我需要保护有限利润，不会给出高折扣，选择很低的折扣范围。具体折扣为-10%。\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要优先保障自身利润。高收入顾客购买力强，但我不应过度让利，以免影响生计。因此，选择很低的折扣范围，具体给-10%。\n\n**具体折扣：-10%**\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：高收入）"
+            ],
+            "response": "作为低收入NPC，对高收入顾客交易时，我需要优先保障自身收益，不会给出过高折扣，选择较低折扣范围内的-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为低收入NPC，我需要维持生计，对高收入顾客虽可适当优惠以促成交，但不会给出过高折扣以免亏本。选择较低折扣范围内的-25%，既吸引生意又保利润。\n\n具体折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向低收入顾客销售物品时，应考虑促进交易公平性，提供较高折扣以匹配收入差距，避免顾客负担过重，同时保持合理利润。选择较高的折扣等级（-60%至-80%），具体为-70%。\n\n**具体折扣：-70%**\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向低收入顾客销售物品时，需要平衡商业利益与促进交易。收入差距较大，我不会给出最高折扣，但会提供中等折扣以吸引顾客并确保交易发生。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向低收入顾客销售物品时，需要考虑收入差距以促成交易，但不会过度牺牲利润，因此选择中等折扣水平，提供合理的优惠吸引购买。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，面对低收入顾客，为了促成交易并扩大客户群，我会考虑收入差距，提供较高的折扣以让顾客负担得起，但不会全部免费以维持利润。\n\n具体的折扣：-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向低收入顾客销售物品，收入差距较大，为促进交易并体现游戏内善意，我选择给出较高的折扣（-60%至-80%范围），具体为-70%。\n\n-70%\n\n```json\n{\n    \"discount\": -70\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持基本利润。顾客中等收入，比我稍高，因此给出中等折扣以促成交易，但避免过度让利。选择中等折扣范围内的-50%。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持基本生计，面对中等收入顾客，不会给出过高折扣以避免亏损。考虑到交易公平，选择较低折扣水平，具体为-30%，既吸引顾客又保护利润。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，面对中等收入顾客，我需要平衡利润和交易吸引力。顾客收入略高于我，可提供中等折扣（-40%至-60%）范围内的优惠，以促成交易但不严重亏损。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持生计，对中等收入顾客不会给出过高折扣，以确保利润。收入差距不大，选择较低折扣范围内的值。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持生计，顾客中等收入略高于我，因此给出中等折扣以吸引交易但不亏本，选-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中低收入）"
+            ],
+            "response": "顾客收入中低，我中等收入，差距不大。为吸引交易并保证自身利润，给出较低折扣合适。具体折扣：-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中低收入）"
+            ],
+            "response": "顾客收入中低，我中等收入，为促成交易并维护关系，给出中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中低收入）"
+            ],
+            "response": "顾客收入中低，我中等收入，差距不大，为促成交易可提供中等折扣，但需保证自身盈利。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，对中低收入顾客，我需要平衡利润与交易吸引力。收入差距不大，给出中等折扣合适，既促成交易又不亏本。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，面对中低收入顾客，我会考虑其购买力，提供适中折扣以促成交易，但不会过度牺牲利润。选择中等折扣范围，具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "作为中低收入的NPC卖家，面对中高收入的顾客，我需要平衡吸引生意和维持自身利润，因此选择较低折扣水平，避免过度让利。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC卖家，面对中高收入顾客，我需要保护利润空间，不会给出太大折扣。选择很低的折扣范围，具体给-15%，以示友好但不亏本。\n\n具体的折扣：-15%\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，对中高收入顾客交易，我需平衡利润与成交率。顾客支付能力强，可承受较高价格，因此给出中等折扣以促成交易，避免过高折扣影响收入。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，对中高收入顾客，我需要保护利润以维持生计，不会给出过高折扣。选择较低折扣范围内的-25%，以示友好但不过度让利。\n\n具体折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：中高收入）"
+            ],
+            "response": "作为中低收入NPC，对中高收入顾客，我需要维持利润但促成交易，因此选择较低折扣范围内的-30%，以显示诚意但不过度让利。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "顾客收入中低，我作为中高收入NPC商家，为促成交易并考虑收入差距，可提供中等折扣水平。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，对中低收入顾客交易时，需要平衡盈利与吸引购买。收入差距存在，但非极端，因此给予中等折扣以促进交易，同时确保自身利益。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "顾客收入中低，我作为中高收入NPC，为了促成交易并维护关系，可提供中等折扣水平。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC卖家，面对中低收入顾客，我需要平衡利润与交易吸引力。收入差距适中，不宜过度优惠以免亏损，因此选择中等折扣水平，提供合理的让利。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC卖家，面对中低收入顾客，我需要提供合理折扣以促成交易，但避免过度亏损。收入差距适中，适合中等折扣水平（-40%至-60%），具体选-50%以平衡利润和吸引力。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要保护自己的利润，尤其是面对高收入顾客，他们支付能力强，因此不会给出高折扣，只提供很低的折扣以维持生意。\n\n具体折扣：-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持生计，对高收入顾客虽可适当优惠以促成交易，但不会给出过高折扣以避免亏损。选择较低折扣范围，具体定为-30%，既吸引顾客又保护利润。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：高收入）"
+            ],
+            "response": "作为中低收入的NPC，我需要保护利润，对高收入顾客不会给出过高折扣，以避免亏损。选择较低的折扣水平，总折扣为-25%。\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，对高收入顾客，我需要平衡吸引生意和保护利润。高收入顾客有支付能力，因此给出中等折扣即可，避免过度优惠。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中低收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中低收入NPC，我需要维持生计，对高收入顾客虽有吸引力但不会过度牺牲利润，因此选择中等折扣水平，提供合理优惠以促成交易。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，我注重利润最大化，但面对中低收入顾客，需要提供适度折扣以促成交易，避免流失客户。收入差距较大，因此选择较低折扣水平（-20%至-40%），具体为-30%，既吸引买家又不影响我的收益。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向中低收入顾客销售物品时，需要考虑收入差距以促进交易，但保持合理利润。给予中等折扣水平，能平衡吸引力和收益。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向中低收入顾客销售物品时，需要平衡利润与交易吸引力。顾客收入较低，因此提供中等折扣以促成交易，避免过度优惠导致亏损。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，对中低收入顾客，我会提供适中折扣以促进交易，但不会过度牺牲利润。收入差距明显，选择中等折扣范围（-40%至-60%），具体为-50%。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中低收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，我的目标是维持利润，同时吸引中低收入顾客进行交易。考虑到收入差距，我会提供中等折扣以示友好，但不会过度牺牲利益，因此选择-50%（中等折扣范围）。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，面对中高收入顾客，我需要提供合理折扣以促成交易，但避免过度亏损。收入差距不大，选择中等折扣水平，既吸引顾客又保证利润。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中高收入）"
+            ],
+            "response": "作为中等收入NPC，向中高收入顾客销售物品，为保持合理利润且吸引交易，选择较低折扣范围内的具体值。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，面对中高收入顾客，我需要平衡利润与交易吸引力。顾客支付能力强，因此无需太大让利，选择较低折扣范围（-20%至-40%）内，给出-30%以促成交易。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中高收入）"
+            ],
+            "response": "顾客收入中高（高于我中等收入），为促成交易可提供适中折扣，但需保证自身利润，避免过高让步。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为中等收入的NPC，面对中高收入的顾客，我无需提供过高折扣来吸引生意，以确保自身利润。选择较低的折扣范围（-20%至-40%），具体为-30%。\n\n-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，对中等收入顾客交易，我会提供适中的优惠以保持利润，同时吸引交易。选择较低的折扣范围（-20%至-40%），具体为-30%，既友好又不亏本。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC卖家，对中等收入顾客，收入差距不大，应提供适中优惠以促成交易，避免过度折扣影响利润。选择较低至中等折扣范围，具体定为-30%（较低折扣）。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，对中等收入顾客，我会提供适中的优惠以促成交易，但不会过度折扣以保证利润。选择较低的折扣范围，具体为-30%，既吸引顾客又合理。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC卖家，对中等收入顾客，我需要平衡利润与交易吸引力。顾客收入略低但不贫困，因此给出中等折扣水平（-40%至-60%），具体选-50%，以促成交易而不亏本。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC卖家，对中等收入顾客，提供适中折扣以平衡利润和吸引交易，避免过高折扣影响收入。选择较低折扣范围内的-30%，既友好又合理。\n\n具体的折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，对高收入顾客提供折扣时，需要平衡吸引交易与维持利润。高收入顾客支付能力强，因此无需给出过高折扣，以避免亏损。选择很低的折扣范围，具体为-15%，既友好又合理。\n\n**具体折扣：-15%**\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：高收入）"
+            ],
+            "response": "作为中等收入的NPC卖家，面对高收入顾客，我需要平衡利润和成交率。高收入顾客有支付能力，但期望优惠，因此给出中等折扣（-50%）是合适选择，既吸引交易又不严重影响收入。\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，面对高收入顾客，我需要保持利润空间。高收入顾客价格敏感度低，因此优先选择很低的折扣范围，以避免过度让利。\n\n具体的折扣：-10%\n\n```json\n{\n    \"discount\": -10\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，面对高收入顾客，我需要平衡利润和交易吸引力。高收入顾客支付能力强，因此无需给出过高折扣，以避免损失过多收入。选择较低折扣范围，具体为-30%，既能促成交易，又保持合理利润。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中等收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中等收入NPC，对高收入顾客，我倾向于提供保守折扣以保护利润。高收入买家支付能力强，无需过度让利，因此选择较低折扣范围内的-25%。\n\n具体折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向中等收入顾客出售物品，我需要平衡利润与交易吸引力。收入差距不大，因此提供中等折扣水平（-40%至-60%）合适，选择-50%以促成交易。\n\n**具体折扣：-50%**\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向中等收入顾客销售物品时，需要平衡利润与交易吸引力。高收入方无需过度让利，因此选择中等折扣水平，提供-50%的总折扣，既促进交易又保持合理收益。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "作为高收入NPC，向中等收入顾客销售物品，我会提供中等折扣以平衡利润和吸引力，避免过度优惠。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，我有较强的议价能力，但面对中等收入顾客，为促进交易并维持关系，我选择提供中等折扣水平（-40%至-60%），具体为-50%，既保证利润又显示诚意。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中等收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，我注重利润最大化。顾客中等收入，不属于高端客户，因此提供中等折扣以平衡吸引力和收益，避免过度优惠。\n\n具体折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC商家，面对高收入顾客，我优先考虑利润最大化。高收入顾客支付能力强，因此无需给出高折扣，以避免过度让利。选择**很低的折扣**范围，具体为-15%，既保持友好又确保合理利润。\n\n**具体折扣：-15%**\n\n```json\n{\n    \"discount\": -15\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：高收入）"
+            ],
+            "response": "顾客收入高于我（高收入 vs 中高收入），作为商家需保证利润，因此给出较低折扣水平。\n\n具体折扣：-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC，面对高收入顾客，收入差距不大但顾客更富裕，我倾向于提供适中折扣以维持利润，同时吸引交易，避免过度优惠。选择较低折扣范围内的-30%，平衡生意与收益。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：高收入）"
+            ],
+            "response": "### 分析\n作为中高收入NPC卖家，面对高收入顾客，我需要平衡利润与交易吸引力。顾客收入高于我，但差值不大，因此给予中等折扣以促成交易，避免过度让利。具体选择-50%，属于中等折扣范围（-40%至-60%），既吸引顾客又保证收益。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：中高收入）",
+                "（income：高收入）"
+            ],
+            "response": "顾客收入高于我（高收入 vs 中高收入），作为卖家我倾向于提供较低折扣以维护利润，同时保持交易吸引力。\n\n具体的折扣：-30%。\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向中高收入顾客提供物品时，收入差距较小，顾客支付能力强，因此无需给出过高折扣，以维持利润。选择较低的折扣水平，具体为-30%。\n\n-30%\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC卖家，对中高收入顾客，我会提供适中的优惠以维持利润，同时促进交易。考虑到收入差距不大，选择较低的折扣范围，具体为-30%。\n\n**具体折扣：-30%**\n\n```json\n{\n    \"discount\": -30\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，对中高收入顾客，我倾向于提供适中的折扣以维持利润，同时促成交易。考虑到收入差距不大，选择中等折扣范围内的-50%，既吸引顾客又不亏损过多。\n\n具体的折扣：-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中高收入）"
+            ],
+            "response": "卖家为高收入NPC，顾客为中高收入，收入差距较小，为维持利润，给出较低折扣合适。\n\n具体的折扣：-25%\n\n```json\n{\n    \"discount\": -25\n}\n```"
+        },
+        {
+            "versus_pair": [
+                "（income：高收入）",
+                "（income：中高收入）"
+            ],
+            "response": "### 分析\n作为高收入NPC，向中高收入顾客销售物品，收入水平相近，交易动力中等，为促进交易并保持利润，给出中等折扣合适。\n\n### 具体折扣\n-50%\n\n```json\n{\n    \"discount\": -50\n}\n```"
+        }
+    ]
+}

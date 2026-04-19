@@ -1,0 +1,1446 @@
+{
+    "english": [
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Hamlet",
+                "Farmstead",
+                "Village",
+                "Large Town",
+                "City",
+                "Town"
+            ],
+            "response": "Analysis:\nTo distribute the 100 Action Points effectively, let's consider the relative importance and needs of each settlement type. Typically, larger settlements (like City, Large Town, Town) have more complex needs but also more infrastructure and support, while smaller settlements (Hamlet, Farmstead, Village) may need more help to grow but have less capacity to utilize large amounts of resources efficiently.\n\nGiven this, a balanced approach would be to allocate a bit more to mid-tier settlements (Village, Town, Large Town) that are in a phase of active development, while ensuring that smaller settlements get enough to not stagnate. The City role (Role5) is already at the highest tier, so it might not need as much for growth but still needs maintenance. \n\nHere’s a possible distribution:\n- Role1 (Hamlet): 12 (small, needs support to grow)\n- Role2 (Farmstead): 14 (small, but agricultural production is vital)\n- Role3 (Village): 18 (growing, more infrastructure needs)\n- Role4 (Large Town): 22 (rapid development, lots of activities)\n- Role5 (City): 16 (already advanced, needs maintenance)\n- Role6 (Town): 18 (active growth phase)\n\nThis allocation supports growth in smaller settlements, sustains development in mid-tier ones, and maintains stability in the City.\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 22,\n    \"Role5\": 16,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Farmstead",
+                "Large Town",
+                "Hamlet",
+                "City",
+                "Village",
+                "Town"
+            ],
+            "response": "Analysis:\nTo allocate Action Points effectively, I’ll consider the settlement size and likely in-game needs:\n\n- Larger settlements (City, Large Town, Town) typically have more complex activities, infrastructure, and events, requiring more resources.\n- Smaller settlements (Hamlet, Village, Farmstead) may have fewer needs but can benefit from enough points to develop or respond to challenges.\n- Since I am based in a City and do not allocate points to myself, Role4 (City) is the only city-based member and should get a significant share.\n- Role2 (Large Town) and Role6 (Town) also warrant higher allocations.\n- Role1 (Farmstead), Role3 (Hamlet), and Role5 (Village) should receive fewer, but still meaningful, points to ensure basic operations and growth.\n\nAllocation Plan:\n- Role4 (City): Highest allocation, as cities have the most demands.\n- Role2 (Large Town) and Role6 (Town): Substantial, but less than the city.\n- Role5 (Village), Role1 (Farmstead), Role3 (Hamlet): Divided based on settlement size, with villages getting more than hamlets or farmsteads.\n\nFinal Allocation:\n- Role4 (City): 28\n- Role2 (Large Town): 22\n- Role6 (Town): 18\n- Role5 (Village): 14\n- Role1 (Farmstead): 10\n- Role3 (Hamlet): 8\n\nThis ensures all settlements are supported, with emphasis on those likely to have higher demands.\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 22,\n    \"Role3\": 8,\n    \"Role4\": 28,\n    \"Role5\": 14,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Village",
+                "Hamlet",
+                "City",
+                "Large Town",
+                "Town",
+                "Farmstead"
+            ],
+            "response": "Analysis:  \nTo allocate Action Points efficiently, let's consider the potential needs and capacities of each settlement type. Larger settlements (like City, Large Town, and Town) generally have more complex needs and higher capacity to utilize resources, while smaller ones (Hamlet, Village, Farmstead) may have fewer needs but could benefit from extra support for growth. Since I'm the team leader from a City, I will not allocate resources to myself (Role3). \n\nPriority for resource allocation:\n- Large Town (Role4) and Town (Role5) are likely to have the most activities and needs after the City.\n- Village (Role1) and Hamlet (Role2) should get enough to support development and basic activities.\n- Farmstead (Role6) may require fewer points but still needs enough to be productive.\n\nProposed allocation:\n- Role4 (Large Town): Highest allocation after City\n- Role5 (Town): Slightly less than Large Town\n- Role1 (Village) and Role2 (Hamlet): Moderate allocation\n- Role6 (Farmstead): Sufficient but least, as it's the smallest\n\nDecision:\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 0,\n    \"Role4\": 28,\n    \"Role5\": 24,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Village",
+                "Farmstead",
+                "Town",
+                "Large Town",
+                "City",
+                "Hamlet"
+            ],
+            "response": "Analysis:  \nTo allocate Action Points efficiently, let's consider the settlement hierarchy. Generally, settlements with larger populations and infrastructure (like City and Large Town) may have more capacity to utilize resources effectively, but smaller settlements (like Hamlet, Village, Farmstead) may require more support to grow and develop. To balance growth and efficiency, I will allocate slightly more to mid-tier settlements to boost their development, while ensuring every role gets enough to contribute meaningfully.\n\n- Role5 (City) is already well-developed (same as me), so I’ll allocate moderately.\n- Role4 (Large Town) and Role3 (Town) are next in scale, and would benefit from more points to help them grow towards city level.\n- Role1 (Village), Role2 (Farmstead), and Role6 (Hamlet) are smaller and need support to catch up, but their capacity to utilize many points may be limited.\n\nAllocation Plan:\n- Role4 (Large Town): 24\n- Role3 (Town): 20\n- Role5 (City): 18\n- Role1 (Village): 14\n- Role2 (Farmstead): 12\n- Role6 (Hamlet): 12\n\nThis balances support and growth potential, while ensuring no one is neglected.\n\nDecision:\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 12,\n    \"Role3\": 20,\n    \"Role4\": 24,\n    \"Role5\": 18,\n    \"Role6\": 12\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "City",
+                "Large Town",
+                "Town",
+                "Hamlet",
+                "Farmstead",
+                "Village"
+            ],
+            "response": "Analysis:  \nAs the team leader in a City, I need to allocate 100 Action Points among members with settlements ranging from City (Role1) down to Farmstead (Role5). The larger the settlement, the more resources and responsibilities likely required, so it makes sense to allocate more points to members in larger settlements. However, it's important to ensure even the smallest settlements get enough points to contribute meaningfully.\n\nA possible distribution strategy:\n- Role1 (City): Highest priority after myself (but I do not allocate to myself), so allocate the next highest here.\n- Role2 (Large Town): High, but less than City.\n- Role3 (Town): Moderate.\n- Role4 (Hamlet): Lower.\n- Role5 (Farmstead): Lowest, but still functional.\n- Role6 (Village): Between Hamlet and Town.\n\nA proportional approach (e.g., City > Large Town > Town > Village > Hamlet > Farmstead) might look like:  \nRole1: 28  \nRole2: 22  \nRole3: 18  \nRole6: 14  \nRole4: 10  \nRole5: 8  \nTotal: 100\n\nFinal allocation:\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 14\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Farmstead",
+                "City",
+                "Large Town",
+                "Town",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members, I will consider the relative importance and needs of each settlement type. Larger settlements (City, Large Town, Town) typically have more complex needs and greater potential for growth or risk, so they may benefit from more resources. Smaller settlements (Village, Hamlet, Farmstead) might require fewer resources but still need enough to sustain themselves.\n\nPrioritization:  \n- City (Role2): High population, complex needs, potential for high returns—should receive the most.\n- Large Town (Role3): Significant population, developing infrastructure—second priority.\n- Town (Role4): Moderate needs, supports growth—third priority.\n- Farmstead (Role1): Focused on food production, essential but smaller scale.\n- Village (Role5): Small population, moderate needs.\n- Hamlet (Role6): Smallest, minimal needs.\n\nProposed allocation (rounded to ensure sum = 100):\n- Role2 (City): 30\n- Role3 (Large Town): 22\n- Role4 (Town): 18\n- Role1 (Farmstead): 12\n- Role5 (Village): 10\n- Role6 (Hamlet): 8\n\nOutput:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 30,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Village",
+                "Large Town",
+                "Farmstead",
+                "Hamlet",
+                "Town",
+                "City"
+            ],
+            "response": "Analysis:\nTo allocate the 100 Action Points effectively, let's consider the settlement types. Larger settlements (City, Large Town, Town) generally require more resources due to their complexity and scale, while smaller settlements (Hamlet, Village, Farmstead) might require fewer points. However, Farmstead and Hamlet may need extra points to develop and catch up. Since I (the team leader) am in a City and not eligible, only Role6 (City) gets points among the largest settlements. A balanced approach is to prioritize larger settlements but ensure smaller ones aren't neglected.\n\n- Role6 (City): Needs substantial resources for maintenance and growth.\n- Role2 (Large Town): Significant needs, but less than a City.\n- Role5 (Town): Moderate needs.\n- Role1 (Village): Smaller, but needs support.\n- Role4 (Hamlet): Smallest, may need more for development.\n- Role3 (Farmstead): Specialized, could need a bit more for productivity.\n\nSuggested allocation (rounded for integers and total = 100):\n- City (Role6): 28\n- Large Town (Role2): 22\n- Town (Role5): 18\n- Village (Role1): 12\n- Hamlet (Role4): 10\n- Farmstead (Role3): 10\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 22,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Farmstead",
+                "Large Town",
+                "City",
+                "Village",
+                "Hamlet",
+                "Town"
+            ],
+            "response": "Analysis:  \nTo distribute the 100 Action Points efficiently, I'll consider the likely needs and capacities of each settlement type. Larger settlements (City, Large Town, Town) typically require and can utilize more resources due to their complexity, population, and activity level. Smaller settlements (Hamlet, Village, Farmstead) might need fewer points but should still be supported for growth and sustainability.\n\nHere’s a possible prioritization:\n- City (Role3): High resource need, high impact.\n- Large Town (Role2): Significant resource need.\n- Town (Role6): Moderate-high need.\n- Farmstead (Role1), Village (Role4): Moderate need, especially for basic functions and growth.\n- Hamlet (Role5): Smallest, but shouldn’t be neglected.\n\nProposed allocation (rounded to integers, sum = 100):\n- Role3 (City): 28\n- Role2 (Large Town): 22\n- Role6 (Town): 18\n- Role1 (Farmstead): 12\n- Role4 (Village): 12\n- Role5 (Hamlet): 8\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 22,\n    \"Role3\": 28,\n    \"Role4\": 12,\n    \"Role5\": 8,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Hamlet",
+                "Village",
+                "Large Town",
+                "City",
+                "Town",
+                "Farmstead"
+            ],
+            "response": "Let's analyze the situation:\n\n- The team consists of members from settlements of varying sizes: Hamlet, Village, Farmstead (smaller), Town, Large Town, and City (larger).\n- Larger settlements likely require more resources to manage complexity and provide greater returns on investment.\n- However, smaller settlements shouldn't be neglected, as they may need resources to grow or defend themselves.\n- Since you (the team leader) are already in a City and not allocating to yourself, you may wish to strengthen other settlements, especially those with strategic value.\n\nA balanced but slightly weighted distribution could look like this:\n- Large Town and City get the most, as they can leverage resources efficiently.\n- Town and Village get a moderate amount.\n- Hamlet and Farmstead get the least, but enough to remain viable and develop.\n\nProposed allocation:\n- Role3 (Large Town): 25\n- Role4 (City): 22\n- Role5 (Town): 18\n- Role2 (Village): 15\n- Role1 (Hamlet): 10\n- Role6 (Farmstead): 10\n\nThis ensures all settlements get a meaningful share, with more to those with higher capacity.\n\nHere is the JSON output:\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 22,\n    \"Role5\": 18,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: City)",
+            "role_obs": [
+                "Town",
+                "Village",
+                "City",
+                "Farmstead",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "Analysis:  \nSince I am leading from a City, I should consider the settlement size and strategic importance when allocating resources. Generally, larger settlements (like City and Large Town) require more resources due to their complexity and greater impact on the overall game. Smaller settlements (Hamlet, Farmstead, Village) may need fewer resources, but should not be neglected as they can serve as support or resource-generating bases. Towns are mid-sized and should get a moderate allocation. Role3 shares my settlement type (City), so should receive a significant share, but I should avoid bias and ensure the distribution reflects strategic needs.\n\nProposed Allocation Logic:\n- City (Role3): Highest allocation (central hub, strategic)\n- Large Town (Role6): High allocation (important, near city level)\n- Town (Role1): Moderate-high allocation\n- Village (Role2): Moderate allocation\n- Farmstead (Role4): Low-moderate allocation (supportive role)\n- Hamlet (Role5): Lowest allocation (smallest, least strategic but not zero)\n\nFinal Allocation:\n- Role3 (City): 28\n- Role6 (Large Town): 22\n- Role1 (Town): 18\n- Role2 (Village): 14\n- Role4 (Farmstead): 10\n- Role5 (Hamlet): 8\n\nSum: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nOutput:\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 14,\n    \"Role3\": 28,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Hamlet",
+                "Town",
+                "Village",
+                "Large Town",
+                "Farmstead",
+                "City"
+            ],
+            "response": "Analysis:\n\nTo allocate Action Points effectively, consider the settlement size and potential needs:\n\n- Hamlet (Role1): Smallest; likely needs more support to grow.\n- Farmstead (Role5): Small, rural; may also need extra resources.\n- Village (Role3): Slightly larger than a hamlet, but still limited in resources.\n- Town (Role2): Mid-sized; moderately developed, may need balanced support.\n- Large Town (Role4): Well-developed, similar to my own settlement, but not as large as a city.\n- City (Role6): Largest; likely more self-sufficient, but can utilize more points for large-scale projects.\n\nBalancing growth potential and current needs:\n- Smaller settlements (Hamlet, Farmstead, Village) should receive more points to stimulate development.\n- Medium settlements (Town, Large Town) get moderate allocations.\n- The City receives a reasonable share for major initiatives but less than those needing growth.\n\nLet's allocate more to those who need development (Hamlet, Farmstead, Village), a moderate amount to Town and Large Town, and a fair share to City.\n\nDecision:\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 15,\n    \"Role3\": 20,\n    \"Role4\": 13,\n    \"Role5\": 20,\n    \"Role6\": 10\n}\n```\nThis allocation supports the growth of smaller settlements while ensuring all team members have resources to contribute effectively."
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Large Town",
+                "Farmstead",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members, consider the settlement size and potential impact. Larger settlements (City, Large Town, Town) typically have more complex needs and higher population, so they may require more resources to be effective. Smaller settlements (Hamlet, Village, Farmstead) might have fewer needs but still require support to grow or maintain stability. Since I am the team leader of a Large Town, I will not allocate points to myself.\n\nA balanced approach would prioritize larger settlements but ensure all receive enough to contribute meaningfully. Here’s a possible priority ranking based on settlement size:\n\n1. City (Role2) – highest priority\n2. Large Town (myself, so skip)\n3. Town (Role1) – high priority\n4. Village (Role5) – medium priority\n5. Farmstead (Role4) – low-medium priority\n6. Hamlet (Role6) – lowest priority\n\nLet's distribute more points to the City and Town, moderate to Village, and some to Farmstead and Hamlet.\n\nProposed allocation:\n- Role2 (City): 30\n- Role1 (Town): 25\n- Role5 (Village): 18\n- Role4 (Farmstead): 12\n- Role6 (Hamlet): 15\n\nSum: 30 + 25 + 18 + 12 + 15 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 30,\n    \"Role3\": 0,\n    \"Role4\": 12,\n    \"Role5\": 18,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Farmstead",
+                "Village",
+                "Large Town",
+                "Town",
+                "Hamlet",
+                "City"
+            ],
+            "response": "Analysis:  \nWhen allocating Action Points (AP) among team members based on their settlements, several factors can be considered:\n\n- **Settlement Size/Complexity**: Larger settlements (City, Large Town, Town) likely have more complex needs and can utilize more resources effectively. Smaller settlements (Hamlet, Farmstead, Village) may not need or be able to utilize as many AP.\n- **Strategic Importance**: Ensuring that all settlements have enough resources to function, but prioritizing larger and more strategically important locations.\n- **Balance**: Preventing over-concentration to avoid neglecting smaller settlements.\n\nGiven this, a weighted distribution is reasonable:\n- City (Role6): Highest allocation\n- Large Town (Role3): High allocation\n- Town (Role4): Moderate-high allocation\n- Village (Role2): Moderate allocation\n- Farmstead (Role1): Low allocation\n- Hamlet (Role5): Lowest allocation\n\nProposed Distribution:\n- Role6 (City): 28 AP\n- Role3 (Large Town): 22 AP\n- Role4 (Town): 18 AP\n- Role2 (Village): 14 AP\n- Role1 (Farmstead): 10 AP\n- Role5 (Hamlet): 8 AP\n\nTotal: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 14,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "City",
+                "Farmstead",
+                "Village",
+                "Large Town",
+                "Town",
+                "Hamlet"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members from different settlement types, it's strategic to consider the settlement's size and likely resource needs. Larger settlements (like City and Large Town) typically require more resources to manage their complexity, infrastructure, and population, while smaller settlements (Hamlet, Farmstead) might have fewer needs but could benefit from a boost to foster growth. Villages and Towns fall in between. \n\nA balanced approach could allocate more points to larger settlements but ensure smaller settlements aren't neglected, promoting overall team progress.\n\nAllocation Plan:\n- Role1 (City): Largest settlement, high resource demand.\n- Role4 (Large Town): Second largest, also high needs.\n- Role5 (Town): Medium-large.\n- Role3 (Village): Medium.\n- Role2 (Farmstead): Small, but can benefit from support.\n- Role6 (Hamlet): Smallest, but strategic investment can help growth.\n\nSample allocation (rounded for integer constraints):\n- Role1 (City): 26\n- Role4 (Large Town): 22\n- Role5 (Town): 18\n- Role3 (Village): 14\n- Role2 (Farmstead): 10\n- Role6 (Hamlet): 10\n\nThis ensures the largest settlements get the most, but small settlements receive enough to stay viable and grow.\n\nFinal JSON Output:\n```json\n{\n    \"Role1\": 26,\n    \"Role2\": 10,\n    \"Role3\": 14,\n    \"Role4\": 22,\n    \"Role5\": 18,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Village",
+                "City",
+                "Large Town",
+                "Town",
+                "Farmstead",
+                "Hamlet"
+            ],
+            "response": "Analysis:\n\nTo distribute the 100 Action Points efficiently, let's consider the strategic importance and potential impact of each role based on their settlement type:\n\n- City (Role2): Cities generally have the largest population, most infrastructure, and greatest strategic value. Allocating more points here can have a high impact.\n- Large Town (Role3): As the same settlement type as the team leader, this role likely has significant needs and influence, but slightly less than a city.\n- Town (Role4): Important, but smaller than a large town or city.\n- Village (Role1): Smaller than a town, moderate resource needs.\n- Farmstead (Role5): Usually rural, supports food/resources but less strategic impact.\n- Hamlet (Role6): Smallest, lowest population, least impact.\n\nSuggested priority (highest to lowest): City > Large Town > Town > Village > Farmstead > Hamlet\n\nLet's distribute points proportionally, but ensure each role receives enough to contribute meaningfully:\n\n- Role2 (City): 28\n- Role3 (Large Town): 22\n- Role4 (Town): 18\n- Role1 (Village): 14\n- Role5 (Farmstead): 10\n- Role6 (Hamlet): 8\n\nSum: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 28,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Large Town",
+                "Hamlet",
+                "Village",
+                "Town",
+                "Farmstead",
+                "City"
+            ],
+            "response": "Analysis:\nTo allocate the 100 Action Points, let's consider the likely needs and capacities of each settlement type. Larger settlements (City, Large Town, Town) can probably utilize more resources effectively, while smaller ones (Hamlet, Farmstead, Village) may have limited capacity or fewer needs. However, to ensure balanced growth and support, we shouldn't neglect the smaller settlements.\n\nHere's a reasonable approach:\n- City (Role6): Largest, likely has the most infrastructure and needs.\n- Large Town (Role1): Also large, but slightly less than City.\n- Town (Role4): Medium-large, should get a moderate amount.\n- Village (Role3): Small, but still a population center.\n- Hamlet (Role2): Very small, less need/capacity.\n- Farmstead (Role5): Smallest, likely just a single household or a few.\n\nLet's distribute:\n- City > Large Town > Town > Village > Hamlet > Farmstead\n\nProposed allocation:\n- Role6 (City): 28\n- Role1 (Large Town): 22\n- Role4 (Town): 18\n- Role3 (Village): 14\n- Role2 (Hamlet): 10\n- Role5 (Farmstead): 8\n\nTotal: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 10,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Large Town",
+                "Village",
+                "Farmstead",
+                "Hamlet",
+                "Town",
+                "City"
+            ],
+            "response": "Analysis:\nWhen distributing Action Points among team members based on their settlements, it's logical to consider the size and potential needs of each settlement. Larger settlements like City and Large Town typically require more resources due to their population, infrastructure, and complexity, while smaller settlements like Hamlet and Farmstead need less.\n\nSettlement size ranking (from largest to smallest):\n1. City (Role6)\n2. Large Town (Role1)\n3. Town (Role5)\n4. Village (Role2)\n5. Hamlet (Role4)\n6. Farmstead (Role3)\n\nA fair approach is to allocate more points to larger settlements, but ensure that even the smallest get enough to function. I will use a weighted distribution favoring larger settlements, but still providing support to all.\n\nProposed allocation:\n- City (Role6): 28\n- Large Town (Role1): 22\n- Town (Role5): 18\n- Village (Role2): 14\n- Hamlet (Role4): 10\n- Farmstead (Role3): 8\n\nSum: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 14,\n    \"Role3\": 8,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Large Town",
+                "Farmstead",
+                "Village",
+                "City",
+                "Hamlet",
+                "Town"
+            ],
+            "response": "Analysis:  \nWhen allocating Action Points (AP) among team members based on their settlements, we should consider the potential impact and needs of each settlement type:\n\n- City: Likely has the largest population and most complex needs, requiring more resources.\n- Large Town & Town: Substantial settlements, needing significant but less than a city.\n- Village: Moderate size, fewer needs than towns but more than hamlets/farmsteads.\n- Hamlet & Farmstead: Smallest, with minimal resource needs.\n\nPrioritization (from highest to lowest need):  \nCity > Large Town > Town > Village > Hamlet > Farmstead\n\nLet's distribute resources proportionally:\n\n- City (Role4): 28 AP\n- Large Town (Role1): 22 AP\n- Town (Role6): 18 AP\n- Village (Role3): 14 AP\n- Hamlet (Role5): 10 AP\n- Farmstead (Role2): 8 AP\n\nSum: 28 + 22 + 18 + 14 + 10 + 8 = 100 AP\n\nDecision:\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 8,\n    \"Role3\": 14,\n    \"Role4\": 28,\n    \"Role5\": 10,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Large Town",
+                "Town",
+                "Farmstead",
+                "Village",
+                "Hamlet",
+                "City"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members, we should consider the relative importance, size, and needs of each settlement type. Larger settlements (City, Large Town, Town) typically require more resources to manage and have a higher impact on overall success. Smaller settlements (Hamlet, Farmstead, Village) may need fewer points, but shouldn't be neglected entirely to ensure balanced development and support.\n\nPrioritization (from highest to lowest):\n1. City (Role6) – Likely the largest and most resource-intensive.\n2. Large Town (Role1) – Significant but not as demanding as a city.\n3. Town (Role2) – Medium importance.\n4. Village (Role4) – Small but important for growth.\n5. Farmstead (Role3) – Supports food and resources.\n6. Hamlet (Role5) – Smallest, least resource-intensive.\n\nBased on this, I will allocate more points to larger settlements, but ensure every role receives enough to contribute meaningfully.\n\nDecision:\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 16,\n    \"Role3\": 12,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 26\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Large Town)",
+            "role_obs": [
+                "Village",
+                "Town",
+                "Large Town",
+                "City",
+                "Farmstead",
+                "Hamlet"
+            ],
+            "response": "Analysis:\nTo distribute the 100 Action Points efficiently, I'll consider the settlement size and likely resource needs or influence:\n\n- Larger settlements (City, Large Town, Town) generally require and can utilize more resources due to higher population and complexity.\n- Smaller settlements (Hamlet, Farmstead, Village) need fewer resources but shouldn't be neglected to ensure balanced development and support.\n\nA reasonable allocation would prioritize larger settlements but still provide support to smaller ones for growth and sustainability.\n\nProposed distribution logic:\n- City (Role4): Highest allocation (most complex, largest needs)\n- Large Town (Role3): Second highest (your own settlement, but since you don't allocate to yourself, this goes to the next largest)\n- Town (Role2): Moderate allocation\n- Village (Role1): Lower allocation\n- Farmstead (Role5): Low allocation\n- Hamlet (Role6): Lowest allocation\n\nLet’s assign points proportionally, then adjust to ensure the total is 100:\n\n- City: 28\n- Large Town: 22\n- Town: 18\n- Village: 14\n- Farmstead: 10\n- Hamlet: 8\n\nTotal: 100\n\nDecision:\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 18,\n    \"Role3\": 22,\n    \"Role4\": 28,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Village",
+                "Large Town",
+                "Farmstead",
+                "Hamlet",
+                "Town",
+                "City"
+            ],
+            "response": "Analysis:\nWhen distributing Action Points among team members from different settlements, it’s strategic to consider the relative importance and potential of each settlement type:\n\n- City: Likely to have the most activities, population, and influence. Needs significant resources.\n- Large Town & Town: Both are sizable and central; should get substantial, but slightly less than City.\n- Village & Hamlet: Smaller settlements, fewer activities, but still require support.\n- Farmstead: Usually the smallest, focused on production rather than expansion or defense.\n\nA balanced approach would prioritize City, then Large Town and Town, then Village and Hamlet, with Farmstead receiving enough to maintain productivity.\n\nProposed Distribution:\n- Role6 (City): 28\n- Role2 (Large Town): 22\n- Role5 (Town): 20\n- Role1 (Village): 12\n- Role4 (Hamlet): 10\n- Role3 (Farmstead): 8\n\nTotal: 100 Action Points\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 22,\n    \"Role3\": 8,\n    \"Role4\": 10,\n    \"Role5\": 20,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Village",
+                "Town",
+                "Farmstead",
+                "City",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members with different settlements, we should consider the scale and needs of each settlement type. Larger settlements (like City and Large Town) generally require more resources to manage, but smaller settlements (Hamlet, Village, Farmstead) may benefit more from a proportionally higher investment, helping them grow and become more productive for the team. Since Role2 shares the same settlement type as the leader (Town), it may receive a moderate allocation. The aim is to balance immediate needs and future growth potential.\n\nA possible priority (from largest to smallest):  \n- City (Role4): Needs significant resources for maintenance and expansion.\n- Large Town (Role6): Needs many resources, but slightly less than a city.\n- Town (Role2): Moderate needs.\n- Village (Role1): Lower needs, but investment can accelerate growth.\n- Farmstead (Role3): Small, but resource input could have high impact.\n- Hamlet (Role5): The smallest, so fewer resources, but enough to sustain growth.\n\nBased on this, here’s a balanced allocation:\n\n- Role4 (City): 26\n- Role6 (Large Town): 22\n- Role2 (Town): 18\n- Role1 (Village): 14\n- Role3 (Farmstead): 12\n- Role5 (Hamlet): 8\n\nTotal: 100\n\nDecision:\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 26,\n    \"Role5\": 8,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Village",
+                "Hamlet",
+                "Farmstead",
+                "City",
+                "Large Town",
+                "Town"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members, it is important to consider the settlement size and potential for resource utilization. Larger settlements (City, Large Town, Town) typically have greater capacity for resource use and can generate higher returns, but supporting smaller settlements (Village, Hamlet, Farmstead) ensures balanced development and prevents bottlenecks. As a Town leader, it may be strategic to prioritize larger settlements while still supporting the growth of smaller ones.\n\nSettlement ranking by size (smallest to largest):  \nHamlet < Farmstead < Village < Town < Large Town < City\n\nProposed allocation logic:  \n- City and Large Town: Highest allocation due to greater needs and higher impact.\n- Town: Significant allocation, but slightly less since it is already developed and you're the leader (not allocating to yourself).\n- Village: Moderate allocation to foster growth.\n- Farmstead and Hamlet: Lower allocation, but enough to support basic development.\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 10,\n    \"Role3\": 13,\n    \"Role4\": 28,\n    \"Role5\": 22,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Village",
+                "Large Town",
+                "Town",
+                "Hamlet",
+                "Farmstead",
+                "City"
+            ],
+            "response": "Analysis:  \nWhen allocating Action Points among team members, several factors should be considered:\n- Settlement size and complexity: Larger settlements (City, Large Town) may require more resources due to their complexity and higher demands.\n- Smaller settlements (Hamlet, Farmstead) may need fewer resources but shouldn’t be neglected, as their growth is also important.\n- Peers with the same settlement type as the leader (Town) may receive a balanced allocation.\n- Villages sit between Hamlets and Towns in scale.\n\nBased on this, a weighted allocation could look like:\n- City (Role6): Highest allocation\n- Large Town (Role2): Second highest\n- Town (Role3): Moderate-high (but not as much as Large Town or City)\n- Village (Role1): Moderate\n- Hamlet (Role4): Low\n- Farmstead (Role5): Lowest\n\nNow, let’s distribute 100 points accordingly:\n\n- City: 28\n- Large Town: 22\n- Town: 18\n- Village: 14\n- Hamlet: 10\n- Farmstead: 8\n\nTotal: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Farmstead",
+                "City",
+                "Large Town",
+                "Town",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "Let's briefly analyze the needs based on settlements:\n\n- **Farmstead (Role1):** Likely needs points for agricultural productivity, but usually lower population.\n- **City (Role2):** High population, complex needs, lots of activities. Likely requires the most resources.\n- **Large Town (Role3):** Substantial needs, but less than a city.\n- **Town (Role4):** Moderate needs, similar to my own settlement.\n- **Hamlet (Role5):** Smallest, lowest needs.\n- **Village (Role6):** More than a hamlet, less than a town.\n\n**Allocation approach:**  \nPrioritize City and Large Town, moderate for Town and Village, lower for Farmstead, least for Hamlet.\n\n**Proposed distribution:**\n- Role2 (City): 30\n- Role3 (Large Town): 22\n- Role4 (Town): 18\n- Role6 (Village): 13\n- Role1 (Farmstead): 10\n- Role5 (Hamlet): 7\n\nSum: 30 + 22 + 18 + 13 + 10 + 7 = 100\n\nNow, output in JSON:\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 30,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 7,\n    \"Role6\": 13\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Farmstead",
+                "Village",
+                "Hamlet",
+                "Large Town",
+                "Town",
+                "City"
+            ],
+            "response": "Analysis:\nTo allocate Action Points effectively, let's consider the settlement type of each role. Generally, larger settlements (like City and Large Town) may have more complex needs and more opportunities to utilize resources efficiently. Smaller settlements (like Farmstead, Hamlet, and Village) may have fewer needs but could benefit greatly from targeted support. Since I am from a Town, I will not allocate points to myself (Role5).\n\nSettlement hierarchy (from smallest to largest):  \nFarmstead < Hamlet < Village < Town < Large Town < City\n\nAllocation priorities:\n- City and Large Town likely require the most resources due to their size and complexity.\n- Village, Hamlet, and Farmstead should get moderate but meaningful support.\n- Town (Role5) is skipped (as per instructions).\n\nProposed allocation (with reasoning):\n- City (Role6): Highest allocation due to scale.\n- Large Town (Role4): Second highest.\n- Village (Role2): Moderate allocation.\n- Hamlet (Role3): Slightly less than Village.\n- Farmstead (Role1): Slightly less than Hamlet.\n- Town (Role5): 0 (as per instruction).\n\nLet's distribute the 100 Action Points:\n- Role6 (City): 28\n- Role4 (Large Town): 24\n- Role2 (Village): 18\n- Role3 (Hamlet): 14\n- Role1 (Farmstead): 16\n- Role5 (Town): 0\n\nTotal: 28 + 24 + 18 + 14 + 16 = 100\n\nOutput:\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 24,\n    \"Role5\": 0,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "City",
+                "Large Town",
+                "Town",
+                "Farmstead",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "Analysis:\nWhen allocating Action Points (AP) among team members based on their settlements, it's strategic to consider the size and potential needs of each settlement. Larger settlements (like City and Large Town) typically require more resources for management, development, and defense, while smaller settlements (like Hamlet and Farmstead) may need fewer resources due to their scale. However, supporting smaller settlements is also important to prevent stagnation or vulnerability. The Town and Village settlements fall in the middle and should receive moderate support.\n\nHere's a proposed priority:\n- City (Role1): Highest need due to complexity and scale.\n- Large Town (Role2): High need, but less than a City.\n- Town (Role3): Moderate need, matches our own settlement size.\n- Village (Role6): Slightly less than Town, but still significant.\n- Farmstead (Role4) & Hamlet (Role5): Smallest, should get enough to sustain growth and security.\n\nDecision:\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 14\n}\n```\nThis allocation balances supporting the largest settlements for overall strength, while still investing in the growth and stability of smaller settlements."
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Hamlet",
+                "Village",
+                "City",
+                "Town",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "**Analysis:**\n\nTo allocate the 100 Action Points (AP) efficiently, I’ll consider the following factors:\n\n1. **Settlement Size & Importance:** Larger settlements (City, Large Town, Town) likely have greater needs and can utilize more resources effectively. Smaller settlements (Hamlet, Village, Farmstead) may require less, but shouldn’t be neglected.\n2. **Diversity:** Ensuring every team member receives a reasonable amount to maintain balance and encourage development across all settlements.\n3. **Your Role:** As the team leader in a Town, I’ll avoid favoring the Town role excessively, but will recognize its importance.\n4. **Potential Growth:** Smaller settlements might benefit from a modest boost to grow, while larger settlements need more to maintain and expand.\n\n**Proposed Distribution:**\n\n- **Role3 (City):** Highest need and potential, gets the most.\n- **Role6 (Large Town):** Next highest, substantial allocation.\n- **Role4 (Town):** Important, but not as large as City or Large Town.\n- **Role2 (Village):** Moderate allocation.\n- **Role1 (Hamlet):** Smallest, gets the least, but enough to be functional.\n- **Role5 (Farmstead):** Similar to Hamlet, but as a resource producer, slightly more.\n\n**Final Allocation:**\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 14,\n    \"Role3\": 28,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 22\n}\n```\n\n- Role3 (City): 28\n- Role6 (Large Town): 22\n- Role4 (Town): 18\n- Role2 (Village): 14\n- Role5 (Farmstead): 10\n- Role1 (Hamlet): 8\n\nThis distribution supports larger settlements while ensuring all roles have enough resources to contribute meaningfully."
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "City",
+                "Hamlet",
+                "Farmstead",
+                "Large Town",
+                "Village",
+                "Town"
+            ],
+            "response": "Let's briefly analyze the allocation:\n\n- Larger settlements (City, Large Town, Town) likely have more complex needs and can utilize more Action Points efficiently.\n- Smaller settlements (Hamlet, Farmstead, Village) may require fewer points due to their scale but shouldn't be neglected.\n- As a team leader in a Town, I might prioritize similarly sized or larger settlements slightly higher, while ensuring every settlement gets enough to be productive.\n\nProposed allocation strategy:\n- City (Role1): Highest allocation due to scale and importance.\n- Large Town (Role4) and Town (Role6): Next highest due to their size and resource needs.\n- Village (Role5): Moderate allocation.\n- Hamlet (Role2) and Farmstead (Role3): Slightly less, as they have fewer needs.\n\nHere is the allocation:\n\n- Role1 (City): 26\n- Role2 (Hamlet): 11\n- Role3 (Farmstead): 12\n- Role4 (Large Town): 20\n- Role5 (Village): 15\n- Role6 (Town): 16\n\nTotal: 26 + 11 + 12 + 20 + 15 + 16 = 100\n\nFinal output:\n\n```json\n{\n    \"Role1\": 26,\n    \"Role2\": 11,\n    \"Role3\": 12,\n    \"Role4\": 20,\n    \"Role5\": 15,\n    \"Role6\": 16\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Town)",
+            "role_obs": [
+                "Farmstead",
+                "Hamlet",
+                "City",
+                "Town",
+                "Village",
+                "Large Town"
+            ],
+            "response": "Analysis:  \nTo distribute 100 Action Points among the six roles, I’ll consider the likely needs and scale of each settlement:\n\n- Farmstead: Small, likely requires fewer resources.\n- Hamlet: Slightly larger than Farmstead, but still small.\n- Village: Modest size, needs moderate resources.\n- Town: Larger than Village, may need more.\n- Large Town: Even larger, higher demand.\n- City: Largest, probably requires the most to maintain and expand.\n\nA balanced approach is to prioritize larger settlements, as their activities impact more people and require more resources, but still provide enough to smaller settlements for development and sustainability.\n\nDecision:\n- Role1 (Farmstead): 10\n- Role2 (Hamlet): 12\n- Role3 (City): 28\n- Role4 (Town): 18\n- Role5 (Village): 14\n- Role6 (Large Town): 18\n\nTotal: 10 + 12 + 28 + 18 + 14 + 18 = 100\n\nOutput:\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 12,\n    \"Role3\": 28,\n    \"Role4\": 18,\n    \"Role5\": 14,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "City",
+                "Town",
+                "Farmstead",
+                "Hamlet",
+                "Large Town",
+                "Village"
+            ],
+            "response": "Let's analyze the situation:\n\n- You are from a Village, so you may want to avoid giving yourself Action Points.\n- The team consists of members from a variety of settlements: City, Town, Farmstead, Hamlet, Large Town, and Village.\n- Typically, settlements like City and Large Town may have greater needs due to their size, while Farmstead and Hamlet may require fewer resources.\n- However, balancing is important to ensure all roles can contribute.\n\nHere's a possible approach:\n- Allocate more points to larger settlements (City, Large Town).\n- Allocate moderate points to Town and Village.\n- Allocate fewer points to Hamlet and Farmstead.\n\nBased on this, here's a proposed allocation:\n- Role1 (City): 28\n- Role2 (Town): 18\n- Role3 (Farmstead): 10\n- Role4 (Hamlet): 8\n- Role5 (Large Town): 26\n- Role6 (Village): 10\n\nSum: 28 + 18 + 10 + 8 + 26 + 10 = 100\n\nHere's the JSON output:\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 18,\n    \"Role3\": 10,\n    \"Role4\": 8,\n    \"Role5\": 26,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Hamlet",
+                "Village",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "Analysis:  \nTo distribute 100 Action Points among six roles with different settlement types, I should consider the potential impact or needs of each settlement. Typically, larger settlements (City, Large Town, Town) may require more resources to manage more activities, population, or infrastructure, while smaller settlements (Hamlet, Farmstead) may need fewer points. However, to ensure balanced growth and prevent neglect, every role should receive a reasonable allocation. Since one of the roles (Role4) shares my settlement type (Village), I will avoid bias and treat it fairly.\n\nHere's a possible prioritization (from largest to smallest):\n- City (Role2): Largest, likely highest needs.\n- Large Town (Role6): Next largest.\n- Town (Role1): Medium size.\n- Village (Role4): Mid-small.\n- Hamlet (Role3): Small.\n- Farmstead (Role5): Smallest.\n\nA balanced distribution might look like this:\n- City: 25\n- Large Town: 20\n- Town: 18\n- Village: 15\n- Hamlet: 12\n- Farmstead: 10\n\nTotal: 100\n\nDecision:\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 25,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 10,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Farmstead",
+                "City",
+                "Large Town",
+                "Hamlet",
+                "Town",
+                "Village"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points (AP) among team members from different settlements, it’s important to consider both the scale and likely resource needs of each settlement type. Generally, larger settlements (like City, Large Town, Town) may require more resources to manage their activities, infrastructure, and population. Smaller settlements (Hamlet, Farmstead, Village) might need fewer points, but strategic importance or vulnerability could also be a factor.\n\n- City (Role2): Largest, likely highest needs.\n- Large Town (Role3): Significant needs, but less than City.\n- Town (Role5): Moderate needs.\n- Village (Role6): Moderate, but as the same settlement as the leader, may have some shared interests.\n- Farmstead (Role1): Small, but could be critical for food/resource supply.\n- Hamlet (Role4): Smallest, minimal needs but shouldn’t be ignored.\n\nA balanced but weighted distribution, prioritizing larger settlements while ensuring every role gets enough to be effective, could look like this:\n\n- City > Large Town > Town > Village > Farmstead ≈ Hamlet\n\nLet’s allocate:\n\n- City: 26\n- Large Town: 20\n- Town: 16\n- Village: 14\n- Farmstead: 12\n- Hamlet: 12\n\nTotal: 26 + 20 + 16 + 14 + 12 + 12 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 26,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 16,\n    \"Role6\": 14\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Town",
+                "Large Town",
+                "Farmstead",
+                "City",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "Analysis:\nTo allocate the 100 Action Points, I'll consider the settlement type of each role. Larger settlements (City, Large Town, Town) may have more complex needs and more activities, so they could benefit from more Action Points. Smaller settlements (Hamlet, Farmstead, Village) might require fewer points. However, to ensure all roles can contribute, even the smallest settlements should receive some points. I will avoid allocating points to myself (Village), so Role5 is not prioritized for extra points just because of matching settlements.\n\nLet's rank the settlements by likely need for Action Points:\n- City (Role4): Highest need\n- Large Town (Role2): High need\n- Town (Role1): Moderate-high need\n- Village (Role5): Moderate (but as a Village leader, I will not favor this role)\n- Farmstead (Role3): Lower need\n- Hamlet (Role6): Lowest need\n\nA reasonable distribution could be:\n- City: 28\n- Large Town: 22\n- Town: 18\n- Village: 12\n- Farmstead: 10\n- Hamlet: 10\n\nSum: 28 + 22 + 18 + 12 + 10 + 10 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 22,\n    \"Role3\": 10,\n    \"Role4\": 28,\n    \"Role5\": 12,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "City",
+                "Town",
+                "Hamlet",
+                "Large Town",
+                "Village",
+                "Farmstead"
+            ],
+            "response": "Let's analyze the allocation:\n\n- **Role1 (City):** Cities are large settlements, likely to require and utilize more resources efficiently due to their size and complexity.\n- **Role4 (Large Town):** Large Towns are next in importance and resource needs after cities.\n- **Role2 (Town):** Towns are smaller than large towns but still significant.\n- **Role5 (Village):** Villages are smaller and may need moderate resources (but you, as the leader, are also from a Village, so only one allocation here).\n- **Role3 (Hamlet):** Hamlets are tiny settlements; their needs are minimal.\n- **Role6 (Farmstead):** Farmsteads are likely to need the least, being isolated or very small.\n\n**Allocation strategy:**  \nPrioritize larger settlements with more needs, but ensure every role gets enough to contribute. The distribution should reflect settlement size and likely resource needs.\n\n**Decision:**\n- Role1 (City): 30\n- Role4 (Large Town): 22\n- Role2 (Town): 18\n- Role5 (Village): 13\n- Role3 (Hamlet): 9\n- Role6 (Farmstead): 8\n\nTotal: 30 + 22 + 18 + 13 + 9 + 8 = 100\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 18,\n    \"Role3\": 9,\n    \"Role4\": 22,\n    \"Role5\": 13,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Hamlet",
+                "Farmstead",
+                "Large Town",
+                "Village",
+                "City",
+                "Town"
+            ],
+            "response": "Analysis:  \nTo distribute 100 Action Points among the six roles, I'll consider the relative size and likely needs of each settlement. Larger settlements (like City and Large Town) may require more resources to maintain, but smaller settlements (like Hamlet and Farmstead) may need more support to develop. As a Village leader, I will avoid favoring my own settlement (Role4). Here’s a possible rationale:\n\n- Role5 (City): Highest population and complexity, so deserves the largest share.\n- Role3 (Large Town): Second largest, also needs significant resources.\n- Role6 (Town): Mid-sized, should get a moderate share.\n- Role4 (Village): Same as my own, so will allocate a moderate share, but not more than Town.\n- Role1 (Hamlet) and Role2 (Farmstead): Smallest, but supporting their growth is important, so they get enough to progress, but less than larger settlements.\n\nProposed allocation:\n- Role5 (City): 28\n- Role3 (Large Town): 22\n- Role6 (Town): 18\n- Role4 (Village): 14\n- Role2 (Farmstead): 10\n- Role1 (Hamlet): 8\n\nTotal: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 10,\n    \"Role3\": 22,\n    \"Role4\": 14,\n    \"Role5\": 28,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Farmstead",
+                "Large Town",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "Analysis:\nTo distribute the 100 Action Points effectively, let's consider the following:\n\n- Larger settlements (City, Large Town, Town) may require more resources due to higher population, complexity, or strategic importance.\n- Smaller settlements (Hamlet, Farmstead, Village) may need fewer points but should not be neglected.\n- Since you (the leader) are based in a Village and are not allocating to yourself, the Village allocation goes to Role6.\n- Balance is important so that all roles are empowered, but scale with settlement size.\n\nSettlement order by size/importance (descending):  \nCity > Large Town > Town > Village > Farmstead > Hamlet\n\nProposed allocation (descending order):\n- Role2 (City): Highest (since cities have more needs and opportunities)\n- Role4 (Large Town): Second highest\n- Role1 (Town): Third\n- Role6 (Village): Moderate\n- Role3 (Farmstead): Lower, but still relevant\n- Role5 (Hamlet): Lowest, but not zero\n\nLet's allocate:\n- City: 26\n- Large Town: 22\n- Town: 18\n- Village: 14\n- Farmstead: 11\n- Hamlet: 9\n\nSum: 26 + 22 + 18 + 14 + 11 + 9 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 26,\n    \"Role3\": 11,\n    \"Role4\": 22,\n    \"Role5\": 9,\n    \"Role6\": 14\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "City",
+                "Hamlet",
+                "Village",
+                "Town",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "Analysis:\nWhen allocating resources, it's important to consider the potential impact and needs of each settlement type:\n\n- City (Role1): Likely to have high needs and can utilize more resources efficiently due to size and complexity.\n- Large Town (Role6): Also significant, but slightly less than a city.\n- Town (Role4): Important, but smaller than a large town or city.\n- Village (Role3): Similar to my own, mid-level needs.\n- Hamlet (Role2): Small, fewer needs and lower resource capacity.\n- Farmstead (Role5): Smallest, likely needs the least.\n\nBased on these considerations, a balanced approach would be to allocate more points to larger settlements, but not neglect smaller ones, ensuring all roles are supported for overall team strength.\n\nDecision:\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 10,\n    \"Role3\": 16,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Hamlet",
+                "City",
+                "Large Town",
+                "Farmstead",
+                "Village",
+                "Town"
+            ],
+            "response": "Let's analyze the allocation:\n\n- **Role2 (City)** and **Role3 (Large Town)** likely have the largest populations and most complex needs, so they should receive the highest allocations.\n- **Role6 (Town)** and **Role5 (Village)** are moderately sized and should get a moderate share.\n- **Role1 (Hamlet)** and **Role4 (Farmstead)** are small settlements and likely need fewer resources.\n\nA fair distribution should prioritize City and Large Town, while ensuring smaller settlements get enough to sustain themselves.\n\n**Proposed allocation:**\n- Role2 (City): 28\n- Role3 (Large Town): 22\n- Role6 (Town): 16\n- Role5 (Village): 14\n- Role1 (Hamlet): 10\n- Role4 (Farmstead): 10\n\nTotal: 28 + 22 + 16 + 14 + 10 + 10 = 100\n\nHere is the JSON output:\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 28,\n    \"Role3\": 22,\n    \"Role4\": 10,\n    \"Role5\": 14,\n    \"Role6\": 16\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Village)",
+            "role_obs": [
+                "Farmstead",
+                "Town",
+                "City",
+                "Large Town",
+                "Village",
+                "Hamlet"
+            ],
+            "response": "Let's analyze the allocation:\n\n- The settlements vary in size and likely importance: City > Large Town > Town > Village > Farmstead > Hamlet.\n- Larger settlements (City, Large Town, Town) likely have more activities and require more Action Points.\n- Smaller settlements (Hamlet, Farmstead, Village) need fewer Action Points, but some allocation ensures all roles are active.\n- As the team leader is from \"Village,\" and we do not allocate to ourselves, \"Role5\" (Village) is eligible for points.\n\nLet's prioritize based on settlement size and presumed need:\n- City (Role3): Highest need\n- Large Town (Role4): Second highest\n- Town (Role2): Third\n- Village (Role5): Medium (but not leader)\n- Farmstead (Role1): Lower\n- Hamlet (Role6): Lowest\n\nProposed allocation (in integer points, total 100):\n- Role3 (City): 28\n- Role4 (Large Town): 22\n- Role2 (Town): 18\n- Role5 (Village): 12\n- Role1 (Farmstead): 10\n- Role6 (Hamlet): 10\n\nOutput in JSON:\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 28,\n    \"Role4\": 22,\n    \"Role5\": 12,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Large Town",
+                "Farmstead",
+                "Town",
+                "City",
+                "Village"
+            ],
+            "response": "Analysis:  \nWhen distributing resources among team members based on their settlements, it's logical to consider both the scale and potential impact of each settlement type. Generally, larger settlements (like City, Large Town, Town) may require more resources due to greater needs, more complex activities, and potentially larger populations. Smaller settlements (Hamlet, Village, Farmstead) may need fewer resources, as their activities are likely less resource-intensive. However, since Role1 shares the same settlement as myself (Hamlet), but is still eligible, I'll treat them equally to other members.\n\nHere’s a suggested order from largest to smallest settlement (with presumed needs):  \n1. City (Role5) - Highest needs  \n2. Large Town (Role2)  \n3. Town (Role4)  \n4. Village (Role6)  \n5. Hamlet (Role1)  \n6. Farmstead (Role3) - Likely lowest needs\n\nLet’s distribute more points to larger settlements but ensure every member receives a meaningful allocation. Here’s a possible allocation plan:\n- City: 26\n- Large Town: 20\n- Town: 17\n- Village: 14\n- Hamlet: 12\n- Farmstead: 11\n\nTotal: 26 + 20 + 17 + 14 + 12 + 11 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 20,\n    \"Role3\": 11,\n    \"Role4\": 17,\n    \"Role5\": 26,\n    \"Role6\": 14\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Village",
+                "Town",
+                "Farmstead",
+                "Large Town",
+                "City"
+            ],
+            "response": "Analysis:  \nAs the team leader of a Hamlet, I need to distribute 100 Action Points among team members from various settlements. The settlements range from Hamlet (smallest) to City (largest). Generally, members from larger settlements may have access to more resources and infrastructure, while those from smaller settlements may need more support to grow. However, investing in more developed settlements (like City and Large Town) can yield higher returns, but supporting less developed settlements (like Hamlet, Village, Farmstead) can help balance overall growth.\n\nA balanced approach is to allocate more Action Points to mid-tier settlements (Town, Large Town, City) for efficiency and some to lower-tier settlements to encourage growth. Given there are six roles, I will avoid giving too little to any one role to ensure active participation.\n\nProposed allocation (based on settlement size and strategic growth):\n- Hamlet (Role1): 12\n- Village (Role2): 15\n- Town (Role3): 18\n- Farmstead (Role4): 13\n- Large Town (Role5): 20\n- City (Role6): 22\n\nThis distribution prioritizes higher returns from developed settlements while still supporting growth in less developed ones.\n\nDecision:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 18,\n    \"Role4\": 13,\n    \"Role5\": 20,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "City",
+                "Town",
+                "Farmstead",
+                "Village",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "Let's analyze the allocation:\n\n1. **Settlement Size & Importance**: Generally, larger settlements (City, Large Town, Town) have more activities, needs, and potential for impact. Smaller settlements (Farmstead, Hamlet, Village) may have fewer but still important needs.\n2. **Strategic Balance**: While larger settlements might need more points, neglecting smaller settlements could hinder overall progress, so a balanced approach is preferred.\n3. **No Self-Allocation**: As the leader from Hamlet, I won't allocate points to myself (Role5).\n\n**Proposed Distribution:**\n- City (Role1): Highest allocation due to size and influence.\n- Large Town (Role6): Second highest.\n- Town (Role2): Substantial but less than City and Large Town.\n- Village (Role4): Moderate allocation.\n- Farmstead (Role3): Slightly less, but still significant.\n- Hamlet (Role5): 0 points (leader’s own role).\n\n**Example Distribution:**\n- Role1 (City): 28\n- Role2 (Town): 20\n- Role3 (Farmstead): 12\n- Role4 (Village): 15\n- Role5 (Hamlet): 0\n- Role6 (Large Town): 25\n\n**Sum:** 28 + 20 + 12 + 15 + 0 + 25 = 100\n\nHere is the JSON output:\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 0,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Large Town",
+                "Town",
+                "Farmstead",
+                "Village",
+                "City"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points (AP), it’s important to consider the potential impact each role can have based on their settlement type. Larger settlements (like City and Large Town) may require more resources due to their complexity and greater needs, but smaller settlements (like Hamlet, Village, and Farmstead) may be more dependent on allocated resources to develop or defend themselves. A balanced approach would prioritize strategic settlements while ensuring no role is left unsupported.\n\n- Role6 (City): Likely has the most complex needs, so should receive a significant share.\n- Role2 (Large Town): Also requires considerable resources.\n- Role3 (Town): Medium-sized, should get a fair allocation.\n- Role5 (Village): Smaller, but still important for growth.\n- Role4 (Farmstead): Likely needs fewer resources, but shouldn’t be neglected.\n- Role1 (Hamlet): The smallest, but as part of the same settlement as the leader, may require some support.\n\nDecision:  \n- Role6 (City): 28 AP  \n- Role2 (Large Town): 22 AP  \n- Role3 (Town): 18 AP  \n- Role5 (Village): 13 AP  \n- Role4 (Farmstead): 10 AP  \n- Role1 (Hamlet): 9 AP  \n\nTotal: 28 + 22 + 18 + 13 + 10 + 9 = 100 AP\n\n```json\n{\n    \"Role1\": 9,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 13,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "City",
+                "Large Town",
+                "Town",
+                "Farmstead",
+                "Village"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points (AP), it’s strategic to consider both the size/importance of each settlement and the need for balance across the team. Larger settlements (City, Large Town, Town) typically require more resources due to their complexity and higher demands, while smaller settlements (Hamlet, Farmstead, Village) need less but still require support to develop.\n\n- Role2 (City): Cities are resource-intensive and central to regional stability, so they should get the highest allocation.\n- Role3 (Large Town): Also significant, but slightly less than a city.\n- Role4 (Town): Important, but not as much as the previous two.\n- Role6 (Village): Mid-tier, needs moderate resources.\n- Role1 (Hamlet): Smallest, but as the team is based here, should get enough to maintain growth.\n- Role5 (Farmstead): Least complex, lowest allocation.\n\nLet’s distribute as follows:\n- Role2 (City): 28\n- Role3 (Large Town): 22\n- Role4 (Town): 18\n- Role6 (Village): 14\n- Role1 (Hamlet): 10\n- Role5 (Farmstead): 8\n\nTotal: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 28,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 8,\n    \"Role6\": 14\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Large Town",
+                "Village",
+                "City",
+                "Town",
+                "Farmstead"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among team members from different settlements, it is logical to consider the relative size and strategic importance of each settlement. Larger settlements (like City and Large Town) likely have more activities, higher resource needs, and greater impact on overall progress. Smaller settlements (like Hamlet, Village, Town, and Farmstead) may have more focused or limited needs.\n\nHere’s a possible priority ranking (from highest to lowest need based on settlement size and assumed strategic value):\n\n1. City (Role4)\n2. Large Town (Role2)\n3. Town (Role5)\n4. Village (Role3)\n5. Hamlet (Role1)\n6. Farmstead (Role6)\n\nLet’s allocate points proportionally, while ensuring every role receives a meaningful amount:\n\n- City: 28\n- Large Town: 22\n- Town: 17\n- Village: 13\n- Hamlet: 10\n- Farmstead: 10\n\nThis distribution gives more resources to larger settlements, but ensures even the smallest settlements have enough to contribute.\n\nDecision:\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 22,\n    \"Role3\": 13,\n    \"Role4\": 28,\n    \"Role5\": 17,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Large Town",
+                "Farmstead",
+                "Hamlet",
+                "Village",
+                "City",
+                "Town"
+            ],
+            "response": "Analysis:  \nTo allocate Action Points (AP) effectively, I’ll consider the potential needs and influence of each settlement type. Larger settlements (City, Large Town) may require more resources due to their complexity and larger populations. Smaller settlements (Hamlet, Farmstead) may need fewer resources, but since I (the leader) am in a Hamlet and am not allocating to myself, Role3 (also in a Hamlet) should get a fair but modest share. Villages and Towns are mid-tier, so they’ll get a moderate allocation.\n\nLet’s prioritize as follows:\n- City (Role5): Highest allocation due to size and needs.\n- Large Town (Role1): Second highest.\n- Town (Role6) and Village (Role4): Mid-level allocations.\n- Hamlet (Role3) and Farmstead (Role2): Lowest allocations, but enough to be useful.\n\nHere’s a possible distribution:\n- Role5 (City): 28 AP\n- Role1 (Large Town): 22 AP\n- Role6 (Town): 16 AP\n- Role4 (Village): 14 AP\n- Role3 (Hamlet): 10 AP\n- Role2 (Farmstead): 10 AP\n\nTotal: 28 + 22 + 16 + 14 + 10 + 10 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 14,\n    \"Role5\": 28,\n    \"Role6\": 16\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Farmstead",
+                "Large Town",
+                "Village",
+                "City",
+                "Hamlet",
+                "Town"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points (AP), we should consider the strategic importance and potential of each settlement type. Larger settlements (City, Large Town, Town) typically require more resources due to their size, complexity, and potential for higher returns or greater threats. Smaller settlements (Farmstead, Village, Hamlet) may need fewer resources, but supporting them can ensure overall stability and growth. Since my own role (Hamlet) does not receive points, Role5 (Hamlet) is still eligible.\n\nPrioritization (descending order of resource need):  \n1. City (Role4): Largest, likely most complex, high potential impact.\n2. Large Town (Role2): Second largest, still significant.\n3. Town (Role6): Medium size, moderate impact.\n4. Village (Role3): Small, but still more than farmstead or hamlet.\n5. Farmstead (Role1): Basic, small-scale.\n6. Hamlet (Role5): Smallest, but as a team member, still gets some points.\n\nProposed allocation (out of 100 AP):  \n- Role4 (City): 28  \n- Role2 (Large Town): 22  \n- Role6 (Town): 18  \n- Role3 (Village): 14  \n- Role1 (Farmstead): 10  \n- Role5 (Hamlet): 8  \nTotal: 100\n\nHere is the JSON output:\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 22,\n    \"Role3\": 14,\n    \"Role4\": 28,\n    \"Role5\": 8,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Town",
+                "Village",
+                "Farmstead",
+                "City",
+                "Large Town"
+            ],
+            "response": "Analysis:\nGiven that you are leading a Hamlet, the team includes members from a variety of settlement sizes: Hamlet, Town, Village, Farmstead, City, and Large Town. Larger settlements (City, Large Town) typically have greater needs and capacity for utilizing resources, while smaller ones (Hamlet, Village, Farmstead) might require less but could be more vulnerable if under-resourced. Since you are not allocating points to yourself, we focus on the six roles.\n\nA balanced approach would ensure each settlement type can contribute effectively, but larger settlements may receive a slightly higher share to reflect their capacity and likely higher resource needs. However, no one should be left with too little to function.\n\nSuggested Allocation Approach:\n- City (Role5): Highest allocation\n- Large Town (Role6): Second highest\n- Town (Role2): Next highest\n- Village (Role3): Moderate\n- Hamlet (Role1): Moderate\n- Farmstead (Role4): Lowest, but still sufficient\n\nAllocation Decision:\n- Role5 (City): 25\n- Role6 (Large Town): 20\n- Role2 (Town): 18\n- Role3 (Village): 15\n- Role1 (Hamlet): 12\n- Role4 (Farmstead): 10\n\nThis ensures all settlements can function, with larger settlements prioritized for efficiency and impact.\n\nFinal JSON Output:\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 15,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Hamlet)",
+            "role_obs": [
+                "Hamlet",
+                "Town",
+                "City",
+                "Village",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "Analysis:\n\nSince the team members are from settlements of varying sizes, it is reasonable to consider both the potential impact of Action Points in smaller settlements (where each point may have a bigger effect) and the needs of larger settlements (which may require more resources to make significant progress). Here’s a breakdown:\n\n- Hamlet (Role1): Smallest settlement, might benefit from a modest allocation.\n- Town (Role2) and Large Town (Role6): Medium to large settlements, may need more points.\n- City (Role3): Largest, likely to require significant resources for meaningful change.\n- Village (Role4): Smaller than towns, but larger than a hamlet.\n- Farmstead (Role5): Specialized but likely low population/impact.\n\nBalancing between giving larger settlements enough to leverage their size and ensuring smaller ones are not neglected, a reasonable distribution might prioritize City, Large Town, and Town, while still supporting the others.\n\nDecision:\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 28,\n    \"Role4\": 14,\n    \"Role5\": 8,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Town",
+                "City",
+                "Village",
+                "Hamlet",
+                "Farmstead",
+                "Large Town"
+            ],
+            "response": "Analysis:  \nWhen allocating Action Points (AP), it's important to consider the likely needs and capacities of each settlement type. Larger settlements (City, Large Town, Town) typically require more resources to maintain and develop, as they support more population and infrastructure. Smaller settlements (Village, Hamlet, Farmstead) have fewer needs, but still require some resources to sustain growth and address basic requirements. Since my own role (Farmstead) is not to be allocated any AP, I'll focus on the other members.\n\n- City (Role2) and Large Town (Role6) should receive the highest allocations, as they have the greatest capacity for resource use and potential for impact.\n- Town (Role1) is next in size and need.\n- Village (Role3) is mid-sized.\n- Hamlet (Role4) is the smallest after Farmstead, so it will receive the least.\n- Farmstead (Role5) is eligible but is the same as my own, so will receive a minimal allocation to keep things balanced.\n\nProposed distribution (based on descending order of settlement size/importance):\n- Role2 (City): 28\n- Role6 (Large Town): 22\n- Role1 (Town): 18\n- Role3 (Village): 14\n- Role4 (Hamlet): 10\n- Role5 (Farmstead): 8\n\nTotal: 28 + 22 + 18 + 14 + 10 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 28,\n    \"Role3\": 14,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Village",
+                "Town",
+                "Large Town",
+                "Hamlet",
+                "Farmstead",
+                "City"
+            ],
+            "response": "Analysis:  \nWhen allocating Action Points (AP), I should consider the strategic importance and development stage of each settlement type. Generally, larger settlements (City, Large Town, Town) may have more complex needs and higher impact, but smaller settlements (Hamlet, Village, Farmstead) may need support to grow and sustain. Since I am based in a Farmstead, and Role5 is also in a Farmstead, I should avoid bias but ensure all settlements are supported appropriately.\n\n- City (Role6): Highest population, infrastructure, and activity. Needs significant resources.\n- Large Town (Role3): Also important, just below City.\n- Town (Role2): Mid-tier, needs balanced support.\n- Village (Role1): Small, but can grow with support.\n- Hamlet (Role4): Very small, but strategic support can help.\n- Farmstead (Role5): Basic, but as the same settlement as myself, should get fair but not excessive resources.\n\nGiven this, a balanced yet priority-driven distribution might look like:\n\n- City: Highest\n- Large Town: High\n- Town: Moderate\n- Village: Moderate-Low\n- Hamlet: Low\n- Farmstead: Low\n\nNow, allocating the points (must total 100):\n\n- Role6 (City): 28\n- Role3 (Large Town): 22\n- Role2 (Town): 18\n- Role1 (Village): 13\n- Role4 (Hamlet): 9\n- Role5 (Farmstead): 10\n\nTotal: 28 + 22 + 18 + 13 + 9 + 10 = 100\n\nDecision (JSON output):\n```json\n{\n    \"Role1\": 13,\n    \"Role2\": 18,\n    \"Role3\": 22,\n    \"Role4\": 9,\n    \"Role5\": 10,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Town",
+                "Farmstead",
+                "Large Town",
+                "City",
+                "Hamlet",
+                "Village"
+            ],
+            "response": "Analysis:\nWhen distributing Action Points among team members from different settlements, it's strategic to consider both the settlement size and the possible needs or influence of each member:\n\n- City (Role4): Likely requires more resources due to size and complexity.\n- Large Town (Role3) and Town (Role1): Substantial but less than a city.\n- Village (Role6) and Hamlet (Role5): Smaller settlements, possibly fewer needs.\n- Farmstead (Role2): Same as my own, possibly moderate needs.\n\nTo ensure all members can contribute effectively while prioritizing larger, more complex settlements, I’ll allocate points as follows:\n- Highest allocation to City.\n- Slightly less to Large Town and Town.\n- Moderate to Farmstead.\n- Less to Village.\n- Least to Hamlet.\n\nDecision:\n```json\n{\n    \"Role1\": 16,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 28,\n    \"Role5\": 8,\n    \"Role6\": 16\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "City",
+                "Large Town",
+                "Farmstead",
+                "Village",
+                "Hamlet",
+                "Town"
+            ],
+            "response": "Analysis:  \nWhen distributing Action Points among the team members, we should consider the size and potential needs of each settlement type. Larger settlements like Cities and Large Towns typically require more resources for upkeep, defense, and development, while smaller settlements like Hamlets and Villages may require less. However, it is also important to ensure that each role receives enough Action Points to remain functional and contribute to the team's overall progress.\n\nHere’s a reasonable approach:\n- City (Role1): Highest needs due to size and complexity.\n- Large Town (Role2): High needs, but less than a City.\n- Town (Role6): Moderate needs.\n- Village (Role4): Moderate-to-low needs.\n- Farmstead (Role3): Same as my own, but as a team member, should receive fair allocation.\n- Hamlet (Role5): Smallest, so the lowest allocation.\n\nLet's distribute the 100 Action Points accordingly:\n- Role1 (City): 28\n- Role2 (Large Town): 22\n- Role6 (Town): 18\n- Role4 (Village): 14\n- Role3 (Farmstead): 10\n- Role5 (Hamlet): 8\n\nThis allocation balances settlement size with fair support for all team members.\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 22,\n    \"Role3\": 10,\n    \"Role4\": 14,\n    \"Role5\": 8,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "City",
+                "Village",
+                "Farmstead",
+                "Town",
+                "Hamlet",
+                "Large Town"
+            ],
+            "response": "**Analysis:**\n\nTo distribute the 100 Action Points, let's consider the following factors:\n- Settlements with larger populations (City, Large Town, Town) may require more resources due to higher demands and complexity.\n- Smaller settlements (Hamlet, Village, Farmstead) might need fewer points, but since I am the Farmstead leader, I won't allocate to myself.\n- Balance is important to ensure every role can contribute, but prioritizing based on potential impact and needs makes sense.\n\n**Proposed Distribution:**\n- City (Role1): Highest population, likely needs most resources.\n- Large Town (Role6): Next largest, needs significant points.\n- Town (Role4): Medium size, moderate resources.\n- Village (Role2): Small, but not the smallest.\n- Hamlet (Role5): Smallest, needs the least.\n\n**Allocation:**\n- Role1 (City): 28\n- Role2 (Village): 14\n- Role3 (Farmstead): 0 (self)\n- Role4 (Town): 18\n- Role5 (Hamlet): 10\n- Role6 (Large Town): 30\n\n**Output:**\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 14,\n    \"Role3\": 0,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Farmstead",
+                "City",
+                "Hamlet",
+                "Village",
+                "Large Town",
+                "Town"
+            ],
+            "response": "Analysis:\nAs the team leader of Farmstead, I want to ensure my own settlement (Farmstead) is well supported, but I cannot allocate points to myself. The remaining roles are from a variety of settlements, ranging from smaller (Hamlet, Village) to larger (Large Town, City, Town). Larger settlements likely have more complex needs but also may have more capacity, while smaller settlements might be more vulnerable but require fewer resources.\n\nA balanced approach is to allocate slightly more to larger settlements due to their greater population and activity, but not to neglect smaller ones. Since my own settlement (Farmstead) is already covered by my leadership, I’ll prioritize supporting others as follows:\n\n- City and Large Town: Highest allocation due to size and complexity.\n- Town and Village: Moderate allocation.\n- Hamlet: Smallest allocation due to limited needs.\n- Farmstead (Role1): Since this is not myself, but another team member in the same settlement, I will allocate a moderate amount to ensure some support at home.\n\nDecision:\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 24,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 19,\n    \"Role6\": 12\n}\n```\nThis distribution ensures all roles receive support, with emphasis on the largest settlements while not neglecting the smaller ones."
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Farmstead",
+                "Village",
+                "Large Town",
+                "Town",
+                "City",
+                "Hamlet"
+            ],
+            "response": "Analysis:\nTo allocate Action Points efficiently, consider the likely needs and impact of each settlement type:\n\n- Larger settlements (City, Large Town, Town) typically have more complex needs and more activities, so they may benefit from more Action Points.\n- Smaller settlements (Hamlet, Farmstead, Village) have fewer needs but may still require some resources to maintain growth and stability.\n- Since you (as team leader of Farmstead) are not allocating to yourself, Role1 (Farmstead) will still be considered for allocation.\n\nA balanced approach is to prioritize City, Large Town, and Town, but not neglect smaller settlements.\n\nProposed distribution:\n- Role5 (City): Highest allocation\n- Role3 (Large Town): Second highest\n- Role4 (Town): Third highest\n- Role2 (Village): Moderate allocation\n- Role1 (Farmstead): Some allocation\n- Role6 (Hamlet): Least allocation\n\nSample allocation (ensuring sum is 100):\n- Role5 (City): 30\n- Role3 (Large Town): 22\n- Role4 (Town): 18\n- Role2 (Village): 13\n- Role1 (Farmstead): 10\n- Role6 (Hamlet): 7\n\nOutput:\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 13,\n    \"Role3\": 22,\n    \"Role4\": 18,\n    \"Role5\": 30,\n    \"Role6\": 7\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Farmstead",
+                "Large Town",
+                "Town",
+                "Hamlet",
+                "Village",
+                "City"
+            ],
+            "response": "Analysis:\nWhen distributing Action Points among team members from different settlements, it's strategic to consider the likely needs and potential impact of each settlement type:\n\n- Larger settlements (City, Large Town) may have more complex needs and higher impact per Action Point, but may also have more internal resources.\n- Smaller settlements (Hamlet, Village, Farmstead) may be more vulnerable and benefit significantly from resource boosts, but their capacity to utilize large allocations may be limited.\n- Towns are in-between: they have moderate needs and capacity.\n\nTo balance immediate vulnerability and overall impact, I’ll allocate more to the City and Large Town, but ensure each smaller settlement receives enough to be effective. Since you (the team leader) are based in Farmstead and not allocating to yourself, Role1 is treated equally to others.\n\nProposed allocation:\n- City (Role6): 26\n- Large Town (Role2): 22\n- Town (Role3): 18\n- Village (Role5): 14\n- Hamlet (Role4): 12\n- Farmstead (Role1): 8\n\nSum: 26 + 22 + 18 + 14 + 12 + 8 = 100\n\nDecision:\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 12,\n    \"Role5\": 14,\n    \"Role6\": 26\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "City",
+                "Farmstead",
+                "Town",
+                "Hamlet",
+                "Large Town",
+                "Village"
+            ],
+            "response": "Analysis:\nWhen allocating Action Points among team members, I should consider the settlement size and likely needs. Larger settlements (City, Large Town, Town) may require more resources to maintain and grow, but smaller settlements (Hamlet, Village, Farmstead) might need a boost to develop or defend themselves. Since my own settlement is Farmstead and I don’t allocate points to myself, Role2 is still eligible (as it’s not me).\n\nA balanced approach is to prioritize larger settlements for efficiency, but not neglect smaller ones. Here's a possible priority order:\n- City (Role1): Likely to need the most for complex activities.\n- Large Town (Role5): Next largest.\n- Town (Role3): Moderate needs.\n- Village (Role6), Farmstead (Role2), Hamlet (Role4): Smaller, but still important.\n\nLet’s ensure all roles get a meaningful share, but weight towards the larger settlements.\n\nDecision:\n- Role1 (City): 28\n- Role2 (Farmstead): 13\n- Role3 (Town): 18\n- Role4 (Hamlet): 10\n- Role5 (Large Town): 21\n- Role6 (Village): 10\n\nSum: 28 + 13 + 18 + 10 + 21 + 10 = 100\n\nOutput:\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 13,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 21,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "(settlement: Farmstead)",
+            "role_obs": [
+                "Farmstead",
+                "Village",
+                "Large Town",
+                "City",
+                "Hamlet",
+                "Town"
+            ],
+            "response": "Analysis:\nWhen allocating Action Points among team members from different settlements, it's important to consider the relative needs and potential impact of each settlement type. Generally, larger settlements (City, Large Town, Town) may require more resources due to their size, complexity, and higher activity levels, while smaller settlements (Hamlet, Village, Farmstead) might need fewer resources but could benefit from a minimum allocation to ensure development and participation.\n\nGiven that:\n- City and Large Town are likely the most resource-intensive.\n- Town and Village are mid-level.\n- Hamlet and Farmstead are the smallest and likely need the least.\n\nA possible distribution approach:\n- Allocate the highest points to City and Large Town.\n- Allocate moderate points to Town and Village.\n- Allocate the lowest points to Hamlet and Farmstead.\n\nProposed distribution:\n- City (Role4): 28\n- Large Town (Role3): 24\n- Town (Role6): 18\n- Village (Role2): 14\n- Hamlet (Role5): 8\n- Farmstead (Role1): 8\n\nThis allocation ensures all roles are supported, with priority given to settlements that likely require more management and activity.\n\nDecision:\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 14,\n    \"Role3\": 24,\n    \"Role4\": 28,\n    \"Role5\": 8,\n    \"Role6\": 18\n}\n```"
+        }
+    ],
+    "chinese": [
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "小村落",
+                "大型市镇",
+                "村庄",
+                "城市",
+                "城镇",
+                "农庄"
+            ],
+            "response": "分析：  \n在资源分配时，通常需要根据settlement的规模和潜在需求进行考虑。一般来说，settlement越大，对资源的需求和利用效率也越高。但较小的settlement也需要一定的资源来保证其基本运作和发展。农庄等功能性settlement也需要分配一定资源以维持产出。\n\n- 大型市镇和城市：需求最大，应获得较多点数。\n- 城镇和村庄：中等需求，获得中等点数。\n- 小村落和农庄：基础需求，获得较少点数，但不能忽略。\n\n初步分配思路（可根据规模排序）：\n- 大型市镇、城市：多分\n- 城镇、村庄：中分\n- 小村落、农庄：少分\n\n具体分配（保证总和为100）：\n- Role2 (大型市镇)：25\n- Role4 (城市)：25\n- Role5 (城镇)：16\n- Role3 (村庄)：14\n- Role1 (小村落)：10\n- Role6 (农庄)：10\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 14,\n    \"Role4\": 25,\n    \"Role5\": 16,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "村庄",
+                "城镇",
+                "大型市镇",
+                "农庄",
+                "城市",
+                "小村落"
+            ],
+            "response": "分析：  \n首先，根据各settlement的规模和可能的资源需求进行分配。一般来说，规模越大的settlement对资源的需求越高，能够产生的收益也更大，因此应获得更多的行动点数。依次排列：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。农庄虽然在农业产出上重要，但整体对行动点的需求通常不及大型定居点。\n\n综合考虑平衡和实际需求，合理分配如下：\n\n- 城市（Role5）：最大，需求最多，分配最多点数。\n- 大型市镇（Role3）：次于城市，需求较大。\n- 城镇（Role2）：中等需求。\n- 村庄（Role1）：较小需求。\n- 农庄（Role4）：功能性需求，略高于小村落。\n- 小村落（Role6）：最小需求。\n\n具体分配方案（整数且总和为100）：\n\n- Role5（城市）：30\n- Role3（大型市镇）：22\n- Role2（城镇）：17\n- Role1（村庄）：13\n- Role4（农庄）：10\n- Role6（小村落）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 13,\n    \"Role2\": 17,\n    \"Role3\": 22,\n    \"Role4\": 10,\n    \"Role5\": 30,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "大型市镇",
+                "村庄",
+                "农庄",
+                "城市",
+                "小村落",
+                "城镇"
+            ],
+            "response": "分析：  \n分配行动点数时，需要考虑settlement的规模和可能的资源需求。通常，规模越大的settlement需要更多的资源来维护和发展；而小型settlement则需求较少。此外，合理分配可以帮助整个团队的均衡发展，避免资源过度集中或分散。\n\nsettlement规模从大到小排序大致为：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。  \n考虑到城市和大型市镇需要较多点数，城镇次之，村庄、农庄和小村落分配较少。\n\n分配方案（初步）：  \n- 城市（Role4）：最大，分配最多\n- 大型市镇（Role1）：次之\n- 城镇（Role6）：中等\n- 村庄（Role2）：较少\n- 农庄（Role3）：较少\n- 小村落（Role5）：最少\n\n初步点数分配建议如下：\n- 城市（Role4）：28\n- 大型市镇（Role1）：22\n- 城镇（Role6）：18\n- 村庄（Role2）：12\n- 农庄（Role3）：10\n- 小村落（Role5）：10\n\n合计：28+22+18+12+10+10=100\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 28,\n    \"Role5\": 10,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "小村落",
+                "农庄",
+                "城市",
+                "大型市镇",
+                "村庄",
+                "城镇"
+            ],
+            "response": "分析：  \n资源分配应考虑settlement（定居点）的规模和需求。一般来说，定居点越大，管理、发展和防御等方面的需求越高，因此应获得更多行动点数。  \n- 小村落、农庄、村庄：人口和需求较低，分配点数较少。\n- 城镇、大型市镇：中等规模，需求适中，分配中等点数。\n- 城市：最大规模，需求最大，分配最多点数。\n\n根据上述原则，按定居点规模递增顺序大致分配如下：\n- 小村落 < 农庄 < 村庄 < 城镇 < 大型市镇 < 城市\n\n分配建议（总和为100）：\n- 小村落（Role1）：8\n- 农庄（Role2）：12\n- 村庄（Role5）：14\n- 城镇（Role6）：18\n- 大型市镇（Role4）：20\n- 城市（Role3）：28\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 28,\n    \"Role4\": 20,\n    \"Role5\": 14,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "城镇",
+                "大型市镇",
+                "城市",
+                "小村落",
+                "农庄",
+                "村庄"
+            ],
+            "response": "分析：  \n在分配行动点数时，通常需要根据settlement（据点）的规模和重要性进行考量。一般来说，规模越大的settlement需要的资源越多，因为它们管理的人口、设施和事务也更多；而小型settlement则相对需求较少。具体来说：\n\n- 城市（Role3）和大型市镇（Role2）作为主要聚居地，应获得最多的点数，以保障其发展和管理需求。\n- 城镇（Role1）次之。\n- 村庄（Role6）、小村落（Role4）、农庄（Role5）作为小型settlement，获得较少点数，但也要保证其基本需求。\n\n按照上述思路，分配方案如下：\n\n- Role3（城市）：30\n- Role2（大型市镇）：25\n- Role1（城镇）：18\n- Role6（村庄）：10\n- Role4（小村落）：9\n- Role5（农庄）：8\n\n总计：30 + 25 + 18 + 10 + 9 + 8 = 100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 25,\n    \"Role3\": 30,\n    \"Role4\": 9,\n    \"Role5\": 8,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "城市",
+                "村庄",
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "农庄"
+            ],
+            "response": "分析：  \n根据队员所在的settlement（城市类型），通常城市和大型市镇等人口多、任务重的地区需要更多资源支持，而农庄、小村落则相对需求较低。为保证整体效率，应优先保证大settlement的资源供给，同时兼顾小settlement的基本需求。\n\n大致优先级为：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。\n\n分配方案如下：  \n- Role1（城市）：人口最多、需求最大，分配最多点数。\n- Role5（大型市镇）：次于城市，分配较多点数。\n- Role4（城镇）：次于大型市镇，分配较多点数。\n- Role2（村庄）：需求中等，分配适中点数。\n- Role6（农庄）：人口少但生产重要，分配较少点数。\n- Role3（小村落）：人口最少，需求最低，分配最少点数。\n\n分配结果（确保总和为100且每项为整数）：\n\n- Role1（城市）：28\n- Role5（大型市镇）：22\n- Role4（城镇）：18\n- Role2（村庄）：14\n- Role6（农庄）：10\n- Role3（小村落）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 14,\n    \"Role3\": 8,\n    \"Role4\": 18,\n    \"Role5\": 22,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "城镇",
+                "农庄",
+                "村庄",
+                "大型市镇",
+                "城市",
+                "小村落"
+            ],
+            "response": "分析：  \n为了合理分配100个行动点数，需要考虑各settlement（聚落）的规模和潜在需求。一般来说，settlement越大，对资源的需求和利用效率可能越高。因此，城市和大型市镇应获得较多点数，而农庄、小村落等规模较小的settlement可适当分配较少点数。村庄和城镇则分配中等点数。  \n根据settlement规模大致排序：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。\n\n具体分配建议如下：\n- 城市（Role5）：最大需求，分配最多点数。\n- 大型市镇（Role4）：次高需求。\n- 城镇（Role1）：中等偏上。\n- 村庄（Role3）：中等。\n- 农庄（Role2）：次低。\n- 小村落（Role6）：最低。\n\n分配方案（保证总和为100）：\n- Role5（城市）：28\n- Role4（大型市镇）：22\n- Role1（城镇）：17\n- Role3（村庄）：14\n- Role2（农庄）：11\n- Role6（小村落）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 17,\n    \"Role2\": 11,\n    \"Role3\": 14,\n    \"Role4\": 22,\n    \"Role5\": 28,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "大型市镇",
+                "小村落",
+                "城镇",
+                "城市"
+            ],
+            "response": "分析：  \n在分配资源时，应考虑settlement的规模和可能的需求。通常，规模越大的settlement，所需资源和能够发挥资源效益的空间也越大。而较小的settlement由于基础设施或人口限制，能高效利用的点数可能有限。因此，可以按照settlement的规模从小到大分配递增的点数。同时，避免资源过度集中在单一角色上，保证整体队伍的均衡发展。\n\nsettlement规模排序（从小到大）：  \n小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市\n\n分配方案：  \n- 小村落（Role4）：8\n- 村庄（Role1）：12\n- 农庄（Role2）：15\n- 城镇（Role5）：18\n- 大型市镇（Role3）：22\n- 城市（Role6）：25\n\n合计：8+12+15+18+22+25=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 22,\n    \"Role4\": 8,\n    \"Role5\": 18,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "城市",
+                "大型市镇",
+                "村庄",
+                "小村落"
+            ],
+            "response": "分析：  \n在资源分配时，通常会根据各settlement的规模和需求来决定分配比例。一般来说，settlement越大，人口越多、需求越高，对资源的利用效率也可能更高，但小型settlement也需要一定的资源维持基本运作。下面是各settlement的规模大致排序（由大到小）：\n\n1. 城市（Role3）\n2. 大型市镇（Role4）\n3. 城镇（Role2）\n4. 农庄（Role1）\n5. 村庄（Role5）\n6. 小村落（Role6）\n\n按照这个顺序，我会优先保证大型settlement的资源需求，同时兼顾小型settlement的基本需求。可以采用如下分配策略：\n\n- 城市：最大分配\n- 大型市镇：次之\n- 城镇：再次之\n- 农庄、村庄、小村落：基础分配，适当调整\n\n具体分配如下（四舍五入，确保总和为100）：\n\n- 城市（Role3）：30\n- 大型市镇（Role4）：22\n- 城镇（Role2）：18\n- 农庄（Role1）：12\n- 村庄（Role5）：10\n- 小村落（Role6）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 18,\n    \"Role3\": 30,\n    \"Role4\": 22,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城市）",
+            "role_obs": [
+                "城镇",
+                "村庄",
+                "城市",
+                "农庄",
+                "小村落",
+                "大型市镇"
+            ],
+            "response": "分析：  \n在分配资源时，应根据各个settlement（据点）的规模和可能的需求进行权重分配。通常，城市和大型市镇的资源需求和行动点消耗会更大，因为它们需要管理更多人口和事务；而村庄、小村落、农庄等较小settlement的需求相对较低。城镇介于城市和村庄之间。  \n因此，可以按以下优先级分配：  \n城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落\n\n具体分配建议如下（可微调）：  \n- Role3（城市）：需求最大，优先分配  \n- Role6（大型市镇）：次优先  \n- Role1（城镇）：中等  \n- Role2（村庄）：较少  \n- Role4（农庄）：更少  \n- Role5（小村落）：最少\n\n假设权重分配比例为：  \n城市25，大型市镇20，城镇18，村庄15，农庄12，小村落10（合计100）\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 15,\n    \"Role3\": 25,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "农庄",
+                "城市",
+                "城镇",
+                "大型市镇",
+                "小村落",
+                "村庄"
+            ],
+            "response": "分析：  \n不同settlement类型的角色，其所需资源可能不同。通常，城市和大型市镇需要更多的资源来维持复杂的运作，而农庄、小村落、村庄等小型settlement所需资源较少。城镇处于中间位置。为保证资源分配的公平与效率，应适当倾斜分配，兼顾各settlement的规模与需求。\n\n优先级排序（从高到低）：\n1. 城市（Role2）——最需要资源\n2. 大型市镇（Role4）——需求次高\n3. 城镇（Role3）——中等需求\n4. 农庄（Role1）——农业为主，需求略低\n5. 村庄（Role6）——人口较少，需求较低\n6. 小村落（Role5）——最小settlement，需求最少\n\n分配方案（按需求递减分配）：\n- Role2（城市）：28\n- Role4（大型市镇）：22\n- Role3（城镇）：18\n- Role1（农庄）：14\n- Role6（村庄）：10\n- Role5（小村落）：8\n\n总计：28+22+18+14+10+8=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 28,\n    \"Role3\": 18,\n    \"Role4\": 22,\n    \"Role5\": 8,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "大型市镇",
+                "城市",
+                "城镇",
+                "村庄",
+                "农庄",
+                "小村落"
+            ],
+            "response": "分析：  \n队员的settlement规模从“大型市镇”到“小村落”逐渐减小，通常规模越大，管理、维护和发展的需求越高，因此分配的行动点数应相对较多。而小型settlement对资源的需求较低，可以适当分配较少的点数。合理的分配应该兼顾各队员的需求，但要突出重点。\n\n具体分配思路：  \n- 大型市镇、城市、城镇：重点发展，需要较多点数  \n- 村庄、农庄、小村落：维持和小幅发展，分配较少点数  \n- 点数从高到低依次分配\n\n具体分配（整数且总和为100）：\n- Role1（大型市镇）：28\n- Role2（城市）：22\n- Role3（城镇）：18\n- Role4（村庄）：14\n- Role5（农庄）：10\n- Role6（小村落）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 14,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "村庄",
+                "小村落",
+                "城镇",
+                "农庄",
+                "城市",
+                "大型市镇"
+            ],
+            "response": "分析：  \n队员的settlement类型从小到大依次为：小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市。通常，settlement规模越大，所需的资源和可发挥的作用也越大，因此分配的行动点数也应相应增加。不过，为了保持团队的整体均衡，不能让小型settlement的队员完全失去行动能力，因此要给他们保留一定的点数。可以采取递增分配的方式。\n\n假设分配策略如下：  \n- 小村落、村庄、农庄分配较少的点数（例如8、10、12）\n- 城镇、大型市镇、城市分配较多的点数（例如16、22、32）\n\n具体分配如下：  \n- Role2（小村落）：8  \n- Role1（村庄）：10  \n- Role4（农庄）：12  \n- Role3（城镇）：16  \n- Role6（大型市镇）：22  \n- Role5（城市）：32  \n\n合计：8+10+12+16+22+32=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 8,\n    \"Role3\": 16,\n    \"Role4\": 12,\n    \"Role5\": 32,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "城镇",
+                "大型市镇",
+                "小村落",
+                "城市"
+            ],
+            "response": "分析：  \n分配资源时需要考虑各个settlement的规模和潜在需求。通常，settlement规模越大，所需的资源也越多，但也要保证小型settlement有足够的点数维持基本运作。  \n从小到大排序：小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市  \n大型settlement（城市、大型市镇、城镇）应该获得更多点数以支持更复杂的活动和人口。小型settlement（小村落、村庄、农庄）则分配较少，但不能太低，避免发展停滞。  \n合理分配建议：  \n- 城市：最多\n- 大型市镇：次多\n- 城镇：适中\n- 农庄、村庄、小村落：剩余分配\n\n分配方案（整数，且总和为100）：  \n- Role6（城市）：28  \n- Role4（大型市镇）：23  \n- Role3（城镇）：18  \n- Role2（农庄）：13  \n- Role1（村庄）：10  \n- Role5（小村落）：8  \n\n输出如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 13,\n    \"Role3\": 18,\n    \"Role4\": 23,\n    \"Role5\": 8,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "城镇",
+                "城市",
+                "农庄",
+                "大型市镇",
+                "村庄",
+                "小村落"
+            ],
+            "response": "分析：  \n分配行动点数时，考虑以下因素：\n\n1. settlement规模：一般来说，settlement越大，管理、活动、发展等所需的行动点数越多。  \n2. 角色数量：共6名队员，100点需要合理分配，避免过度集中或过度稀释。  \n3. 平衡发展：保证小型settlement也有一定的资源，但优先保证大型和功能重要的settlement。  \n\nsettlement规模排序：  \n城市 > 大型市镇 > 城镇 > 农庄 > 村庄 > 小村落\n\n建议分配思路：  \n- 城市、 大型市镇、 城镇分配较多点数。  \n- 农庄、村庄、小村落分配较少点数。  \n- 适当拉开差距，但不能让小settlement资源太少。  \n\n分配方案：  \n- Role2（城市）：28  \n- Role4（大型市镇）：22  \n- Role1（城镇）：18  \n- Role3（农庄）：14  \n- Role5（村庄）：10  \n- Role6（小村落）：8  \n总计：28+22+18+14+10+8=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 28,\n    \"Role3\": 14,\n    \"Role4\": 22,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "小村落",
+                "城镇",
+                "大型市镇",
+                "农庄",
+                "城市",
+                "村庄"
+            ],
+            "response": "分析：  \n在分配行动点数时，应考虑各个settlement的规模和可能的需求。一般来说，settlement规模越大，管理和活动的需求越高，所需的资源也更多。  \n- 城市 > 大型市镇 > 城镇 > 村庄 ≈ 小村落 > 农庄  \n- 农庄虽然是生产型，但人口和需求较低，通常资源需求也低。  \n- 小村落和村庄资源需求较小，城镇中等，大型市镇和城市需求最大。  \n- 假设大型市镇与城市的需求差不多，但城市略高。  \n\n综合考虑后，建议分配如下（保证整数，总和为100）：  \n- Role5（城市）：30  \n- Role3（大型市镇）：24  \n- Role2（城镇）：18  \n- Role6（村庄）：10  \n- Role1（小村落）：8  \n- Role4（农庄）：10  \n\n分配结果如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 18,\n    \"Role3\": 24,\n    \"Role4\": 10,\n    \"Role5\": 30,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "大型市镇",
+                "村庄",
+                "小村落",
+                "城市",
+                "城镇",
+                "农庄"
+            ],
+            "response": "分析：  \n根据队员所在settlement的规模和类型，资源分配应考虑其潜在影响力、需求和发展空间。一般来说，规模越大的settlement对资源的需求和利用效率越高，但小型settlement可能更需要额外资源以促进发展。城市与大型市镇通常拥有更完善的基础设施和管理能力，可以更好地利用更多的点数。农庄和小村落则适合适量支持，避免资源浪费。\n\n综合考虑，我建议优先保证大型市镇和城市的资源分配，城镇和村庄适中，小村落和农庄适量扶持。\n\n分配方案如下：\n- Role1（大型市镇）：25\n- Role2（村庄）：15\n- Role3（小村落）：10\n- Role4（城市）：25\n- Role5（城镇）：15\n- Role6（农庄）：10\n\n总计：25+15+10+25+15+10=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 25,\n    \"Role5\": 15,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "城镇",
+                "小村落",
+                "大型市镇",
+                "村庄"
+            ],
+            "response": "分析：  \n分配资源时，需要考虑各settlement的规模和潜在需求。一般来说，settlement越大，所需的行动点数越多，因为其管理、发展和防御等方面的事务也更多。小型settlement的需求相对较少。结合给定的settlement类型（从大到小：城市 > 大型市镇 > 城镇 > 农庄 > 村庄 > 小村落），我会按照settlement的规模分配更多的点数给更大的settlement，同时也保证小settlement能够获得基本的支持。\n\n大致分配思路如下（假设城市最大，小村落最小）：\n- 城市：最多\n- 大型市镇：次多\n- 城镇：较多\n- 农庄、村庄、小村落：根据规模依次递减\n\n分配方案（四舍五入，保证总和为100）：\n- Role1 (城市)：28\n- Role5 (大型市镇)：22\n- Role3 (城镇)：18\n- Role2 (农庄)：12\n- Role6 (村庄)：10\n- Role4 (小村落)：10\n\n输出如下：\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 12,\n    \"Role3\": 18,\n    \"Role4\": 10,\n    \"Role5\": 22,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "小村落",
+                "农庄",
+                "城镇",
+                "城市",
+                "村庄",
+                "大型市镇"
+            ],
+            "response": "分析：  \n分配资源时，考虑以下因素：  \n1. settlement规模越大，可能需要更多资源来维持运作和发展。  \n2. 小型settlement（如小村落、农庄、村庄）通常人口和需求较低，分配可以相对较少。  \n3. 中大型settlement（如城镇、大型市镇、城市）对资源需求更高，应给予更多支持。  \n4. 由于我是大型市镇的队长，不为自己分配。  \n\n具体分配思路：  \n- 小村落、农庄、村庄：基础分配，各8点（3个，共24点）。\n- 城镇：中等分配，18点。\n- 城市：较高分配，25点。\n- 大型市镇：与城市相近，因同为大型settlement，分配25点。\n\n计算总分配：8+8+8+18+25+25=92。发现还有8点余量，可适当向大settlement倾斜，或平衡分配。考虑再调整如下：  \n- 小村落、农庄、村庄：各7点（共21点）。\n- 城镇：16点。\n- 城市：28点。\n- 大型市镇：28点。\n\n7+7+7+16+28+28=93。还有7点。再微调：\n- 小村落、农庄、村庄：各6点（共18点）。\n- 城镇：15点。\n- 城市：33点。\n- 大型市镇：34点。\n\n6+6+6+15+33+34=100。分配完成，保证大settlement获得较多资源，小settlement也有基本保障。\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 6,\n    \"Role2\": 6,\n    \"Role3\": 15,\n    \"Role4\": 33,\n    \"Role5\": 6,\n    \"Role6\": 34\n}\n```"
+        },
+        {
+            "role_self": "（settlement：大型市镇）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "小村落",
+                "村庄",
+                "大型市镇",
+                "城市"
+            ],
+            "response": "分析：  \n我们有6位队员，分别来自不同规模的settlement。从小到大分别是：小村落、村庄、农庄、城镇、大型市镇、城市。  \n一般来说，settlement规模越大，队员能利用更多资源，发挥更大作用，因此分配可以适当向大settlement倾斜，但也不能让小settlement完全没有资源。  \n同时，为了保证团队整体的效率与发展，建议采用适度倾斜的分配方式。  \n一种常见做法是采用加权分配，例如：  \n- 小村落、村庄：适度分配，保证基本运作  \n- 农庄、城镇：较多分配  \n- 大型市镇、城市：优先分配\n\n可按settlement规模给权重，示例权重（从小到大）：1、2、3、4、5、6  \n合计权重为1+2+3+4+5+6=21  \n则每点权重分得：100/21 ≈ 4.76行动点\n\n分配如下：  \n- Role1 (农庄)：3权重 → 3×4.76 ≈ 14  \n- Role2 (城镇)：4权重 → 4×4.76 ≈ 19  \n- Role3 (小村落)：1权重 → 1×4.76 ≈ 5  \n- Role4 (村庄)：2权重 → 2×4.76 ≈ 10  \n- Role5 (大型市镇)：5权重 → 5×4.76 ≈ 24  \n- Role6 (城市)：6权重 → 6×4.76 ≈ 29  \n\n四舍五入并调整使总和为100，得：  \n- Role1 (农庄)：14  \n- Role2 (城镇)：19  \n- Role3 (小村落)：5  \n- Role4 (村庄)：10  \n- Role5 (大型市镇)：24  \n- Role6 (城市)：28  \n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 19,\n    \"Role3\": 5,\n    \"Role4\": 10,\n    \"Role5\": 24,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "小村落",
+                "城市",
+                "城镇",
+                "大型市镇",
+                "村庄",
+                "农庄"
+            ],
+            "response": "分析：  \n根据队员所在settlement的规模分配行动点数，通常规模越大的settlement需要管理的事务和资源消耗越多，因此应获得更多的点数。依settlement规模从大到小大致排序为：城市 > 大型市镇 > 城镇 > 小村落 > 村庄 > 农庄。城市和大型市镇是主要的资源消耗点，其次是城镇，小村落、村庄和农庄相对需求较低。\n\n具体分配思路如下：  \n- 城市（Role2）：最大，分配最多点数  \n- 大型市镇（Role4）：次之  \n- 城镇（Role3）：中等  \n- 小村落（Role1）、村庄（Role5）、农庄（Role6）：较小，分配较少点数\n\n分配方案（向下取整，保证总和为100）：  \n- Role2（城市）：30  \n- Role4（大型市镇）：22  \n- Role3（城镇）：18  \n- Role1（小村落）：12  \n- Role5（村庄）：10  \n- Role6（农庄）：8  \n合计：100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 30,\n    \"Role3\": 18,\n    \"Role4\": 22,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "小村落",
+                "大型市镇",
+                "城镇",
+                "城市",
+                "村庄",
+                "农庄"
+            ],
+            "response": "分析：  \n我们有6个队员，分别管理着不同规模的settlement。通常，规模越大的settlement，所需资源和管理难度越高，因此应分配更多的行动点数。农庄和小村落通常规模最小，城市和大型市镇则最大。合理分配如下：\n\n- 城市（Role4）和大型市镇（Role2）应获得较多点数，用于应对复杂事务。\n- 城镇（Role3）和村庄（Role5）为中等规模，获得中等点数。\n- 小村落（Role1）和农庄（Role6）规模最小，获得最少点数。\n\n分配方案（满足整数和总和为100）：\n- Role4（城市）：28\n- Role2（大型市镇）：24\n- Role3（城镇）：18\n- Role5（村庄）：14\n- Role1（小村落）：8\n- Role6（农庄）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 24,\n    \"Role3\": 18,\n    \"Role4\": 28,\n    \"Role5\": 14,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城镇",
+                "城市",
+                "大型市镇",
+                "小村落",
+                "村庄",
+                "农庄"
+            ],
+            "response": "分析：  \n在资源分配时，应考虑各settlement的规模和潜在需求。通常，规模越大的settlement需要更多的资源来维持运作和发展。依照从大到小的顺序为：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。  \n合理分配方式是按settlement规模递减分配，确保大settlement有足够点数进行管理和扩展，同时小settlement也有基本点数维持运作。考虑到只有100点资源，分配比例可适当调整以避免过度倾斜。\n\n建议分配方案如下：  \n- 城市（Role2）：最大需求，分配最多点数  \n- 大型市镇（Role3）：次多  \n- 城镇（Role1）：居中  \n- 村庄（Role5）、小村落（Role4）、农庄（Role6）：依次递减，但保证最小生存和发展需求  \n\n根据以上原则，分配如下：  \n- Role2（城市）：30  \n- Role3（大型市镇）：22  \n- Role1（城镇）：18  \n- Role5（村庄）：12  \n- Role4（小村落）：10  \n- Role6（农庄）：8  \n\n总计：30+22+18+12+10+8=100\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 30,\n    \"Role3\": 22,\n    \"Role4\": 10,\n    \"Role5\": 12,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "城镇",
+                "大型市镇",
+                "小村落",
+                "城市"
+            ],
+            "response": "分析：  \n这六位队员分别来自不同规模的settlement。一般来说，settlement规模越大，管理和发展的需求越高，所需资源也越多。但小型settlement也需要一定资源以维持基本运作。为兼顾公平和效率，我会根据settlement规模进行分级分配：\n\n- 小村落/村庄/农庄（Role1、Role2、Role5）：基础需求，适中分配\n- 城镇（Role3）：中等需求，略高分配\n- 大型市镇/城市（Role4、Role6）：需求最大，优先分配\n\n具体分配如下：\n- Role1 (村庄)：12\n- Role2 (农庄)：13\n- Role3 (城镇)：18\n- Role4 (大型市镇)：22\n- Role5 (小村落)：10\n- Role6 (城市)：25\n\n总计：12+13+18+22+10+25=100\n\n分配如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 13,\n    \"Role3\": 18,\n    \"Role4\": 22,\n    \"Role5\": 10,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城镇",
+                "村庄",
+                "农庄",
+                "小村落",
+                "大型市镇",
+                "城市"
+            ],
+            "response": "分析：  \n在分配资源时，需要考虑各settlement的规模和可能的资源需求。通常，settlement规模越大，需要管理和发展的内容越多，对资源的需求也更高。大型市镇和城市的事务复杂、人口众多，行动点需求较高；而村庄、农庄、小村落规模较小，需求较低；城镇处于中等水平。  \n合理的分配应该体现规模差异，确保每个settlement都能正常运作，同时让大settlement有更多的资源用于发展。\n\n分配方案：  \n- 城市（Role6）和大型市镇（Role5）获得较多点数。  \n- 城镇（Role1）获得中等点数。  \n- 村庄（Role2）、农庄（Role3）、小村落（Role4）获得相对较少点数，但仍能保证基本运作。\n\n具体分配如下：  \n- Role6（城市）：30  \n- Role5（大型市镇）：22  \n- Role1（城镇）：18  \n- Role2（村庄）：12  \n- Role3（农庄）：10  \n- Role4（小村落）：8  \n\n总计：30+22+18+12+10+8=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 10,\n    \"Role4\": 8,\n    \"Role5\": 22,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "村庄",
+                "大型市镇",
+                "城镇",
+                "城市",
+                "小村落",
+                "农庄"
+            ],
+            "response": "分析：  \n在分配资源时，应考虑各settlement的规模和需求。一般来说，规模越大的settlement（如城市、大型市镇、城镇）需要的资源更多，因为人口和事务更复杂。而规模较小的settlement（如小村落、农庄、村庄）所需资源相对较少。因此，我会按照settlement规模进行分配，保证大型settlement有更多行动点以支持其发展和管理，同时也兼顾小型settlement的基本需求。\n\n- 城市（Role4）：最大，优先分配最多资源。\n- 大型市镇（Role2）、城镇（Role3）：次之。\n- 村庄（Role1）、小村落（Role5）、农庄（Role6）：较小，分配较少。\n\n具体分配（以整数为单位，且总和为100）：\n- 城市（Role4）：30\n- 大型市镇（Role2）：22\n- 城镇（Role3）：18\n- 村庄（Role1）：12\n- 小村落（Role5）：10\n- 农庄（Role6）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 22,\n    \"Role3\": 18,\n    \"Role4\": 30,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "小村落",
+                "大型市镇",
+                "城市",
+                "城镇",
+                "农庄",
+                "村庄"
+            ],
+            "response": "分析：  \n为了公平且高效地分配100行动点数，我们需要结合各个settlement的规模和可能的需求。通常，大型市镇和城市所需资源最多，因为它们人口多、事务繁杂。其次是城镇和村庄，再次是小村落和农庄。农庄虽然面积大，但通常人口较少，所需点数中等偏下。小村落和村庄规模最小，需求最低。\n\n合理的分配思路是：\n- 城市和大型市镇优先分配较多点数；\n- 城镇和村庄中等分配；\n- 小村落和农庄分配较少。\n\n具体分配如下（整数，且总和为100）：\n- Role1（小村落）：10\n- Role2（大型市镇）：25\n- Role3（城市）：28\n- Role4（城镇）：15\n- Role5（农庄）：12\n- Role6（村庄）：10\n\n这样既体现了规模差异，也保证了分配的合理性。\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 25,\n    \"Role3\": 28,\n    \"Role4\": 15,\n    \"Role5\": 12,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城市",
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "农庄",
+                "小村落"
+            ],
+            "response": "分析：  \n分配行动点数时，应考虑各个settlement（聚落）的规模和重要性。一般来说，规模越大的settlement需要更多的资源来维持运作和发展；而规模较小的settlement需求相对较低。  \n具体settlement从大到小排序如下：城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落。\n\n合理的分配应让大聚落获得较多点数，但也不能忽视小聚落的基本需求。可以采用递减分配法，大聚落多分，小聚落少分。  \n\n设想分配如下：  \n- 城市（Role1）：30点  \n- 大型市镇（Role2）：22点  \n- 城镇（Role3）：17点  \n- 村庄（Role4）：13点  \n- 农庄（Role5）：10点  \n- 小村落（Role6）：8点  \n\n总计：30+22+17+13+10+8=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 22,\n    \"Role3\": 17,\n    \"Role4\": 13,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "城镇",
+                "小村落",
+                "村庄",
+                "农庄",
+                "城市",
+                "大型市镇"
+            ],
+            "response": "分析：  \n我们有6名队员，分别位于不同规模的settlement。从资源利用和发展潜力的角度考虑，规模较大的settlement（如城市、大型市镇、城镇）通常对资源的需求和利用效率更高，而小村落、村庄、农庄等规模较小的settlement对资源的需求相对较低，发展潜力也有限。因此，在分配行动点时，可以优先满足大settlement的需求，但也要保证小settlement有一定的资源以维持基本运作和发展。\n\n分配思路：  \n- 城市、大型市镇、城镇：分配较多点数（优先级高）\n- 村庄、小村落、农庄：分配较少点数（优先级低）\n\n具体分配（总和为100）：\n- 城市（Role5）：28\n- 大型市镇（Role6）：22\n- 城镇（Role1）：18\n- 村庄（Role3）：12\n- 小村落（Role2）：10\n- 农庄（Role4）：10\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 12,\n    \"Role4\": 10,\n    \"Role5\": 28,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "（settlement：城镇）",
+            "role_obs": [
+                "农庄",
+                "大型市镇",
+                "城市",
+                "村庄",
+                "小村落",
+                "城镇"
+            ],
+            "response": "分析：  \n不同settlement的规模和功能影响其对资源（行动点数）的需求。一般来说，大型市镇和城市人口多、事务复杂，对行动点的需求最大；城镇次之；农庄、村庄、小村落人口和事务相对较少，需求较低。因此，分配时应优先满足城市和大型市镇的需求，同时也要保证每个settlement都有足够的点数以维持基本运作。\n\n具体分配思路如下：  \n- 城市和大型市镇获得最多点数，用于应对复杂的管理和活动需求。\n- 城镇获得较多点数，但低于城市和大型市镇。\n- 农庄、村庄、小村落获得基础点数，保障基本运作和发展。\n\n分配建议：  \n- 城市（Role3）：28\n- 大型市镇（Role2）：24\n- 城镇（Role6）：18\n- 农庄（Role1）：12\n- 村庄（Role4）：10\n- 小村落（Role5）：8\n\n总计：28+24+18+12+10+8=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 24,\n    \"Role3\": 28,\n    \"Role4\": 10,\n    \"Role5\": 8,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "大型市镇",
+                "村庄",
+                "农庄",
+                "城镇",
+                "城市",
+                "小村落"
+            ],
+            "response": "分析：  \n不同settlement的规模和发展需求不同。通常，大型市镇、城市、城镇等更大规模的settlement对资源的需求更高，因为它们需要维持更多人口和更复杂的系统。而农庄、村庄、小村落等较小的settlement需求相对较低，但也不能完全忽略，否则会影响均衡发展。为了兼顾效率和公平，可以根据settlement规模按比例分配行动点数。\n\nsettlement规模从大到小排序如下：  \n城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落\n\n我们可以按照以下权重分配（假设总权重为20）：  \n- 城市（Role5）：6  \n- 大型市镇（Role1）：5  \n- 城镇（Role4）：4  \n- 村庄（Role2）：2  \n- 农庄（Role3）：2  \n- 小村落（Role6）：1  \n\n计算每个点数：  \n- 总权重 = 6+5+4+2+2+1 = 20  \n- 每权重对应的点数 = 100 / 20 = 5  \n\n具体分配：  \n- Role5（城市）：6 × 5 = 30  \n- Role1（大型市镇）：5 × 5 = 25  \n- Role4（城镇）：4 × 5 = 20  \n- Role2（村庄）：2 × 5 = 10  \n- Role3（农庄）：2 × 5 = 10  \n- Role6（小村落）：1 × 5 = 5  \n\n总和为：30+25+20+10+10+5=100，符合要求。\n\n输出如下：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 20,\n    \"Role5\": 30,\n    \"Role6\": 5\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "城镇",
+                "大型市镇",
+                "村庄",
+                "小村落"
+            ],
+            "response": "分析：  \n分配行动点数时，我会综合考虑各个settlement（聚落）的规模和需求。一般来说，settlement越大，管理和发展的需求越高，需要更多的资源。城市 > 大型市镇 > 城镇 > 农庄 > 村庄 > 小村落。农庄虽然面积大，但人口密度和复杂性通常不及城市、城镇类聚落。村庄和小村落人口较少，资源需求较低。\n\n分配思路如下：  \n- 城市和大型市镇需求最大，其次是城镇。  \n- 农庄需要保证基本生产。  \n- 村庄和小村落需求最少。  \n\n初步分配比例建议（总和为100）：  \n- 城市（Role1）：28  \n- 大型市镇（Role4）：22  \n- 城镇（Role3）：18  \n- 农庄（Role2）：14  \n- 村庄（Role5）：10  \n- 小村落（Role6）：8  \n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 22,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "大型市镇",
+                "城镇",
+                "村庄",
+                "城市",
+                "农庄",
+                "小村落"
+            ],
+            "response": "分析：  \n在分配行动点数时，需要考虑各settlement的规模和潜在需求。一般来说，规模越大的settlement，管理和发展所需的资源也越多；而规模较小的settlement，虽然需求少，但适当的支持也很重要。通常建议优先保证大型和关键settlement的需求，同时也不能忽略较小settlement的生存和发展。\n\n各角色settlement规模从大到小排序如下：\n- Role4（城市） > Role1（大型市镇） > Role2（城镇） > Role3（村庄） > Role5（农庄） > Role6（小村落）\n\n根据这个排序，可以按比例分配，保证大settlement有更高的点数，但也给小settlement留有余地。\n\n分配建议（四舍五入取整）：\n- 城市（Role4）：28\n- 大型市镇（Role1）：22\n- 城镇（Role2）：18\n- 村庄（Role3）：14\n- 农庄（Role5）：10\n- 小村落（Role6）：8\n\n合计：28+22+18+14+10+8=100\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 18,\n    \"Role3\": 14,\n    \"Role4\": 28,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城镇",
+                "小村落",
+                "大型市镇",
+                "农庄",
+                "城市",
+                "村庄"
+            ],
+            "response": "分析：  \n在分配行动点数时，需要考虑各个settlement（聚落）的规模和需求。通常，聚落规模越大，管理和发展所需的资源越多。根据给定的信息，settlement规模排序如下（从大到小）：\n\n1. 城市（Role5）\n2. 大型市镇（Role3）\n3. 城镇（Role1）\n4. 村庄（Role6）\n5. 小村落（Role2）\n6. 农庄（Role4）\n\n一般来说，城市和大型市镇需要更多的资源来维持和发展，而农庄和小村落的需求较低。城镇和村庄属于中等需求。基于此，可以按照以下原则分配点数：\n\n- 城市：最高分配\n- 大型市镇：次高分配\n- 城镇：中高分配\n- 村庄：中等分配\n- 小村落：较低分配\n- 农庄：最低分配\n\n分配建议如下（确保总和为100）：\n\n- 城市（Role5）：28\n- 大型市镇（Role3）：22\n- 城镇（Role1）：18\n- 村庄（Role6）：14\n- 小村落（Role2）：10\n- 农庄（Role4）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 10,\n    \"Role3\": 22,\n    \"Role4\": 8,\n    \"Role5\": 28,\n    \"Role6\": 14\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "小村落",
+                "大型市镇",
+                "村庄",
+                "城镇"
+            ],
+            "response": "分析：  \n在资源分配时，需要考虑不同settlement的需求和规模。通常，城市和大型市镇由于规模大、事务多，所需行动点数较高；而农庄、小村落和村庄等相对较小，需求较低。城镇处于中间位置。  \n合理分配应保证每个队员都能发挥作用，同时让大settlement获得更多资源。\n\n队员分析如下：  \n- Role1（城市）：需求最高，优先保证资源充足  \n- Role4（大型市镇）：需求次高  \n- Role6（城镇）：中等偏上  \n- Role2（农庄）、Role5（村庄）、Role3（小村落）：需求相对较低，尤其小村落最少\n\n分配思路（总计100点）：  \n- 城市：28  \n- 大型市镇：22  \n- 城镇：18  \n- 农庄：12  \n- 村庄：12  \n- 小村落：8  \n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 12,\n    \"Role3\": 8,\n    \"Role4\": 22,\n    \"Role5\": 12,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "大型市镇",
+                "城镇",
+                "城市",
+                "村庄",
+                "小村落",
+                "农庄"
+            ],
+            "response": "分析：  \n这6名队员所在的settlement规模从大到小依次为：城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄。  \n通常，规模越大的settlement需要分配更多的资源以维持运作和发展，因为人口、任务和管理需求更多。  \n同时，也需要保证小型settlement有足够的资源以维持基本运作，但可以适当少分配。  \n为保证资源分配合理，我将按settlement规模进行分级分配，具体分配思路如下：  \n- 城市 > 大型市镇 > 城镇 > 村庄 > 小村落 > 农庄，依次递减。  \n- 保证所有点数分配完毕且无小数。  \n\n初步分配方案（按权重）：\n- 城市（Role3）：30\n- 大型市镇（Role1）：22\n- 城镇（Role2）：18\n- 村庄（Role4）：12\n- 小村落（Role5）：10\n- 农庄（Role6）：8\n\n总计：30+22+18+12+10+8=100\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 18,\n    \"Role3\": 30,\n    \"Role4\": 12,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "村庄",
+                "农庄",
+                "大型市镇",
+                "小村落",
+                "城镇",
+                "城市"
+            ],
+            "response": "分析：  \n在资源分配时，应考虑每个队员所在settlement（聚落）的规模。一般来说，规模越大的settlement需要管理的事务越多，对资源的需求也越高。而较小的settlement需求相对较低。以下是各settlement大致的规模排序（由小到大）：\n\n- 小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市\n\n但考虑到“农庄”可能有较多的农业生产活动，也可适当提升其分配。为确保公平与效率，可以按settlement规模及其可能的需求加权分配。\n\n一种合理的分配方案（权重法）：\n- 小村落：8\n- 村庄：12\n- 农庄：15\n- 城镇：18\n- 大型市镇：22\n- 城市：25\n\n合计：8+12+15+18+22+25=100\n\n分配如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 15,\n    \"Role3\": 22,\n    \"Role4\": 8,\n    \"Role5\": 18,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "村庄",
+                "大型市镇",
+                "农庄",
+                "城镇",
+                "小村落",
+                "城市"
+            ],
+            "response": "分析：  \n在分配资源时，通常应考虑settlement的规模和可能的需求。一般来说，settlement越大，管理和活动所需的资源就越多；而较小的settlement则需求较少。此外，为了保证所有队员都有基本的资源，不能出现极端倾斜。考虑到“城市”与“大型市镇”对资源的需求较大，“村庄”、“农庄”、“小村落”对资源的需求相对较小，“城镇”居中。分配应兼顾公平和实际需求。\n\n初步分配建议如下（可调整）：  \n- 城市（Role6）：最大需求，分配最多  \n- 大型市镇（Role2）：次多  \n- 城镇（Role4）：居中  \n- 村庄（Role1）、农庄（Role3）、小村落（Role5）：较少，适当区分\n\n具体分配如下（保证整数且总和为100）：  \n- Role6（城市）：28  \n- Role2（大型市镇）：22  \n- Role4（城镇）：18  \n- Role1（村庄）：12  \n- Role3（农庄）：10  \n- Role5（小村落）：10  \n\n输出如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 22,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "城镇",
+                "大型市镇",
+                "小村落",
+                "农庄",
+                "村庄",
+                "城市"
+            ],
+            "response": "分析：  \n分配行动点数时，需要考虑各个settlement（定居点）的规模和可能的需求。一般来说，规模越大的settlement，管理和活动需求越多，所需的行动点数应更多。以下是settlement的规模大致排序（由大到小）：\n\n1. 城市（Role6）\n2. 大型市镇（Role2）\n3. 城镇（Role1）\n4. 村庄（Role5）\n5. 小村落（Role3）\n6. 农庄（Role4）\n\n在保证所有角色都有资源的基础上，优先保证大settlement的需求，适当照顾小settlement。分配方案如下：\n\n- 城市（Role6）：最大，资源需求最高，分配最多\n- 大型市镇（Role2）：次之，分配较多\n- 城镇（Role1）：适中\n- 村庄（Role5）：适中\n- 小村落（Role3）：较少\n- 农庄（Role4）：最少（通常较为自给自足，需求相对低）\n\n根据以上原则，合理分配100点如下：\n\n- Role6（城市）：28\n- Role2（大型市镇）：22\n- Role1（城镇）：17\n- Role5（村庄）：13\n- Role3（小村落）：11\n- Role4（农庄）：9\n\n总计：28+22+17+13+11+9=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 17,\n    \"Role2\": 22,\n    \"Role3\": 11,\n    \"Role4\": 9,\n    \"Role5\": 13,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "（settlement：村庄）",
+            "role_obs": [
+                "村庄",
+                "小村落",
+                "农庄",
+                "城镇",
+                "大型市镇",
+                "城市"
+            ],
+            "response": "分析：  \n从settlement的规模来看，城市 > 大型市镇 > 城镇 > 农庄 > 村庄 > 小村落。  \n通常，规模越大的settlement，管理和发展所需的资源越多，能够发挥更大作用，但同时较小的settlement也需要一定的资源维持基本运作。  \n为了保证均衡发展，可以采用“倾斜分配”原则：保证大型settlement获得更多点数，但也不能让小settlement完全失去发展机会。\n\n分配思路：  \n- 城市和大型市镇获得较多点数，优先发展。\n- 城镇和农庄获得中等点数，保证一定发展。\n- 村庄和小村落获得基础点数，保证生存和基本发展。\n\n根据以上思路，给出如下分配（整数且总和为100）：\n\n- Role6（城市）：30\n- Role5（大型市镇）：22\n- Role4（城镇）：18\n- Role3（农庄）：14\n- Role1（村庄）：8\n- Role2（小村落）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 8,\n    \"Role3\": 14,\n    \"Role4\": 18,\n    \"Role5\": 22,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "城市",
+                "城镇",
+                "村庄",
+                "农庄",
+                "小村落",
+                "大型市镇"
+            ],
+            "response": "分析：  \n在分配行动点数时，应考虑各settlement的规模和潜在需求。通常，规模越大的settlement（如城市、大型市镇）需要更多的资源以维持运作和发展，而较小的settlement（如农庄、小村落）需求相对较低。为了保证整体均衡和效率，可以按照settlement规模进行加权分配：\n\n- 城市（Role1）：需求最大\n- 大型市镇（Role6）：次之\n- 城镇（Role2）：较大\n- 村庄（Role3）：中等\n- 农庄（Role4）：较小\n- 小村落（Role5）：最小\n\n假设按以下权重分配（从高到低）：  \n城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落  \n权重比例设为：6:5:4:3:1:1\n\n总权重 = 6+5+4+3+1+1 = 20\n\n每个权重点对应的行动点数 = 100 / 20 = 5\n\n分配如下：  \n- Role1（城市）：6 × 5 = 30\n- Role6（大型市镇）：5 × 5 = 25\n- Role2（城镇）：4 × 5 = 20\n- Role3（村庄）：3 × 5 = 15\n- Role4（农庄）：1 × 5 = 5\n- Role5（小村落）：1 × 5 = 5\n\n合计：30+25+20+15+5+5=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 30,\n    \"Role2\": 20,\n    \"Role3\": 15,\n    \"Role4\": 5,\n    \"Role5\": 5,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "农庄",
+                "村庄",
+                "小村落",
+                "大型市镇",
+                "城镇",
+                "城市"
+            ],
+            "response": "分析：  \n在资源分配时，通常会考虑以下几个因素：  \n1. settlement的规模越大，可能需要的资源越多（因为管理、发展、维护等需求更大）。\n2. 但较小的settlement（如农庄、小村落）也需要一定的基础支持，否则容易陷入困境。\n3. 需要兼顾公平与效率，不能让某一方极度短缺或极度富余。\n\nsettlement从小到大依次为：农庄 < 小村落 < 村庄 < 大型市镇 < 城镇 < 城市  \n但这里“村庄”似乎比“小村落”大。排序应为：农庄 < 小村落 < 村庄 < 大型市镇 < 城镇 < 城市\n\n分配策略：  \n- 农庄、小村落：基础支持，各分配较少点数。\n- 村庄：中等分配。\n- 大型市镇、城镇、城市：按规模递增分配，城市最多。\n\n初步分配（总共100点）：  \n- 农庄（Role1）：8  \n- 小村落（Role3）：10  \n- 村庄（Role2）：14  \n- 大型市镇（Role4）：18  \n- 城镇（Role5）：22  \n- 城市（Role6）：28  \n合计：8+10+14+18+22+28=100\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 14,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 22,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "大型市镇",
+                "小村落",
+                "城市",
+                "村庄"
+            ],
+            "response": "分析：  \n这6位队员的settlement规模不同。一般来说，settlement越大，管理、维护、发展的需求越多，对资源的需求也更高。大型市镇和城市的资源需求最大，其次是城镇和村庄，最后是小村落和农庄。为了公平并兼顾效率，建议按照settlement的规模分配更多点数给规模较大的队员。  \n参考分配思路（由小到大）：  \n- 农庄 < 小村落 < 村庄 < 城镇 < 大型市镇 < 城市  \n可以考虑如下分配比例（以总分100点为例）：  \n- 农庄：10  \n- 小村落：12  \n- 村庄：15  \n- 城镇：18  \n- 大型市镇：20  \n- 城市：25  \n合计100点。  \n\n分配决定如下：  \n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 20,\n    \"Role4\": 12,\n    \"Role5\": 25,\n    \"Role6\": 15\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "农庄",
+                "城镇",
+                "城市",
+                "村庄",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "分析：  \n在资源分配时，通常需要考虑settlement的规模和需求。一般来说，settlement规模越大，所需资源和行动点也越多，因为他们管理的人口、事务和挑战更复杂。小型settlement（如农庄、小村落）需求较少，而城市、大型市镇等则需要更多支持。为了保证资源的有效利用，可以按照settlement的规模递增分配行动点。\n\n按settlement规模从小到大排序：  \n小村落 < 农庄 < 村庄 < 城镇 < 大型市镇 < 城市\n\n我们可以根据以下权重分配（举例）：  \n小村落：8  \n农庄：10  \n村庄：12  \n城镇：18  \n大型市镇：22  \n城市：30  \n总和：100\n\n分配如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 18,\n    \"Role3\": 30,\n    \"Role4\": 12,\n    \"Role5\": 22,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "城镇",
+                "大型市镇",
+                "村庄",
+                "城市",
+                "农庄",
+                "小村落"
+            ],
+            "response": "分析：  \n考虑到各个队员所在的settlement类型不同，其对资源的需求和资源的利用效率可能存在差异。一般来说，城市、城镇和大型市镇等人口密集、发展程度高的settlement对资源需求较大，可以带来更高的收益；而村庄、农庄和小村落等相对发展较低，对资源的需求和利用效率可能较低。由于你作为队长（小村落）无需分配资源，因此可适当减少小村落的分配点数，将更多资源分配给需求更高的settlement。\n\n分配思路如下：\n- 城市 > 大型市镇 > 城镇 > 村庄 ≈ 农庄 > 小村落\n- 兼顾平衡，避免极端分配\n\n分配建议（可根据settlement等级分配）：\n- 城市（Role4）：28\n- 大型市镇（Role2）：22\n- 城镇（Role1）：18\n- 村庄（Role3）：12\n- 农庄（Role5）：12\n- 小村落（Role6）：8\n\n总计：28+22+18+12+12+8=100\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 22,\n    \"Role3\": 12,\n    \"Role4\": 28,\n    \"Role5\": 12,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "村庄",
+                "大型市镇",
+                "小村落",
+                "城镇",
+                "农庄",
+                "城市"
+            ],
+            "response": "分析：  \n根据队员所在settlement的规模和类型，合理分配行动点数有助于资源的最大化利用。一般而言，人口较多、事务复杂的地区（如城市、大型市镇、城镇）需要更多的行动点数来应对各种需求，而人口较少的地区（如农庄、小村落、村庄）需求较低，可以适当减少分配。\n\n分配思路如下：  \n- 城市（Role6）和大型市镇（Role2）：需求最大，分配较多点数。\n- 城镇（Role4）：次之。\n- 村庄（Role1）、小村落（Role3）、农庄（Role5）：需求相对较小，适当分配。\n\n具体分配（100点）：  \n- Role6（城市）：28\n- Role2（大型市镇）：22\n- Role4（城镇）：18\n- Role1（村庄）：12\n- Role3（小村落）：10\n- Role5（农庄）：10\n\n合计：28+22+18+12+10+10=100\n\n分配如下：\n\n```json\n{\n    \"Role1\": 12,\n    \"Role2\": 22,\n    \"Role3\": 10,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 28\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "大型市镇",
+                "城市",
+                "农庄",
+                "小村落",
+                "城镇",
+                "村庄"
+            ],
+            "response": "分析：  \n分配资源时，应考虑settlement的规模和需求。通常，城市和大型市镇等大规模settlement需要更多资源来维持运营和发展；而农庄、村庄、小村落等小型settlement需求相对较少。此外，分配应体现公平性，确保每个settlement都能正常运作，但重点倾斜给大规模settlement。\n\n按settlement规模排序：  \n1. 城市（Role2）  \n2. 大型市镇（Role1）  \n3. 城镇（Role5）  \n4. 村庄（Role6）  \n5. 农庄（Role3）  \n6. 小村落（Role4）  \n\n根据以上排序，城市和大型市镇应获得最多点数，城镇和村庄次之，农庄和小村落较少。建议分配如下：\n\n- 城市（Role2）：28  \n- 大型市镇（Role1）：22  \n- 城镇（Role5）：16  \n- 村庄（Role6）：12  \n- 农庄（Role3）：11  \n- 小村落（Role4）：11  \n\n总计：28+22+16+12+11+11=100\n\n分配如下：\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 28,\n    \"Role3\": 11,\n    \"Role4\": 11,\n    \"Role5\": 16,\n    \"Role6\": 12\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "村庄",
+                "城市",
+                "小村落",
+                "城镇",
+                "农庄",
+                "大型市镇"
+            ],
+            "response": "分析：  \n首先，考虑各个settlement类型对资源需求的不同。通常情况下，城市和大型市镇等更发达地区对资源的需求会更大，但它们也更有自给自足的能力。而村庄、小村落、农庄等较小settlement则更依赖外部资源，分配时应适当倾斜。为保证团队整体发展，也要保证各类settlement均有一定资源分配。\n\n具体分配思路如下：  \n- 城市、大型市镇：人口多，需求大，但自给能力强，分配略高于平均。\n- 小村落、村庄、农庄：人口较少，但更依赖外部支持，给予一定倾斜。\n- 城镇：中等需求，分配中等。\n\n初步分配建议（总计100点）：\n- Role2（城市）：22\n- Role6（大型市镇）：20\n- Role4（城镇）：18\n- Role1（村庄）：14\n- Role3（小村落）：13\n- Role5（农庄）：13\n\n总计：22+20+18+14+13+13=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 14,\n    \"Role2\": 22,\n    \"Role3\": 13,\n    \"Role4\": 18,\n    \"Role5\": 13,\n    \"Role6\": 20\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "城镇",
+                "农庄",
+                "村庄",
+                "城市",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "分析：  \n这6位队员分别来自不同规模的settlement。一般而言，settlement规模越大，所需资源和行动点也可能越多，因为人口、事务和复杂度更高。而小型settlement的需求相对较低。  \n考虑到分配的公平性和效率，可以按settlement规模分配：  \n- 城市 > 大型市镇 > 城镇 > 村庄 > 农庄 > 小村落  \n可以为大settlement多分配一些点数，小settlement分配较少。  \n\n假设我们按以下优先级分配：  \n- 城市：最大（比如25点）\n- 大型市镇：次大（20点）\n- 城镇：中等（18点）\n- 村庄：中等偏下（15点）\n- 农庄：较小（12点）\n- 小村落：最小（10点）\n\n总计：25+20+18+15+12+10=100点，正好分配完毕。\n\n分配如下：\n\n```json\n{\n    \"Role1\": 18,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 25,\n    \"Role5\": 20,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：小村落）",
+            "role_obs": [
+                "小村落",
+                "城镇",
+                "农庄",
+                "大型市镇",
+                "村庄",
+                "城市"
+            ],
+            "response": "分析：  \n分配行动点数时，需要考虑各个settlement的规模。一般来说，settlement越大，管理、发展和防御等所需的行动点数也会越多。小村落和农庄等小型settlement的需求相对较低，而城市和大型市镇则需求较高。  \n合理分配可以采用“按规模递增分配”的方式，兼顾公平和效率。\n\nsettlement规模从小到大排序如下：  \n小村落 < 农庄 < 村庄 < 城镇 < 大型市镇 < 城市\n\n初步分配思路（以行动点为例）：  \n- 小村落（Role1）：8\n- 农庄（Role3）：12\n- 村庄（Role5）：15\n- 城镇（Role2）：18\n- 大型市镇（Role4）：22\n- 城市（Role6）：25\n\n合计：8 + 12 + 15 + 18 + 22 + 25 = 100\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 22,\n    \"Role5\": 15,\n    \"Role6\": 25\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "大型市镇",
+                "村庄",
+                "城镇",
+                "城市",
+                "小村落",
+                "农庄"
+            ],
+            "response": "分析：  \n不同settlement的规模和复杂度不同，通常更大的settlement（如城市、大型市镇）需要更多资源来维持运作和发展；而小型settlement（如小村落、农庄）所需资源较少。村庄和城镇处于中间水平。为了保证资源分配的合理性，应考虑settlement的实际需求。\n\n具体分配思路如下：  \n- 大型市镇（Role1）和城市（Role4）需求最大，分配较多点数。\n- 城镇（Role3）次之，分配中等偏上点数。\n- 村庄（Role2）分配中等点数。\n- 小村落（Role5）和农庄（Role6）需求最少，分配最少点数。\n\n决定：  \n- Role1（大型市镇）：24  \n- Role2（村庄）：14  \n- Role3（城镇）：18  \n- Role4（城市）：26  \n- Role5（小村落）：8  \n- Role6（农庄）：10  \n\n总计：24+14+18+26+8+10=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 24,\n    \"Role2\": 14,\n    \"Role3\": 18,\n    \"Role4\": 26,\n    \"Role5\": 8,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "大型市镇",
+                "村庄",
+                "城市",
+                "城镇",
+                "农庄",
+                "小村落"
+            ],
+            "response": "分析：  \n在分配行动点数时，通常需要考虑各settlement的规模和发展需求。一般来说，规模越大的settlement（如城市、大型市镇）需要的资源越多，能发挥的作用也越大。而小村落、农庄等小型settlement，所需资源相对较少，但也不能完全忽略。考虑到均衡发展和效率，可以根据settlement规模进行分配。\n\n按照规模排序（大到小）：  \n1. 城市（Role3）\n2. 大型市镇（Role1）\n3. 城镇（Role4）\n4. 村庄（Role2）\n5. 农庄（Role5）\n6. 小村落（Role6）\n\n建议分配方案：  \n- 城市（Role3）：需求最大，分配最多\n- 大型市镇（Role1）：次之\n- 城镇（Role4）：再次之\n- 村庄（Role2）：中等\n- 农庄（Role5）、小村落（Role6）：较少，但不能为0\n\n具体分配（总和为100）：  \n- Role3（城市）：28\n- Role1（大型市镇）：22\n- Role4（城镇）：18\n- Role2（村庄）：14\n- Role5（农庄）：10\n- Role6（小村落）：8\n\n输出如下：\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 14,\n    \"Role3\": 28,\n    \"Role4\": 18,\n    \"Role5\": 10,\n    \"Role6\": 8\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "小村落",
+                "城镇",
+                "农庄",
+                "村庄",
+                "城市",
+                "大型市镇"
+            ],
+            "response": "分析：  \n在分配资源时，应考虑不同settlement的规模与需求。通常，规模越大的settlement需要管理的事务越多，对资源的需求也越高。  \n- 小村落/村庄/农庄：人口和事务较少，所需资源相对较低。  \n- 城镇/大型市镇：人口较多，事务复杂，所需资源中等偏高。  \n- 城市：人口最多，管理事务最复杂，对资源需求最大。  \n\n合理的分配方式是：  \n- 农庄、村庄、小村落分配较少点数（各10左右）。  \n- 城镇、大型市镇分配中等点数（各15-18左右）。  \n- 城市分配最多点数（约25点）。  \n\n具体分配如下：  \n- Role1 (小村落)：10  \n- Role2 (城镇)：15  \n- Role3 (农庄)：10  \n- Role4 (村庄)：10  \n- Role5 (城市)：25  \n- Role6 (大型市镇)：30  \n\n总计：10+15+10+10+25+30=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 15,\n    \"Role3\": 10,\n    \"Role4\": 10,\n    \"Role5\": 25,\n    \"Role6\": 30\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城市",
+                "农庄",
+                "村庄",
+                "城镇",
+                "大型市镇",
+                "小村落"
+            ],
+            "response": "分析：  \n我们有6位队员，分别位于不同类型的settlement。通常来说，不同的settlement对资源的需求和利用效率不同。一般情况下：\n\n- 城市（Role1）和大型市镇（Role5）人口多、资源需求大，行动点分配应较多。\n- 城镇（Role4）和村庄（Role3）为中等需求。\n- 农庄（Role2）和小村落（Role6）人口较少、需求相对低，行动点分配可适度降低。\n- 你自己（农庄）不参与分配。\n\n根据上述考虑，分配建议如下（确保整数且总和为100）：\n\n- Role1（城市）：25\n- Role2（农庄）：10\n- Role3（村庄）：15\n- Role4（城镇）：18\n- Role5（大型市镇）：22\n- Role6（小村落）：10\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 10,\n    \"Role3\": 15,\n    \"Role4\": 18,\n    \"Role5\": 22,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "小村落",
+                "农庄",
+                "村庄",
+                "大型市镇",
+                "城市",
+                "城镇"
+            ],
+            "response": "分析：  \n这6位队员分别驻扎在不同规模的settlement。通常，settlement规模越大，需要处理的事务和资源分配也越多。因此，大型市镇和城市的角色应获得更多行动点以应对更多的需求，而小村落、农庄等小型settlement则需求较低，分配点数相对较少。  \n大致排序（从低到高）：小村落 < 农庄 < 村庄 < 城镇 < 大型市镇 < 城市。\n\n分配思路：  \n- 小村落：资源需求最少，分配最少点数。\n- 农庄、村庄：略多于小村落。\n- 城镇：比村庄更多，但不如大型市镇和城市。\n- 大型市镇、城市：需求最大，分配最多点数。\n\n假设比例分配（以settlement规模递增分配）：  \n小村落：8  \n农庄：12  \n村庄：15  \n城镇：18  \n大型市镇：22  \n城市：25  \n合计：8+12+15+18+22+25=100\n\n最终决定如下：\n\n```json\n{\n    \"Role1\": 8,\n    \"Role2\": 12,\n    \"Role3\": 15,\n    \"Role4\": 22,\n    \"Role5\": 25,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "小村落",
+                "村庄",
+                "农庄",
+                "城市",
+                "大型市镇",
+                "城镇"
+            ],
+            "response": "分析：  \n这6名队员所处的settlement规模依次为：小村落 < 村庄 < 农庄 < 城镇 < 大型市镇 < 城市。  \n通常，settlement规模越大，所需的资源与行动点数也越多，但考虑到资源有限（100点），需要兼顾各个队员的需求，避免资源过度集中。同时，由于你是农庄的队长，可能会稍微优待与自己同settlement的队员（Role3），但不为自己分配。\n\n一种合理分配方法是：  \n- 给小村落和村庄较少的点数（因其规模小，需求相对较低）\n- 给农庄和城镇中等点数\n- 给大型市镇和城市较多点数（因其规模大，需求多）\n\n具体分配方案如下（尽量使总和为100且每个为整数）：\n\n- Role1（小村落）：10\n- Role2（村庄）：13\n- Role3（农庄）：16\n- Role4（城市）：22\n- Role5（大型市镇）：20\n- Role6（城镇）：19\n\n总计：10+13+16+22+20+19=100\n\n输出如下：\n\n```json\n{\n    \"Role1\": 10,\n    \"Role2\": 13,\n    \"Role3\": 16,\n    \"Role4\": 22,\n    \"Role5\": 20,\n    \"Role6\": 19\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城市",
+                "大型市镇",
+                "农庄",
+                "村庄",
+                "城镇",
+                "小村落"
+            ],
+            "response": "分析：  \n分配资源时，需要考虑各个settlement的规模和潜在需求。一般来说，settlement越大，管理、建设和活动的需求越高，因此需要更多的行动点数。小型settlement则需求较低。具体分配时可以按以下顺序分配多到少：\n\n1. 城市（Role1）：最大需求，优先分配\n2. 大型市镇（Role2）：次于城市\n3. 城镇（Role5）：略小于大型市镇\n4. 村庄（Role4）：中等需求\n5. 农庄（Role3）：基础需求\n6. 小村落（Role6）：最小需求\n\n基于上述原则，按大致比例分配（如：城市25， 大型市镇20， 城镇18， 村庄15， 农庄12， 小村落10），确保总和为100。\n\n最终分配如下：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 20,\n    \"Role3\": 12,\n    \"Role4\": 15,\n    \"Role5\": 18,\n    \"Role6\": 10\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "城市",
+                "村庄",
+                "小村落",
+                "农庄",
+                "城镇",
+                "大型市镇"
+            ],
+            "response": "分析：  \n不同的settlement（定居点）类型通常意味着不同的发展需求和资源消耗。城市和大型市镇等较大的定居点人口多、活动多，通常需要更多的资源以维持其运转和发展。村庄、小村落和农庄则相对需求较低。城镇的需求介于村庄和城市之间。为保证整体发展，优先保障大定居点的基本需求，同时兼顾小定居点的生存和发展。\n\n分配思路：  \n- 城市、大型市镇优先分配，保障其活动和扩展。\n- 城镇次之。\n- 村庄、小村落、农庄按需求分配，保证其基本活动。\n\n根据6个角色，合理分配方案如下（以整数且总和为100）：\n\n- Role1 (城市)：28\n- Role6 (大型市镇)：22\n- Role5 (城镇)：18\n- Role2 (村庄)：13\n- Role4 (农庄)：10\n- Role3 (小村落)：9\n\n输出如下：\n\n```json\n{\n    \"Role1\": 28,\n    \"Role2\": 13,\n    \"Role3\": 9,\n    \"Role4\": 10,\n    \"Role5\": 18,\n    \"Role6\": 22\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "大型市镇",
+                "农庄",
+                "小村落",
+                "村庄",
+                "城市",
+                "城镇"
+            ],
+            "response": "分析：  \n在分配行动点数时，应考虑各个settlement的规模和可能的需求。一般来说，settlement规模越大，所需的资源和行动点也会越多，以维持其运作和发展。小型settlement虽然需求较小，但也不能完全忽视，以保证其基本发展。\n\n- 城市（Role5）和大型市镇（Role1）通常需求最大。\n- 城镇（Role6）和村庄（Role4）需求次之。\n- 小村落（Role3）和农庄（Role2）需求最少，但仍需一定点数以维持生存和基本活动。\n\n可以根据settlement规模按以下比例分配（可适当调整）：\n- 城市（Role5）：25\n- 大型市镇（Role1）：22\n- 城镇（Role6）：18\n- 村庄（Role4）：15\n- 小村落（Role3）：10\n- 农庄（Role2）：10\n\n这样分配既保证了大settlement的需求，也照顾了小settlement的基本生存。总和为100。\n\n分配结果如下：\n\n```json\n{\n    \"Role1\": 22,\n    \"Role2\": 10,\n    \"Role3\": 10,\n    \"Role4\": 15,\n    \"Role5\": 25,\n    \"Role6\": 18\n}\n```"
+        },
+        {
+            "role_self": "（settlement：农庄）",
+            "role_obs": [
+                "大型市镇",
+                "城镇",
+                "小村落",
+                "村庄",
+                "农庄",
+                "城市"
+            ],
+            "response": "分析：  \n不同settlement规模的角色对资源的需求和利用效率不同。通常，规模越大，所需的资源越多，但其资源转化效率也可能更高。考虑到这一点，我将优先满足大型settlement的需求，但也不会完全忽视小型settlement，以保证所有角色都有一定的行动能力。\n\n大致分配思路如下：  \n- 大型市镇和城市：分配最多点数，因其人口和需求较大。  \n- 城镇：次多点数。  \n- 村庄、小村落：分配较少，但保证其基本运作。  \n- 农庄（非你本人）：分配最少，但也要兼顾。  \n\n具体分配（六人，100点）：  \n- Role1（大型市镇）：25  \n- Role6（城市）：22  \n- Role2（城镇）：18  \n- Role4（村庄）：13  \n- Role3（小村落）：12  \n- Role5（农庄）：10  \n\n这样既照顾了大settlement的资源需求，也保证了小settlement的基本运作。\n\n输出如下：\n\n```json\n{\n    \"Role1\": 25,\n    \"Role2\": 18,\n    \"Role3\": 12,\n    \"Role4\": 13,\n    \"Role5\": 10,\n    \"Role6\": 22\n}\n```"
+        }
+    ]
+}
