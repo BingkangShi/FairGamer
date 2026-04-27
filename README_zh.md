@@ -1,6 +1,6 @@
 [中文](README_zh.md) | [English](README.md)
 
-论文地址：https://arxiv.org/abs/2508.17825
+论文：Fairgamer: Evaluating biases in the application of large language models to video games，https://arxiv.org/abs/2508.17825
 
 > [!IMPORTANT]
 > 1. 本项目在进行大量异步测试时会并发调用 LLM API。您需要参考 API 提供方提供的每分钟请求数（RPM）上限，设置合理的请求量，以免出现大量 RPM 或 TPM 超额报错。若因此被 API 提供方视为 DDoS 攻击行为，本开源评测项目不承担责任。

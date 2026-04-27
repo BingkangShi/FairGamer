@@ -1,6 +1,6 @@
 [English](README.md) | [中文](README_zh.md)
 
-Paper: https://arxiv.org/abs/2508.17825
+Paper: Fairgamer: Evaluating biases in the application of large language models to video games, https://arxiv.org/abs/2508.17825
 
 > [!IMPORTANT]
 > 1. Large scale asynchronous testing in this project concurrently calls LLM APIs. You need to refer to the requests per minute, RPM, limits provided by your API provider and set a reasonable request volume to avoid many RPM or TPM limit errors. If this is regarded by the API provider as DDoS attack behavior, this open source evaluation project is not responsible.
