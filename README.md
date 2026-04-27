@@ -1,3 +1,11 @@
+[English](README.md) | [中文](README_zh.md)
+
+Paper: https://arxiv.org/abs/2508.17825
+
+> [!IMPORTANT]
+> 1. Large scale asynchronous testing in this project concurrently calls LLM APIs. You need to refer to the requests per minute, RPM, limits provided by your API provider and set a reasonable request volume to avoid many RPM or TPM limit errors. If this is regarded by the API provider as DDoS attack behavior, this open source evaluation project is not responsible.
+> 2. If your API provider offers KV cache hits, memory features, or similar options, please turn them off to obtain the most authentic evaluation results of the LLM's capability in decision preferences.
+
 # Introduction
 
 FairGamer: First benchmark the first benchmark to evaluate social biases (class, race, age, and nationality) across three interaction patterns: transaction, cooperation, and competition.
@@ -103,3 +111,14 @@ Figures (a) and (c) reflect, to some extent, the differences in biases exposed b
 
 ## Design Philosophy of FairMCV:
 The fairness metric we propose, FairMCV, attempts to link the fairness of model outputs with convergence. When an LLM handles tasks unrelated to character settings (Role Information), under ideal fairness conditions, its decisions should remain consistent across different characters. In such cases, the model’s decision outputs should be convergent, meaning that higher output consistency indicates greater fairness.
+
+## Cite the project
+
+```bibtex
+@article{shi2025fairgamer,
+  title={Fairgamer: Evaluating biases in the application of large language models to video games},
+  author={Shi, Bingkang and Huang, Jen-tse and Li, Guoyi and Zhang, Xiaodan and Yao, Zhongjiang},
+  journal={arXiv preprint arXiv:2508.17825},
+  year={2025}
+}
+```
