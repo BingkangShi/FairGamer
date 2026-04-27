@@ -6,8 +6,8 @@
     "max_tokens": 4096,
     "temperature": 1.0,
     "top_p": 0.7,
-    "repeated_num": 5,
-    "redundancy": 1,
-    "batch_size": 10,
+    "repeated_num": 10,
+    "redundancy": 2,
+    "batch_size": 5,
     "RPM_sleep_time": 3
 }
